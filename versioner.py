@@ -3,7 +3,7 @@
 import argparse
 import csv
 import json
-import jsonpatch
+from jsonpointer import JsonPointer
 from os import path
 from collections import namedtuple
 
@@ -63,14 +63,54 @@ def to_canonical(dataset_file, input_format):
     return canonical
 
 
+def make_patch(new, old):
+    patch = []
+    for item_id, record in new.items():
+        old_record = old.get(item_id, None)
+
+        if old_record is None:
+            patch.append({
+                "op": "add",
+                "path": JsonPointer.from_parts([item_id]).path,
+                "value": record
+            })
+            continue
+
+        if record == old_record:
+            continue
+
+        for field_name in VALID_FIELDS:
+            old_value = old_record.get(field_name, None)
+            new_value = record.get(field_name, None)
+
+            if old_value == new_value:
+                continue
+            pointer = JsonPointer.from_parts([item_id, field_name])
+
+            if new_value is not None and old_value is None:
+                patch.append({
+                    "op": "add",
+                    "path": pointer.path,
+                    "value": new_value
+                })
+            elif new_value is None and old_value is not None:
+                patch.append({
+                    "op": "delete",
+                    "path": pointer.path,
+                })
+            else:
+                patch.append({
+                    "op": "replace",
+                    "path": pointer.path,
+                    "value": new_value,
+                })
+    return patch
+
+
 def diff(dataset, source_dataset, output_directory, input_format,
          allow_sparse):
     as_canonical = to_canonical(dataset, input_format)
-    # included_ids = as_canonical.keys()
-
     out_dataset = json.loads(json.dumps(as_canonical))
-
-    diff = None
 
     if source_dataset:
         with open(source_dataset, 'r') as source_fd:
@@ -80,11 +120,11 @@ def diff(dataset, source_dataset, output_directory, input_format,
                 if record_id not in out_dataset:
                     out_dataset[record_id] = record
 
-        diff = jsonpatch.make_patch(source, out_dataset)
+        patch = make_patch(out_dataset, source)
 
     if output_directory and source_dataset:
         with open(path.join(output_directory, 'patch.jsonpatch'), 'w') as fd:
-            json.dump(diff.patch, fd)
+            json.dump(patch, fd)
 
     print(json.dumps(out_dataset))
 
