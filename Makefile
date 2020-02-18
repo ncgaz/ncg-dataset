@@ -27,6 +27,4 @@ diffs/%: versions/%.csv
 
 dataset.json: $(VERSIONS) $(VERSION_DIFFS)
 	echo {} > $@
-	for d in $(VERSION_DIFFS) ; do \
-		$(VENV_BIN)/jsonpatch -i $@ $$d/patch.jsonpatch ; \
-	done
+	find diffs/ -name patch.jsonpatch | sort | xargs -n 1 $(VENV_BIN)/jsonpatch -i $@
