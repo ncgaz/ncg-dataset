@@ -1,0 +1,73 @@
+[
+  {
+    "filename": "./versions/2020-01-22-ncpedia.csv",
+    "date": "2020-01-22",
+    "description": "First pass at scraping NCpedia HTML",
+    "authors": [
+      "Patrick Golden"
+    ]
+  },
+
+  {
+    "filename": "./versions/2020-01-29-ncpedia.csv",
+    "date": "2020-01-29",
+    "description": "Second pass at scraping NCpedia HTML, fixing encoding errors",
+    "authors": [
+      "Patrick Golden"
+    ]
+  },
+
+  {
+    "filename": "./versions/2020-02-06-ncpedia.csv",
+    "date": "2020-02-06",
+    "description": "Initial pass to assign feature types",
+    "authors": [
+      "Patrick Golden"
+    ]
+  },
+
+  {
+    "filename": "./versions/2020-02-12-ncpedia-uncategorized.csv",
+    "date": "2020-02-12",
+    "description": "Adding feature types to items that didn't have feature types",
+    "authors": [
+      "Ryan Shaw"
+    ]
+  },
+
+  {
+    "filename": "./versions/2020-02-13-ncpedia-miscellaneous.csv",
+    "date": "2020-02-13",
+    "description": "Reviewing feature types for items deemed \"miscellaneous\"",
+    "authors": [
+      "INLS490 \"Miscellaneous\" group"
+    ]
+  },
+
+  {
+    "filename": "./versions/2020-02-13-ncpedia-populated.csv",
+    "date": "2020-02-13",
+    "description": "Reviewing feature types for items deemed \"populated\"",
+    "authors": [
+      "INLS490 \"Populated areas\" group"
+    ]
+  },
+
+  {
+    "filename": "./versions/2020-02-14-ncpedia-mountains.csv",
+    "date": "2020-02-14",
+    "description": "Reviewing feature types for items deemed \"mountains\"",
+    "authors": [
+      "INLS490 \"Mountains\" group"
+    ]
+  },
+
+  {
+    "filename": "./versions/2020-02-16-ncpedia-water.csv",
+    "date": "2020-02-16",
+    "description": "Reviewing feature types for items deemed \"water\"",
+    "authors": [
+      "INLS490 \"Water\" group"
+    ]
+  }
+]

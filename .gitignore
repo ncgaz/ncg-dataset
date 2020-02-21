@@ -1,5 +1,4 @@
 *.swp
 diffs/
 venv/
-versions/
 dataset.json
