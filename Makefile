@@ -2,7 +2,7 @@ VENV := ./venv
 VENV_BIN := $(VENV)/bin
 PY3 := $(VENV_BIN)/python3
 
-VERSIONS := $(shell find ./versions -type f | sort -V)
+VERSIONS := $(shell jq -r '.[].filename' versions.json)
 VERSION_DIFFS := $(addprefix diffs/,$(basename $(notdir $(VERSIONS))))
 
 TMP_DATASET := diffs/dataset.tmp.json
