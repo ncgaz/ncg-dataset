@@ -17,14 +17,14 @@ parser.add_argument('--allow-sparse', default=True)
 
 FieldSpec = namedtuple(
     'FieldSpec',
-    ['csv_names', 'required'],
-    defaults=[False])
+    ['csv_names', 'process', 'required'],
+    defaults=[None, False])
 
 
 VALID_FIELDS = {
     'id': FieldSpec(
         csv_names=['id', 'ID'],
-        required=True
+        required=True,
     ),
     'label': FieldSpec(
         csv_names=['label', 'Label'],
@@ -36,6 +36,7 @@ VALID_FIELDS = {
     ),
     'feature_type': FieldSpec(
         csv_names=['Feature type', 'feature type'],
+        process=lambda x: 'nct:' + ''.join([w.capitalize() for w in x.split()])
     ),
 }
 
@@ -57,6 +58,8 @@ def to_canonical(dataset_file, input_format):
                     else:
                         if field_spec.required:
                             raise ValueError('Missing field: ', field_name)
+                    if field_spec.process and val is not None:
+                        val = field_spec.process(val)
                     record[field_name] = val
                 canonical[record['id']] = record
 
@@ -71,7 +74,7 @@ def make_patch(new, old):
         if old_record is None:
             patch.append({
                 "op": "add",
-                "path": JsonPointer.from_parts([item_id]).path,
+                "path": JsonPointer.from_parts(['records', item_id]).path,
                 "value": record
             })
             continue
@@ -85,7 +88,7 @@ def make_patch(new, old):
 
             if old_value == new_value:
                 continue
-            pointer = JsonPointer.from_parts([item_id, field_name])
+            pointer = JsonPointer.from_parts(['records', item_id, field_name])
 
             if new_value is not None and old_value is None:
                 patch.append({
@@ -126,7 +129,7 @@ def diff(dataset, source_dataset, output_directory, input_format,
         with open(path.join(output_directory, 'patch.jsonpatch'), 'w') as fd:
             json.dump(patch, fd)
 
-    print(json.dumps(out_dataset))
+    print(json.dumps({"records": out_dataset}))
 
 
 if __name__ == '__main__':

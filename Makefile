@@ -16,7 +16,7 @@ clean:
 diffs/%: versions/%.csv
 	@echo Building $@ from $<
 	@mkdir -p $@
-	@echo {} > $(TMP_DATASET)
+	@echo {\"records\":{}} > $(TMP_DATASET)
 	@DIFFS=`echo $(VERSION_DIFFS) | tr ' ' '\n' | sed -e '\|$@|Q'` && \
 		for d in $$DIFFS ; do \
 			$(VENV_BIN)/jsonpatch -i $(TMP_DATASET) $$d/patch.jsonpatch ; \
@@ -26,5 +26,18 @@ diffs/%: versions/%.csv
 	@touch $@
 
 dataset.json: $(VERSIONS) $(VERSION_DIFFS)
-	echo {} > $@
-	find diffs/ -name patch.jsonpatch | sort | xargs -n 1 $(VENV_BIN)/jsonpatch -i $@
+	echo {\"records\":{}} > $@.tmp
+	find diffs/ -name patch.jsonpatch | sort | xargs -n 1 $(VENV_BIN)/jsonpatch -i $@.tmp
+	jq -s 'add' context.json $@.tmp > $@
+	rm $@.tmp
+
+dataset.ttl: dataset.json
+	riot -formatted turtle -syntax=jsonld $< > $@
+	rapper -i turtle -o turtle $@ | sponge $@
+
+dataset.csv: dataset.json
+	$(PY3) make_csv.py
+
+.PHONY: list_types
+list_types: dataset.ttl
+	arq --data=dataset.ttl --query=./queries/nctypes.sparql --results=csv | tail -n +2 | sort

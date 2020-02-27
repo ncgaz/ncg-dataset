@@ -1,0 +1,14 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ncgaz: <http://purl.org/ncgaz/>
+PREFIX nct: <http://purl.org/ncgaz/type#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+    ncgaz:type a skos:ConceptScheme .
+    ?type a skos:Concept .
+    ?type skos:inScheme ncgaz:type .
+}
+WHERE {
+  ?place a ?type .
+  FILTER (STRSTARTS (STR(?type), "http://purl.org/ncgaz/type#"))
+}
