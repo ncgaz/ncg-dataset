@@ -17,8 +17,21 @@ parser.add_argument('--allow-sparse', default=True)
 
 FieldSpec = namedtuple(
     'FieldSpec',
-    ['csv_names', 'process', 'required'],
-    defaults=[None, False])
+    ['csv_names', 'process', 'post_process', 'required'],
+    defaults=[None, None, False])
+
+
+def extract_county(text, items, counties):
+    if text is None:
+        return []
+
+    return [
+        {
+            'id': counties[county_string + ' County'],
+            'label': county_string + ' County',
+        }
+        for county_string in text.split('|')
+    ]
 
 
 VALID_FIELDS = {
@@ -35,8 +48,12 @@ VALID_FIELDS = {
         required=True
     ),
     'feature_type': FieldSpec(
-        csv_names=['Feature type', 'feature type'],
+        csv_names=['Feature type', 'feature type', 'feature_type'],
         process=lambda x: 'nct:' + ''.join([w.capitalize() for w in x.split()])
+    ),
+    'county': FieldSpec(
+        csv_names=['county', 'County'],
+        post_process=extract_county
     ),
 }
 
@@ -52,7 +69,7 @@ def to_canonical(dataset_file, input_format):
                 for field_name, field_spec in VALID_FIELDS.items():
                     val = None
                     for name in field_spec.csv_names:
-                        if name in row:
+                        if name in row and row[name]:
                             val = row[name]
                             break
                     else:
@@ -62,6 +79,24 @@ def to_canonical(dataset_file, input_format):
                         val = field_spec.process(val)
                     record[field_name] = val
                 canonical[record['id']] = record
+
+        items = {
+            record['label']: record['id']
+            for record in canonical.values()
+        }
+
+        counties = {
+            record['label']: record['id']
+            for record in canonical.values()
+            if record['feature_type'] == 'nct:County'
+        }
+
+        for record in canonical.values():
+            for field_name, field_spec in VALID_FIELDS.items():
+                if field_spec.post_process:
+                    val = record.get(field_name, None)
+                    val = field_spec.post_process(val, items, counties)
+                    record[field_name] = val
 
     return canonical
 
@@ -117,7 +152,7 @@ def diff(dataset, source_dataset, output_directory, input_format,
 
     if source_dataset:
         with open(source_dataset, 'r') as source_fd:
-            source = json.load(source_fd)
+            source = json.load(source_fd)['records']
         if allow_sparse:
             for record_id, record in source.items():
                 if record_id not in out_dataset:
