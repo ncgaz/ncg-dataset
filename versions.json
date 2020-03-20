@@ -69,5 +69,14 @@
     "authors": [
       "INLS490 \"Water\" group"
     ]
+  },
+
+  {
+    "filename": "./versions/2020-03-20-ncpedia-counties.csv",
+    "date": "2020-03-20",
+    "description": "Adding counties to records",
+    "authors": [
+      "Patrick Golden"
+    ]
   }
 ]
