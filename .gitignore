@@ -2,3 +2,4 @@
 diffs/
 venv/
 dataset.json
+__pycache__

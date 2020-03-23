@@ -3,10 +3,12 @@
 import argparse
 import csv
 import json
+import sys
 from jsonpointer import JsonPointer
 from os import path
 from collections import namedtuple
 
+from dataset import Dataset
 
 parser = argparse.ArgumentParser(description='Diff the gazetteer dataset')
 parser.add_argument('dataset')
@@ -21,17 +23,33 @@ FieldSpec = namedtuple(
     defaults=[None, None, False])
 
 
-def extract_county(text, items, counties):
+def extract_county(text, dataset):
     if text is None:
         return []
 
-    return [
-        {
-            'id': counties[county_string + ' County'],
-            'label': county_string + ' County',
-        }
-        for county_string in text.split('|')
-    ]
+    ret = []
+
+    for county_string in text.split('|'):
+        # First, see if this is an ID of a county
+        county = dataset.get_record(county_string)
+
+        # Next, check if it's the name of a county
+        if county is None:
+            matches = dataset.search(county_string + ' County', 'nct:County')
+            if matches:
+                county = matches[0]
+
+        if county is None:
+            print(f'Warning: could not find county `{county_string}`',
+                  file=sys.stderr)
+            continue
+
+        ret.append({
+            'id': county['id'],
+            'label': county['label'],
+        })
+
+    return ret
 
 
 VALID_FIELDS = {
@@ -80,22 +98,13 @@ def to_canonical(dataset_file, input_format):
                     record[field_name] = val
                 canonical[record['id']] = record
 
-        items = {
-            record['label']: record['id']
-            for record in canonical.values()
-        }
-
-        counties = {
-            record['label']: record['id']
-            for record in canonical.values()
-            if record['feature_type'] == 'nct:County'
-        }
+        dataset = Dataset(canonical)
 
         for record in canonical.values():
             for field_name, field_spec in VALID_FIELDS.items():
                 if field_spec.post_process:
                     val = record.get(field_name, None)
-                    val = field_spec.post_process(val, items, counties)
+                    val = field_spec.post_process(val, dataset)
                     record[field_name] = val
 
     return canonical
