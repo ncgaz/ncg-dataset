@@ -3,41 +3,34 @@ VENV_BIN := $(VENV)/bin
 PY3 := $(VENV_BIN)/python3
 
 VERSIONS := $(shell jq -r '.[].filename' versions.json)
-VERSION_DIFFS := $(addprefix diffs/,$(basename $(notdir $(VERSIONS))))
-
-TMP_DATASET := diffs/dataset.tmp.json
+VERSION_DIRS = $(addprefix diffs/,$(notdir $(VERSIONS)))
+VERSION_DEPS := $(addsuffix /Makefile,$(VERSION_DIRS))
+VERSION_DATASETS := $(addsuffix /normalized.json,$(VERSION_DIRS))
+VERSION_PATCHES := $(addsuffix /patch.jsonpatch,$(VERSION_DIRS))
 
 .PHONY: all
-all: dataset.json
+all: dataset.json dataset.ttl types.ttl $(VERSION_PATCHES)
 
 clean:
-	rm -rf $(TMP_DATASET) diffs
+	rm -rf diffs dataset.json dataset.ttl dataset.csv types.ttl
 
-diffs/%: versions/%.csv
-	@echo Building $@ from $<
-	@mkdir -p $@
-	@echo {\"records\":{}} > $(TMP_DATASET)
-	@DIFFS=`echo $(VERSION_DIFFS) | tr ' ' '\n' | sed -e '\|$@|Q'` && \
-		for d in $$DIFFS ; do \
-			$(VENV_BIN)/jsonpatch -i $(TMP_DATASET) $$d/patch.jsonpatch ; \
-		done
-	$(PY3) versioner.py $< -f csv -s $(TMP_DATASET) -o $@ > /dev/null
-	rm $(TMP_DATASET)
-	@touch $@
-
-dataset.json: $(VERSIONS) $(VERSION_DIFFS)
-	echo {\"records\":{}} > $@.tmp
-	find diffs/ -name patch.jsonpatch | sort | xargs -n 1 $(VENV_BIN)/jsonpatch -i $@.tmp
-	jq -s 'add' context.json $@.tmp > $@
-	rm $@.tmp
+dataset.json: $(VERSION_DATASETS)
+	cp $(lastword $^) $@
 
 dataset.ttl: dataset.json
-	riot -formatted turtle -syntax=jsonld $< > $@
-	rapper -i turtle -o turtle $@ | sponge $@
+	$(PY3) src/convert.py -i jsonld -o turtle $< > $@
 
 dataset.csv: dataset.json
-	$(PY3) make_csv.py
+	$(PY3) src/convert.py -i jsonld -o csv $< > $@
 
-.PHONY: list_types
-list_types: dataset.ttl
-	arq --data=dataset.ttl --query=./queries/nctypes.sparql --results=csv | tail -n +2 | sort
+types.ttl: dataset.ttl
+	arq --data=dataset.ttl --query=./queries/nctypes.sparql > $@
+	rapper -q -i turtle -o turtle $@ | sponge $@
+
+diffs/%/Makefile: versions/%
+	mkdir -p $(dir $@)
+	./generate_dependency.py $< > $@
+
+ifneq ($(MAKECMDGOALS),clean)
+include $(VERSION_DEPS)
+endif

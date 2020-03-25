@@ -1,5 +1,7 @@
 *.swp
 diffs/
 venv/
-dataset.json
 __pycache__
+dataset.json
+dataset.ttl
+types.ttl
