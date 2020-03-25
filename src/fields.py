@@ -7,6 +7,9 @@ class Field:
     def __init__(self, value):
         self.value = value
 
+    def to_csv(self):
+        return self.value
+
     @classmethod
     def from_csv(cls, record, dataset):
         value = None
@@ -63,6 +66,9 @@ class FeatureTypeField(Field):
 class CountyField(Field):
     name = 'county'
     csv_names = ['county', 'County']
+
+    def to_csv(self):
+        return '|'.join([county['label'] for county in self.value])
 
     @staticmethod
     def equals(a, b):

@@ -1,8 +1,12 @@
 import copy
+import csv
 import json
 import subprocess
 from collections import defaultdict
+from io import StringIO
 from tempfile import NamedTemporaryFile
+
+from fields import VALID_FIELDS
 
 JSONLD_CHUNK_SIZE = 3000
 
@@ -109,4 +113,15 @@ class Dataset:
         return result.stdout
 
     def as_csv(self):
-        pass
+        records = list(self.dataset.values())
+        output = StringIO()
+        writer = csv.writer(output, dialect=csv.unix_dialect)
+        field_names = [Field.name for Field in VALID_FIELDS]
+        writer.writerow(field_names)
+        for record in records:
+            row = [
+                Field(record[Field.name]).to_csv()
+                for Field in VALID_FIELDS
+            ]
+            writer.writerow(row)
+        return output.getvalue()
