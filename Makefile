@@ -9,10 +9,14 @@ VERSION_DATASETS := $(addsuffix /normalized.json,$(VERSION_DIRS))
 VERSION_PATCHES := $(addsuffix /patch.jsonpatch,$(VERSION_DIRS))
 
 .PHONY: all
-all: dataset.json dataset.ttl dataset.csv types.ttl $(VERSION_PATCHES)
+all: venv dataset.json dataset.ttl dataset.csv types.ttl $(VERSION_PATCHES)
 
 clean:
 	rm -rf diffs dataset.json dataset.ttl dataset.csv types.ttl
+
+venv:
+	python3 -m venv venv
+	./venv/bin/pip install jsonpointer
 
 dataset.json: $(VERSION_DATASETS)
 	cp $(lastword $^) $@
