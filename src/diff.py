@@ -10,7 +10,6 @@ from fields import VALID_FIELDS
 parser = argparse.ArgumentParser(description='Diff the gazetteer dataset')
 parser.add_argument('source_dataset')
 parser.add_argument('target_dataset')
-parser.add_argument('--allow-sparse', default=True)
 
 
 def make_patch(old, new):
@@ -68,11 +67,6 @@ if __name__ == '__main__':
 
     with open(args.source_dataset, 'r') as source_fd:
         source = json.load(source_fd)['records']
-
-    if args.allow_sparse:
-        for record_id, record in source.items():
-            if record_id not in target:
-                target[record_id] = record
 
     patch = make_patch(source, target)
     print(json.dumps(patch))

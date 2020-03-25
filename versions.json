@@ -1,6 +1,6 @@
 [
   {
-    "filename": "./versions/2020-01-22-ncpedia.csv",
+    "filename": "versions/2020-01-22-ncpedia.csv",
     "date": "2020-01-22",
     "description": "First pass at scraping NCpedia HTML",
     "authors": [
@@ -9,7 +9,7 @@
   },
 
   {
-    "filename": "./versions/2020-01-29-ncpedia.csv",
+    "filename": "versions/2020-01-29-ncpedia.csv",
     "date": "2020-01-29",
     "description": "Second pass at scraping NCpedia HTML, fixing encoding errors",
     "authors": [
@@ -18,7 +18,7 @@
   },
 
   {
-    "filename": "./versions/2020-02-06-ncpedia.csv",
+    "filename": "versions/2020-02-06-ncpedia.csv",
     "date": "2020-02-06",
     "description": "Initial pass to assign feature types",
     "authors": [
@@ -27,52 +27,57 @@
   },
 
   {
-    "filename": "./versions/2020-02-12-ncpedia-uncategorized.csv",
+    "filename": "versions/2020-02-12-ncpedia-uncategorized.csv",
     "date": "2020-02-12",
     "description": "Adding feature types to items that didn't have feature types",
+    "sparse": true,
     "authors": [
       "Ryan Shaw"
     ]
   },
 
   {
-    "filename": "./versions/2020-02-13-ncpedia-miscellaneous.csv",
+    "filename": "versions/2020-02-13-ncpedia-miscellaneous.csv",
     "date": "2020-02-13",
     "description": "Reviewing feature types for items deemed \"miscellaneous\"",
+    "sparse": true,
     "authors": [
       "INLS490 \"Miscellaneous\" group"
     ]
   },
 
   {
-    "filename": "./versions/2020-02-13-ncpedia-populated.csv",
+    "filename": "versions/2020-02-13-ncpedia-populated.csv",
     "date": "2020-02-13",
     "description": "Reviewing feature types for items deemed \"populated\"",
+    "sparse": true,
     "authors": [
       "INLS490 \"Populated areas\" group"
     ]
   },
 
   {
-    "filename": "./versions/2020-02-14-ncpedia-mountains.csv",
+    "filename": "versions/2020-02-14-ncpedia-mountains.csv",
     "date": "2020-02-14",
     "description": "Reviewing feature types for items deemed \"mountains\"",
+    "sparse": true,
     "authors": [
       "INLS490 \"Mountains\" group"
     ]
   },
 
   {
-    "filename": "./versions/2020-02-16-ncpedia-water.csv",
+    "filename": "versions/2020-02-16-ncpedia-water.csv",
     "date": "2020-02-16",
     "description": "Reviewing feature types for items deemed \"water\"",
+    "sparse": true,
     "authors": [
       "INLS490 \"Water\" group"
     ]
   },
 
   {
-    "filename": "./versions/2020-03-20-ncpedia-counties.csv",
+    "filename": "versions/2020-03-20-ncpedia-counties.csv",
     "date": "2020-03-20",
     "description": "Adding counties to records",
     "authors": [

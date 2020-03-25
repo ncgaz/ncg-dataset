@@ -22,6 +22,7 @@ parser.add_argument('-o', '--output-format', required=False, choices=[
     'turtle',
     'ntriples',
 ])
+parser.add_argument('-s', '--source-dataset')
 
 
 def get_id(record):
@@ -33,7 +34,13 @@ def get_id(record):
         raise ValueError('Record has no ID')
 
 
-def to_canonical(dataset_fp, input_format):
+def fill_sparse(target_dataset, source_dataset):
+    for record_id, record in source_dataset.items():
+        if record_id not in target_dataset:
+            target_dataset[record_id] = record
+
+
+def to_canonical(dataset_fp, source_dataset, input_format):
     canonical = {}
 
     if input_format == 'csv':
@@ -42,6 +49,9 @@ def to_canonical(dataset_fp, input_format):
 
         for record in records:
             canonical[get_id(record)] = {}
+
+        if source_dataset:
+            fill_sparse(canonical, source_dataset)
 
         for Field in VALID_FIELDS:
             dataset = Dataset(canonical)
@@ -56,8 +66,8 @@ def to_canonical(dataset_fp, input_format):
     return canonical
 
 
-def convert(dataset_fd, input_format, output_format):
-    canonical = to_canonical(dataset_fd, input_format)
+def convert(dataset_fd, source_dataset, input_format, output_format):
+    canonical = to_canonical(dataset_fd, source_dataset, input_format)
     dataset = Dataset(canonical)
 
     if output_format == 'jsonld':
@@ -91,7 +101,13 @@ if __name__ == '__main__':
 
     newline = '' if input_format == 'csv' else None
 
+    source_dataset = None
+    if args.source_dataset:
+        with open(args.source_dataset) as source_fd:
+            source_dataset = json.load(source_fd)['records']
+
     with open(args.dataset) as dataset_fd:
-        output = convert(dataset_fd, input_format, output_format)
+        output = convert(dataset_fd, source_dataset,
+                         input_format, output_format)
 
     print(output)
