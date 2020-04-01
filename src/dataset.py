@@ -15,6 +15,7 @@ CONTEXT = {
     "ncgaz": "http://purl.org/ncgaz/",
     "ncp": "ncgaz:place/",
     "nct": "ncgaz:type#",
+    "ncv": "ncgaz:vocab#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
 
@@ -27,6 +28,7 @@ CONTEXT = {
     },
     "label": "skos:label",
     "description": "skos:note",
+    "county": "ncv:county",
     "feature_type": {
       "@type": "@id",
       "@id": "@type"
@@ -39,6 +41,7 @@ TURTLE_PREAMBLE = """
 @prefix ncgaz: <http://purl.org/ncgaz/> .
 @prefix ncp: <http://purl.org/ncgaz/place/> .
 @prefix nct: <http://purl.org/ncgaz/type#> .
+@prefix ncv: <http://purl.org/ncgaz/vocab#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 """
