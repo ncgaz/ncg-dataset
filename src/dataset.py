@@ -12,14 +12,14 @@ JSONLD_CHUNK_SIZE = 3000
 
 CONTEXT = {
   "@context": {
-    "ncgaz": "http://purl.org/ncgaz/",
+    "@base": "http://n2t.net/ark:/39333/ncg/place/",
+
+    "ncgaz": "http://n2t.net/ark:/39333/ncg/",
     "ncp": "ncgaz:place/",
     "nct": "ncgaz:type#",
     "ncv": "ncgaz:vocab#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-
-    "@base": "http://purl.org/ncgaz/place/",
 
     "id": "@id",
     "records": {
@@ -38,10 +38,11 @@ CONTEXT = {
 }
 
 TURTLE_PREAMBLE = """
-@prefix ncgaz: <http://purl.org/ncgaz/> .
-@prefix ncp: <http://purl.org/ncgaz/place/> .
-@prefix nct: <http://purl.org/ncgaz/type#> .
-@prefix ncv: <http://purl.org/ncgaz/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ncgaz: <http://n2t.net/ark:/39333/ncg/> .
+@prefix ncp: <http://n2t.net/ark:/39333/ncg/place/> .
+@prefix nct: <http://n2t.net/ark:/39333/ncg/type#> .
+@prefix ncv: <http://n2t.net/ark:/39333/ncg/vocab#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 """

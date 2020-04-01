@@ -1,6 +1,6 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX ncgaz: <http://purl.org/ncgaz/>
-PREFIX nct: <http://purl.org/ncgaz/type#>
+PREFIX ncgaz: <http://n2t.net/ark:/39333/ncg/>
+PREFIX nct: <http://n2t.net/ark:/39333/ncg/type#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 CONSTRUCT {
@@ -10,5 +10,5 @@ CONSTRUCT {
 }
 WHERE {
   ?place a ?type .
-  FILTER (STRSTARTS (STR(?type), "http://purl.org/ncgaz/type#"))
+  FILTER (STRSTARTS (STR(?type), "http://n2t.net/ark:/39333/ncg/type#"))
 }
