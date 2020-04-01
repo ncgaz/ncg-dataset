@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ncv: <http://n2t.net/ark:39333/ncg/vocab#> .
+@prefix nct: <http://n2t.net/ark:39333/ncg/type#> .
+
+ncv:Record
+    a rdfs:Class ;
+    rdfs:comment "A record in a gazetteer." .
+
+ncv:in
+    a rdfs:Property ;
+    rdfs:domain ncv:Record ;
+    rdfs:range ncv:Record ;
+    rdfs:comment "A property indicating that the place indicated by one record is in some way physically in another" .
+
+ncv:county
+    a rdfs:Property ;
+    rdfs:subPropertyOf ncv:in ;
+    rdfs:range nct:County ;
+    rdfs:comment "A property indicating that a record is located within a specific county" .
