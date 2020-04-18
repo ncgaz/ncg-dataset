@@ -19,6 +19,10 @@ UPLOAD_FILES = dataset.json \
 .PHONY: all
 all: venv dataset.json dataset.ttl dataset.csv types.ttl $(VERSION_PATCHES)
 
+.PHONY: reconcile
+reconcile: dataset.csv
+	java -Xmx2g -jar reconcile-csv-0.1.2.jar $< label id
+
 .PHONY: upload
 upload:
 	mkdir -p $(UPLOAD_WORKING_DIR)

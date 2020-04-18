@@ -128,4 +128,4 @@ class Dataset:
                 for Field in VALID_FIELDS
             ]
             writer.writerow(row)
-        return output.getvalue()
+        return output.getvalue().strip().rstrip()
