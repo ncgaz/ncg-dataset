@@ -8,11 +8,26 @@ VERSION_DEPS := $(addsuffix /Makefile,$(VERSION_DIRS))
 VERSION_DATASETS := $(addsuffix /normalized.json,$(VERSION_DIRS))
 VERSION_PATCHES := $(addsuffix /patch.jsonpatch,$(VERSION_DIRS))
 
+UPLOAD_WORKING_DIR := ncg
+
+UPLOAD_FILES = dataset.json \
+	       dataset.ttl \
+	       dataset.csv \
+	       types.ttl \
+	       vocab.ttl
+
 .PHONY: all
 all: venv dataset.json dataset.ttl dataset.csv types.ttl $(VERSION_PATCHES)
 
+.PHONY: upload
+upload:
+	mkdir -p $(UPLOAD_WORKING_DIR)
+	rsync -av --progress $(UPLOAD_FILES) ncgazetteer.org:/var/www/ncgazetteer.org/ncg
+	rm -rf $(UPLOAD_WORKING_DIR)
+
+.PHONY: clean
 clean:
-	rm -rf diffs dataset.json dataset.ttl dataset.csv types.ttl
+	rm -rf diffs dataset.json dataset.ttl dataset.csv types.ttl $(UPLOAD_WORKING_DIR)
 
 venv:
 	python3 -m venv venv
