@@ -115,9 +115,15 @@ def to_canonical(dataset_fp, source_dataset, only_fields, input_format):
     return canonical
 
 
-def convert(dataset_fd, source_dataset, input_format, output_format):
-    canonical = to_canonical(dataset_fd, source_dataset, input_format)
-    dataset = Dataset(canonical)
+def convert(dataset_fd, source_dataset, only_fields, input_format,
+            output_format):
+    canonical = to_canonical(dataset_fd, source_dataset, only_fields,
+                             input_format)
+    sorted_canonical = {}
+    for key in sorted(canonical.keys()):
+        sorted_canonical[key] = canonical[key]
+
+    dataset = Dataset(sorted_canonical)
 
     if output_format == 'jsonld':
         return json.dumps(dataset.as_jsonld())
