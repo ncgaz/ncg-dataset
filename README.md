@@ -40,6 +40,8 @@ The makefile also contains a couple other commands:
 
 * `make reconcile` - Set up an OpenRefine reconciliation server to reconcile against labels in the dataset, using OKFN's [reconcile-csv](https://github.com/okfn/reconcile-csv) program
 
+* `make test` - Run the tests from `lib/test.py`
+
 # Adding a new version
 
 To add a new version, do the following:

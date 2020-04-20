@@ -33,6 +33,10 @@ upload:
 clean:
 	rm -rf diffs dataset.json dataset.ttl dataset.csv types.ttl $(UPLOAD_WORKING_DIR)
 
+.PHONY: test
+test:
+	$(PY3) lib/test.py
+
 venv:
 	python3 -m venv venv
 	./venv/bin/pip install jsonpointer
