@@ -46,18 +46,18 @@ The makefile also contains a couple other commands:
 
 To add a new version, do the following:
 
-  1. Copy the data file of the new version to the `versions/` directory. The format of the dataset will be guessed from the extension. Currently, only CSV and JSON files can represent new versions of the dataset.
+1. Copy the data file of the new version to the `versions/` directory. The format of the dataset will be guessed from the extension. Currently, only CSV and JSON files can represent new versions of the dataset.
 
-  2. Add an entry to the end of `versions.json` with the following fields:
+2. Add an entry to the end of `versions.json` with the following fields:
 
-    - `filename` - The name of the file you added to `versions/`
+  - `filename` - The name of the file you added to `versions/`
 
-    - `date` - The ISO 8601 date associated with the new version
+  - `date` - The ISO 8601 date associated with the new version
 
-    - `description` - A textual description of the changes contained in the new version
+  - `description` - A textual description of the changes contained in the new version
 
-    - `authors` - An array of strings representing the author(s) of the new version
+  - `authors` - An array of strings representing the author(s) of the new version
 
-    - `sparse` (optional) - A boolean indicating whether this version contains *every* entry of the gazetteer, or only a subset. If sparse is **true**, only records contained in this version will be considered for generating diffs between versions. (If you do not mark a version as sparse, and it only contains a subset of entries, then the missing entries will be assumed to be deleted).
+  - `sparse` (optional) - A boolean indicating whether this version contains *every* entry of the gazetteer, or only a subset. If sparse is **true**, only records contained in this version will be considered for generating diffs between versions. (If you do not mark a version as sparse, and it only contains a subset of entries, then the missing entries will be assumed to be deleted).
 
-    - `fields` (optional) - An array of fields that should be considered for diffing. Without this field, **all** fields will be included in the diff.
+  - `fields` (optional) - An array of fields that should be considered for diffing. Without this field, **all** fields will be included in the diff.
