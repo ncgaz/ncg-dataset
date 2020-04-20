@@ -8,21 +8,28 @@ import os
 from dataset import Dataset
 from fields import VALID_FIELDS
 
+
 parser = argparse.ArgumentParser(
     description='Convert the gazetteer between different formats')
+
 parser.add_argument('dataset')
+
 parser.add_argument('-i', '--input-format', required=False, choices=[
     'csv',
     'jsonld',
     'rdf',
 ])
+
 parser.add_argument('-o', '--output-format', required=False, choices=[
     'csv',
     'jsonld',
     'turtle',
     'ntriples',
 ])
+
 parser.add_argument('-s', '--source-dataset')
+
+parser.add_argument('-f', '--fields')
 
 
 def get_id(record):
@@ -40,7 +47,7 @@ def fill_sparse(target_dataset, source_dataset):
             target_dataset[record_id] = record
 
 
-def to_canonical(dataset_fp, source_dataset, input_format):
+def to_canonical(dataset_fp, source_dataset, only_fields, input_format):
     canonical = {}
 
     if input_format == 'csv':
@@ -50,15 +57,57 @@ def to_canonical(dataset_fp, source_dataset, input_format):
         for record in records:
             canonical[get_id(record)] = {}
 
-        if source_dataset:
-            fill_sparse(canonical, source_dataset)
+        check_fields = False
 
+        # If there is a source dataset, that means that this is a sparse
+        # conversion, i.e. it's not starting from an empty state
+        if source_dataset:
+            if only_fields is not None:
+                check_fields = True
+
+            for record_id, record in source_dataset.items():
+                # Start from the previous record if this is a sparse
+                # conversion, or if we are only changing some fields (which is
+                # a special kind of sparse conversion).
+                include_previous_record = (
+                    check_fields or
+                    record_id not in canonical
+                )
+                if include_previous_record:
+                    canonical[record_id] = record
+
+        # Need to iterate fields first instead of records because some fields
+        # later on depend on previous fields having been filled in. For
+        # example, the `county` field depends on the `label` and `feature_type`
+        # fields to already have been filled in.
         for Field in VALID_FIELDS:
             dataset = Dataset(canonical)
             for record in records:
-                field = Field.from_csv(record, dataset)
-                if field.value is not None:
-                    canonical[get_id(record)][field.name] = field.value
+                # If we are only checking certain fields, and this is one of
+                # them...
+                if check_fields and Field.name in only_fields:
+                    field = Field.from_csv(record, dataset)
+
+                    # Delete the value if it is not present (it could be the
+                    # case that it was removed compared to the last version
+                    if field.value is None:
+                        canonical[get_id(record)].pop(field.name, None)
+
+                    # Or else set the new value
+                    else:
+                        canonical[get_id(record)][field.name] = field.value
+
+                # If we are only checking certain fields, and this is not one
+                # of them, continue
+                elif check_fields:
+                    continue
+
+                # Otherwise, if we are *not* only checking certain fields, add
+                # it to the record if it exists
+                else:
+                    field = Field.from_csv(record, dataset)
+                    if field.value is not None:
+                        canonical[get_id(record)][field.name] = field.value
 
     if input_format == 'jsonld':
         canonical = json.load(dataset_fp)['records']
@@ -106,8 +155,12 @@ if __name__ == '__main__':
         with open(args.source_dataset) as source_fd:
             source_dataset = json.load(source_fd)['records']
 
+    only_fields = args.fields
+    if only_fields is not None:
+        only_fields = only_fields.split('|')
+
     with open(args.dataset) as dataset_fd:
-        output = convert(dataset_fd, source_dataset,
+        output = convert(dataset_fd, source_dataset, only_fields,
                          input_format, output_format)
 
     print(output)

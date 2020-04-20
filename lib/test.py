@@ -1,6 +1,8 @@
 import unittest
+from io import StringIO
 
 from diff import make_patch
+from convert import to_canonical
 
 
 class TestPatch(unittest.TestCase):
@@ -87,6 +89,54 @@ class TestPatch(unittest.TestCase):
             }],
             patch,
             'Should not generate a patch for fields with an .equals method')
+
+
+class TestCanonicalize(unittest.TestCase):
+    def test_sparse(self):
+        # An empty dataset
+        dataset_fp = StringIO()
+
+        source_dataset = {
+            'A': {}
+        }
+
+        output = to_canonical(dataset_fp, source_dataset, None, 'csv')
+
+        self.assertEqual(
+            output, source_dataset,
+            'should fill in missing records when a source dataset is given')
+
+    def test_only_fields(self):
+        dataset_fp = StringIO('id,label\nA,"a new label"')
+        source_dataset = {
+            'A': {
+                'id': 'A',
+                'label': 'old label',
+                'description': 'a description',
+            }
+        }
+
+        output = to_canonical(dataset_fp, source_dataset, None, 'csv')
+        self.assertEqual(
+            output, {
+                'A': {
+                    'id': 'A',
+                    'label': 'a new label',
+                    'county': [],
+                }
+            }, 'should fill in all fields when not explicitly listed')
+
+        dataset_fp.seek(0)
+
+        output = to_canonical(dataset_fp, source_dataset, ['label'], 'csv')
+        self.assertEqual(
+            output, {
+                'A': {
+                    'id': 'A',
+                    'label': 'a new label',
+                    'description': 'a description',
+                }
+            }, 'should only fill in certain fields when explicitly listed')
 
 
 if __name__ == '__main__':

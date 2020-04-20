@@ -31,6 +31,7 @@
     "date": "2020-02-12",
     "description": "Adding feature types to items that didn't have feature types",
     "sparse": true,
+    "fields": ["feature_type"],
     "authors": [
       "Ryan Shaw"
     ]
@@ -41,6 +42,7 @@
     "date": "2020-02-13",
     "description": "Reviewing feature types for items deemed \"miscellaneous\"",
     "sparse": true,
+    "fields": ["feature_type"],
     "authors": [
       "INLS490 \"Miscellaneous\" group"
     ]
@@ -51,6 +53,7 @@
     "date": "2020-02-13",
     "description": "Reviewing feature types for items deemed \"populated\"",
     "sparse": true,
+    "fields": ["feature_type"],
     "authors": [
       "INLS490 \"Populated areas\" group"
     ]
@@ -61,6 +64,7 @@
     "date": "2020-02-14",
     "description": "Reviewing feature types for items deemed \"mountains\"",
     "sparse": true,
+    "fields": ["feature_type"],
     "authors": [
       "INLS490 \"Mountains\" group"
     ]
@@ -71,6 +75,7 @@
     "date": "2020-02-16",
     "description": "Reviewing feature types for items deemed \"water\"",
     "sparse": true,
+    "fields": ["feature_type"],
     "authors": [
       "INLS490 \"Water\" group"
     ]
@@ -80,6 +85,7 @@
     "filename": "versions/2020-03-20-ncpedia-counties.csv",
     "date": "2020-03-20",
     "description": "Adding counties to records",
+    "fields": ["county"],
     "authors": [
       "Patrick Golden"
     ]

@@ -40,8 +40,11 @@ def run(version_filename):
         prev_dataset = dataset_from_version(prev_path)
         sparse_opts = ''
         sparse_deps = ''
-        if version.get('sparse', False):
+        if 'sparse' in version:
             sparse_opts = f'-s {prev_dataset}'
+
+            if 'fields' in version:
+                sparse_opts += ' -f ' + ','.join(version['fields'])
             sparse_deps = f'{prev_dataset}'
         dataset_dep = f'''
 {dataset}: {version_filename} {sparse_deps}
