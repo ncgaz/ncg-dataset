@@ -41,14 +41,15 @@ dataset.json: $(VERSION_DATASETS)
 	cp $(lastword $^) $@
 
 dataset.ttl: dataset.json
-	$(PY3) src/convert.py -i jsonld -o turtle $< > $@
+	$(PY3) lib/convert.py -i jsonld -o turtle $< > $@
 
 dataset.csv: dataset.json
-	$(PY3) src/convert.py -i jsonld -o csv $< > $@
+	$(PY3) lib/convert.py -i jsonld -o csv $< > $@
 
 types.ttl: dataset.ttl
 	arq --data=dataset.ttl --query=./queries/nctypes.sparql > $@
-	rapper -q -i turtle -o turtle $@ | sponge $@
+	rapper -q -i turtle -o turtle $@ > $@.tmp
+	rm $@ && mv $@.tmp $@
 
 diffs/%/Makefile: versions/%
 	mkdir -p $(dir $@)

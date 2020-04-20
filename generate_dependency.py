@@ -45,19 +45,19 @@ def run(version_filename):
             sparse_deps = f'{prev_dataset}'
         dataset_dep = f'''
 {dataset}: {version_filename} {sparse_deps}
-\t$(PY3) src/convert.py {sparse_opts} $< > $@ || rm $@
+\t$(PY3) lib/convert.py {sparse_opts} $< > $@ || rm $@
 
 {patch}: {prev_dataset} {dataset}
-\t$(PY3) src/diff.py $< $(word 2,$^) > $@ || rm $@
+\t$(PY3) lib/diff.py $< $(word 2,$^) > $@ || rm $@
 '''.strip()
     else:
         dataset_dep = f'''
 {dataset}: {version_filename}
-\t$(PY3) src/convert.py $< > $@ || rm $@
+\t$(PY3) lib/convert.py $< > $@ || rm $@
 
 {patch}: {dataset}
 \techo {{\\"records\\":{{}}}} > $@.tmp
-\t$(PY3) src/diff.py $@.tmp $< > $@ || rm $@
+\t$(PY3) lib/diff.py $@.tmp $< > $@ || rm $@
 \trm $@.tmp
 '''.strip()
 
