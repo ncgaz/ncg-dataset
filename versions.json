@@ -89,5 +89,16 @@
     "authors": [
       "Patrick Golden"
     ]
+  },
+
+  {
+    "filename": "versions/2020-04-17-external-authorities.csv",
+    "date": "2020-04-17",
+    "description": "Adding links to LOC, Wikidata, WorldCat, VIAF",
+    "sparse": "true",
+    "fields": ["loc_id", "wikidata_id", "worldcat_id", "viaf_id"],
+    "authors": [
+      "Allison K."
+    ]
   }
 ]

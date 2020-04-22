@@ -1,0 +1,846 @@
+loc_id,loc_label,id,wikidata_id,worldcat_id,viaf_id
+http://id.loc.gov/authorities/names/n82079176,Montreat,NCG10298,http://www.wikidata.org/entity/Q736831,http://id.worldcat.org/fast/1220357,http://viaf.org/viaf/sourceID/LC%7Cn++82079176#skos:Concept
+http://id.loc.gov/authorities/names/n81104362,Nashville,NCG10646,http://www.wikidata.org/entity/Q599186,http://id.worldcat.org/fast/1215323|http://id.worldcat.org/fast/1348270,http://viaf.org/viaf/sourceID/LC%7Cn++81104362#skos:Concept
+http://id.loc.gov/authorities/names/n94033911,Beech Mountain,NCG00978,,http://id.worldcat.org/fast/1268698,http://viaf.org/viaf/sourceID/LC%7Cn++94033911#skos:Concept
+http://id.loc.gov/authorities/names/n2008041089,Willard,NCG16404,,http://id.worldcat.org/fast/1875766,http://viaf.org/viaf/sourceID/LC%7Cn+2008041089#skos:Concept
+http://id.loc.gov/authorities/names/n96040909,Sedalia,NCG13573,http://www.wikidata.org/entity/Q2024847,http://id.worldcat.org/fast/1276098,http://viaf.org/viaf/sourceID/LC%7Cn++96040909#skos:Concept
+http://id.loc.gov/authorities/names/n84136663,Danbury,NCG03966,http://www.wikidata.org/entity/Q2026186,http://id.worldcat.org/fast/1229780,http://viaf.org/viaf/sourceID/LC%7Cn++84136663#skos:Concept
+http://id.loc.gov/authorities/names/no2015101641,Glenville,NCG05911,,,http://viaf.org/viaf/sourceID/LC%7Cno2015101641#skos:Concept
+http://id.loc.gov/authorities/names/n84136687,Hot Springs,NCG07381,http://www.wikidata.org/entity/Q2024533,http://id.worldcat.org/fast/1229796,http://viaf.org/viaf/sourceID/LC%7Cn++84136687#skos:Concept
+http://id.loc.gov/authorities/names/n92091976,Manson,NCG09549,,http://id.worldcat.org/fast/1263002,http://viaf.org/viaf/sourceID/LC%7Cn++92091976#skos:Concept
+http://id.loc.gov/authorities/names/n82104616,Mitchell County,NCG10217,http://www.wikidata.org/entity/Q506337,http://id.worldcat.org/fast/1221208,http://viaf.org/viaf/sourceID/LC%7Cn++82104616#skos:Concept
+http://id.loc.gov/authorities/names/no2014027515,Patterson Springs,NCG11530,,,http://viaf.org/viaf/sourceID/LC%7Cno2014027515#skos:Concept
+http://id.loc.gov/authorities/names/n83030447,Saratoga,NCG13407,http://www.wikidata.org/entity/Q2028294,http://id.worldcat.org/fast/1224404,http://viaf.org/viaf/sourceID/LC%7Cn++83030447#skos:Concept
+http://id.loc.gov/authorities/names/n83030423,Rodanthe,NCG13046,http://www.wikidata.org/entity/Q2724058,http://id.worldcat.org/fast/1224384,http://viaf.org/viaf/sourceID/LC%7Cn++83030423#skos:Concept
+http://id.loc.gov/authorities/names/n83030556,Rowland,NCG13163,http://www.wikidata.org/entity/Q2023553,http://id.worldcat.org/fast/1224422,http://viaf.org/viaf/sourceID/LC%7Cn++83030556#skos:Concept
+http://id.loc.gov/authorities/subjects/sh2009005449,Lake James,NCG07980,,http://id.worldcat.org/fast/1879758,
+http://id.loc.gov/authorities/names/n81124960,Randleman,NCG12455,http://www.wikidata.org/entity/Q2029479,http://id.worldcat.org/fast/1216174,http://viaf.org/viaf/sourceID/LC%7Cn++81124960#skos:Concept
+http://id.loc.gov/authorities/names/n82079177,Carrboro,NCG02608,http://www.wikidata.org/entity/Q780330,http://id.worldcat.org/fast/1220358,http://viaf.org/viaf/sourceID/LC%7Cn++82079177#skos:Concept
+http://id.loc.gov/authorities/names/n2008021697,Cashiers (CA-shers),NCG02694,,http://id.worldcat.org/fast/1874762,http://viaf.org/viaf/sourceID/LC%7Cn+2008021697#skos:Concept
+http://id.loc.gov/authorities/names/no2015011489,Sapphire,NCG13403,,,http://viaf.org/viaf/sourceID/LC%7Cno2015011489#skos:Concept
+http://id.loc.gov/authorities/names/n2002029392,Fontana Village,NCG05377,,http://id.worldcat.org/fast/1296857,http://viaf.org/viaf/sourceID/LC%7Cn+2002029392#skos:Concept
+http://id.loc.gov/authorities/names/n81104361,Sharpsburg,NCG13682,http://www.wikidata.org/entity/Q2026787,http://id.worldcat.org/fast/1215322,http://viaf.org/viaf/sourceID/LC%7Cn++81104361#skos:Concept
+http://id.loc.gov/authorities/subjects/sh86000801,Bald Head,NCG00535,,http://id.worldcat.org/fast/1244258,
+http://id.loc.gov/authorities/names/n78022933,Manteo,NCG09550,,http://id.worldcat.org/fast/1203401,http://viaf.org/viaf/sourceID/LC%7Cn++78022933#skos:Concept
+http://id.loc.gov/authorities/names/n79141337,Burke County,NCG02188,http://www.wikidata.org/entity/Q504366,http://id.worldcat.org/fast/1207079,http://viaf.org/viaf/sourceID/LC%7Cn++79141337#skos:Concept
+http://id.loc.gov/authorities/names/n84055312,Windsor,NCG16501,http://www.wikidata.org/entity/Q2027103,http://id.worldcat.org/fast/1229094,http://viaf.org/viaf/sourceID/LC%7Cn++84055312#skos:Concept
+http://id.loc.gov/authorities/names/n83052585,Southern Shores,NCG14301,,http://id.worldcat.org/fast/1224971,http://viaf.org/viaf/sourceID/LC%7Cn++83052585#skos:Concept
+http://id.loc.gov/authorities/names/no2009086862,Grover,NCG06335,,http://id.worldcat.org/fast/1879614,http://viaf.org/viaf/sourceID/LC%7Cno2009086862#skos:Concept
+http://id.loc.gov/authorities/names/n93002015,Semora,NCG13594,http://www.wikidata.org/entity/Q3474660,http://id.worldcat.org/fast/1263878,http://viaf.org/viaf/sourceID/LC%7Cn++93002015#skos:Concept
+http://id.loc.gov/authorities/names/n84136688,Huntersville,NCG07488,http://www.wikidata.org/entity/Q2028183,http://id.worldcat.org/fast/1229797,http://viaf.org/viaf/sourceID/LC%7Cn++84136688#skos:Concept
+http://id.loc.gov/authorities/names/no2011066431,Winsteadville,NCG16521,,http://id.worldcat.org/fast/1884769,http://viaf.org/viaf/sourceID/LC%7Cno2011066431#skos:Concept
+http://id.loc.gov/authorities/names/n79065581,Rowan County (ROW-an),NCG13159,http://www.wikidata.org/entity/Q507966,http://id.worldcat.org/fast/1205498,http://viaf.org/viaf/sourceID/LC%7Cn++79065581#skos:Concept
+http://id.loc.gov/authorities/names/n82205661,Browns Summit,NCG01937,http://www.wikidata.org/entity/Q3474323,http://id.worldcat.org/fast/1223097,http://viaf.org/viaf/sourceID/LC%7Cn++82205661#skos:Concept
+http://id.loc.gov/authorities/names/n84136664,Cooleemee,NCG03486,http://www.wikidata.org/entity/Q2027212,http://id.worldcat.org/fast/1229781,http://viaf.org/viaf/sourceID/LC%7Cn++84136664#skos:Concept
+http://id.loc.gov/authorities/names/n79058695,Davidson County,NCG04022,http://www.wikidata.org/entity/Q511713,http://id.worldcat.org/fast/1205275,http://viaf.org/viaf/sourceID/LC%7Cn++79058695#skos:Concept
+http://id.loc.gov/authorities/names/n82104617,Madison County,NCG09486,http://www.wikidata.org/entity/Q506300,http://id.worldcat.org/fast/1221209,http://viaf.org/viaf/sourceID/LC%7Cn++82104617#skos:Concept
+http://id.loc.gov/authorities/names/n83030446,Rutherford College,NCG13230,http://www.wikidata.org/entity/Q2024050,http://id.worldcat.org/fast/1224403,http://viaf.org/viaf/sourceID/LC%7Cn++83030446#skos:Concept
+http://id.loc.gov/authorities/subjects/sh88001753,Ocracoke Island,NCG11104,http://www.wikidata.org/entity/Q16508281,http://id.worldcat.org/fast/1247548,
+http://id.loc.gov/authorities/names/n81124961,Ramseur,NCG12442,http://www.wikidata.org/entity/Q2027191,http://id.worldcat.org/fast/1216175,http://viaf.org/viaf/sourceID/LC%7Cn++81124961#skos:Concept
+http://id.loc.gov/authorities/names/n2010006999,McLeansville,NCG09866,,,http://viaf.org/viaf/sourceID/LC%7Cn+2010006999#skos:Concept
+http://id.loc.gov/authorities/names/n82079178,Cherry Point Marine Air Station,NCG02984,http://www.wikidata.org/entity/Q1031594,http://id.worldcat.org/fast/1220359,http://viaf.org/viaf/sourceID/LC%7Cn++82079178#skos:Concept
+http://id.loc.gov/authorities/names/n2003047297,Hobucken,NCG07108,http://www.wikidata.org/entity/Q5672425,http://id.worldcat.org/fast/1301565,http://viaf.org/viaf/sourceID/LC%7Cn+2003047297#skos:Concept
+http://id.loc.gov/authorities/subjects/sh85114586,Roanoke Island,NCG12873,http://www.wikidata.org/entity/Q1636839,http://id.worldcat.org/fast/1241356,
+http://id.loc.gov/authorities/names/n98037640,Love Valley,NCG09315,http://www.wikidata.org/entity/Q2025322,http://id.worldcat.org/fast/1283932,http://viaf.org/viaf/sourceID/LC%7Cn++98037640#skos:Concept
+http://id.loc.gov/authorities/names/no2015162110,Archer Lodge,NCG00303,,,http://viaf.org/viaf/sourceID/LC%7Cno2015162110#skos:Concept
+http://id.loc.gov/authorities/names/n84136685,Hobgood,NCG07104,http://www.wikidata.org/entity/Q2025487,http://id.worldcat.org/fast/1229795,http://viaf.org/viaf/sourceID/LC%7Cn++84136685#skos:Concept
+http://id.loc.gov/authorities/names/n2015070327,Red Mountain,NCG12564,,,http://viaf.org/viaf/sourceID/LC%7Cn+2015070327#skos:Concept
+http://id.loc.gov/authorities/names/n2007040935,West Bend,NCG16080,,http://id.worldcat.org/fast/1871460,http://viaf.org/viaf/sourceID/LC%7Cn+2007040935#skos:Concept
+http://id.loc.gov/authorities/names/n81112121,Lenoir,NCG08654,http://www.wikidata.org/entity/Q2028342,http://id.worldcat.org/fast/1215660,http://viaf.org/viaf/sourceID/LC%7Cn++81112121#skos:Concept
+http://id.loc.gov/authorities/names/n2004024160,Altapass,NCG00201,,http://id.worldcat.org/fast/1305544,http://viaf.org/viaf/sourceID/LC%7Cn+2004024160#skos:Concept
+http://id.loc.gov/authorities/names/n84195816,Lowell,NCG09346,http://www.wikidata.org/entity/Q2025666,http://id.worldcat.org/fast/1230740,http://viaf.org/viaf/sourceID/LC%7Cn++84195816#skos:Concept
+http://id.loc.gov/authorities/names/n92043857,Crains Creek,NCG12788,,http://id.worldcat.org/fast/1261799,http://viaf.org/viaf/sourceID/LC%7Cn++92043857#skos:Concept
+http://id.loc.gov/authorities/names/n82070869,Gaston,NCG05733,http://www.wikidata.org/entity/Q2370816,http://id.worldcat.org/fast/1220050,http://viaf.org/viaf/sourceID/LC%7Cn++82070869#skos:Concept
+http://id.loc.gov/authorities/names/n82079179,Brevard,NCG01781,http://www.wikidata.org/entity/Q2028837,http://id.worldcat.org/fast/1220360,http://viaf.org/viaf/sourceID/LC%7Cn++82079179#skos:Concept
+http://id.loc.gov/authorities/names/n93048473,Collettsville,NCG03363,http://www.wikidata.org/entity/Q5147117,http://id.worldcat.org/fast/1265099,http://viaf.org/viaf/sourceID/LC%7Cn++93048473#skos:Concept
+http://id.loc.gov/authorities/names/no2008102676,Barnardsville,NCG00659,,http://id.worldcat.org/fast/1876025,http://viaf.org/viaf/sourceID/LC%7Cno2008102676#skos:Concept
+http://id.loc.gov/authorities/names/n80135123,Falcon,NCG05088,http://www.wikidata.org/entity/Q1865165,http://id.worldcat.org/fast/1210457,http://viaf.org/viaf/sourceID/LC%7Cn++80135123#skos:Concept
+http://id.loc.gov/authorities/names/n84112432,East Arcadia,NCG04645,http://www.wikidata.org/entity/Q2026827,http://id.worldcat.org/fast/1229647,http://viaf.org/viaf/sourceID/LC%7Cn++84112432#skos:Concept
+http://id.loc.gov/authorities/names/no2013056779,Eli Whitney,NCG04826,http://www.wikidata.org/entity/Q2919036,http://id.worldcat.org/fast/1890466,http://viaf.org/viaf/sourceID/LC%7Cno2013056779#skos:Concept
+http://id.loc.gov/authorities/names/n84055358,Badin,NCG00486,http://www.wikidata.org/entity/Q2026281,http://id.worldcat.org/fast/1229331,http://viaf.org/viaf/sourceID/LC%7Cn++84055358#skos:Concept
+http://id.loc.gov/authorities/names/no2009086860,Waco,NCG15755,,http://id.worldcat.org/fast/1879613,http://viaf.org/viaf/sourceID/LC%7Cno2009086860#skos:Concept
+http://id.loc.gov/authorities/names/n82037754,Dunn,NCG04560,http://www.wikidata.org/entity/Q1019682,http://id.worldcat.org/fast/1218898,http://viaf.org/viaf/sourceID/LC%7Cn++82037754#skos:Concept
+http://id.loc.gov/authorities/names/n84136662,Catawba,NCG02734,http://www.wikidata.org/entity/Q2024825,http://id.worldcat.org/fast/1229779,http://viaf.org/viaf/sourceID/LC%7Cn++84136662#skos:Concept
+http://id.loc.gov/authorities/names/no2015140345,Poplar Branch,NCG12098,,,http://viaf.org/viaf/sourceID/LC%7Cno2015140345#skos:Concept
+http://id.loc.gov/authorities/names/n2004106380,Hampstead,NCG06519,,http://id.worldcat.org/fast/1305201,http://viaf.org/viaf/sourceID/LC%7Cn+2004106380#skos:Concept
+http://id.loc.gov/authorities/names/n79005676,Wake County,NCG15782,http://www.wikidata.org/entity/Q506215,http://id.worldcat.org/fast/1204274,http://viaf.org/viaf/sourceID/LC%7Cn++79005676#skos:Concept
+http://id.loc.gov/authorities/names/n92091975,Ridgeway,NCG12796,,http://id.worldcat.org/fast/1263001,http://viaf.org/viaf/sourceID/LC%7Cn++92091975#skos:Concept
+http://id.loc.gov/authorities/names/n84145731,Woodville,NCG16642,,http://id.worldcat.org/fast/1229960,http://viaf.org/viaf/sourceID/LC%7Cn++84145731#skos:Concept
+http://id.loc.gov/authorities/names/n83030444,Lucama,NCG09386,http://www.wikidata.org/entity/Q543441,http://id.worldcat.org/fast/1224402,http://viaf.org/viaf/sourceID/LC%7Cn++83030444#skos:Concept
+http://id.loc.gov/authorities/names/n88655968,Sherrills Ford,NCG13773,http://www.wikidata.org/entity/Q2023870,http://id.worldcat.org/fast/1248325,http://viaf.org/viaf/sourceID/LC%7Cn++88655968#skos:Concept
+http://id.loc.gov/authorities/names/n81007342,Cherokee County,NCG02958,http://www.wikidata.org/entity/Q484664,http://id.worldcat.org/fast/1211520,http://viaf.org/viaf/sourceID/LC%7Cn++81007342#skos:Concept
+http://id.loc.gov/authorities/names/n81121783,Hamilton,NCG06504,http://www.wikidata.org/entity/Q2028285,http://id.worldcat.org/fast/1216025,http://viaf.org/viaf/sourceID/LC%7Cn++81121783#skos:Concept
+http://id.loc.gov/authorities/names/n84136598,Pineville,NCG11863,http://www.wikidata.org/entity/Q2029607,http://id.worldcat.org/fast/1229666,http://viaf.org/viaf/sourceID/LC%7Cn++84136598#skos:Concept
+http://id.loc.gov/authorities/names/n79053649,Weldon,NCG16048,http://www.wikidata.org/entity/Q2028446,http://id.worldcat.org/fast/1205141,http://viaf.org/viaf/sourceID/LC%7Cn++79053649#skos:Concept
+http://id.loc.gov/authorities/names/n82070864,Kannapolis,NCG08089,http://www.wikidata.org/entity/Q2029146,http://id.worldcat.org/fast/1348263|http://id.worldcat.org/fast/1220047,http://viaf.org/viaf/sourceID/LC%7Cn++82070864#skos:Concept
+http://id.loc.gov/authorities/names/n93024173,Supply,NCG14846,http://www.wikidata.org/entity/Q7644509,http://id.worldcat.org/fast/1264408,http://viaf.org/viaf/sourceID/LC%7Cn++93024173#skos:Concept
+http://id.loc.gov/authorities/names/n80070472,Bertie County (BURR-tee),NCG01126,http://www.wikidata.org/entity/Q504335,http://id.worldcat.org/fast/1208947,http://viaf.org/viaf/sourceID/LC%7Cn++80070472#skos:Concept
+http://id.loc.gov/authorities/subjects/sh85023079,Cherokee Indian Reservation,NCG02961,,http://id.worldcat.org/fast/1244907,
+http://id.loc.gov/authorities/names/n92117175,Laurel Springs,NCG08533,,http://id.worldcat.org/fast/1263687,http://viaf.org/viaf/sourceID/LC%7Cn++92117175#skos:Concept
+http://id.loc.gov/authorities/names/n2005044243,Sunset Beach,NCG14839,http://www.wikidata.org/entity/Q2025406,http://id.worldcat.org/fast/1308104,http://viaf.org/viaf/sourceID/LC%7Cn+2005044243#skos:Concept
+http://id.loc.gov/authorities/names/no2016032306,St. Helena,NCG14445,,,http://viaf.org/viaf/sourceID/LC%7Cno2016032306#skos:Concept
+http://id.loc.gov/authorities/names/n84136684,River Bend,NCG12843,http://www.wikidata.org/entity/Q2022885,http://id.worldcat.org/fast/1229592,http://viaf.org/viaf/sourceID/LC%7Cn++84136684#skos:Concept
+http://id.loc.gov/authorities/names/n84136599,Pollocksville,NCG12056,http://www.wikidata.org/entity/Q2027412,http://id.worldcat.org/fast/1229667,http://viaf.org/viaf/sourceID/LC%7Cn++84136599#skos:Concept
+http://id.loc.gov/authorities/names/no2015084601,Como,NCG03399,,,http://viaf.org/viaf/sourceID/LC%7Cno2015084601#skos:Concept
+http://id.loc.gov/authorities/names/n2006002983,Sneads Ferry,NCG14123,http://www.wikidata.org/entity/Q2023880,http://id.worldcat.org/fast/1865295,http://viaf.org/viaf/sourceID/LC%7Cn+2006002983#skos:Concept
+http://id.loc.gov/authorities/names/n83030466,Red Springs,NCG12575,http://www.wikidata.org/entity/Q2026256,http://id.worldcat.org/fast/1224415,http://viaf.org/viaf/sourceID/LC%7Cn++83030466#skos:Concept
+http://id.loc.gov/authorities/names/no2015138201,Kelford,NCG08127,,,http://viaf.org/viaf/sourceID/LC%7Cno2015138201#skos:Concept
+http://id.loc.gov/authorities/names/n83030442,Black Creek,NCG01403,http://www.wikidata.org/entity/Q1845920,http://id.worldcat.org/fast/1224400,http://viaf.org/viaf/sourceID/LC%7Cn++83030442#skos:Concept
+http://id.loc.gov/authorities/names/n82018395,Lee County,NCG08598,http://www.wikidata.org/entity/Q507838,http://id.worldcat.org/fast/1218086,http://viaf.org/viaf/sourceID/LC%7Cn++82018395#skos:Concept
+http://id.loc.gov/authorities/names/n92005272,Cliffside,NCG03211,http://www.wikidata.org/entity/Q5772590,http://id.worldcat.org/fast/1260795,http://viaf.org/viaf/sourceID/LC%7Cn++92005272#skos:Concept
+http://id.loc.gov/authorities/names/no2012134741,Alliance,NCG00169,,http://id.worldcat.org/fast/1889108,http://viaf.org/viaf/sourceID/LC%7Cno2012134741#skos:Concept
+http://id.loc.gov/authorities/names/n82047999,Onslow County,NCG11233,http://www.wikidata.org/entity/Q508220,http://id.worldcat.org/fast/1219354,http://viaf.org/viaf/sourceID/LC%7Cn++82047999#skos:Concept
+http://id.loc.gov/authorities/names/n82076170,Cary,NCG02669,,http://id.worldcat.org/fast/1348230|http://id.worldcat.org/fast/1220245,http://viaf.org/viaf/sourceID/LC%7Cn++82076170#skos:Concept
+http://id.loc.gov/authorities/names/n84112326,Gibson,NCG05805,http://www.wikidata.org/entity/Q2024009,http://id.worldcat.org/fast/1229300,http://viaf.org/viaf/sourceID/LC%7Cn++84112326#skos:Concept
+http://id.loc.gov/authorities/names/n81130808,Alexander Mills,NCG00131,http://www.wikidata.org/entity/Q4719658,http://id.worldcat.org/fast/1216446,http://viaf.org/viaf/sourceID/LC%7Cn++81130808#skos:Concept
+http://id.loc.gov/authorities/names/n81090070,Waynesville,NCG15996,http://www.wikidata.org/entity/Q2022289,http://id.worldcat.org/fast/1348290|http://id.worldcat.org/fast/1214693,http://viaf.org/viaf/sourceID/LC%7Cn++81090070#skos:Concept
+http://id.loc.gov/authorities/names/n84055315,Minnesott Beach,NCG10190,http://www.wikidata.org/entity/Q1897700,http://id.worldcat.org/fast/1229095,http://viaf.org/viaf/sourceID/LC%7Cn++84055315#skos:Concept
+http://id.loc.gov/authorities/names/n84055400,Boonville,NCG01666,http://www.wikidata.org/entity/Q1973567,http://id.worldcat.org/fast/1229737,http://viaf.org/viaf/sourceID/LC%7Cn++84055400#skos:Concept
+http://id.loc.gov/authorities/names/no2015133892,Stem,NCG14586,,,http://viaf.org/viaf/sourceID/LC%7Cno2015133892#skos:Concept
+http://id.loc.gov/authorities/names/n80115449,New Hanover County,NCG10740,http://www.wikidata.org/entity/Q508209,http://id.worldcat.org/fast/1210030,http://viaf.org/viaf/sourceID/LC%7Cn++80115449#skos:Concept
+http://id.loc.gov/authorities/names/n77011876,Avalon,NCG00431,,http://id.worldcat.org/fast/1203152,http://viaf.org/viaf/sourceID/LC%7Cn++77011876#skos:Concept
+http://id.loc.gov/authorities/names/no2011110435,Topsail Beach,NCG15281,http://www.wikidata.org/entity/Q2025527,http://id.worldcat.org/fast/1885341,http://viaf.org/viaf/sourceID/LC%7Cno2011110435#skos:Concept
+http://id.loc.gov/authorities/names/no2017135342,Level Plains,NCG08681,,,http://viaf.org/viaf/sourceID/LC%7Cno2017135342#skos:Concept
+http://id.loc.gov/authorities/names/n82070889,St. Pauls,NCG09725,http://www.wikidata.org/entity/Q651403,http://id.worldcat.org/fast/1220064,http://viaf.org/viaf/sourceID/LC%7Cn++82070889#skos:Concept
+http://id.loc.gov/authorities/names/n80117072,Caswell County,NCG02714,http://www.wikidata.org/entity/Q504428,http://id.worldcat.org/fast/1210071,http://viaf.org/viaf/sourceID/LC%7Cn++80117072#skos:Concept
+http://id.loc.gov/authorities/names/n82070865,Hertford,NCG06905,http://www.wikidata.org/entity/Q389316,http://id.worldcat.org/fast/1220048,http://viaf.org/viaf/sourceID/LC%7Cn++82070865#skos:Concept
+http://id.loc.gov/authorities/names/n88079886,Clemmons,NCG03195,http://www.wikidata.org/entity/Q1100440,http://id.worldcat.org/fast/1247598,http://viaf.org/viaf/sourceID/LC%7Cn++88079886#skos:Concept
+http://id.loc.gov/authorities/names/n81101532,Chimney Rock,NCG03059,,http://id.worldcat.org/fast/1215195,http://viaf.org/viaf/sourceID/LC%7Cn++81101532#skos:Concept
+http://id.loc.gov/authorities/names/n92010226,Rolesville,NCG13071,http://www.wikidata.org/entity/Q2025227,http://id.worldcat.org/fast/1260910,http://viaf.org/viaf/sourceID/LC%7Cn++92010226#skos:Concept
+http://id.loc.gov/authorities/names/n82047976,Swansboro,NCG14893,http://www.wikidata.org/entity/Q2022530,http://id.worldcat.org/fast/1219334,http://viaf.org/viaf/sourceID/LC%7Cn++82047976#skos:Concept
+http://id.loc.gov/authorities/names/n84136681,Fair Bluff,NCG05064,http://www.wikidata.org/entity/Q2024862,http://id.worldcat.org/fast/1229794,http://viaf.org/viaf/sourceID/LC%7Cn++84136681#skos:Concept
+http://id.loc.gov/authorities/names/n79145717,Henderson County,NCG06858,http://www.wikidata.org/entity/Q511747,http://id.worldcat.org/fast/1207167,http://viaf.org/viaf/sourceID/LC%7Cn++79145717#skos:Concept
+http://id.loc.gov/authorities/names/n84136597,Morven,NCG10392,http://www.wikidata.org/entity/Q1837894,http://id.worldcat.org/fast/1229665,http://viaf.org/viaf/sourceID/LC%7Cn++84136597#skos:Concept
+http://id.loc.gov/authorities/names/n82102456,Montgomery County,NCG10292,http://www.wikidata.org/entity/Q506697,http://id.worldcat.org/fast/1221121,http://viaf.org/viaf/sourceID/LC%7Cn++82102456#skos:Concept
+http://id.loc.gov/authorities/names/no2017116188,Speed,NCG14335,,,http://viaf.org/viaf/sourceID/LC%7Cno2017116188#skos:Concept
+http://id.loc.gov/authorities/names/n83052587,Duck,NCG04506,,http://id.worldcat.org/fast/1224973,http://viaf.org/viaf/sourceID/LC%7Cn++83052587#skos:Concept
+http://id.loc.gov/authorities/names/n88172570,Bridgewater,NCG01814,,http://id.worldcat.org/fast/1252277,http://viaf.org/viaf/sourceID/LC%7Cn++88172570#skos:Concept
+http://id.loc.gov/authorities/names/no2014150362,Bricks,NCG01802,,,http://viaf.org/viaf/sourceID/LC%7Cno2014150362#skos:Concept
+http://id.loc.gov/authorities/names/n82070866,Henderson,NCG06856,http://www.wikidata.org/entity/Q13218986,http://id.worldcat.org/fast/1220049,http://viaf.org/viaf/sourceID/LC%7Cn++82070866#skos:Concept
+http://id.loc.gov/authorities/names/n2006051886,Chowan Beach,NCG03097,,http://id.worldcat.org/fast/1867439,http://viaf.org/viaf/sourceID/LC%7Cn+2006051886#skos:Concept
+http://id.loc.gov/authorities/names/n83030464,Pembroke,NCG11621,http://www.wikidata.org/entity/Q930141,http://id.worldcat.org/fast/1224414,http://viaf.org/viaf/sourceID/LC%7Cn++83030464#skos:Concept
+http://id.loc.gov/authorities/names/no2011039732,Lemon Springs,NCG08649,,http://id.worldcat.org/fast/1884350,http://viaf.org/viaf/sourceID/LC%7Cno2011039732#skos:Concept
+http://id.loc.gov/authorities/names/n84112328,Wagram,NCG15775,http://www.wikidata.org/entity/Q2022351,http://id.worldcat.org/fast/1229301,http://viaf.org/viaf/sourceID/LC%7Cn++84112328#skos:Concept
+http://id.loc.gov/authorities/names/n84136593,Newton Grove,NCG10808,http://www.wikidata.org/entity/Q2023204,http://id.worldcat.org/fast/1229587,http://viaf.org/viaf/sourceID/LC%7Cn++84136593#skos:Concept
+http://id.loc.gov/authorities/names/n84136594,Newland,NCG10789,http://www.wikidata.org/entity/Q2026131,http://id.worldcat.org/fast/1229664,http://viaf.org/viaf/sourceID/LC%7Cn++84136594#skos:Concept
+http://id.loc.gov/authorities/names/n82020169,Carteret County,NCG02643,http://www.wikidata.org/entity/Q497817,http://id.worldcat.org/fast/1218240,http://viaf.org/viaf/sourceID/LC%7Cn++82020169#skos:Concept
+http://id.loc.gov/authorities/names/n82105570,Swain County,NCG14862,http://www.wikidata.org/entity/Q496197,http://id.worldcat.org/fast/1221289,http://viaf.org/viaf/sourceID/LC%7Cn++82105570#skos:Concept
+http://id.loc.gov/authorities/names/n82081606,Pittsboro,NCG11943,http://www.wikidata.org/entity/Q212559,http://id.worldcat.org/fast/1220436,http://viaf.org/viaf/sourceID/LC%7Cn++82081606#skos:Concept
+http://id.loc.gov/authorities/subjects/sh90003197,Albemarle Sound,NCG00110,http://www.wikidata.org/entity/Q1441345,http://id.worldcat.org/fast/1255968|http://id.worldcat.org/fast/1348217,
+http://id.loc.gov/authorities/names/n84038902,Snow Camp,NCG14132,http://www.wikidata.org/entity/Q7548201,http://id.worldcat.org/fast/1228816|http://id.worldcat.org/fast/1348282,http://viaf.org/viaf/sourceID/LC%7Cn++84038902#skos:Concept
+http://id.loc.gov/authorities/names/n84112329,Cape Carteret,NCG02545,http://www.wikidata.org/entity/Q2023179,http://id.worldcat.org/fast/1229156,http://viaf.org/viaf/sourceID/LC%7Cn++84112329#skos:Concept
+http://id.loc.gov/authorities/names/no2015109700,Mills River,NCG10141,,,http://viaf.org/viaf/sourceID/LC%7Cno2015109700#skos:Concept
+http://id.loc.gov/authorities/names/no2015040100,Draper,NCG04450,,,http://viaf.org/viaf/sourceID/LC%7Cno2015040100#skos:Concept
+http://id.loc.gov/authorities/names/n82081607,Bridgeton,NCG01813,http://www.wikidata.org/entity/Q2024803,http://id.worldcat.org/fast/1220437,http://viaf.org/viaf/sourceID/LC%7Cn++82081607#skos:Concept
+http://id.loc.gov/authorities/names/no2018093233,White Cross,NCG16201,,,http://viaf.org/viaf/sourceID/LC%7Cno2018093233#skos:Concept
+http://id.loc.gov/authorities/names/n83030429,Waves,NCG15983,http://www.wikidata.org/entity/Q2724071,http://id.worldcat.org/fast/1224389,http://viaf.org/viaf/sourceID/LC%7Cn++83030429#skos:Concept
+http://id.loc.gov/authorities/names/n80025202,Germanton,NCG05781,http://www.wikidata.org/entity/Q5552005,http://id.worldcat.org/fast/1207963,http://viaf.org/viaf/sourceID/LC%7Cn++80025202#skos:Concept
+http://id.loc.gov/authorities/names/no2015143676,Higdonville,NCG06989,,,http://viaf.org/viaf/sourceID/LC%7Cno2015143676#skos:Concept
+http://id.loc.gov/authorities/names/n98023507,North Charlotte,NCG10907,,http://id.worldcat.org/fast/1283427,http://viaf.org/viaf/sourceID/LC%7Cn++98023507#skos:Concept
+http://id.loc.gov/authorities/names/n2005007080,Camp Mackall,NCG02445,http://www.wikidata.org/entity/Q1029871,http://id.worldcat.org/fast/1306721,http://viaf.org/viaf/sourceID/LC%7Cn+2005007080#skos:Concept
+http://id.loc.gov/authorities/names/n79105961,Franklin County,NCG05530,http://www.wikidata.org/entity/Q502526,http://id.worldcat.org/fast/1206370,http://viaf.org/viaf/sourceID/LC%7Cn++79105961#skos:Concept
+http://id.loc.gov/authorities/names/n81104015,Granville County,NCG06090,http://www.wikidata.org/entity/Q502503,http://id.worldcat.org/fast/1215302,http://viaf.org/viaf/sourceID/LC%7Cn++81104015#skos:Concept
+http://id.loc.gov/authorities/names/n00140110,Biltmore Forest,NCG01362,http://www.wikidata.org/entity/Q920137,http://id.worldcat.org/fast/1291295,http://viaf.org/viaf/sourceID/LC%7Cn++00140110#skos:Concept
+http://id.loc.gov/authorities/names/n92017722,Icard,NCG07550,http://www.wikidata.org/entity/Q1859872,http://id.worldcat.org/fast/1261130,http://viaf.org/viaf/sourceID/LC%7Cn++92017722#skos:Concept
+http://id.loc.gov/authorities/names/n83232943,Murfreesboro,NCG10563,http://www.wikidata.org/entity/Q2026638,http://id.worldcat.org/fast/1227274,http://viaf.org/viaf/sourceID/LC%7Cn++83232943#skos:Concept
+http://id.loc.gov/authorities/names/n82076175,Mayodan,NCG09754,http://www.wikidata.org/entity/Q1873157,http://id.worldcat.org/fast/1220250,http://viaf.org/viaf/sourceID/LC%7Cn++82076175#skos:Concept
+http://id.loc.gov/authorities/names/no93002130,Onslow Beach,NCG11232,,http://id.worldcat.org/fast/1263965,http://viaf.org/viaf/sourceID/LC%7Cno+93002130#skos:Concept
+http://id.loc.gov/authorities/names/no2018044262,Morris Field Air Base,NCG10370,,,http://viaf.org/viaf/sourceID/LC%7Cno2018044262#skos:Concept
+http://id.loc.gov/authorities/names/n82116624,Warren County,NCG15885,http://www.wikidata.org/entity/Q507853,http://id.worldcat.org/fast/1221594,http://viaf.org/viaf/sourceID/LC%7Cn++82116624#skos:Concept
+http://id.loc.gov/authorities/names/n82070886,Thomasville,NCG15118,http://www.wikidata.org/entity/Q631186,http://id.worldcat.org/fast/1220063,http://viaf.org/viaf/sourceID/LC%7Cn++82070886#skos:Concept
+http://id.loc.gov/authorities/names/n82140154,Wrightsville Beach,NCG16691,http://www.wikidata.org/entity/Q2025155,http://id.worldcat.org/fast/1222234,http://viaf.org/viaf/sourceID/LC%7Cn++82140154#skos:Concept
+http://id.loc.gov/authorities/names/no2008069545,Catfish,NCG02752,,http://id.worldcat.org/fast/1875339,http://viaf.org/viaf/sourceID/LC%7Cno2008069545#skos:Concept
+http://id.loc.gov/authorities/names/n84136592,Norlina,NCG10885,http://www.wikidata.org/entity/Q2027336,http://id.worldcat.org/fast/1229663,http://viaf.org/viaf/sourceID/LC%7Cn++84136592#skos:Concept
+http://id.loc.gov/authorities/names/n98069969,Green Park,NCG06227,,http://id.worldcat.org/fast/1285017,http://viaf.org/viaf/sourceID/LC%7Cn++98069969#skos:Concept
+http://id.loc.gov/authorities/names/n2002064905,Smithville,NCG14085,,http://id.worldcat.org/fast/1296243,http://viaf.org/viaf/sourceID/LC%7Cn+2002064905#skos:Concept
+http://id.loc.gov/authorities/names/no2014072165,Chimney Rock,NCG03059,,http://id.worldcat.org/fast/1920832,http://viaf.org/viaf/sourceID/LC%7Cno2014072165#skos:Concept
+http://id.loc.gov/authorities/names/n79059342,Greensboro,NCG06266,http://www.wikidata.org/entity/Q49238,http://id.worldcat.org/fast/1348250|http://id.worldcat.org/fast/1348251|http://id.worldcat.org/fast/1205296,http://viaf.org/viaf/sourceID/LC%7Cn++79059342#skos:Concept
+http://id.loc.gov/authorities/names/n82076174,Aberdeen,NCG00023,http://www.wikidata.org/entity/Q607120,http://id.worldcat.org/fast/1220249,http://viaf.org/viaf/sourceID/LC%7Cn++82076174#skos:Concept
+http://id.loc.gov/authorities/names/n83023578,Hookerton,NCG07262,http://www.wikidata.org/entity/Q967477,http://id.worldcat.org/fast/1224114,http://viaf.org/viaf/sourceID/LC%7Cn++83023578#skos:Concept
+http://id.loc.gov/authorities/names/no2016043798,Hatteras,NCG06696,http://www.wikidata.org/entity/Q2509872,,http://viaf.org/viaf/sourceID/LC%7Cno2016043798#skos:Concept
+http://id.loc.gov/authorities/subjects/sh99002249,Grandfather Mountain,NCG06059,http://www.wikidata.org/entity/Q833467,http://id.worldcat.org/fast/1287613,
+http://id.loc.gov/authorities/names/no2016164650,Red Cross,NCG12554,,,http://viaf.org/viaf/sourceID/LC%7Cno2016164650#skos:Concept
+http://id.loc.gov/authorities/names/n85307744,Woodfin,NCG16614,http://www.wikidata.org/entity/Q2025657,http://id.worldcat.org/fast/1234845,http://viaf.org/viaf/sourceID/LC%7Cn++85307744#skos:Concept
+http://id.loc.gov/authorities/names/n79117179,Buncombe County,NCG02163,http://www.wikidata.org/entity/Q504360,http://id.worldcat.org/fast/1206566,http://viaf.org/viaf/sourceID/LC%7Cn++79117179#skos:Concept
+http://id.loc.gov/authorities/names/no2014036622,Centerville,NCG02847,,,http://viaf.org/viaf/sourceID/LC%7Cno2014036622#skos:Concept
+http://id.loc.gov/authorities/names/n80082459,Brunswick County,NCG01952,http://www.wikidata.org/entity/Q504329,http://id.worldcat.org/fast/1209222,http://viaf.org/viaf/sourceID/LC%7Cn++80082459#skos:Concept
+http://id.loc.gov/authorities/names/n84055291,Ocean Isle Beach,NCG11098,http://www.wikidata.org/entity/Q2024499,http://id.worldcat.org/fast/1229048,http://viaf.org/viaf/sourceID/LC%7Cn++84055291#skos:Concept
+http://id.loc.gov/authorities/names/no92009802,Leaksville,NCG08566,,http://id.worldcat.org/fast/1261928,http://viaf.org/viaf/sourceID/LC%7Cno+92009802#skos:Concept
+http://id.loc.gov/authorities/names/n92115986,Roaring River,NCG12892,http://www.wikidata.org/entity/Q14708159,http://id.worldcat.org/fast/1263646,http://viaf.org/viaf/sourceID/LC%7Cn++92115986#skos:Concept
+http://id.loc.gov/authorities/names/n82017637,Durham County,NCG04586,http://www.wikidata.org/entity/Q428298,http://id.worldcat.org/fast/1218049,http://viaf.org/viaf/sourceID/LC%7Cn++82017637#skos:Concept
+http://id.loc.gov/authorities/names/n83227725,Haw River,NCG06723,,http://id.worldcat.org/fast/1226975,http://viaf.org/viaf/sourceID/LC%7Cn++83227725#skos:Concept
+http://id.loc.gov/authorities/names/n82076176,Pinebluff,NCG11850,http://www.wikidata.org/entity/Q2024080,http://id.worldcat.org/fast/1220251,http://viaf.org/viaf/sourceID/LC%7Cn++82076176#skos:Concept
+http://id.loc.gov/authorities/names/no2011039668,Lansing,NCG08476,,http://id.worldcat.org/fast/1884346,http://viaf.org/viaf/sourceID/LC%7Cno2011039668#skos:Concept
+http://id.loc.gov/authorities/names/n83030402,Scotland Neck,NCG13511,http://www.wikidata.org/entity/Q2025868,http://id.worldcat.org/fast/1224371,http://viaf.org/viaf/sourceID/LC%7Cn++83030402#skos:Concept
+http://id.loc.gov/authorities/names/no2008077546,Elmores Crossroads,NCG04909,,http://id.worldcat.org/fast/1875471,http://viaf.org/viaf/sourceID/LC%7Cno2008077546#skos:Concept
+http://id.loc.gov/authorities/names/no97032664,Sophia,NCG14185,http://www.wikidata.org/entity/Q3473494,http://id.worldcat.org/fast/1280454,http://viaf.org/viaf/sourceID/LC%7Cno+97032664#skos:Concept
+http://id.loc.gov/authorities/names/no2008083569,Pomona,NCG12065,,http://id.worldcat.org/fast/1875614,http://viaf.org/viaf/sourceID/LC%7Cno2008083569#skos:Concept
+http://id.loc.gov/authorities/names/n81132398,High Point,NCG07014,http://www.wikidata.org/entity/Q631194,http://id.worldcat.org/fast/1348260|http://id.worldcat.org/fast/1348259|http://id.worldcat.org/fast/1216513|http://id.worldcat.org/fast/1348258,http://viaf.org/viaf/sourceID/LC%7Cn++81132398#skos:Concept
+http://id.loc.gov/authorities/names/n83030449,Sims,NCG13947,,http://id.worldcat.org/fast/1224405,http://viaf.org/viaf/sourceID/LC%7Cn++83030449#skos:Concept
+http://id.loc.gov/authorities/names/no2011039669,Stella,NCG14585,,http://id.worldcat.org/fast/1884347,http://viaf.org/viaf/sourceID/LC%7Cno2011039669#skos:Concept
+http://id.loc.gov/authorities/names/n83030425,Seaboard,NCG13550,http://www.wikidata.org/entity/Q2026315,http://id.worldcat.org/fast/1224386,http://viaf.org/viaf/sourceID/LC%7Cn++83030425#skos:Concept
+http://id.loc.gov/authorities/names/n84136706,Parkton,NCG11482,http://www.wikidata.org/entity/Q1977948,http://id.worldcat.org/fast/1229676,http://viaf.org/viaf/sourceID/LC%7Cn++84136706#skos:Concept
+http://id.loc.gov/authorities/names/n82070882,Apex,NCG00273,,http://id.worldcat.org/fast/1220062,http://viaf.org/viaf/sourceID/LC%7Cn++82070882#skos:Concept
+http://id.loc.gov/authorities/names/n82017635,Hertford County,NCG06906,http://www.wikidata.org/entity/Q751202,http://id.worldcat.org/fast/1218047,http://viaf.org/viaf/sourceID/LC%7Cn++82017635#skos:Concept
+http://id.loc.gov/authorities/names/n88134609,Warrensville,NCG15891,http://www.wikidata.org/entity/Q7970655,http://id.worldcat.org/fast/1247137|http://id.worldcat.org/fast/1348288,http://viaf.org/viaf/sourceID/LC%7Cn++88134609#skos:Concept
+http://id.loc.gov/authorities/names/n80104003,Union County,NCG15597,http://www.wikidata.org/entity/Q508247,http://id.worldcat.org/fast/1209727,http://viaf.org/viaf/sourceID/LC%7Cn++80104003#skos:Concept
+http://id.loc.gov/authorities/names/n94034189,Richfield,NCG12751,http://www.wikidata.org/entity/Q2025751,http://id.worldcat.org/fast/1268703,http://viaf.org/viaf/sourceID/LC%7Cn++94034189#skos:Concept
+http://id.loc.gov/authorities/names/n82084453,Princeville,NCG12244,http://www.wikidata.org/entity/Q2026249,http://id.worldcat.org/fast/1220585,http://viaf.org/viaf/sourceID/LC%7Cn++82084453#skos:Concept
+http://id.loc.gov/authorities/names/n83030400,Rich Square,NCG12742,http://www.wikidata.org/entity/Q2023296,http://id.worldcat.org/fast/1224369,http://viaf.org/viaf/sourceID/LC%7Cn++83030400#skos:Concept
+http://id.loc.gov/authorities/names/n83030424,Salvo,NCG13309,http://www.wikidata.org/entity/Q3473969,http://id.worldcat.org/fast/1224385,http://viaf.org/viaf/sourceID/LC%7Cn++83030424#skos:Concept
+http://id.loc.gov/authorities/names/n84136707,Old Fort,NCG11158,http://www.wikidata.org/entity/Q2024235,http://id.worldcat.org/fast/1229677,http://viaf.org/viaf/sourceID/LC%7Cn++84136707#skos:Concept
+http://id.loc.gov/authorities/names/n94002437,Potecasi (potty-casey),NCG12174,,http://id.worldcat.org/fast/1267877,http://viaf.org/viaf/sourceID/LC%7Cn++94002437#skos:Concept
+http://id.loc.gov/authorities/names/n82020160,Duplin County (DOO-plin),NCG04573,http://www.wikidata.org/entity/Q511788,http://id.worldcat.org/fast/1218233,http://viaf.org/viaf/sourceID/LC%7Cn++82020160#skos:Concept
+http://id.loc.gov/authorities/names/n85146910,Lawndale,NCG08541,http://www.wikidata.org/entity/Q2022849,http://id.worldcat.org/fast/1233556,http://viaf.org/viaf/sourceID/LC%7Cn++85146910#skos:Concept
+http://id.loc.gov/authorities/names/n84055296,Brookford,NCG01888,http://www.wikidata.org/entity/Q2025116,http://id.worldcat.org/fast/1229049,http://viaf.org/viaf/sourceID/LC%7Cn++84055296#skos:Concept
+http://id.loc.gov/authorities/names/no00051021,Crossnore,NCG03823,http://www.wikidata.org/entity/Q2026723,http://id.worldcat.org/fast/1291011,http://viaf.org/viaf/sourceID/LC%7Cno+00051021#skos:Concept
+http://id.loc.gov/authorities/names/no99064552,Atlantic,NCG00401,http://www.wikidata.org/entity/Q4026311,http://id.worldcat.org/fast/1288503,http://viaf.org/viaf/sourceID/LC%7Cno+99064552#skos:Concept
+http://id.loc.gov/authorities/names/n82045025,Grimesland,NCG06301,http://www.wikidata.org/entity/Q2024580,http://id.worldcat.org/fast/1219213,http://viaf.org/viaf/sourceID/LC%7Cn++82045025#skos:Concept
+http://id.loc.gov/authorities/names/n82074518,West Jefferson,NCG16117,http://www.wikidata.org/entity/Q2028357,http://id.worldcat.org/fast/1220137,http://viaf.org/viaf/sourceID/LC%7Cn++82074518#skos:Concept
+http://id.loc.gov/authorities/names/n81130810,Bostic,NCG01676,http://www.wikidata.org/entity/Q2023939,http://id.worldcat.org/fast/1216448,http://viaf.org/viaf/sourceID/LC%7Cn++81130810#skos:Concept
+http://id.loc.gov/authorities/names/n80037721,Wilkes County,NCG16377,http://www.wikidata.org/entity/Q430328,http://id.worldcat.org/fast/1208168,http://viaf.org/viaf/sourceID/LC%7Cn++80037721#skos:Concept
+http://id.loc.gov/authorities/names/n80067434,Gates County,NCG05739,http://www.wikidata.org/entity/Q509838,http://id.worldcat.org/fast/1208886,http://viaf.org/viaf/sourceID/LC%7Cn++80067434#skos:Concept
+http://id.loc.gov/authorities/names/no2014027268,Belwood,NCG01054,,,http://viaf.org/viaf/sourceID/LC%7Cno2014027268#skos:Concept
+http://id.loc.gov/authorities/names/n82084046,Roper,NCG13081,http://www.wikidata.org/entity/Q2045340,http://id.worldcat.org/fast/1220541,http://viaf.org/viaf/sourceID/LC%7Cn++82084046#skos:Concept
+http://id.loc.gov/authorities/names/n80025154,Robersonville,NCG12902,http://www.wikidata.org/entity/Q2024296,http://id.worldcat.org/fast/1207959,http://viaf.org/viaf/sourceID/LC%7Cn++80025154#skos:Concept
+http://id.loc.gov/authorities/names/n84136607,Rosman,NCG13117,http://www.wikidata.org/entity/Q2027369,http://id.worldcat.org/fast/1229673,http://viaf.org/viaf/sourceID/LC%7Cn++84136607#skos:Concept
+http://id.loc.gov/authorities/names/n82020161,Davie County,NCG04032,http://www.wikidata.org/entity/Q509786,http://id.worldcat.org/fast/1218234,http://viaf.org/viaf/sourceID/LC%7Cn++82020161#skos:Concept
+http://id.loc.gov/authorities/names/n81062654,Burlington,NCG02198,http://www.wikidata.org/entity/Q1016633,http://id.worldcat.org/fast/1348229|http://id.worldcat.org/fast/1213693,http://viaf.org/viaf/sourceID/LC%7Cn++81062654#skos:Concept
+http://id.loc.gov/authorities/names/n92023622,Lewisville,NCG08705,http://www.wikidata.org/entity/Q1822220,http://id.worldcat.org/fast/1261268,http://viaf.org/viaf/sourceID/LC%7Cn++92023622#skos:Concept
+http://id.loc.gov/authorities/names/n2014016886,Edneyville,NCG04771,,,http://viaf.org/viaf/sourceID/LC%7Cn+2014016886#skos:Concept
+http://id.loc.gov/authorities/names/n2002026189,Buffalo City,NCG02092,http://www.wikidata.org/entity/Q4985693,http://id.worldcat.org/fast/1296986,http://viaf.org/viaf/sourceID/LC%7Cn+2002026189#skos:Concept
+http://id.loc.gov/authorities/names/n83232938,Long Beach,NCG09211,http://www.wikidata.org/entity/Q6672259,http://id.worldcat.org/fast/1227273,http://viaf.org/viaf/sourceID/LC%7Cn++83232938#skos:Concept
+http://id.loc.gov/authorities/names/n2006052138,Dillsboro,NCG04276,,http://id.worldcat.org/fast/1867445,http://viaf.org/viaf/sourceID/LC%7Cn+2006052138#skos:Concept
+http://id.loc.gov/authorities/names/n82069476,Albemarle County,NCG00107,,http://id.worldcat.org/fast/1219974,http://viaf.org/viaf/sourceID/LC%7Cn++82069476#skos:Concept
+http://id.loc.gov/authorities/names/n85385831,Hiddenite,NCG06984,http://www.wikidata.org/entity/Q3478172,http://id.worldcat.org/fast/1348257|http://id.worldcat.org/fast/1236389,http://viaf.org/viaf/sourceID/LC%7Cn++85385831#skos:Concept
+http://id.loc.gov/authorities/names/n84136608,Roxobel,NCG13171,http://www.wikidata.org/entity/Q2026656,http://id.worldcat.org/fast/1229674,http://viaf.org/viaf/sourceID/LC%7Cn++84136608#skos:Concept
+http://id.loc.gov/authorities/names/n82020162,Clay County,NCG03165,http://www.wikidata.org/entity/Q502516,http://id.worldcat.org/fast/1218235,http://viaf.org/viaf/sourceID/LC%7Cn++82020162#skos:Concept
+http://id.loc.gov/authorities/names/n82076156,Martin County,NCG09647,http://www.wikidata.org/entity/Q505359,http://id.worldcat.org/fast/1220237,http://viaf.org/viaf/sourceID/LC%7Cn++82076156#skos:Concept
+http://id.loc.gov/authorities/names/n82083263,Wilmington Beach,NCG16455,http://www.wikidata.org/entity/Q8022742,http://id.worldcat.org/fast/1220506,http://viaf.org/viaf/sourceID/LC%7Cn++82083263#skos:Concept
+http://id.loc.gov/authorities/names/n81048280,Troutman,NCG15398,http://www.wikidata.org/entity/Q612437,http://id.worldcat.org/fast/1213161,http://viaf.org/viaf/sourceID/LC%7Cn++81048280#skos:Concept
+http://id.loc.gov/authorities/names/n81124371,Ronda,NCG13077,http://www.wikidata.org/entity/Q3322223,http://id.worldcat.org/fast/1216087,http://viaf.org/viaf/sourceID/LC%7Cn++81124371#skos:Concept
+http://id.loc.gov/authorities/names/n79092471,Winston,NCG16522,,,http://viaf.org/viaf/sourceID/LC%7Cn++79092471#skos:Concept
+http://id.loc.gov/authorities/names/n81018361,Grifton,NCG06295,http://www.wikidata.org/entity/Q372637,http://id.worldcat.org/fast/1211835,http://viaf.org/viaf/sourceID/LC%7Cn++81018361#skos:Concept
+http://id.loc.gov/authorities/names/no2017089147,Williamsboro,NCG16422,,,http://viaf.org/viaf/sourceID/LC%7Cno2017089147#skos:Concept
+http://id.loc.gov/authorities/names/no2015133901,Spray,NCG14379,,http://id.worldcat.org/fast/1927913,http://viaf.org/viaf/sourceID/LC%7Cno2015133901#skos:Concept
+http://id.loc.gov/authorities/names/n80125633,Perquimans County,NCG11661,http://www.wikidata.org/entity/Q201014,http://id.worldcat.org/fast/1210254,http://viaf.org/viaf/sourceID/LC%7Cn++80125633#skos:Concept
+http://id.loc.gov/authorities/names/n81122858,Company Shops,NCG03401,,http://id.worldcat.org/fast/1216040,http://viaf.org/viaf/sourceID/LC%7Cn++81122858#skos:Concept
+http://id.loc.gov/authorities/names/n81089808,Madison,NCG09485,http://www.wikidata.org/entity/Q2026940,http://id.worldcat.org/fast/1214660,http://viaf.org/viaf/sourceID/LC%7Cn++81089808#skos:Concept
+http://id.loc.gov/authorities/names/n98070818,New River Marine Base,NCG02984,http://www.wikidata.org/entity/Q1030738,http://id.worldcat.org/fast/1285104,http://viaf.org/viaf/sourceID/LC%7Cn++98070818#skos:Concept
+http://id.loc.gov/authorities/names/n81098919,Macclesfield,NCG09457,http://www.wikidata.org/entity/Q2023677,http://id.worldcat.org/fast/1215106,http://viaf.org/viaf/sourceID/LC%7Cn++81098919#skos:Concept
+http://id.loc.gov/authorities/names/n82074516,White Lake,NCG16208,http://www.wikidata.org/entity/Q2026608,http://id.worldcat.org/fast/1220136,http://viaf.org/viaf/sourceID/LC%7Cn++82074516#skos:Concept
+http://id.loc.gov/authorities/names/n82084048,Plymouth,NCG11991,http://www.wikidata.org/entity/Q2028307,http://id.worldcat.org/fast/1220542,http://viaf.org/viaf/sourceID/LC%7Cn++82084048#skos:Concept
+http://id.loc.gov/authorities/names/n83028739,Wallace,NCG15816,http://www.wikidata.org/entity/Q1572554,http://id.worldcat.org/fast/1224186,http://viaf.org/viaf/sourceID/LC%7Cn++83028739#skos:Concept
+http://id.loc.gov/authorities/names/n79099265,Hendersonville,NCG06864,http://www.wikidata.org/entity/Q678740,http://id.worldcat.org/fast/1348255|http://id.worldcat.org/fast/1206232,http://viaf.org/viaf/sourceID/LC%7Cn++79099265#skos:Concept
+http://id.loc.gov/authorities/names/n80148315,Whispering Pines,NCG16187,,http://id.worldcat.org/fast/1210775,http://viaf.org/viaf/sourceID/LC%7Cn++80148315#skos:Concept
+http://id.loc.gov/authorities/names/n82018429,Camden County,NCG02401,http://www.wikidata.org/entity/Q504294,http://id.worldcat.org/fast/1218120,http://viaf.org/viaf/sourceID/LC%7Cn++82018429#skos:Concept
+http://id.loc.gov/authorities/names/n84136629,Winfall,NCG16509,http://www.wikidata.org/entity/Q2022297,http://id.worldcat.org/fast/1229943,http://viaf.org/viaf/sourceID/LC%7Cn++84136629#skos:Concept
+http://id.loc.gov/authorities/names/n97037242,Tuckasegee,NCG15430,,http://id.worldcat.org/fast/1279981,http://viaf.org/viaf/sourceID/LC%7Cn++97037242#skos:Concept
+http://id.loc.gov/authorities/names/n82005592,Millbridge,NCG10113,,http://id.worldcat.org/fast/1217443,http://viaf.org/viaf/sourceID/LC%7Cn++82005592#skos:Concept
+http://id.loc.gov/authorities/names/n82083480,Lincolnton,NCG08775,http://www.wikidata.org/entity/Q2029779,http://id.worldcat.org/fast/1220516|http://id.worldcat.org/fast/1348267,http://viaf.org/viaf/sourceID/LC%7Cn++82083480#skos:Concept
+http://id.loc.gov/authorities/names/n80059751,Indian Trail,NCG07601,,http://id.worldcat.org/fast/1208666,http://viaf.org/viaf/sourceID/LC%7Cn++80059751#skos:Concept
+http://id.loc.gov/authorities/names/n2008035415,Penderlea,NCG11628,,http://id.worldcat.org/fast/1875455,http://viaf.org/viaf/sourceID/LC%7Cn+2008035415#skos:Concept
+http://id.loc.gov/authorities/names/n79091381,Gastonia,NCG05736,,http://id.worldcat.org/fast/1348247|http://id.worldcat.org/fast/1206095,http://viaf.org/viaf/sourceID/LC%7Cn++79091381#skos:Concept
+http://id.loc.gov/authorities/names/n81018360,Rockingham,NCG12974,http://www.wikidata.org/entity/Q2029773,http://id.worldcat.org/fast/1211834|http://id.worldcat.org/fast/1348279,http://viaf.org/viaf/sourceID/LC%7Cn++81018360#skos:Concept
+http://id.loc.gov/authorities/names/n98012194,Seven Springs,NCG13618,,http://id.worldcat.org/fast/1283093,http://viaf.org/viaf/sourceID/LC%7Cn++98012194#skos:Concept
+http://id.loc.gov/authorities/names/n82134354,Tryon County,NCG15416,http://www.wikidata.org/entity/Q1727463,http://id.worldcat.org/fast/1222077,http://viaf.org/viaf/sourceID/LC%7Cn++82134354#skos:Concept
+http://id.loc.gov/authorities/names/n82004292,Hickory,NCG06925,,http://id.worldcat.org/fast/1217420|http://id.worldcat.org/fast/1348256,http://viaf.org/viaf/sourceID/LC%7Cn++82004292#skos:Concept
+http://id.loc.gov/authorities/names/no2012159033,Merry Oaks,NCG09976,,http://id.worldcat.org/fast/1889513,http://viaf.org/viaf/sourceID/LC%7Cno2012159033#skos:Concept
+http://id.loc.gov/authorities/names/no2013121902,North Belmont,NCG10899,,,http://viaf.org/viaf/sourceID/LC%7Cno2013121902#skos:Concept
+http://id.loc.gov/authorities/names/no2011039678,Wentworth,NCG16062,,http://id.worldcat.org/fast/1884348,http://viaf.org/viaf/sourceID/LC%7Cno2011039678#skos:Concept
+http://id.loc.gov/authorities/names/no2010162197,Mackeys,NCG09475,,http://id.worldcat.org/fast/1883206,http://viaf.org/viaf/sourceID/LC%7Cno2010162197#skos:Concept
+http://id.loc.gov/authorities/names/no2015038008,Sladesville,NCG14000,,,http://viaf.org/viaf/sourceID/LC%7Cno2015038008#skos:Concept
+http://id.loc.gov/authorities/names/n80148316,Carthage,NCG02652,http://www.wikidata.org/entity/Q1993002,http://id.worldcat.org/fast/1210776,http://viaf.org/viaf/sourceID/LC%7Cn++80148316#skos:Concept
+http://id.loc.gov/authorities/names/n2005061625,Harmony,NCG06612,http://www.wikidata.org/entity/Q2027389,http://id.worldcat.org/fast/1308729,http://viaf.org/viaf/sourceID/LC%7Cn+2005061625#skos:Concept
+http://id.loc.gov/authorities/names/n82076158,Marshville,NCG09639,http://www.wikidata.org/entity/Q2026328,http://id.worldcat.org/fast/1220238,http://viaf.org/viaf/sourceID/LC%7Cn++82076158#skos:Concept
+http://id.loc.gov/authorities/names/n84136606,Roseboro,NCG13097,http://www.wikidata.org/entity/Q2029703,http://id.worldcat.org/fast/1229672,http://viaf.org/viaf/sourceID/LC%7Cn++84136606#skos:Concept
+http://id.loc.gov/authorities/names/n79021387,Iredell County,NCG07643,http://www.wikidata.org/entity/Q502875,http://id.worldcat.org/fast/1204548,http://viaf.org/viaf/sourceID/LC%7Cn++79021387#skos:Concept
+http://id.loc.gov/authorities/names/no2008040575,Glen Raven,NCG05896,,http://id.worldcat.org/fast/1874641,http://viaf.org/viaf/sourceID/LC%7Cno2008040575#skos:Concept
+http://id.loc.gov/authorities/names/n82077335,Robbins,NCG12895,http://www.wikidata.org/entity/Q2025812,http://id.worldcat.org/fast/1220283,http://viaf.org/viaf/sourceID/LC%7Cn++82077335#skos:Concept
+http://id.loc.gov/authorities/names/n81098937,Stanley,NCG14515,http://www.wikidata.org/entity/Q2028367,http://id.worldcat.org/fast/1215119,http://viaf.org/viaf/sourceID/LC%7Cn++81098937#skos:Concept
+http://id.loc.gov/authorities/names/n82045021,Swannanoa,NCG14884,http://www.wikidata.org/entity/Q2022344,http://id.worldcat.org/fast/1219212,http://viaf.org/viaf/sourceID/LC%7Cn++82045021#skos:Concept
+http://id.loc.gov/authorities/names/no98057701,Lexington,NCG08709,http://www.wikidata.org/entity/Q181370,http://id.worldcat.org/fast/1282979,http://viaf.org/viaf/sourceID/LC%7Cno+98057701#skos:Concept
+http://id.loc.gov/authorities/names/n82084066,Carolina Beach,NCG02590,http://www.wikidata.org/entity/Q1044392,http://id.worldcat.org/fast/1220549,http://viaf.org/viaf/sourceID/LC%7Cn++82084066#skos:Concept
+http://id.loc.gov/authorities/names/n84136627,Whitakers,NCG16196,http://www.wikidata.org/entity/Q2043847,http://id.worldcat.org/fast/1229942,http://viaf.org/viaf/sourceID/LC%7Cn++84136627#skos:Concept
+http://id.loc.gov/authorities/names/no2013115494,Hoffman,NCG07119,,,http://viaf.org/viaf/sourceID/LC%7Cno2013115494#skos:Concept
+http://id.loc.gov/authorities/names/n84136603,Robbinsville,NCG12896,http://www.wikidata.org/entity/Q1109991,http://id.worldcat.org/fast/1229671,http://viaf.org/viaf/sourceID/LC%7Cn++84136603#skos:Concept
+http://id.loc.gov/authorities/names/n82020165,Cabarrus County,NCG02312,http://www.wikidata.org/entity/Q176307,http://id.worldcat.org/fast/1218236,http://viaf.org/viaf/sourceID/LC%7Cn++82020165#skos:Concept
+http://id.loc.gov/authorities/names/n82076113,Southern Pines,NCG14299,http://www.wikidata.org/entity/Q2028106,http://id.worldcat.org/fast/1220229,http://viaf.org/viaf/sourceID/LC%7Cn++82076113#skos:Concept
+http://id.loc.gov/authorities/names/n2003019180,Lake Junaluska,NCG08367,http://www.wikidata.org/entity/Q946396,http://id.worldcat.org/fast/1302532,http://viaf.org/viaf/sourceID/LC%7Cn+2003019180#skos:Concept
+http://id.loc.gov/authorities/names/n82018427,Ashe County,NCG00356,http://www.wikidata.org/entity/Q491626,http://id.worldcat.org/fast/1218118,http://viaf.org/viaf/sourceID/LC%7Cn++82018427#skos:Concept
+http://id.loc.gov/authorities/names/n81018362,Kinston,NCG08255,http://www.wikidata.org/entity/Q2048581,http://id.worldcat.org/fast/1348265|http://id.worldcat.org/fast/1211836,http://viaf.org/viaf/sourceID/LC%7Cn++81018362#skos:Concept
+http://id.loc.gov/authorities/names/n84055384,Cherokee,NCG02957,http://www.wikidata.org/entity/Q471385,http://id.worldcat.org/fast/1229619,http://viaf.org/viaf/sourceID/LC%7Cn++84055384#skos:Concept
+http://id.loc.gov/authorities/names/n82094786,Orange County,NCG11248,http://www.wikidata.org/entity/Q507957,http://id.worldcat.org/fast/1220945,http://viaf.org/viaf/sourceID/LC%7Cn++82094786#skos:Concept
+http://id.loc.gov/authorities/names/n84055360,Banner Elk,NCG00617,http://www.wikidata.org/entity/Q1808979,http://id.worldcat.org/fast/1229333,http://viaf.org/viaf/sourceID/LC%7Cn++84055360#skos:Concept
+http://id.loc.gov/authorities/names/no2013115496,Eagle Springs,NCG04625,,,http://viaf.org/viaf/sourceID/LC%7Cno2013115496#skos:Concept
+http://id.loc.gov/authorities/names/n94001365,Coinjock,NCG03300,http://www.wikidata.org/entity/Q4026228,http://id.worldcat.org/fast/1267828,http://viaf.org/viaf/sourceID/LC%7Cn++94001365#skos:Concept
+http://id.loc.gov/authorities/names/n81098938,Spring Hope,NCG14396,,http://id.worldcat.org/fast/1215120,http://viaf.org/viaf/sourceID/LC%7Cn++81098938#skos:Concept
+http://id.loc.gov/authorities/names/n80028552,Anson County,NCG00260,http://www.wikidata.org/entity/Q497830,http://id.worldcat.org/fast/1208037,http://viaf.org/viaf/sourceID/LC%7Cn++80028552#skos:Concept
+http://id.loc.gov/authorities/names/n79145577,Greene County,NCG06243,http://www.wikidata.org/entity/Q511772,http://id.worldcat.org/fast/1207164,http://viaf.org/viaf/sourceID/LC%7Cn++79145577#skos:Concept
+http://id.loc.gov/authorities/names/n80019774,Camp Greene,NCG02436,,http://id.worldcat.org/fast/1759621|http://id.worldcat.org/fast/541417,http://viaf.org/viaf/sourceID/LC%7Cn++80019774#skos:Concept
+http://id.loc.gov/authorities/names/n82020166,Chowan County,NCG03098,http://www.wikidata.org/entity/Q943772,http://id.worldcat.org/fast/1218237,http://viaf.org/viaf/sourceID/LC%7Cn++82020166#skos:Concept
+http://id.loc.gov/authorities/names/n82020142,Harnett County,NCG06616,http://www.wikidata.org/entity/Q497861,http://id.worldcat.org/fast/1218227,http://viaf.org/viaf/sourceID/LC%7Cn++82020142#skos:Concept
+http://id.loc.gov/authorities/names/n82018428,Avery County,NCG00439,http://www.wikidata.org/entity/Q497804,http://id.worldcat.org/fast/1218119,http://viaf.org/viaf/sourceID/LC%7Cn++82018428#skos:Concept
+http://id.loc.gov/authorities/names/n82076112,Stoneville,NCG14665,http://www.wikidata.org/entity/Q1829417,http://id.worldcat.org/fast/1220228,http://viaf.org/viaf/sourceID/LC%7Cn++82076112#skos:Concept
+http://id.loc.gov/authorities/names/n84136628,Whiteville,NCG16292,http://www.wikidata.org/entity/Q2022318,http://id.worldcat.org/fast/1229776,http://viaf.org/viaf/sourceID/LC%7Cn++84136628#skos:Concept
+http://id.loc.gov/authorities/subjects/sh2008007081,Hammocks Beach,NCG06516,,http://id.worldcat.org/fast/1877108,
+http://id.loc.gov/authorities/names/n83030409,Conway,NCG03464,http://www.wikidata.org/entity/Q2023705,http://id.worldcat.org/fast/1224376,http://viaf.org/viaf/sourceID/LC%7Cn++83030409#skos:Concept
+http://id.loc.gov/authorities/names/n84055383,Chocowinity,NCG03085,http://www.wikidata.org/entity/Q1990446,http://id.worldcat.org/fast/1229575,http://viaf.org/viaf/sourceID/LC%7Cn++84055383#skos:Concept
+http://id.loc.gov/authorities/names/n81018365,Pink Hill,NCG11896,http://www.wikidata.org/entity/Q2027809,http://id.worldcat.org/fast/1211838,http://viaf.org/viaf/sourceID/LC%7Cn++81018365#skos:Concept
+http://id.loc.gov/authorities/names/no2017083755,Misenheimer,NCG10207,http://www.wikidata.org/entity/Q3474795,,http://viaf.org/viaf/sourceID/LC%7Cno2017083755#skos:Concept
+http://id.loc.gov/authorities/names/n80004317,Jones County,NCG07971,http://www.wikidata.org/entity/Q502492,http://id.worldcat.org/fast/1207407,http://viaf.org/viaf/sourceID/LC%7Cn++80004317#skos:Concept
+http://id.loc.gov/authorities/names/n99270688,Tower Hill,NCG15299,,http://id.worldcat.org/fast/1288761,http://viaf.org/viaf/sourceID/LC%7Cn++99270688#skos:Concept
+http://id.loc.gov/authorities/names/n82074536,Dublin,NCG04504,http://www.wikidata.org/entity/Q2024796,http://id.worldcat.org/fast/1220145,http://viaf.org/viaf/sourceID/LC%7Cn++82074536#skos:Concept
+http://id.loc.gov/authorities/names/n81132455,Forest City,NCG05390,http://www.wikidata.org/entity/Q2027204,http://id.worldcat.org/fast/1216525,http://viaf.org/viaf/sourceID/LC%7Cn++81132455#skos:Concept
+http://id.loc.gov/authorities/names/n82076115,Reidsville,NCG12651,http://www.wikidata.org/entity/Q269015,http://id.worldcat.org/fast/1220231,http://viaf.org/viaf/sourceID/LC%7Cn++82076115#skos:Concept
+http://id.loc.gov/authorities/names/n82084044,Staley,NCG14494,http://www.wikidata.org/entity/Q2023791,http://id.worldcat.org/fast/1220539,http://viaf.org/viaf/sourceID/LC%7Cn++82084044#skos:Concept
+http://id.loc.gov/authorities/names/n84136601,Raeford,NCG12406,http://www.wikidata.org/entity/Q553071,http://id.worldcat.org/fast/1229669,http://viaf.org/viaf/sourceID/LC%7Cn++84136601#skos:Concept
+http://id.loc.gov/authorities/names/n82020167,Columbus County,NCG03386,http://www.wikidata.org/entity/Q509813,http://id.worldcat.org/fast/1218238,http://viaf.org/viaf/sourceID/LC%7Cn++82020167#skos:Concept
+http://id.loc.gov/authorities/names/n84136625,Warsaw,NCG15903,http://www.wikidata.org/entity/Q2026708,http://id.worldcat.org/fast/1348289|http://id.worldcat.org/fast/1229941,http://viaf.org/viaf/sourceID/LC%7Cn++84136625#skos:Concept
+http://id.loc.gov/authorities/names/n81084389,Fremont,NCG05566,http://www.wikidata.org/entity/Q2027763,http://id.worldcat.org/fast/1214461,http://viaf.org/viaf/sourceID/LC%7Cn++81084389#skos:Concept
+http://id.loc.gov/authorities/names/n88080729,Stovall,NCG14704,http://www.wikidata.org/entity/Q2022336,http://id.worldcat.org/fast/1248357,http://viaf.org/viaf/sourceID/LC%7Cn++88080729#skos:Concept
+http://id.loc.gov/authorities/names/n81018364,Lenoir County (leh-NOR),NCG08656,http://www.wikidata.org/entity/Q507907,http://id.worldcat.org/fast/1211837,http://viaf.org/viaf/sourceID/LC%7Cn++81018364#skos:Concept
+http://id.loc.gov/authorities/names/n2008043423,Manns Harbor,NCG09546,,http://id.worldcat.org/fast/1875882,http://viaf.org/viaf/sourceID/LC%7Cn+2008043423#skos:Concept
+http://id.loc.gov/authorities/names/no2016106200,Ruffin,NCG13189,,,http://viaf.org/viaf/sourceID/LC%7Cno2016106200#skos:Concept
+http://id.loc.gov/authorities/names/n79021388,Craven County,NCG03747,http://www.wikidata.org/entity/Q529958,http://id.worldcat.org/fast/1204549,http://viaf.org/viaf/sourceID/LC%7Cn++79021388#skos:Concept
+http://id.loc.gov/authorities/names/n82105489,Laurinburg,NCG08539,http://www.wikidata.org/entity/Q1904873,http://id.worldcat.org/fast/1221258,http://viaf.org/viaf/sourceID/LC%7Cn++82105489#skos:Concept
+http://id.loc.gov/authorities/names/no2013132680,Guilford College,NCG06347,,,http://viaf.org/viaf/sourceID/LC%7Cno2013132680#skos:Concept
+http://id.loc.gov/authorities/names/n83023573,Wadesboro,NCG15763,http://www.wikidata.org/entity/Q2024135,http://id.worldcat.org/fast/1224112,http://viaf.org/viaf/sourceID/LC%7Cn++83023573#skos:Concept
+http://id.loc.gov/authorities/names/n2008045808,Cricket,NCG03777,,http://id.worldcat.org/fast/1875975,http://viaf.org/viaf/sourceID/LC%7Cn+2008045808#skos:Concept
+http://id.loc.gov/authorities/names/no2017118071,Leggett,NCG08635,,,http://viaf.org/viaf/sourceID/LC%7Cno2017118071#skos:Concept
+http://id.loc.gov/authorities/names/n93004159,Scottville,NCG13530,http://www.wikidata.org/entity/Q7438204,http://id.worldcat.org/fast/1263929,http://viaf.org/viaf/sourceID/LC%7Cn++93004159#skos:Concept
+http://id.loc.gov/authorities/names/no2014017648,Polkville,NCG12050,,,http://viaf.org/viaf/sourceID/LC%7Cno2014017648#skos:Concept
+http://id.loc.gov/authorities/names/n82084045,Taylorsville,NCG15029,http://www.wikidata.org/entity/Q49280360,http://id.worldcat.org/fast/1220540,http://viaf.org/viaf/sourceID/LC%7Cn++82084045#skos:Concept
+http://id.loc.gov/authorities/names/no92009376,Beaver Dam Township,NCG00908,,http://id.worldcat.org/fast/1261687,http://viaf.org/viaf/sourceID/LC%7Cno+92009376#skos:Concept
+http://id.loc.gov/authorities/names/n82018426,Alexander County,NCG00129,http://www.wikidata.org/entity/Q491584,http://id.worldcat.org/fast/1218117,http://viaf.org/viaf/sourceID/LC%7Cn++82018426#skos:Concept
+http://id.loc.gov/authorities/names/n84136626,West End,NCG16091,,http://id.worldcat.org/fast/1229590,http://viaf.org/viaf/sourceID/LC%7Cn++84136626#skos:Concept
+http://id.loc.gov/authorities/names/n84136602,Red Oak,NCG12565,,http://id.worldcat.org/fast/1229670,http://viaf.org/viaf/sourceID/LC%7Cn++84136602#skos:Concept
+http://id.loc.gov/authorities/names/n82076114,Shelby,NCG13724,http://www.wikidata.org/entity/Q2029222,http://id.worldcat.org/fast/1220230,http://viaf.org/viaf/sourceID/LC%7Cn++82076114#skos:Concept
+http://id.loc.gov/authorities/names/n84055365,Canton,NCG02539,http://www.wikidata.org/entity/Q2029343,http://id.worldcat.org/fast/1229610,http://viaf.org/viaf/sourceID/LC%7Cn++84055365#skos:Concept
+http://id.loc.gov/authorities/names/n88122086,Southern Pines,NCG14299,,http://id.worldcat.org/fast/1248037,http://viaf.org/viaf/sourceID/LC%7Cn++88122086#skos:Concept
+http://id.loc.gov/authorities/names/n81018367,Wilson County,NCG16461,http://www.wikidata.org/entity/Q510900,http://id.worldcat.org/fast/1211840,http://viaf.org/viaf/sourceID/LC%7Cn++81018367#skos:Concept
+http://id.loc.gov/authorities/names/no2017005588,Wilton,NCG16481,,,http://viaf.org/viaf/sourceID/LC%7Cno2017005588#skos:Concept
+http://id.loc.gov/authorities/names/n83205128,Arlington,NCG00317,,http://id.worldcat.org/fast/1226232,http://viaf.org/viaf/sourceID/LC%7Cn++83205128#skos:Concept
+http://id.loc.gov/authorities/names/n81022906,Rutherford County,NCG13231,http://www.wikidata.org/entity/Q508254,http://id.worldcat.org/fast/1212236,http://viaf.org/viaf/sourceID/LC%7Cn++81022906#skos:Concept
+http://id.loc.gov/authorities/names/no2015147765,Orrum,NCG11277,,,http://viaf.org/viaf/sourceID/LC%7Cno2015147765#skos:Concept
+http://id.loc.gov/authorities/names/n81090060,Landis,NCG08451,http://www.wikidata.org/entity/Q2023656,http://id.worldcat.org/fast/1214684,http://viaf.org/viaf/sourceID/LC%7Cn++81090060#skos:Concept
+http://id.loc.gov/authorities/names/n93049423,Long Island,NCG09235,,http://id.worldcat.org/fast/1265113,http://viaf.org/viaf/sourceID/LC%7Cn++93049423#skos:Concept
+http://id.loc.gov/authorities/names/n84055389,Currituck,NCG03895,,http://id.worldcat.org/fast/1229622,http://viaf.org/viaf/sourceID/LC%7Cn++84055389#skos:Concept
+http://id.loc.gov/authorities/names/n83028753,Coats,NCG03252,http://www.wikidata.org/entity/Q2029654,http://id.worldcat.org/fast/1224188,http://viaf.org/viaf/sourceID/LC%7Cn++83028753#skos:Concept
+http://id.loc.gov/authorities/names/n88080440,Cerro Gordo,NCG02853,http://www.wikidata.org/entity/Q1055851,http://id.worldcat.org/fast/1247816,http://viaf.org/viaf/sourceID/LC%7Cn++88080440#skos:Concept
+http://id.loc.gov/authorities/names/no2009127821,Bat Cave,NCG00707,,,http://viaf.org/viaf/sourceID/LC%7Cno2009127821#skos:Concept
+http://id.loc.gov/authorities/names/n83226480,Four Oaks,NCG05494,http://www.wikidata.org/entity/Q1439972,http://id.worldcat.org/fast/1226899,http://viaf.org/viaf/sourceID/LC%7Cn++83226480#skos:Concept
+http://id.loc.gov/authorities/names/n84055388,Columbia,NCG03383,http://www.wikidata.org/entity/Q2028731,http://id.worldcat.org/fast/1229621,http://viaf.org/viaf/sourceID/LC%7Cn++84055388#skos:Concept
+http://id.loc.gov/authorities/names/no2008182065,Penland,NCG11632,,http://id.worldcat.org/fast/1877940,http://viaf.org/viaf/sourceID/LC%7Cno2008182065#skos:Concept
+http://id.loc.gov/authorities/names/n93074593,Fletcher,NCG05336,http://www.wikidata.org/entity/Q653837,http://id.worldcat.org/fast/1266266,http://viaf.org/viaf/sourceID/LC%7Cn++93074593#skos:Concept
+http://id.loc.gov/authorities/names/no2014078294,Edgemont,NCG04762,,,http://viaf.org/viaf/sourceID/LC%7Cno2014078294#skos:Concept
+http://id.loc.gov/authorities/names/n92006529,Henrietta,NCG06870,,http://id.worldcat.org/fast/1260828,http://viaf.org/viaf/sourceID/LC%7Cn++92006529#skos:Concept
+http://id.loc.gov/authorities/names/n93002042,Fleetwood,NCG05331,,http://id.worldcat.org/fast/1263879,http://viaf.org/viaf/sourceID/LC%7Cn++93002042#skos:Concept
+http://id.loc.gov/authorities/names/n82074535,Elizabethtown,NCG04834,http://www.wikidata.org/entity/Q2026498,http://id.worldcat.org/fast/1220144,http://viaf.org/viaf/sourceID/LC%7Cn++82074535#skos:Concept
+http://id.loc.gov/authorities/names/n88080441,Bolton,NCG01619,http://www.wikidata.org/entity/Q2024112,http://id.worldcat.org/fast/1247597,http://viaf.org/viaf/sourceID/LC%7Cn++88080441#skos:Concept
+http://id.loc.gov/authorities/names/n82084063,Creswell,NCG03775,http://www.wikidata.org/entity/Q2025046,http://id.worldcat.org/fast/1220548,http://viaf.org/viaf/sourceID/LC%7Cn++82084063#skos:Concept
+http://id.loc.gov/authorities/names/n83030450,Stantonsburg,NCG14527,http://www.wikidata.org/entity/Q2022540,http://id.worldcat.org/fast/1224406,http://viaf.org/viaf/sourceID/LC%7Cn++83030450#skos:Concept
+http://id.loc.gov/authorities/names/n83028752,Jamestown,NCG07783,http://www.wikidata.org/entity/Q2026580,http://id.worldcat.org/fast/1224187,http://viaf.org/viaf/sourceID/LC%7Cn++83028752#skos:Concept
+http://id.loc.gov/authorities/names/n81132541,Rutherfordton,NCG13233,http://www.wikidata.org/entity/Q2026051,http://id.worldcat.org/fast/1216545,http://viaf.org/viaf/sourceID/LC%7Cn++81132541#skos:Concept
+http://id.loc.gov/authorities/names/n84136600,Powellsville,NCG12205,http://www.wikidata.org/entity/Q2028776,http://id.worldcat.org/fast/1229668,http://viaf.org/viaf/sourceID/LC%7Cn++84136600#skos:Concept
+http://id.loc.gov/authorities/names/n82079180,Blowing Rock,NCG01533,http://www.wikidata.org/entity/Q2023662,http://id.worldcat.org/fast/1348226|http://id.worldcat.org/fast/1220361,http://viaf.org/viaf/sourceID/LC%7Cn++82079180#skos:Concept
+http://id.loc.gov/authorities/names/n82018424,Currituck County,NCG03898,http://www.wikidata.org/entity/Q511761,http://id.worldcat.org/fast/1218115,http://viaf.org/viaf/sourceID/LC%7Cn++82018424#skos:Concept
+http://id.loc.gov/authorities/names/n84136624,Walnut Cove,NCG15829,http://www.wikidata.org/entity/Q2022254,http://id.worldcat.org/fast/1229940,http://viaf.org/viaf/sourceID/LC%7Cn++84136624#skos:Concept
+http://id.loc.gov/authorities/names/no2010099620,Rockford,NCG12968,,http://id.worldcat.org/fast/1882396,http://viaf.org/viaf/sourceID/LC%7Cno2010099620#skos:Concept
+http://id.loc.gov/authorities/names/n84055387,Oriental,NCG11269,http://www.wikidata.org/entity/Q2025148,http://id.worldcat.org/fast/1229620,http://viaf.org/viaf/sourceID/LC%7Cn++84055387#skos:Concept
+http://id.loc.gov/authorities/names/n84055363,Beulaville,NCG01164,http://www.wikidata.org/entity/Q2027726,http://id.worldcat.org/fast/1229609,http://viaf.org/viaf/sourceID/LC%7Cn++84055363#skos:Concept
+http://id.loc.gov/authorities/names/n87936759,Gaston County,NCG05734,http://www.wikidata.org/entity/Q511849,http://id.worldcat.org/fast/1247195,http://viaf.org/viaf/sourceID/LC%7Cn++87936759#skos:Concept
+http://id.loc.gov/authorities/names/n81018454,Alleghany County,NCG00147,http://www.wikidata.org/entity/Q497899,http://id.worldcat.org/fast/1211870,http://viaf.org/viaf/sourceID/LC%7Cn++81018454#skos:Concept
+http://id.loc.gov/authorities/names/n81098935,Pinetops,NCG11859,http://www.wikidata.org/entity/Q2025745,http://id.worldcat.org/fast/1215117,http://viaf.org/viaf/sourceID/LC%7Cn++81098935#skos:Concept
+http://id.loc.gov/authorities/names/n82076119,Waxhaw,NCG15984,http://www.wikidata.org/entity/Q2022331,http://id.worldcat.org/fast/1220234,http://viaf.org/viaf/sourceID/LC%7Cn++82076119#skos:Concept
+http://id.loc.gov/authorities/names/n84136621,Vass,NCG15697,http://www.wikidata.org/entity/Q2022416,http://id.worldcat.org/fast/1229939,http://viaf.org/viaf/sourceID/LC%7Cn++84136621#skos:Concept
+http://id.loc.gov/authorities/names/no2014017669,Vandemere,NCG15686,,,http://viaf.org/viaf/sourceID/LC%7Cno2014017669#skos:Concept
+http://id.loc.gov/authorities/names/n83226482,Kenly,NCG08155,http://www.wikidata.org/entity/Q1410372,http://id.worldcat.org/fast/1226900,http://viaf.org/viaf/sourceID/LC%7Cn++83226482#skos:Concept
+http://id.loc.gov/authorities/names/n84136669,Hayesville,NCG06767,http://www.wikidata.org/entity/Q302144,http://id.worldcat.org/fast/1229785,http://viaf.org/viaf/sourceID/LC%7Cn++84136669#skos:Concept
+http://id.loc.gov/authorities/names/n81118740,Boone,NCG01651,http://www.wikidata.org/entity/Q893055,http://id.worldcat.org/fast/1348227|http://id.worldcat.org/fast/1215881,http://viaf.org/viaf/sourceID/LC%7Cn++81118740#skos:Concept
+http://id.loc.gov/authorities/names/n83027684,Radio Island,NCG12405,http://www.wikidata.org/entity/Q49673882,http://id.worldcat.org/fast/1224179,http://viaf.org/viaf/sourceID/LC%7Cn++83027684#skos:Concept
+http://id.loc.gov/authorities/names/n79151522,Goldsboro,NCG05968,http://www.wikidata.org/entity/Q367400,http://id.worldcat.org/fast/1348248|http://id.worldcat.org/fast/1207262,http://viaf.org/viaf/sourceID/LC%7Cn++79151522#skos:Concept
+http://id.loc.gov/authorities/names/n84055362,Battleboro,NCG00737,http://www.wikidata.org/entity/Q26300877,http://id.worldcat.org/fast/1229487,http://viaf.org/viaf/sourceID/LC%7Cn++84055362#skos:Concept
+http://id.loc.gov/authorities/names/n89146351,Enochville,NCG04961,http://www.wikidata.org/entity/Q2026748,http://id.worldcat.org/fast/1257965,http://viaf.org/viaf/sourceID/LC%7Cn++89146351#skos:Concept
+http://id.loc.gov/authorities/names/n82037098,Jacksonville,NCG07756,http://www.wikidata.org/entity/Q986369,http://id.worldcat.org/fast/1348262|http://id.worldcat.org/fast/1218872,http://viaf.org/viaf/sourceID/LC%7Cn++82037098#skos:Concept
+http://id.loc.gov/authorities/names/n82076118,Pinehurst,NCG11852,,http://id.worldcat.org/fast/1220233,http://viaf.org/viaf/sourceID/LC%7Cn++82076118#skos:Concept
+http://id.loc.gov/authorities/names/n94034214,Stanfield,NCG14511,http://www.wikidata.org/entity/Q623030,http://id.worldcat.org/fast/1268706,http://viaf.org/viaf/sourceID/LC%7Cn++94034214#skos:Concept
+http://id.loc.gov/authorities/names/n82079182,Ahoskie,NCG00082,http://www.wikidata.org/entity/Q370172,http://id.worldcat.org/fast/1220363,http://viaf.org/viaf/sourceID/LC%7Cn++82079182#skos:Concept
+http://id.loc.gov/authorities/names/n83158604,Warrenton,NCG15892,http://www.wikidata.org/entity/Q1885980,http://id.worldcat.org/fast/1225743,http://viaf.org/viaf/sourceID/LC%7Cn++83158604#skos:Concept
+http://id.loc.gov/authorities/names/no2003100200,Iron Station,NCG07657,http://www.wikidata.org/entity/Q3475025,http://id.worldcat.org/fast/1302062,http://viaf.org/viaf/sourceID/LC%7Cno2003100200#skos:Concept
+http://id.loc.gov/authorities/names/n82038014,Washington County,NCG15917,http://www.wikidata.org/entity/Q507587,http://id.worldcat.org/fast/1218911,http://viaf.org/viaf/sourceID/LC%7Cn++82038014#skos:Concept
+http://id.loc.gov/authorities/names/n79151523,Wayne County,NCG15994,http://www.wikidata.org/entity/Q506569,http://id.worldcat.org/fast/1207263,http://viaf.org/viaf/sourceID/LC%7Cn++79151523#skos:Concept
+http://id.loc.gov/authorities/names/n82077319,Cramerton,NCG03728,http://www.wikidata.org/entity/Q1138788,http://id.worldcat.org/fast/1220277,http://viaf.org/viaf/sourceID/LC%7Cn++82077319#skos:Concept
+http://id.loc.gov/authorities/names/n82045029,Farmville,NCG05138,,http://id.worldcat.org/fast/1219215,http://viaf.org/viaf/sourceID/LC%7Cn++82045029#skos:Concept
+http://id.loc.gov/authorities/names/n2007021953,Calabash,NCG02348,,http://id.worldcat.org/fast/1870679,http://viaf.org/viaf/sourceID/LC%7Cn+2007021953#skos:Concept
+http://id.loc.gov/authorities/names/n93015394,Woodleaf,NCG16620,,http://id.worldcat.org/fast/1264204,http://viaf.org/viaf/sourceID/LC%7Cn++93015394#skos:Concept
+http://id.loc.gov/authorities/names/n84055369,Calypso,NCG02396,http://www.wikidata.org/entity/Q2025103,http://id.worldcat.org/fast/1229612,http://viaf.org/viaf/sourceID/LC%7Cn++84055369#skos:Concept
+http://id.loc.gov/authorities/names/no2015153796,Wilson's Mills,NCG16473,,,http://viaf.org/viaf/sourceID/LC%7Cno2015153796#skos:Concept
+http://id.loc.gov/authorities/names/n82104422,Moore County,NCG10315,http://www.wikidata.org/entity/Q507782,http://id.worldcat.org/fast/1221180,http://viaf.org/viaf/sourceID/LC%7Cn++82104422#skos:Concept
+http://id.loc.gov/authorities/names/n84214410,Bute County,NCG02264,,http://id.worldcat.org/fast/1233524,http://viaf.org/viaf/sourceID/LC%7Cn++84214410#skos:Concept
+http://id.loc.gov/authorities/names/n82024430,Hoke County,NCG07164,http://www.wikidata.org/entity/Q502507,http://id.worldcat.org/fast/1218459,http://viaf.org/viaf/sourceID/LC%7Cn++82024430#skos:Concept
+http://id.loc.gov/authorities/names/n84136667,Engelhard,NCG04944,http://www.wikidata.org/entity/Q3304453,http://id.worldcat.org/fast/1229591,http://viaf.org/viaf/sourceID/LC%7Cn++84136667#skos:Concept
+http://id.loc.gov/authorities/names/n82074530,Jefferson,NCG07817,http://www.wikidata.org/entity/Q2029233,http://id.worldcat.org/fast/1220141,http://viaf.org/viaf/sourceID/LC%7Cn++82074530#skos:Concept
+http://id.loc.gov/authorities/names/no2010088587,Midland,NCG10055,,http://id.worldcat.org/fast/1882287,http://viaf.org/viaf/sourceID/LC%7Cno2010088587#skos:Concept
+http://id.loc.gov/authorities/names/n86025601,Averasboro,NCG00437,,http://id.worldcat.org/fast/1237743,http://viaf.org/viaf/sourceID/LC%7Cn++86025601#skos:Concept
+http://id.loc.gov/authorities/names/n82020181,Beaufort County (BOE-furt),NCG00891,http://www.wikidata.org/entity/Q484639,http://id.worldcat.org/fast/1218244,http://viaf.org/viaf/sourceID/LC%7Cn++82020181#skos:Concept
+http://id.loc.gov/authorities/names/n88005301,Laurel,NCG08504,http://www.wikidata.org/entity/Q6499721,http://id.worldcat.org/fast/1246720,http://viaf.org/viaf/sourceID/LC%7Cn++88005301#skos:Concept
+http://id.loc.gov/authorities/names/n81098930,Tarboro,NCG14987,http://www.wikidata.org/entity/Q931645,http://id.worldcat.org/fast/1215113,http://viaf.org/viaf/sourceID/LC%7Cn++81098930#skos:Concept
+http://id.loc.gov/authorities/names/n84055368,Camden,NCG02400,http://www.wikidata.org/entity/Q2934722,http://id.worldcat.org/fast/1229573,http://viaf.org/viaf/sourceID/LC%7Cn++84055368#skos:Concept
+http://id.loc.gov/authorities/names/n82074531,Jamesville,NCG07785,http://www.wikidata.org/entity/Q2027159,http://id.worldcat.org/fast/1220142,http://viaf.org/viaf/sourceID/LC%7Cn++82074531#skos:Concept
+http://id.loc.gov/authorities/names/n84136620,Vanceboro,NCG15684,http://www.wikidata.org/entity/Q2025269,http://id.worldcat.org/fast/1229938,http://viaf.org/viaf/sourceID/LC%7Cn++84136620#skos:Concept
+http://id.loc.gov/authorities/names/n85290937,Vashti,NCG15696,,http://id.worldcat.org/fast/1234505,http://viaf.org/viaf/sourceID/LC%7Cn++85290937#skos:Concept
+http://id.loc.gov/authorities/names/n84136668,Hazelwood,NCG06794,,http://id.worldcat.org/fast/1229784,http://viaf.org/viaf/sourceID/LC%7Cn++84136668#skos:Concept
+http://id.loc.gov/authorities/names/n83226485,Micro,NCG10000,http://www.wikidata.org/entity/Q1016797,http://id.worldcat.org/fast/1226902,http://viaf.org/viaf/sourceID/LC%7Cn++83226485#skos:Concept
+http://id.loc.gov/authorities/names/n83226487,Pine Level,NCG11824,,http://id.worldcat.org/fast/1226904,http://viaf.org/viaf/sourceID/LC%7Cn++83226487#skos:Concept
+http://id.loc.gov/authorities/names/n81018434,Davidson,NCG04019,http://www.wikidata.org/entity/Q2026925,http://id.worldcat.org/fast/1211859,http://viaf.org/viaf/sourceID/LC%7Cn++81018434#skos:Concept
+http://id.loc.gov/authorities/names/no2015132655,Fontana,NCG05375,,http://id.worldcat.org/fast/1927910,http://viaf.org/viaf/sourceID/LC%7Cno2015132655#skos:Concept
+http://id.loc.gov/authorities/names/n84112039,Newport,NCG10796,http://www.wikidata.org/entity/Q1983642,http://id.worldcat.org/fast/1229153,http://viaf.org/viaf/sourceID/LC%7Cn++84112039#skos:Concept
+http://id.loc.gov/authorities/names/n77001079,Hyde County,NCG07541,http://www.wikidata.org/entity/Q511659,http://id.worldcat.org/fast/1203061,http://viaf.org/viaf/sourceID/LC%7Cn++77001079#skos:Concept
+http://id.loc.gov/authorities/names/no2013059850,Lukens,NCG09396,,http://id.worldcat.org/fast/1890526,http://viaf.org/viaf/sourceID/LC%7Cno2013059850#skos:Concept
+http://id.loc.gov/authorities/names/n82047991,Richlands,NCG12762,,http://id.worldcat.org/fast/1219347,http://viaf.org/viaf/sourceID/LC%7Cn++82047991#skos:Concept
+http://id.loc.gov/authorities/names/n84055367,Candor,NCG02497,http://www.wikidata.org/entity/Q2024787,http://id.worldcat.org/fast/1229611,http://viaf.org/viaf/sourceID/LC%7Cn++84055367#skos:Concept
+http://id.loc.gov/authorities/names/n84136641,Lewiston,NCG16642,http://www.wikidata.org/entity/Q2030215,http://id.worldcat.org/fast/1229778,http://viaf.org/viaf/sourceID/LC%7Cn++84136641#skos:Concept
+http://id.loc.gov/authorities/names/n84136665,Cornelius,NCG03562,http://www.wikidata.org/entity/Q2028004,http://id.worldcat.org/fast/1229782,http://viaf.org/viaf/sourceID/LC%7Cn++84136665#skos:Concept
+http://id.loc.gov/authorities/names/n93002220,Glade Valley,NCG05863,http://www.wikidata.org/entity/Q5566228,http://id.worldcat.org/fast/1263884,http://viaf.org/viaf/sourceID/LC%7Cn++93002220#skos:Concept
+http://id.loc.gov/authorities/names/no2016045048,Tuxedo,NCG15543,,,http://viaf.org/viaf/sourceID/LC%7Cno2016045048#skos:Concept
+http://id.loc.gov/authorities/names/n93024452,Smyrna,NCG14100,,http://id.worldcat.org/fast/1264413,http://viaf.org/viaf/sourceID/LC%7Cn++93024452#skos:Concept
+http://id.loc.gov/authorities/names/n82079185,Yancey County,NCG16729,http://www.wikidata.org/entity/Q502487,http://id.worldcat.org/fast/1220364,http://viaf.org/viaf/sourceID/LC%7Cn++82079185#skos:Concept
+http://id.loc.gov/authorities/names/no2015129848,Lake Santeetlah,NCG08392,http://www.wikidata.org/entity/Q6477645,,http://viaf.org/viaf/sourceID/LC%7Cno2015129848#skos:Concept
+http://id.loc.gov/authorities/names/n82062407,Camp Lejeune,NCG02444,http://www.wikidata.org/entity/Q1479693,http://id.worldcat.org/fast/1219709,http://viaf.org/viaf/sourceID/LC%7Cn++82062407#skos:Concept
+http://id.loc.gov/authorities/names/n85188754,Stedman,NCG14564,http://www.wikidata.org/entity/Q2022359,http://id.worldcat.org/fast/1238222,http://viaf.org/viaf/sourceID/LC%7Cn++85188754#skos:Concept
+http://id.loc.gov/authorities/names/n93048885,Leicester,NCG08640,,http://id.worldcat.org/fast/1265107,http://viaf.org/viaf/sourceID/LC%7Cn++93048885#skos:Concept
+http://id.loc.gov/authorities/names/n82079187,Washington,NCG15916,http://www.wikidata.org/entity/Q1026008,http://id.worldcat.org/fast/1220366,http://viaf.org/viaf/sourceID/LC%7Cn++82079187#skos:Concept
+http://id.loc.gov/authorities/names/n83226488,Princeton,NCG12243,,http://id.worldcat.org/fast/1226905,http://viaf.org/viaf/sourceID/LC%7Cn++83226488#skos:Concept
+http://id.loc.gov/authorities/names/n81018566,Transylvania County,NCG15342,http://www.wikidata.org/entity/Q507743,http://id.worldcat.org/fast/1211924,http://viaf.org/viaf/sourceID/LC%7Cn++81018566#skos:Concept
+http://id.loc.gov/authorities/names/no2018044306,Morris Field Air Base,NCG02917,,,http://viaf.org/viaf/sourceID/LC%7Cno2018044306#skos:Concept
+http://id.loc.gov/authorities/names/no2017037637,Momeyer,NCG10261,,,http://viaf.org/viaf/sourceID/LC%7Cno2017037637#skos:Concept
+http://id.loc.gov/authorities/names/n79144776,Williamston,NCG16430,http://www.wikidata.org/entity/Q2027072,http://id.worldcat.org/fast/1207139,http://viaf.org/viaf/sourceID/LC%7Cn++79144776#skos:Concept
+http://id.loc.gov/authorities/names/n2011070594,Riceville,NCG12721,,,http://viaf.org/viaf/sourceID/LC%7Cn+2011070594#skos:Concept
+http://id.loc.gov/authorities/names/n82045111,Ayden,NCG00456,http://www.wikidata.org/entity/Q1975352,http://id.worldcat.org/fast/1219226,http://viaf.org/viaf/sourceID/LC%7Cn++82045111#skos:Concept
+http://id.loc.gov/authorities/names/n82084061,Fort Fisher,NCG05448,,http://id.worldcat.org/fast/1220547|http://id.worldcat.org/fast/1348245,http://viaf.org/viaf/sourceID/LC%7Cn++82084061#skos:Concept
+http://id.loc.gov/authorities/names/n84136666,East Bend,NCG04648,http://www.wikidata.org/entity/Q2024325,http://id.worldcat.org/fast/1229783,http://viaf.org/viaf/sourceID/LC%7Cn++84136666#skos:Concept
+http://id.loc.gov/authorities/names/n83052591,Arden,NCG00309,,http://id.worldcat.org/fast/1224974,http://viaf.org/viaf/sourceID/LC%7Cn++83052591#skos:Concept
+http://id.loc.gov/authorities/names/no2014150540,Brasstown,NCG01766,,,http://viaf.org/viaf/sourceID/LC%7Cno2014150540#skos:Concept
+http://id.loc.gov/authorities/names/n50051176,Salisbury,NCG13279,http://www.wikidata.org/entity/Q2028813,http://id.worldcat.org/fast/1202783|http://id.worldcat.org/fast/1348281,http://viaf.org/viaf/sourceID/LC%7Cn++50051176#skos:Concept
+http://id.loc.gov/authorities/names/n82079162,Dare County,NCG03991,http://www.wikidata.org/entity/Q295787,http://id.worldcat.org/fast/1220347,http://viaf.org/viaf/sourceID/LC%7Cn++82079162#skos:Concept
+http://id.loc.gov/authorities/names/n83226463,Mint Hill,NCG10195,http://www.wikidata.org/entity/Q2030900,http://id.worldcat.org/fast/1226892,http://viaf.org/viaf/sourceID/LC%7Cn++83226463#skos:Concept
+http://id.loc.gov/authorities/names/n83052482,Spencer,NCG14340,http://www.wikidata.org/entity/Q2023902,http://id.worldcat.org/fast/1224924,http://viaf.org/viaf/sourceID/LC%7Cn++83052482#skos:Concept
+http://id.loc.gov/authorities/names/n81056739,Morehead City,NCG10345,http://www.wikidata.org/entity/Q614483,http://id.worldcat.org/fast/1213458,http://viaf.org/viaf/sourceID/LC%7Cn++81056739#skos:Concept
+http://id.loc.gov/authorities/names/n81093114,Rockwell,NCG12985,http://www.wikidata.org/entity/Q1920473,http://id.worldcat.org/fast/1214805,http://viaf.org/viaf/sourceID/LC%7Cn++81093114#skos:Concept
+http://id.loc.gov/authorities/names/n82079186,Watauga County (wah-TAW-guh),NCG15928,http://www.wikidata.org/entity/Q502880,http://id.worldcat.org/fast/1220365,http://viaf.org/viaf/sourceID/LC%7Cn++82079186#skos:Concept
+http://id.loc.gov/authorities/names/n83227716,Graham,NCG06046,http://www.wikidata.org/entity/Q153183,http://id.worldcat.org/fast/1226971,http://viaf.org/viaf/sourceID/LC%7Cn++83227716#skos:Concept
+http://id.loc.gov/authorities/names/n93048904,Skyland,NCG13991,http://www.wikidata.org/entity/Q7537785,http://id.worldcat.org/fast/1265108,http://viaf.org/viaf/sourceID/LC%7Cn++93048904#skos:Concept
+http://id.loc.gov/authorities/names/n2001033080,Fort Caswell,NCG05442,,http://id.worldcat.org/fast/1293416,http://viaf.org/viaf/sourceID/LC%7Cn+2001033080#skos:Concept
+http://id.loc.gov/authorities/names/n81092196,Tyrrell County (TIR-ehl),NCG15567,http://www.wikidata.org/entity/Q507918,http://id.worldcat.org/fast/1214792,http://viaf.org/viaf/sourceID/LC%7Cn++81092196#skos:Concept
+http://id.loc.gov/authorities/names/n84055301,Yaupon Beach,NCG16740,http://www.wikidata.org/entity/Q8050343,http://id.worldcat.org/fast/1229093,http://viaf.org/viaf/sourceID/LC%7Cn++84055301#skos:Concept
+http://id.loc.gov/authorities/names/n95084462,Bennett,NCG01069,http://www.wikidata.org/entity/Q3475178,http://id.worldcat.org/fast/1273022,http://viaf.org/viaf/sourceID/LC%7Cn++95084462#skos:Concept
+http://id.loc.gov/authorities/names/n2005063760,Lake Toxaway,NCG08403,http://www.wikidata.org/entity/Q6478137,http://id.worldcat.org/fast/1308829,http://viaf.org/viaf/sourceID/LC%7Cn+2005063760#skos:Concept
+http://id.loc.gov/authorities/names/n85015010,Indian Springs,NCG07595,,http://id.worldcat.org/fast/1231125,http://viaf.org/viaf/sourceID/LC%7Cn++85015010#skos:Concept
+http://id.loc.gov/authorities/names/n79022863,Charlotte,NCG02916,,http://id.worldcat.org/fast/1348235|http://id.worldcat.org/fast/1204596,http://viaf.org/viaf/sourceID/LC%7Cn++79022863#skos:Concept
+http://id.loc.gov/authorities/names/n84136699,Magnolia,NCG09494,,http://id.worldcat.org/fast/1348268|http://id.worldcat.org/fast/1229805,http://viaf.org/viaf/sourceID/LC%7Cn++84136699#skos:Concept
+http://id.loc.gov/authorities/names/n84136675,Gatesville,NCG05741,http://www.wikidata.org/entity/Q49279985,http://id.worldcat.org/fast/1229790,http://viaf.org/viaf/sourceID/LC%7Cn++84136675#skos:Concept
+http://id.loc.gov/authorities/names/n82070879,Chadbourn,NCG02856,http://www.wikidata.org/entity/Q2045194,http://id.worldcat.org/fast/1220059,http://viaf.org/viaf/sourceID/LC%7Cn++82070879#skos:Concept
+http://id.loc.gov/authorities/names/n98109320,Ocracoke,NCG11102,http://www.wikidata.org/entity/Q954241,http://id.worldcat.org/fast/1288049,http://viaf.org/viaf/sourceID/LC%7Cn++98109320#skos:Concept
+http://id.loc.gov/authorities/names/n83030411,Enfield,NCG04941,http://www.wikidata.org/entity/Q518535,http://id.worldcat.org/fast/1224378,http://viaf.org/viaf/sourceID/LC%7Cn++83030411#skos:Concept
+http://id.loc.gov/authorities/names/n83030435,Elm City,NCG04903,http://www.wikidata.org/entity/Q2024336,http://id.worldcat.org/fast/1224393,http://viaf.org/viaf/sourceID/LC%7Cn++83030435#skos:Concept
+http://id.loc.gov/authorities/names/n82079163,Erwin,NCG04986,http://www.wikidata.org/entity/Q2029466,http://id.worldcat.org/fast/1220348,http://viaf.org/viaf/sourceID/LC%7Cn++82079163#skos:Concept
+http://id.loc.gov/authorities/names/n82079189,Tabor City,NCG14941,http://www.wikidata.org/entity/Q586130,http://id.worldcat.org/fast/1220368,http://viaf.org/viaf/sourceID/LC%7Cn++82079189#skos:Concept
+http://id.loc.gov/authorities/names/n93001397,Todd,NCG15226,http://www.wikidata.org/entity/Q7812233,http://id.worldcat.org/fast/1263867,http://viaf.org/viaf/sourceID/LC%7Cn++93001397#skos:Concept
+http://id.loc.gov/authorities/names/no2015147128,Farmer,NCG05129,,,http://viaf.org/viaf/sourceID/LC%7Cno2015147128#skos:Concept
+http://id.loc.gov/authorities/names/n96063378,Bethania,NCG01134,http://www.wikidata.org/entity/Q831168,http://id.worldcat.org/fast/1276768,http://viaf.org/viaf/sourceID/LC%7Cn++96063378#skos:Concept
+http://id.loc.gov/authorities/names/n2005182379,McCain,NCG09773,,http://id.worldcat.org/fast/1308290,http://viaf.org/viaf/sourceID/LC%7Cn+2005182379#skos:Concept
+http://id.loc.gov/authorities/names/no2015134998,Aho,NCG00081,,,http://viaf.org/viaf/sourceID/LC%7Cno2015134998#skos:Concept
+http://id.loc.gov/authorities/names/n83052488,Cleveland,NCG03200,http://www.wikidata.org/entity/Q2394036,http://id.worldcat.org/fast/1224928,http://viaf.org/viaf/sourceID/LC%7Cn++83052488#skos:Concept
+http://id.loc.gov/authorities/names/n79102642,Parmele,NCG11488,http://www.wikidata.org/entity/Q2029580,http://id.worldcat.org/fast/1206318,http://viaf.org/viaf/sourceID/LC%7Cn++79102642#skos:Concept
+http://id.loc.gov/authorities/names/n82074115,Pasquotank County,NCG11510,http://www.wikidata.org/entity/Q507438,http://id.worldcat.org/fast/1220121,http://viaf.org/viaf/sourceID/LC%7Cn++82074115#skos:Concept
+http://id.loc.gov/authorities/names/n82105490,Maxton,NCG09733,http://www.wikidata.org/entity/Q1865512,http://id.worldcat.org/fast/1221259,http://viaf.org/viaf/sourceID/LC%7Cn++82105490#skos:Concept
+http://id.loc.gov/authorities/names/n84136676,Garland,NCG05708,http://www.wikidata.org/entity/Q2029642,http://id.worldcat.org/fast/1229791,http://viaf.org/viaf/sourceID/LC%7Cn++84136676#skos:Concept
+http://id.loc.gov/authorities/names/n82141630,Highlands,NCG07037,http://www.wikidata.org/entity/Q2025093,http://id.worldcat.org/fast/1222262,http://viaf.org/viaf/sourceID/LC%7Cn++82141630#skos:Concept
+http://id.loc.gov/authorities/names/n83030410,Efland,NCG04789,http://www.wikidata.org/entity/Q269003,http://id.worldcat.org/fast/1224377,http://viaf.org/viaf/sourceID/LC%7Cn++83030410#skos:Concept
+http://id.loc.gov/authorities/names/n83030434,Drexel,NCG04455,http://www.wikidata.org/entity/Q2045319,http://id.worldcat.org/fast/1224392,http://viaf.org/viaf/sourceID/LC%7Cn++83030434#skos:Concept
+http://id.loc.gov/authorities/names/n82003683,New Bern,NCG10728,http://www.wikidata.org/entity/Q1002490,http://id.worldcat.org/fast/1217415|http://id.worldcat.org/fast/1348272,http://viaf.org/viaf/sourceID/LC%7Cn++82003683#skos:Concept
+http://id.loc.gov/authorities/names/n82079164,Granite Falls,NCG06071,http://www.wikidata.org/entity/Q2024995,http://id.worldcat.org/fast/1220349,http://viaf.org/viaf/sourceID/LC%7Cn++82079164#skos:Concept
+http://id.loc.gov/authorities/names/n82079166,Havelock,NCG06709,http://www.wikidata.org/entity/Q2027902,http://id.worldcat.org/fast/1220351,http://viaf.org/viaf/sourceID/LC%7Cn++82079166#skos:Concept
+http://id.loc.gov/authorities/names/n89146346,Connelly Springs,NCG03440,http://www.wikidata.org/entity/Q2024946,http://id.worldcat.org/fast/1257964,http://viaf.org/viaf/sourceID/LC%7Cn++89146346#skos:Concept
+http://id.loc.gov/authorities/names/n88103259,Cameron,NCG02409,http://www.wikidata.org/entity/Q959820,http://id.worldcat.org/fast/1248920,http://viaf.org/viaf/sourceID/LC%7Cn++88103259#skos:Concept
+http://id.loc.gov/authorities/names/n79006534,Campbellton,NCG02473,,http://id.worldcat.org/fast/1204293,http://viaf.org/viaf/sourceID/LC%7Cn++79006534#skos:Concept
+http://id.loc.gov/authorities/names/n79039859,Halifax County,NCG06455,http://www.wikidata.org/entity/Q509910,http://id.worldcat.org/fast/1204887,http://viaf.org/viaf/sourceID/LC%7Cn++79039859#skos:Concept
+http://id.loc.gov/authorities/names/n94033925,Seven Devils,NCG13613,http://www.wikidata.org/entity/Q2024181,http://id.worldcat.org/fast/1268699,http://viaf.org/viaf/sourceID/LC%7Cn++94033925#skos:Concept
+http://id.loc.gov/authorities/names/n79118985,Edgecombe County,NCG04760,http://www.wikidata.org/entity/Q118127,http://id.worldcat.org/fast/1206610,http://viaf.org/viaf/sourceID/LC%7Cn++79118985#skos:Concept
+http://id.loc.gov/authorities/names/no92016697,Asheboro,NCG00361,,http://id.worldcat.org/fast/1262483,http://viaf.org/viaf/sourceID/LC%7Cno+92016697#skos:Concept
+http://id.loc.gov/authorities/names/n84136673,Goldston,NCG05972,http://www.wikidata.org/entity/Q2025373,http://id.worldcat.org/fast/1229789,http://viaf.org/viaf/sourceID/LC%7Cn++84136673#skos:Concept
+http://id.loc.gov/authorities/names/no2010185751,Stonewall,NCG14666,,,http://viaf.org/viaf/sourceID/LC%7Cno2010185751#skos:Concept
+http://id.loc.gov/authorities/names/no2015148411,Neuse Crossroads,NCG10713,,,http://viaf.org/viaf/sourceID/LC%7Cno2015148411#skos:Concept
+http://id.loc.gov/authorities/names/n88080777,Saw Mill,NCG07065,http://www.wikidata.org/entity/Q2023378,http://id.worldcat.org/fast/1248393,http://viaf.org/viaf/sourceID/LC%7Cn++88080777#skos:Concept
+http://id.loc.gov/authorities/names/n80051705,Buies Creek,NCG02113,http://www.wikidata.org/entity/Q2023998,http://id.worldcat.org/fast/1208552,http://viaf.org/viaf/sourceID/LC%7Cn++80051705#skos:Concept
+http://id.loc.gov/authorities/names/n79006535,Fayetteville,NCG05160,http://www.wikidata.org/entity/Q3461710,http://id.worldcat.org/fast/1348243|http://id.worldcat.org/fast/1348242|http://id.worldcat.org/fast/1204294,http://viaf.org/viaf/sourceID/LC%7Cn++79006535#skos:Concept
+http://id.loc.gov/authorities/names/no2015135094,Shawboro,NCG13696,,,http://viaf.org/viaf/sourceID/LC%7Cno2015135094#skos:Concept
+http://id.loc.gov/authorities/names/n88080730,Middleburg,NCG10049,http://www.wikidata.org/entity/Q1987192,http://id.worldcat.org/fast/1248353,http://viaf.org/viaf/sourceID/LC%7Cn++88080730#skos:Concept
+http://id.loc.gov/authorities/names/n2002033248,Walnut,NCG15826,,http://id.worldcat.org/fast/1297058,http://viaf.org/viaf/sourceID/LC%7Cn+2002033248#skos:Concept
+http://id.loc.gov/authorities/names/n2005022025,Oak Island,NCG11051,http://www.wikidata.org/entity/Q2025710,http://id.worldcat.org/fast/1307290,http://viaf.org/viaf/sourceID/LC%7Cn+2005022025#skos:Concept
+http://id.loc.gov/authorities/names/n84136589,Oak City,NCG11043,http://www.wikidata.org/entity/Q373229,http://id.worldcat.org/fast/1229662,http://viaf.org/viaf/sourceID/LC%7Cn++84136589#skos:Concept
+http://id.loc.gov/authorities/names/n84136698,Locust,NCG09160,http://www.wikidata.org/entity/Q2029632,http://id.worldcat.org/fast/1229804,http://viaf.org/viaf/sourceID/LC%7Cn++84136698#skos:Concept
+http://id.loc.gov/authorities/names/n85184018,Mooresboro,NCG10333,http://www.wikidata.org/entity/Q2029617,http://id.worldcat.org/fast/1233385,http://viaf.org/viaf/sourceID/LC%7Cn++85184018#skos:Concept
+http://id.loc.gov/authorities/names/n86011673,Greenwood Township,NCG06271,,http://id.worldcat.org/fast/1237740,http://viaf.org/viaf/sourceID/LC%7Cn++86011673#skos:Concept
+http://id.loc.gov/authorities/names/n83205110,Dobson,NCG04322,http://www.wikidata.org/entity/Q2026174,http://id.worldcat.org/fast/1226226,http://viaf.org/viaf/sourceID/LC%7Cn++83205110#skos:Concept
+http://id.loc.gov/authorities/names/n83205134,Elkin,NCG04860,http://www.wikidata.org/entity/Q2030863,http://id.worldcat.org/fast/1226237,http://viaf.org/viaf/sourceID/LC%7Cn++83205134#skos:Concept
+http://id.loc.gov/authorities/names/n79039858,Northampton County,NCG10994,http://www.wikidata.org/entity/Q506676,http://id.worldcat.org/fast/1204886,http://viaf.org/viaf/sourceID/LC%7Cn++79039858#skos:Concept
+http://id.loc.gov/authorities/names/n81132539,Spindale,NCG14357,http://www.wikidata.org/entity/Q2023604,http://id.worldcat.org/fast/1216543,http://viaf.org/viaf/sourceID/LC%7Cn++81132539#skos:Concept
+http://id.loc.gov/authorities/names/n91118028,Farmington,NCG05136,,http://id.worldcat.org/fast/1260346,http://viaf.org/viaf/sourceID/LC%7Cn++91118028#skos:Concept
+http://id.loc.gov/authorities/names/n82030646,James City,NCG07777,http://www.wikidata.org/entity/Q686753,http://id.worldcat.org/fast/1218668,http://viaf.org/viaf/sourceID/LC%7Cn++82030646#skos:Concept
+http://id.loc.gov/authorities/names/n80043418,Johnston County,NCG07949,http://www.wikidata.org/entity/Q497938,http://id.worldcat.org/fast/1208316,http://viaf.org/viaf/sourceID/LC%7Cn++80043418#skos:Concept
+http://id.loc.gov/authorities/names/n80032219,Mecklenburg County,NCG09919,http://www.wikidata.org/entity/Q507770,http://id.worldcat.org/fast/1208074,http://viaf.org/viaf/sourceID/LC%7Cn++80032219#skos:Concept
+http://id.loc.gov/authorities/names/n82079168,Hudson,NCG07443,http://www.wikidata.org/entity/Q2024960,http://id.worldcat.org/fast/1220352,http://viaf.org/viaf/sourceID/LC%7Cn++82079168#skos:Concept
+http://id.loc.gov/authorities/names/n82070875,Clinton,NCG03227,,http://id.worldcat.org/fast/1220056,http://viaf.org/viaf/sourceID/LC%7Cn++82070875#skos:Concept
+http://id.loc.gov/authorities/names/n82047989,Holly Ridge,NCG07212,http://www.wikidata.org/entity/Q2023761,http://id.worldcat.org/fast/1219345,http://viaf.org/viaf/sourceID/LC%7Cn++82047989#skos:Concept
+http://id.loc.gov/authorities/names/n84136670,Harrellsville,NCG06629,http://www.wikidata.org/entity/Q2022931,http://id.worldcat.org/fast/1229786,http://viaf.org/viaf/sourceID/LC%7Cn++84136670#skos:Concept
+http://id.loc.gov/authorities/names/n82089917,Hillsborough,NCG07070,http://www.wikidata.org/entity/Q49280016,http://id.worldcat.org/fast/1220745|http://id.worldcat.org/fast/1348261,http://viaf.org/viaf/sourceID/LC%7Cn++82089917#skos:Concept
+http://id.loc.gov/authorities/names/n84136695,Lake Waccamaw,NCG08406,http://www.wikidata.org/entity/Q2027701,http://id.worldcat.org/fast/1229802,http://viaf.org/viaf/sourceID/LC%7Cn++84136695#skos:Concept
+http://id.loc.gov/authorities/names/n84136671,Harrells,NCG06626,http://www.wikidata.org/entity/Q2024309,http://id.worldcat.org/fast/1229787,http://viaf.org/viaf/sourceID/LC%7Cn++84136671#skos:Concept
+http://id.loc.gov/authorities/names/no2011138399,Bowmore,NCG01706,,http://id.worldcat.org/fast/1885817,http://viaf.org/viaf/sourceID/LC%7Cno2011138399#skos:Concept
+http://id.loc.gov/authorities/names/n93002553,Piney Creek,NCG11868,http://www.wikidata.org/entity/Q7195612,http://id.worldcat.org/fast/1263889,http://viaf.org/viaf/sourceID/LC%7Cn++93002553#skos:Concept
+http://id.loc.gov/authorities/names/n81124952,Wilkesboro,NCG16381,http://www.wikidata.org/entity/Q1025995,http://id.worldcat.org/fast/1216167,http://viaf.org/viaf/sourceID/LC%7Cn++81124952#skos:Concept
+http://id.loc.gov/authorities/names/no2015080036,Stumpy Point,NCG14740,http://www.wikidata.org/entity/Q7628724,,http://viaf.org/viaf/sourceID/LC%7Cno2015080036#skos:Concept
+http://id.loc.gov/authorities/names/n81087156,Chatham County,NCG02928,http://www.wikidata.org/entity/Q504410,http://id.worldcat.org/fast/1214602,http://viaf.org/viaf/sourceID/LC%7Cn++81087156#skos:Concept
+http://id.loc.gov/authorities/names/n82079169,Kernersville,NCG08174,http://www.wikidata.org/entity/Q2028144,http://id.worldcat.org/fast/1348264|http://id.worldcat.org/fast/1220353,http://viaf.org/viaf/sourceID/LC%7Cn++82079169#skos:Concept
+http://id.loc.gov/authorities/names/n80141390,Franklinton,NCG05538,http://www.wikidata.org/entity/Q1445323,http://id.worldcat.org/fast/1210597,http://viaf.org/viaf/sourceID/LC%7Cn++80141390#skos:Concept
+http://id.loc.gov/authorities/names/n82140871,Moyock,NCG10517,http://www.wikidata.org/entity/Q4026654,http://id.worldcat.org/fast/1222242,http://viaf.org/viaf/sourceID/LC%7Cn++82140871#skos:Concept
+http://id.loc.gov/authorities/names/n84047562,Fort Bragg,NCG05438,http://www.wikidata.org/entity/Q991369,http://id.worldcat.org/fast/1228963,http://viaf.org/viaf/sourceID/LC%7Cn++84047562#skos:Concept
+http://id.loc.gov/authorities/names/n98029766,Summerfield,NCG14815,,http://id.worldcat.org/fast/1283677,http://viaf.org/viaf/sourceID/LC%7Cn++98029766#skos:Concept
+http://id.loc.gov/authorities/names/no2015142978,Webster,NCG16020,,,http://viaf.org/viaf/sourceID/LC%7Cno2015142978#skos:Concept
+http://id.loc.gov/authorities/names/n84136696,Lilesville,NCG08749,http://www.wikidata.org/entity/Q2023053,http://id.worldcat.org/fast/1229803,http://viaf.org/viaf/sourceID/LC%7Cn++84136696#skos:Concept
+http://id.loc.gov/authorities/names/n84136672,Harkers Island,NCG06596,http://www.wikidata.org/entity/Q2024887,http://id.worldcat.org/fast/1229788,http://viaf.org/viaf/sourceID/LC%7Cn++84136672#skos:Concept
+http://id.loc.gov/authorities/names/n80119359,Wilmington,NCG16454,http://www.wikidata.org/entity/Q659400,http://id.worldcat.org/fast/1348292|http://id.worldcat.org/fast/1348291|http://id.worldcat.org/fast/1210117,http://viaf.org/viaf/sourceID/LC%7Cn++80119359#skos:Concept
+http://id.loc.gov/authorities/names/n83030430,Woodland,NCG16618,http://www.wikidata.org/entity/Q2026680,http://id.worldcat.org/fast/1224390,http://viaf.org/viaf/sourceID/LC%7Cn++83030430#skos:Concept
+http://id.loc.gov/authorities/names/n82081595,Kitty Hawk,NCG08287,http://www.wikidata.org/entity/Q628311,http://id.worldcat.org/fast/1220432,http://viaf.org/viaf/sourceID/LC%7Cn++82081595#skos:Concept
+http://id.loc.gov/authorities/names/n88278576,Topsail Beach,NCG15281,http://www.wikidata.org/entity/Q2022410,http://id.worldcat.org/fast/1253594,http://viaf.org/viaf/sourceID/LC%7Cn++88278576#skos:Concept
+http://id.loc.gov/authorities/names/no2016070438,Greenevers,NCG06248,,,http://viaf.org/viaf/sourceID/LC%7Cno2016070438#skos:Concept
+http://id.loc.gov/authorities/names/n82001087,Cullowhee,NCG03871,http://www.wikidata.org/entity/Q2008768,http://id.worldcat.org/fast/1217343,http://viaf.org/viaf/sourceID/LC%7Cn++82001087#skos:Concept
+http://id.loc.gov/authorities/names/no2014143371,Pisgah Forest,NCG11928,http://www.wikidata.org/entity/Q1817477,,http://viaf.org/viaf/sourceID/LC%7Cno2014143371#skos:Concept
+http://id.loc.gov/authorities/names/n80086254,Surry County,NCG14850,http://www.wikidata.org/entity/Q507881,http://id.worldcat.org/fast/1209301,http://viaf.org/viaf/sourceID/LC%7Cn++80086254#skos:Concept
+http://id.loc.gov/authorities/names/n84136692,King,NCG08226,http://www.wikidata.org/entity/Q2029553,http://id.worldcat.org/fast/1229799,http://viaf.org/viaf/sourceID/LC%7Cn++84136692#skos:Concept
+http://id.loc.gov/authorities/names/n84136693,Knightdale,NCG08295,http://www.wikidata.org/entity/Q1905830,http://id.worldcat.org/fast/1229800|http://id.worldcat.org/fast/1348266,http://viaf.org/viaf/sourceID/LC%7Cn++84136693#skos:Concept
+http://id.loc.gov/authorities/names/n83221946,Yadkinville,NCG16722,http://www.wikidata.org/entity/Q1476438,http://id.worldcat.org/fast/1227805,http://viaf.org/viaf/sourceID/LC%7Cn++83221946#skos:Concept
+http://id.loc.gov/authorities/names/no2015148455,Townsville,NCG15316,,,http://viaf.org/viaf/sourceID/LC%7Cno2015148455#skos:Concept
+http://id.loc.gov/authorities/names/n82070877,Clayton,NCG03173,http://www.wikidata.org/entity/Q1099274,http://id.worldcat.org/fast/1220057,http://viaf.org/viaf/sourceID/LC%7Cn++82070877#skos:Concept
+http://id.loc.gov/authorities/names/n81124841,Archdale,NCG00300,,http://id.worldcat.org/fast/1216139,http://viaf.org/viaf/sourceID/LC%7Cn++81124841#skos:Concept
+http://id.loc.gov/authorities/names/n2003086932,High Falls,NCG06996,http://www.wikidata.org/entity/Q22418657,http://id.worldcat.org/fast/1301212,http://viaf.org/viaf/sourceID/LC%7Cn+2003086932#skos:Concept
+http://id.loc.gov/authorities/names/n80025873,Bladen County,NCG01466,http://www.wikidata.org/entity/Q504403,http://id.worldcat.org/fast/1207985,http://viaf.org/viaf/sourceID/LC%7Cn++80025873#skos:Concept
+http://id.loc.gov/authorities/names/n80025764,Cleveland County,NCG03201,http://www.wikidata.org/entity/Q511691,http://id.worldcat.org/fast/1207977,http://viaf.org/viaf/sourceID/LC%7Cn++80025764#skos:Concept
+http://id.loc.gov/authorities/names/no2010083946,Brownsville,NCG01941,,,http://viaf.org/viaf/sourceID/LC%7Cno2010083946#skos:Concept
+http://id.loc.gov/authorities/names/n88278577,Surf City,NCG14847,http://www.wikidata.org/entity/Q2029390,http://id.worldcat.org/fast/1253593,http://viaf.org/viaf/sourceID/LC%7Cn++88278577#skos:Concept
+http://id.loc.gov/authorities/names/no2015147017,Lumber Bridge,NCG09399,,,http://viaf.org/viaf/sourceID/LC%7Cno2015147017#skos:Concept
+http://id.loc.gov/authorities/names/n88074056,Corolla,NCG03572,http://www.wikidata.org/entity/Q2997624,http://id.worldcat.org/fast/1246674,http://viaf.org/viaf/sourceID/LC%7Cn++88074056#skos:Concept
+http://id.loc.gov/authorities/names/n93023187,Bolivia,NCG01614,http://www.wikidata.org/entity/Q891370,http://id.worldcat.org/fast/1264377,http://viaf.org/viaf/sourceID/LC%7Cn++93023187#skos:Concept
+http://id.loc.gov/authorities/names/n83005808,Little Switzerland,NCG09101,http://www.wikidata.org/entity/Q1865835,http://id.worldcat.org/fast/1229022,http://viaf.org/viaf/sourceID/LC%7Cn++83005808#skos:Concept
+http://id.loc.gov/authorities/names/n83052599,Granite Quarry,NCG06072,http://www.wikidata.org/entity/Q2023321,http://id.worldcat.org/fast/1224982,http://viaf.org/viaf/sourceID/LC%7Cn++83052599#skos:Concept
+http://id.loc.gov/authorities/names/n84136694,Kittrell,NCG08283,http://www.wikidata.org/entity/Q2023974,http://id.worldcat.org/fast/1229801,http://viaf.org/viaf/sourceID/LC%7Cn++84136694#skos:Concept
+http://id.loc.gov/authorities/names/n88080665,Broadway,NCG01875,,http://id.worldcat.org/fast/1248116,http://viaf.org/viaf/sourceID/LC%7Cn++88080665#skos:Concept
+http://id.loc.gov/authorities/names/n80139845,Vance County,NCG15680,http://www.wikidata.org/entity/Q507981,http://id.worldcat.org/fast/1210548,http://viaf.org/viaf/sourceID/LC%7Cn++80139845#skos:Concept
+http://id.loc.gov/authorities/names/n82070878,Claremont,NCG03135,,http://id.worldcat.org/fast/1220058,http://viaf.org/viaf/sourceID/LC%7Cn++82070878#skos:Concept
+http://id.loc.gov/authorities/names/n81124842,Asheboro,NCG00361,http://www.wikidata.org/entity/Q725046,http://id.worldcat.org/fast/1216140,http://viaf.org/viaf/sourceID/LC%7Cn++81124842#skos:Concept
+http://id.loc.gov/authorities/names/n82070871,Conover,NCG03451,http://www.wikidata.org/entity/Q2027835,http://id.worldcat.org/fast/1220052,http://viaf.org/viaf/sourceID/LC%7Cn++82070871#skos:Concept
+http://id.loc.gov/authorities/names/n83030419,Littleton,NCG09125,http://www.wikidata.org/entity/Q2029764,http://id.worldcat.org/fast/1224382,http://viaf.org/viaf/sourceID/LC%7Cn++83030419#skos:Concept
+http://id.loc.gov/authorities/names/no2016061147,Orange,NCG11247,,,http://viaf.org/viaf/sourceID/LC%7Cno2016061147#skos:Concept
+http://id.loc.gov/authorities/names/no2016100115,Moravian Falls,NCG10341,,,http://viaf.org/viaf/sourceID/LC%7Cno2016100115#skos:Concept
+http://id.loc.gov/authorities/names/n82070895,Mebane,NCG09913,http://www.wikidata.org/entity/Q931859,http://id.worldcat.org/fast/1220070,http://viaf.org/viaf/sourceID/LC%7Cn++82070895#skos:Concept
+http://id.loc.gov/authorities/names/n83227756,Denton,NCG04175,http://www.wikidata.org/entity/Q2276938,http://id.worldcat.org/fast/1226991,http://viaf.org/viaf/sourceID/LC%7Cn++83227756#skos:Concept
+http://id.loc.gov/authorities/names/n81048274,Mooresville,NCG10334,http://www.wikidata.org/entity/Q2027955,http://id.worldcat.org/fast/1213155,http://viaf.org/viaf/sourceID/LC%7Cn++81048274#skos:Concept
+http://id.loc.gov/authorities/names/n82042567,Pamlico County,NCG11418,http://www.wikidata.org/entity/Q507616,http://id.worldcat.org/fast/1219086,http://viaf.org/viaf/sourceID/LC%7Cn++82042567#skos:Concept
+http://id.loc.gov/authorities/names/n83023586,Walstonburg,NCG15844,http://www.wikidata.org/entity/Q2022656,http://id.worldcat.org/fast/1224120,http://viaf.org/viaf/sourceID/LC%7Cn++83023586#skos:Concept
+http://id.loc.gov/authorities/names/no2012125208,Henry River,NCG06878,http://www.wikidata.org/entity/Q5727566,http://id.worldcat.org/fast/1889029,http://viaf.org/viaf/sourceID/LC%7Cno2012125208#skos:Concept
+http://id.loc.gov/authorities/names/no2011138400,Salter Path,NCG13299,,http://id.worldcat.org/fast/1885818,http://viaf.org/viaf/sourceID/LC%7Cno2011138400#skos:Concept
+http://id.loc.gov/authorities/names/n84055309,Winton,NCG16531,http://www.wikidata.org/entity/Q1906573,http://id.worldcat.org/fast/1229145,http://viaf.org/viaf/sourceID/LC%7Cn++84055309#skos:Concept
+http://id.loc.gov/authorities/names/no2008045391,Glencoe,NCG05899,,http://id.worldcat.org/fast/1874731,http://viaf.org/viaf/sourceID/LC%7Cno2008045391#skos:Concept
+http://id.loc.gov/authorities/names/n83016543,Spring Lake,NCG14397,,http://id.worldcat.org/fast/1223917,http://viaf.org/viaf/sourceID/LC%7Cn++83016543#skos:Concept
+http://id.loc.gov/authorities/subjects/sh2015001522,Lake Mattamuskeet,NCG08378,http://www.wikidata.org/entity/Q5969534,http://id.worldcat.org/fast/1922119,
+http://id.loc.gov/authorities/names/no2010083948,George,NCG05764,,http://id.worldcat.org/fast/1882212,http://viaf.org/viaf/sourceID/LC%7Cno2010083948#skos:Concept
+http://id.loc.gov/authorities/names/no2017119971,Samarcand,NCG13317,,,http://viaf.org/viaf/sourceID/LC%7Cno2017119971#skos:Concept
+http://id.loc.gov/authorities/names/n82070896,Maiden,NCG09501,http://www.wikidata.org/entity/Q2029163,http://id.worldcat.org/fast/1220071,http://viaf.org/viaf/sourceID/LC%7Cn++82070896#skos:Concept
+http://id.loc.gov/authorities/names/n82070872,Concord,NCG03409,http://www.wikidata.org/entity/Q1030184,http://id.worldcat.org/fast/1348236|http://id.worldcat.org/fast/1220053,http://viaf.org/viaf/sourceID/LC%7Cn++82070872#skos:Concept
+http://id.loc.gov/authorities/names/n86114794,Bentonville,NCG01100,,http://id.worldcat.org/fast/1237371,http://viaf.org/viaf/sourceID/LC%7Cn++86114794#skos:Concept
+http://id.loc.gov/authorities/names/n2016064704,Blounts Creek,NCG01530,,,http://viaf.org/viaf/sourceID/LC%7Cn+2016064704#skos:Concept
+http://id.loc.gov/authorities/names/n94033635,Alamance,NCG00096,http://www.wikidata.org/entity/Q2514210,http://id.worldcat.org/fast/1268690,http://viaf.org/viaf/sourceID/LC%7Cn++94033635#skos:Concept
+http://id.loc.gov/authorities/names/n84136691,Kenansville,NCG08148,http://www.wikidata.org/entity/Q2029297,http://id.worldcat.org/fast/1229798,http://viaf.org/viaf/sourceID/LC%7Cn++84136691#skos:Concept
+http://id.loc.gov/authorities/names/n96019653,Pope Air Force Base,NCG12093,http://www.wikidata.org/entity/Q1246941,http://id.worldcat.org/fast/1277322,http://viaf.org/viaf/sourceID/LC%7Cn++96019653#skos:Concept
+http://id.loc.gov/authorities/names/no2012125207,Gum Neck,NCG06376,,http://id.worldcat.org/fast/1889028,http://viaf.org/viaf/sourceID/LC%7Cno2012125207#skos:Concept
+http://id.loc.gov/authorities/names/n97079170,Cataloochee,NCG02729,http://www.wikidata.org/entity/Q1050261,http://id.worldcat.org/fast/1281269|http://id.worldcat.org/fast/1348231,http://viaf.org/viaf/sourceID/LC%7Cn++97079170#skos:Concept
+http://id.loc.gov/authorities/names/n82020158,McDowell County,NCG09815,http://www.wikidata.org/entity/Q507811,http://id.worldcat.org/fast/1218232,http://viaf.org/viaf/sourceID/LC%7Cn++82020158#skos:Concept
+http://id.loc.gov/authorities/names/no2014027300,Casar,NCG02674,,,http://viaf.org/viaf/sourceID/LC%7Cno2014027300#skos:Concept
+http://id.loc.gov/authorities/names/n83030417,Halifax,NCG06454,http://www.wikidata.org/entity/Q2026751,http://id.worldcat.org/fast/1224381|http://id.worldcat.org/fast/1348253,http://viaf.org/viaf/sourceID/LC%7Cn++83030417#skos:Concept
+http://id.loc.gov/authorities/names/n82070873,Columbus,NCG03385,http://www.wikidata.org/entity/Q2026104,http://id.worldcat.org/fast/1220054,http://viaf.org/viaf/sourceID/LC%7Cn++82070873#skos:Concept
+http://id.loc.gov/authorities/names/n82017628,Caldwell County,NCG02355,http://www.wikidata.org/entity/Q497908,http://id.worldcat.org/fast/1218045,http://viaf.org/viaf/sourceID/LC%7Cn++82017628#skos:Concept
+http://id.loc.gov/authorities/names/no2018080568,Nazareth,NCG10657,,,http://viaf.org/viaf/sourceID/LC%7Cno2018080568#skos:Concept
+http://id.loc.gov/authorities/names/n81011103,Bahama,NCG00491,http://www.wikidata.org/entity/Q4842317,http://id.worldcat.org/fast/1211628,http://viaf.org/viaf/sourceID/LC%7Cn++81011103#skos:Concept
+http://id.loc.gov/authorities/names/no2015148475,Wesley Chapel,NCG16065,,,http://viaf.org/viaf/sourceID/LC%7Cno2015148475#skos:Concept
+http://id.loc.gov/authorities/names/n96039045,Alexander,NCG00127,,http://id.worldcat.org/fast/1276063,http://viaf.org/viaf/sourceID/LC%7Cn++96039045#skos:Concept
+http://id.loc.gov/authorities/names/n00063350,Chinquapin,NCG03069,http://www.wikidata.org/entity/Q3473641,http://id.worldcat.org/fast/1289686,http://viaf.org/viaf/sourceID/LC%7Cn++00063350#skos:Concept
+http://id.loc.gov/authorities/names/n84112428,Clarkton,NCG03159,http://www.wikidata.org/entity/Q2025031,http://id.worldcat.org/fast/1229646,http://viaf.org/viaf/sourceID/LC%7Cn++84112428#skos:Concept
+http://id.loc.gov/authorities/names/no2017032085,Deep Run,NCG04115,,,http://viaf.org/viaf/sourceID/LC%7Cno2017032085#skos:Concept
+http://id.loc.gov/authorities/names/n82017627,Catawba County,NCG02735,http://www.wikidata.org/entity/Q502483,http://id.worldcat.org/fast/1218044,http://viaf.org/viaf/sourceID/LC%7Cn++82017627#skos:Concept
+http://id.loc.gov/authorities/names/n84055306,Shallotte,NCG13652,http://www.wikidata.org/entity/Q1879225,http://id.worldcat.org/fast/1229144,http://viaf.org/viaf/sourceID/LC%7Cn++84055306#skos:Concept
+http://id.loc.gov/authorities/names/n81126123,North Wilkesboro,NCG10992,http://www.wikidata.org/entity/Q2029796,http://id.worldcat.org/fast/1216260,http://viaf.org/viaf/sourceID/LC%7Cn++81126123#skos:Concept
+http://id.loc.gov/authorities/names/n79092605,Winston-Salem,NCG16525,http://www.wikidata.org/entity/Q49227,http://id.worldcat.org/fast/1206125|http://id.worldcat.org/fast/1348294,http://viaf.org/viaf/sourceID/LC%7Cn++79092605#skos:Concept
+http://id.loc.gov/authorities/names/n81022525,Cumberland County,NCG03877,http://www.wikidata.org/entity/Q511834,http://id.worldcat.org/fast/1212201,http://viaf.org/viaf/sourceID/LC%7Cn++81022525#skos:Concept
+http://id.loc.gov/authorities/names/n81048278,Statesville,NCG14551,http://www.wikidata.org/entity/Q553956,http://id.worldcat.org/fast/1213159|http://id.worldcat.org/fast/1348284,http://viaf.org/viaf/sourceID/LC%7Cn++81048278#skos:Concept
+http://id.loc.gov/authorities/names/no2017140963,Tar Heel,NCG14978,,,http://viaf.org/viaf/sourceID/LC%7Cno2017140963#skos:Concept
+http://id.loc.gov/authorities/names/n83030439,Rhodhiss,NCG12703,http://www.wikidata.org/entity/Q2027047,http://id.worldcat.org/fast/1224397,http://viaf.org/viaf/sourceID/LC%7Cn++83030439#skos:Concept
+http://id.loc.gov/authorities/names/n82070891,Polk County,NCG12046,http://www.wikidata.org/entity/Q507892,http://id.worldcat.org/fast/1220066,http://viaf.org/viaf/sourceID/LC%7Cn++82070891#skos:Concept
+http://id.loc.gov/authorities/names/n90695691,Jonesboro,NCG07988,,http://id.worldcat.org/fast/1256189,http://viaf.org/viaf/sourceID/LC%7Cn++90695691#skos:Concept
+http://id.loc.gov/authorities/subjects/sh85096155,Outer Banks,NCG11317,http://www.wikidata.org/entity/Q1517373,http://id.worldcat.org/fast/1348274|http://id.worldcat.org/fast/1243436,
+http://id.loc.gov/authorities/names/n82082900,Ridgecrest,NCG12793,http://www.wikidata.org/entity/Q545355,http://id.worldcat.org/fast/1220503,http://viaf.org/viaf/sourceID/LC%7Cn++82082900#skos:Concept
+http://id.loc.gov/authorities/subjects/sh2002010027,Crystal Coast,NCG03847,,http://id.worldcat.org/fast/1298543,
+http://id.loc.gov/authorities/names/n88080731,Lasker,NCG08485,http://www.wikidata.org/entity/Q2003751,http://id.worldcat.org/fast/1248365,http://viaf.org/viaf/sourceID/LC%7Cn++88080731#skos:Concept
+http://id.loc.gov/authorities/names/no2014027454,Lattimore,NCG08497,,,http://viaf.org/viaf/sourceID/LC%7Cno2014027454#skos:Concept
+http://id.loc.gov/authorities/names/n82076165,Garner,NCG05710,http://www.wikidata.org/entity/Q2028273,http://id.worldcat.org/fast/1348246|http://id.worldcat.org/fast/1220242,http://viaf.org/viaf/sourceID/LC%7Cn++82076165#skos:Concept
+http://id.loc.gov/authorities/names/n82070892,Newton,NCG10805,http://www.wikidata.org/entity/Q2027967,http://id.worldcat.org/fast/1220067,http://viaf.org/viaf/sourceID/LC%7Cn++82070892#skos:Concept
+http://id.loc.gov/authorities/names/n93003734,Patterson,NCG11527,http://www.wikidata.org/entity/Q7148423,http://id.worldcat.org/fast/1263915,http://viaf.org/viaf/sourceID/LC%7Cn++93003734#skos:Concept
+http://id.loc.gov/authorities/names/n85189115,Morrisville,NCG10380,http://www.wikidata.org/entity/Q2028159,http://id.worldcat.org/fast/1258551,http://viaf.org/viaf/sourceID/LC%7Cn++85189115#skos:Concept
+http://id.loc.gov/authorities/names/no2013054566,Avon,NCG00446,,http://id.worldcat.org/fast/1890457,http://viaf.org/viaf/sourceID/LC%7Cno2013054566#skos:Concept
+http://id.loc.gov/authorities/names/n84016928,Bills Creek,NCG01358,,http://id.worldcat.org/fast/1228328,http://viaf.org/viaf/sourceID/LC%7Cn++84016928#skos:Concept
+http://id.loc.gov/authorities/names/n83169748,Holden Beach,NCG07169,http://www.wikidata.org/entity/Q2023774,http://id.worldcat.org/fast/1225817,http://viaf.org/viaf/sourceID/LC%7Cn++83169748#skos:Concept
+http://id.loc.gov/authorities/names/n88080732,Caswell Beach,NCG02712,http://www.wikidata.org/entity/Q2027437,http://id.worldcat.org/fast/1248608,http://viaf.org/viaf/sourceID/LC%7Cn++88080732#skos:Concept
+http://id.loc.gov/authorities/names/n83030414,Granthams,NCG06085,,http://id.worldcat.org/fast/1224380,http://viaf.org/viaf/sourceID/LC%7Cn++83030414#skos:Concept
+http://id.loc.gov/authorities/names/n83030438,Morganton,NCG10362,http://www.wikidata.org/entity/Q1021031,http://id.worldcat.org/fast/1224396,http://viaf.org/viaf/sourceID/LC%7Cn++83030438#skos:Concept
+http://id.loc.gov/authorities/names/n82070893,Murphy,NCG10566,http://www.wikidata.org/entity/Q2029042,http://id.worldcat.org/fast/1220068,http://viaf.org/viaf/sourceID/LC%7Cn++82070893#skos:Concept
+http://id.loc.gov/authorities/names/n79060411,Guilford County,NCG06348,http://www.wikidata.org/entity/Q502257,http://id.worldcat.org/fast/1205338,http://viaf.org/viaf/sourceID/LC%7Cn++79060411#skos:Concept
+http://id.loc.gov/authorities/names/n85189003,Anderson Creek,NCG00229,http://www.wikidata.org/entity/Q4754052,http://id.worldcat.org/fast/1259688,http://viaf.org/viaf/sourceID/LC%7Cn++85189003#skos:Concept
+http://id.loc.gov/authorities/names/n92116734,Union Grove,NCG15600,,http://id.worldcat.org/fast/1263678,http://viaf.org/viaf/sourceID/LC%7Cn++92116734#skos:Concept
+http://id.loc.gov/authorities/names/n86117051,Whynot,NCG16317,,http://id.worldcat.org/fast/1236793,http://viaf.org/viaf/sourceID/LC%7Cn++86117051#skos:Concept
+http://id.loc.gov/authorities/names/n2001035200,Belvidere,NCG01050,http://www.wikidata.org/entity/Q3474712,http://id.worldcat.org/fast/1293493,http://viaf.org/viaf/sourceID/LC%7Cn+2001035200#skos:Concept
+http://id.loc.gov/authorities/names/no2008028438,Bynum,NCG02302,,http://id.worldcat.org/fast/1874393,http://viaf.org/viaf/sourceID/LC%7Cno2008028438#skos:Concept
+http://id.loc.gov/authorities/names/n81067838,Stanly County,NCG14519,http://www.wikidata.org/entity/Q507798,http://id.worldcat.org/fast/1213844,http://viaf.org/viaf/sourceID/LC%7Cn++81067838#skos:Concept
+http://id.loc.gov/authorities/names/n83030413,Garysburg,NCG05729,http://www.wikidata.org/entity/Q2024664,http://id.worldcat.org/fast/1224379,http://viaf.org/viaf/sourceID/LC%7Cn++83030413#skos:Concept
+http://id.loc.gov/authorities/names/n84136609,Salemburg,NCG13276,http://www.wikidata.org/entity/Q1983702,http://id.worldcat.org/fast/1229675,http://viaf.org/viaf/sourceID/LC%7Cn++84136609#skos:Concept
+http://id.loc.gov/authorities/names/no95028287,Gulf,NCG06353,,http://id.worldcat.org/fast/1272289,http://viaf.org/viaf/sourceID/LC%7Cno+95028287#skos:Concept
+http://id.loc.gov/authorities/names/n83030437,Hildebran,NCG07049,http://www.wikidata.org/entity/Q2026767,http://id.worldcat.org/fast/1224395,http://viaf.org/viaf/sourceID/LC%7Cn++83030437#skos:Concept
+http://id.loc.gov/authorities/names/n82070870,Edenton,NCG04753,http://www.wikidata.org/entity/Q2028258,http://id.worldcat.org/fast/1348239|http://id.worldcat.org/fast/1220051,http://viaf.org/viaf/sourceID/LC%7Cn++82070870#skos:Concept
+http://id.loc.gov/authorities/names/n92007664,Ferguson,NCG05177,,http://id.worldcat.org/fast/1260854,http://viaf.org/viaf/sourceID/LC%7Cn++92007664#skos:Concept
+http://id.loc.gov/authorities/names/n82070894,Mocksville,NCG10246,,http://id.worldcat.org/fast/1220069,http://viaf.org/viaf/sourceID/LC%7Cn++82070894#skos:Concept
+http://id.loc.gov/authorities/names/n81138941,Yadkin County,NCG16715,http://www.wikidata.org/entity/Q497284,http://id.worldcat.org/fast/1216856,http://viaf.org/viaf/sourceID/LC%7Cn++81138941#skos:Concept
+http://id.loc.gov/authorities/names/n83227715,Gibsonville,NCG05814,http://www.wikidata.org/entity/Q525407,http://id.worldcat.org/fast/1226970,http://viaf.org/viaf/sourceID/LC%7Cn++83227715#skos:Concept
+http://id.loc.gov/authorities/names/n81081253,Greenville,NCG06268,,http://id.worldcat.org/fast/1348252|http://id.worldcat.org/fast/1214377,http://viaf.org/viaf/sourceID/LC%7Cn++81081253#skos:Concept
+http://id.loc.gov/authorities/names/n80002142,Davis,NCG04035,http://www.wikidata.org/entity/Q16089476,http://id.worldcat.org/fast/1207357,http://viaf.org/viaf/sourceID/LC%7Cn++80002142#skos:Concept
+http://id.loc.gov/authorities/names/n2008161989,Camp Butner,NCG02419,,http://id.worldcat.org/fast/1875315,http://viaf.org/viaf/sourceID/LC%7Cn+2008161989#skos:Concept
+http://id.loc.gov/authorities/names/n2009076632,Whittier,NCG16309,,,http://viaf.org/viaf/sourceID/LC%7Cn+2009076632#skos:Concept
+http://id.loc.gov/authorities/names/n83016542,Hope Mills,NCG07285,http://www.wikidata.org/entity/Q2028013,http://id.worldcat.org/fast/1223916,http://viaf.org/viaf/sourceID/LC%7Cn++83016542#skos:Concept
+http://id.loc.gov/authorities/names/n83030436,Glen Alpine,NCG05887,http://www.wikidata.org/entity/Q922645,http://id.worldcat.org/fast/1224394,http://viaf.org/viaf/sourceID/LC%7Cn++83030436#skos:Concept
+http://id.loc.gov/authorities/names/n82076166,Fuquay-Varina,NCG05640,http://www.wikidata.org/entity/Q2028768,http://id.worldcat.org/fast/1220243,http://viaf.org/viaf/sourceID/LC%7Cn++82076166#skos:Concept
+http://id.loc.gov/authorities/names/n79083600,Lincoln County,NCG08773,http://www.wikidata.org/entity/Q507757,http://id.worldcat.org/fast/1205888,http://viaf.org/viaf/sourceID/LC%7Cn++79083600#skos:Concept
+http://id.loc.gov/authorities/names/n2002032941,Advance,NCG00073,http://www.wikidata.org/entity/Q3474655,http://id.worldcat.org/fast/1296932,http://viaf.org/viaf/sourceID/LC%7Cn+2002032941#skos:Concept
+http://id.loc.gov/authorities/names/n79052936,Hallsboro,NCG06489,http://www.wikidata.org/entity/Q2883634,http://id.worldcat.org/fast/1341852,http://viaf.org/viaf/sourceID/LC%7Cn++79052936#skos:Concept
+http://id.loc.gov/authorities/names/n81090056,Eden,NCG04749,http://www.wikidata.org/entity/Q1283521,http://id.worldcat.org/fast/1214680,http://viaf.org/viaf/sourceID/LC%7Cn++81090056#skos:Concept
+http://id.loc.gov/authorities/names/n84055284,Belhaven,NCG01006,http://www.wikidata.org/entity/Q2024646,http://id.worldcat.org/fast/1229240,http://viaf.org/viaf/sourceID/LC%7Cn++84055284#skos:Concept
+http://id.loc.gov/authorities/names/n84055260,Burgaw,NCG02179,http://www.wikidata.org/entity/Q939362,http://id.worldcat.org/fast/1229235,http://viaf.org/viaf/sourceID/LC%7Cn++84055260#skos:Concept
+http://id.loc.gov/authorities/names/n83220993,Dudley,NCG04520,http://www.wikidata.org/entity/Q3475350,http://id.worldcat.org/fast/1226676,http://viaf.org/viaf/sourceID/LC%7Cn++83220993#skos:Concept
+http://id.loc.gov/authorities/names/n2001036315,Matthews,NCG09716,http://www.wikidata.org/entity/Q2028173,http://id.worldcat.org/fast/1293716,http://viaf.org/viaf/sourceID/LC%7Cn+2001036315#skos:Concept
+http://id.loc.gov/authorities/names/n93023334,Butters,NCG02280,http://www.wikidata.org/entity/Q1992297,http://id.worldcat.org/fast/1264380,http://viaf.org/viaf/sourceID/LC%7Cn++93023334#skos:Concept
+http://id.loc.gov/authorities/names/n80112954,Randolph County,NCG12458,http://www.wikidata.org/entity/Q507943,http://id.worldcat.org/fast/1209938,http://viaf.org/viaf/sourceID/LC%7Cn++80112954#skos:Concept
+http://id.loc.gov/authorities/names/n80002581,Durham,NCG04584,http://www.wikidata.org/entity/Q49279929,http://id.worldcat.org/fast/1348238|http://id.worldcat.org/fast/1207378,http://viaf.org/viaf/sourceID/LC%7Cn++80002581#skos:Concept
+http://id.loc.gov/authorities/names/n84136704,Moncure,NCG10264,http://www.wikidata.org/entity/Q3473830,http://id.worldcat.org/fast/1229810,http://viaf.org/viaf/sourceID/LC%7Cn++84136704#skos:Concept
+http://id.loc.gov/authorities/names/no2018044333,Silk Hope,NCG13900,,,http://viaf.org/viaf/sourceID/LC%7Cno2018044333#skos:Concept
+http://id.loc.gov/authorities/names/n84136619,Turkey,NCG15469,http://www.wikidata.org/entity/Q2024092,http://id.worldcat.org/fast/1229937,http://viaf.org/viaf/sourceID/LC%7Cn++84136619#skos:Concept
+http://id.loc.gov/authorities/names/n98070168,Eagle Rock,NCG04622,http://www.wikidata.org/entity/Q5325241,http://id.worldcat.org/fast/1285022,http://viaf.org/viaf/sourceID/LC%7Cn++98070168#skos:Concept
+http://id.loc.gov/authorities/names/n2011083291,Denver,NCG04178,,http://id.worldcat.org/fast/1886686,http://viaf.org/viaf/sourceID/LC%7Cn+2011083291#skos:Concept
+http://id.loc.gov/authorities/names/n95009255,Linville,NCG08800,,http://id.worldcat.org/fast/1271173,http://viaf.org/viaf/sourceID/LC%7Cn++95009255#skos:Concept
+http://id.loc.gov/authorities/names/n85307749,Gamewell,NCG05681,http://www.wikidata.org/entity/Q942030,http://id.worldcat.org/fast/1234847,http://viaf.org/viaf/sourceID/LC%7Cn++85307749#skos:Concept
+http://id.loc.gov/authorities/names/n80145033,Jackson County,NCG07740,http://www.wikidata.org/entity/Q502521,http://id.worldcat.org/fast/1210656,http://viaf.org/viaf/sourceID/LC%7Cn++80145033#skos:Concept
+http://id.loc.gov/authorities/subjects/sh2015001737,Research Triangle Park,NCG12669,http://www.wikidata.org/entity/Q767860,,
+http://id.loc.gov/authorities/names/n79104332,Raleigh,NCG12430,,http://id.worldcat.org/fast/1348277|http://id.worldcat.org/fast/1206341,http://viaf.org/viaf/sourceID/LC%7Cn++79104332#skos:Concept
+http://id.loc.gov/authorities/names/n92115903,Hurdle Mills,NCG07508,http://www.wikidata.org/entity/Q5946446,http://id.worldcat.org/fast/1263647,http://viaf.org/viaf/sourceID/LC%7Cn++92115903#skos:Concept
+http://id.loc.gov/authorities/names/n90721844,Arapahoe,NCG00291,http://www.wikidata.org/entity/Q2028740,http://id.worldcat.org/fast/1256863,http://viaf.org/viaf/sourceID/LC%7Cn++90721844#skos:Concept
+http://id.loc.gov/authorities/names/n92084772,Milton,NCG10152,http://www.wikidata.org/entity/Q2001929,http://id.worldcat.org/fast/1262856,http://viaf.org/viaf/sourceID/LC%7Cn++92084772#skos:Concept
+http://id.loc.gov/authorities/names/n81098352,High Shoals,NCG07024,http://www.wikidata.org/entity/Q282727,http://id.worldcat.org/fast/1215089,http://viaf.org/viaf/sourceID/LC%7Cn++81098352#skos:Concept
+http://id.loc.gov/authorities/subjects/sh95008926,Hatteras Island,NCG06699,http://www.wikidata.org/entity/Q2509872,http://id.worldcat.org/fast/1274100,
+http://id.loc.gov/authorities/names/n82074528,Laurel Park,NCG08527,,http://id.worldcat.org/fast/1220140,http://viaf.org/viaf/sourceID/LC%7Cn++82074528#skos:Concept
+http://id.loc.gov/authorities/names/n84161167,White Plains,NCG16225,,http://id.worldcat.org/fast/1229536,http://viaf.org/viaf/sourceID/LC%7Cn++84161167#skos:Concept
+http://id.loc.gov/authorities/names/n94023253,Black Ankle,NCG01396,http://www.wikidata.org/entity/Q4920274,http://id.worldcat.org/fast/1348224|http://id.worldcat.org/fast/1268439,http://viaf.org/viaf/sourceID/LC%7Cn++94023253#skos:Concept
+http://id.loc.gov/authorities/names/n2011078593,Roberdel,NCG12898,,,http://viaf.org/viaf/sourceID/LC%7Cn+2011078593#skos:Concept
+http://id.loc.gov/authorities/names/n83030392,Harrisburg,NCG06653,http://www.wikidata.org/entity/Q2028024,http://id.worldcat.org/fast/1224363,http://viaf.org/viaf/sourceID/LC%7Cn++83030392#skos:Concept
+http://id.loc.gov/authorities/names/n79118905,Chapel Hill,NCG02888,,http://id.worldcat.org/fast/1348233|http://id.worldcat.org/fast/1348232|http://id.worldcat.org/fast/1206600,http://viaf.org/viaf/sourceID/LC%7Cn++79118905#skos:Concept
+http://id.loc.gov/authorities/names/n81085313,Lumberton,NCG09404,http://www.wikidata.org/entity/Q49280132,http://id.worldcat.org/fast/1214512,http://viaf.org/viaf/sourceID/LC%7Cn++81085313#skos:Concept
+http://id.loc.gov/authorities/names/n84055390,Dallas,NCG03947,http://www.wikidata.org/entity/Q2050249,http://id.worldcat.org/fast/1229623,http://viaf.org/viaf/sourceID/LC%7Cn++84055390#skos:Concept
+http://id.loc.gov/authorities/names/n84136702,Maysville,NCG09758,http://www.wikidata.org/entity/Q942011,http://id.worldcat.org/fast/1229808,http://viaf.org/viaf/sourceID/LC%7Cn++84136702#skos:Concept
+http://id.loc.gov/authorities/names/n92007668,Boomer,NCG01643,,http://id.worldcat.org/fast/1260855,http://viaf.org/viaf/sourceID/LC%7Cn++92007668#skos:Concept
+http://id.loc.gov/authorities/names/n84136617,Swan Quarter,NCG14875,http://www.wikidata.org/entity/Q49280353,http://id.worldcat.org/fast/1229589,http://viaf.org/viaf/sourceID/LC%7Cn++84136617#skos:Concept
+http://id.loc.gov/authorities/names/n82105675,East Laurinburg,NCG04696,http://www.wikidata.org/entity/Q2045333,http://id.worldcat.org/fast/1221293,http://viaf.org/viaf/sourceID/LC%7Cn++82105675#skos:Concept
+http://id.loc.gov/authorities/names/n82070890,Roanoke Rapids,NCG12875,http://www.wikidata.org/entity/Q2028322,http://id.worldcat.org/fast/1220065,http://viaf.org/viaf/sourceID/LC%7Cn++82070890#skos:Concept
+http://id.loc.gov/authorities/names/no2008167464,Saxapahaw,NCG13478,,http://id.worldcat.org/fast/1877582,http://viaf.org/viaf/sourceID/LC%7Cno2008167464#skos:Concept
+http://id.loc.gov/authorities/names/no2015043042,Celo,NCG02838,,,http://viaf.org/viaf/sourceID/LC%7Cno2015043042#skos:Concept
+http://id.loc.gov/authorities/names/n85307747,Cajahs Mountain,NCG02346,http://www.wikidata.org/entity/Q31619511,http://id.worldcat.org/fast/1234846,http://viaf.org/viaf/sourceID/LC%7Cn++85307747#skos:Concept
+http://id.loc.gov/authorities/names/n83023581,Peachland,NCG11569,http://www.wikidata.org/entity/Q2023821,http://id.worldcat.org/fast/1224116,http://viaf.org/viaf/sourceID/LC%7Cn++83023581#skos:Concept
+http://id.loc.gov/authorities/names/n2009162211,Cherry Point,NCG02983,,,http://viaf.org/viaf/sourceID/LC%7Cn+2009162211#skos:Concept
+http://id.loc.gov/authorities/names/no2008045388,Eldorado,NCG04816,,http://id.worldcat.org/fast/1874730,http://viaf.org/viaf/sourceID/LC%7Cno2008045388#skos:Concept
+http://id.loc.gov/authorities/names/no2014027342,Earl,NCG04635,,,http://viaf.org/viaf/sourceID/LC%7Cno2014027342#skos:Concept
+http://id.loc.gov/authorities/names/n81085312,Tryon,NCG15414,,http://id.worldcat.org/fast/1214511,http://viaf.org/viaf/sourceID/LC%7Cn++81085312#skos:Concept
+http://id.loc.gov/authorities/names/n83023580,Maury,NCG09730,http://www.wikidata.org/entity/Q6007239,http://id.worldcat.org/fast/1224115,http://viaf.org/viaf/sourceID/LC%7Cn++83023580#skos:Concept
+http://id.loc.gov/authorities/names/n96028453,Tennessee County,NCG15063,,http://id.worldcat.org/fast/1276087,http://viaf.org/viaf/sourceID/LC%7Cn++96028453#skos:Concept
+http://id.loc.gov/authorities/names/n84136703,Middlesex,NCG10051,http://www.wikidata.org/entity/Q2022711,http://id.worldcat.org/fast/1229809,http://viaf.org/viaf/sourceID/LC%7Cn++84136703#skos:Concept
+http://id.loc.gov/authorities/names/n81076881,Rockingham County,NCG12975,http://www.wikidata.org/entity/Q505422,http://id.worldcat.org/fast/1214175,http://viaf.org/viaf/sourceID/LC%7Cn++81076881#skos:Concept
+http://id.loc.gov/authorities/names/n92116047,Leland,NCG08643,http://www.wikidata.org/entity/Q2028761,http://id.worldcat.org/fast/1263664,http://viaf.org/viaf/sourceID/LC%7Cn++92116047#skos:Concept
+http://id.loc.gov/authorities/names/n82076122,Wingate,NCG16512,http://www.wikidata.org/entity/Q623018,http://id.worldcat.org/fast/1220236,http://viaf.org/viaf/sourceID/LC%7Cn++82076122#skos:Concept
+http://id.loc.gov/authorities/names/n84136618,Teachey,NCG15035,http://www.wikidata.org/entity/Q2025424,http://id.worldcat.org/fast/1229936,http://viaf.org/viaf/sourceID/LC%7Cn++84136618#skos:Concept
+http://id.loc.gov/authorities/names/no2017037862,Dortches,NCG04392,,,http://viaf.org/viaf/sourceID/LC%7Cno2017037862#skos:Concept
+http://id.loc.gov/authorities/names/no2013132693,Elon,NCG04911,,http://id.worldcat.org/fast/1900000,http://viaf.org/viaf/sourceID/LC%7Cno2013132693#skos:Concept
+http://id.loc.gov/authorities/names/n84055373,Bunn,NCG02167,http://www.wikidata.org/entity/Q2045175,http://id.worldcat.org/fast/1229614,http://viaf.org/viaf/sourceID/LC%7Cn++84055373#skos:Concept
+http://id.loc.gov/authorities/names/n80053314,Beaufort,NCG00890,http://www.wikidata.org/entity/Q813374,http://id.worldcat.org/fast/1348223|http://id.worldcat.org/fast/1208579,http://viaf.org/viaf/sourceID/LC%7Cn++80053314#skos:Concept
+http://id.loc.gov/authorities/names/n92106361,Paint Rock,NCG11397,,http://id.worldcat.org/fast/1263382,http://viaf.org/viaf/sourceID/LC%7Cn++92106361#skos:Concept
+http://id.loc.gov/authorities/names/no2017109359,Big Lick,NCG01264,,,http://viaf.org/viaf/sourceID/LC%7Cno2017109359#skos:Concept
+http://id.loc.gov/authorities/names/n93023641,Kelly,NCG08132,http://www.wikidata.org/entity/Q2027506,http://id.worldcat.org/fast/1264383,http://viaf.org/viaf/sourceID/LC%7Cn++93023641#skos:Concept
+http://id.loc.gov/authorities/names/n83023582,Polkton,NCG12049,http://www.wikidata.org/entity/Q2027424,http://id.worldcat.org/fast/1224117,http://viaf.org/viaf/sourceID/LC%7Cn++83023582#skos:Concept
+http://id.loc.gov/authorities/names/n81018242,Pitt County,NCG11935,http://www.wikidata.org/entity/Q506220,http://id.worldcat.org/fast/1211784,http://viaf.org/viaf/sourceID/LC%7Cn++81018242#skos:Concept
+http://id.loc.gov/authorities/names/n82045033,Black Mountain,NCG01420,http://www.wikidata.org/entity/Q2413277,http://id.worldcat.org/fast/1348225|http://id.worldcat.org/fast/1219216,http://viaf.org/viaf/sourceID/LC%7Cn++82045033#skos:Concept
+http://id.loc.gov/authorities/names/no2012060087,Hamptonville,NCG06526,,http://id.worldcat.org/fast/1887971,http://viaf.org/viaf/sourceID/LC%7Cno2012060087#skos:Concept
+http://id.loc.gov/authorities/names/no2013073914,Barium Springs,NCG00643,,http://id.worldcat.org/fast/1890808,http://viaf.org/viaf/sourceID/LC%7Cno2013073914#skos:Concept
+http://id.loc.gov/authorities/names/n84136700,Mars Hill,NCG09620,http://www.wikidata.org/entity/Q2024024,http://id.worldcat.org/fast/1229806,http://viaf.org/viaf/sourceID/LC%7Cn++84136700#skos:Concept
+http://id.loc.gov/authorities/names/n82018415,Macon County,NCG09481,http://www.wikidata.org/entity/Q507575,http://id.worldcat.org/fast/1218106,http://viaf.org/viaf/sourceID/LC%7Cn++82018415#skos:Concept
+http://id.loc.gov/authorities/names/n84136615,Spruce Pine,NCG14417,http://www.wikidata.org/entity/Q2023399,http://id.worldcat.org/fast/1229588,http://viaf.org/viaf/sourceID/LC%7Cn++84136615#skos:Concept
+http://id.loc.gov/authorities/names/n2005056583,Cedar Mountain,NCG02818,,http://id.worldcat.org/fast/1308454,http://viaf.org/viaf/sourceID/LC%7Cn+2005056583#skos:Concept
+http://id.loc.gov/authorities/names/n81076882,Stokes County,NCG14644,http://www.wikidata.org/entity/Q506682,http://id.worldcat.org/fast/1214176,http://viaf.org/viaf/sourceID/LC%7Cn++81076882#skos:Concept
+http://id.loc.gov/authorities/names/n84136639,Lewiston,NCG08704,,http://id.worldcat.org/fast/1229777,http://viaf.org/viaf/sourceID/LC%7Cn++84136639#skos:Concept
+http://id.loc.gov/authorities/names/n83205206,Mount Airy,NCG10423,http://www.wikidata.org/entity/Q631590,http://id.worldcat.org/fast/1226247,http://viaf.org/viaf/sourceID/LC%7Cn++83205206#skos:Concept
+http://id.loc.gov/authorities/names/n81098926,Cherryville,NCG02990,http://www.wikidata.org/entity/Q1873943,http://id.worldcat.org/fast/1215110,http://viaf.org/viaf/sourceID/LC%7Cn++81098926#skos:Concept
+http://id.loc.gov/authorities/names/no2016149529,Strieby,NCG14726,,,http://viaf.org/viaf/sourceID/LC%7Cno2016149529#skos:Concept
+http://id.loc.gov/authorities/names/no2013107674,Hardin,NCG06578,,,http://viaf.org/viaf/sourceID/LC%7Cno2013107674#skos:Concept
+http://id.loc.gov/authorities/names/n84112042,Emerald Isle,NCG04921,http://www.wikidata.org/entity/Q1947381,http://id.worldcat.org/fast/1229155,http://viaf.org/viaf/sourceID/LC%7Cn++84112042#skos:Concept
+http://id.loc.gov/authorities/subjects/sh85015083,Blue Ridge Mountains,NCG01545,,,
+http://id.loc.gov/authorities/names/n82074527,Lillington,NCG08754,http://www.wikidata.org/entity/Q2029270,http://id.worldcat.org/fast/1220139,http://viaf.org/viaf/sourceID/LC%7Cn++82074527#skos:Concept
+http://id.loc.gov/authorities/names/n84136616,Star,NCG14529,http://www.wikidata.org/entity/Q2026696,http://id.worldcat.org/fast/1229935,http://viaf.org/viaf/sourceID/LC%7Cn++84136616#skos:Concept
+http://id.loc.gov/authorities/names/n84136701,Marshall,NCG09632,http://www.wikidata.org/entity/Q2025958,http://id.worldcat.org/fast/1229807,http://viaf.org/viaf/sourceID/LC%7Cn++84136701#skos:Concept
+http://id.loc.gov/authorities/names/n2012041046,Lizard Lick,NCG09136,,http://id.worldcat.org/fast/1888415,http://viaf.org/viaf/sourceID/LC%7Cn+2012041046#skos:Concept
+http://id.loc.gov/authorities/names/n81124367,Millers Creek,NCG10127,http://www.wikidata.org/entity/Q2025203,http://id.worldcat.org/fast/1216085,http://viaf.org/viaf/sourceID/LC%7Cn++81124367#skos:Concept
+http://id.loc.gov/authorities/names/n82077325,McAdenville,NCG09765,http://www.wikidata.org/entity/Q2023042,http://id.worldcat.org/fast/1220279,http://viaf.org/viaf/sourceID/LC%7Cn++82077325#skos:Concept
+http://id.loc.gov/authorities/names/n79117172,Nash County,NCG10643,http://www.wikidata.org/entity/Q506235,http://id.worldcat.org/fast/1206565,http://viaf.org/viaf/sourceID/LC%7Cn++79117172#skos:Concept
+http://id.loc.gov/authorities/names/n83023584,Snow Hill,NCG14136,http://www.wikidata.org/entity/Q2029597,http://id.worldcat.org/fast/1224119,http://viaf.org/viaf/sourceID/LC%7Cn++83023584#skos:Concept
+http://id.loc.gov/authorities/names/no2016021633,New Holland,NCG10742,,,http://viaf.org/viaf/sourceID/LC%7Cno2016021633#skos:Concept
+http://id.loc.gov/authorities/names/no2015084484,Cofield,NCG03290,,,http://viaf.org/viaf/sourceID/LC%7Cno2015084484#skos:Concept
+http://id.loc.gov/authorities/names/no2014027387,Fallston,NCG05115,,,http://viaf.org/viaf/sourceID/LC%7Cno2014027387#skos:Concept
+http://id.loc.gov/authorities/names/n79063971,Asheville,NCG00366,http://www.wikidata.org/entity/Q648501,http://id.worldcat.org/fast/1205440|http://id.worldcat.org/fast/1348220|http://id.worldcat.org/fast/1348219,http://viaf.org/viaf/sourceID/LC%7Cn++79063971#skos:Concept
+http://id.loc.gov/authorities/names/n81098927,Bessemer City,NCG01128,http://www.wikidata.org/entity/Q830132,http://id.worldcat.org/fast/1215111,http://viaf.org/viaf/sourceID/LC%7Cn++81098927#skos:Concept
+http://id.loc.gov/authorities/names/n83232947,Troy,NCG15400,http://www.wikidata.org/entity/Q1883853,http://id.worldcat.org/fast/1227275,http://viaf.org/viaf/sourceID/LC%7Cn++83232947#skos:Concept
+http://id.loc.gov/authorities/names/n82084056,Kure Beach,NCG08323,http://www.wikidata.org/entity/Q2027465,http://id.worldcat.org/fast/1220544,http://viaf.org/viaf/sourceID/LC%7Cn++82084056#skos:Concept
+http://id.loc.gov/authorities/names/n81084486,Albemarle,NCG00104,http://www.wikidata.org/entity/Q921689,http://id.worldcat.org/fast/1214496|http://id.worldcat.org/fast/1348216,http://viaf.org/viaf/sourceID/LC%7Cn++81084486#skos:Concept
+http://id.loc.gov/authorities/names/n82018413,Graham County,NCG06048,http://www.wikidata.org/entity/Q374968,http://id.worldcat.org/fast/1218104,http://viaf.org/viaf/sourceID/LC%7Cn++82018413#skos:Concept
+http://id.loc.gov/authorities/names/n84136613,South Mills,NCG14253,http://www.wikidata.org/entity/Q6132787,http://id.worldcat.org/fast/1229933,http://viaf.org/viaf/sourceID/LC%7Cn++84136613#skos:Concept
+http://id.loc.gov/authorities/names/n93002608,Almond,NCG00190,http://www.wikidata.org/entity/Q14707861,http://id.worldcat.org/fast/1263891,http://viaf.org/viaf/sourceID/LC%7Cn++93002608#skos:Concept
+http://id.loc.gov/authorities/names/n93003384,Rosewood,NCG13113,,http://id.worldcat.org/fast/1263906,http://viaf.org/viaf/sourceID/LC%7Cn++93003384#skos:Concept
+http://id.loc.gov/authorities/names/n84055261,Atlantic Beach,NCG00402,http://www.wikidata.org/entity/Q1376547,http://id.worldcat.org/fast/1229236,http://viaf.org/viaf/sourceID/LC%7Cn++84055261#skos:Concept
+http://id.loc.gov/authorities/names/n84055370,Butner,NCG02274,http://www.wikidata.org/entity/Q578225,http://id.worldcat.org/fast/1229613,http://viaf.org/viaf/sourceID/LC%7Cn++84055370#skos:Concept
+http://id.loc.gov/authorities/names/n82017324,Saluda,NCG13305,http://www.wikidata.org/entity/Q2024972,http://id.worldcat.org/fast/1218034,http://viaf.org/viaf/sourceID/LC%7Cn++82017324#skos:Concept
+http://id.loc.gov/authorities/names/n94033669,Sugar Mountain,NCG14774,http://www.wikidata.org/entity/Q1926685,http://id.worldcat.org/fast/1268697,http://viaf.org/viaf/sourceID/LC%7Cn++94033669#skos:Concept
+http://id.loc.gov/authorities/names/no2013136917,Dobbs County,NCG04320,,http://id.worldcat.org/fast/1927909,http://viaf.org/viaf/sourceID/LC%7Cno2013136917#skos:Concept
+http://id.loc.gov/authorities/names/no2014126883,Forks of Ivy,NCG05421,http://www.wikidata.org/entity/Q18150960,,http://viaf.org/viaf/sourceID/LC%7Cno2014126883#skos:Concept
+http://id.loc.gov/authorities/names/no2011044014,Cajahs Mountain,NCG02346,http://www.wikidata.org/entity/Q2027796,http://id.worldcat.org/fast/1884428,http://viaf.org/viaf/sourceID/LC%7Cno2011044014#skos:Concept
+http://id.loc.gov/authorities/names/n92018909,Atkinson,NCG00399,http://www.wikidata.org/entity/Q2027754,http://id.worldcat.org/fast/1261150,http://viaf.org/viaf/sourceID/LC%7Cn++92018909#skos:Concept
+http://id.loc.gov/authorities/names/no2010185483,Sandy Mush,NCG13374,,http://id.worldcat.org/fast/1883535,http://viaf.org/viaf/sourceID/LC%7Cno2010185483#skos:Concept
+http://id.loc.gov/authorities/names/n82079190,Siler City,NCG13896,http://www.wikidata.org/entity/Q2024154,http://id.worldcat.org/fast/1220369,http://viaf.org/viaf/sourceID/LC%7Cn++82079190#skos:Concept
+http://id.loc.gov/authorities/names/n84136614,Sparta,NCG14328,http://www.wikidata.org/entity/Q2029194,http://id.worldcat.org/fast/1229934,http://viaf.org/viaf/sourceID/LC%7Cn++84136614#skos:Concept
+http://id.loc.gov/authorities/names/n82076102,Oxford,NCG11353,http://www.wikidata.org/entity/Q2022826,http://id.worldcat.org/fast/1220223,http://viaf.org/viaf/sourceID/LC%7Cn++82076102#skos:Concept
+http://id.loc.gov/authorities/names/no2016076963,Round Peak Mountain,NCG13144,,,http://viaf.org/viaf/sourceID/LC%7Cno2016076963#skos:Concept
+http://id.loc.gov/authorities/names/n84055377,Biscoe,NCG01386,http://www.wikidata.org/entity/Q2026873,http://id.worldcat.org/fast/1229617,http://viaf.org/viaf/sourceID/LC%7Cn++84055377#skos:Concept
+http://id.loc.gov/authorities/names/n84055353,Bakersville,NCG00523,,http://id.worldcat.org/fast/1229327,http://viaf.org/viaf/sourceID/LC%7Cn++84055353#skos:Concept
+http://id.loc.gov/authorities/names/n95089387,Valle Crucis,NCG15667,http://www.wikidata.org/entity/Q4026032,http://id.worldcat.org/fast/1273157|http://id.worldcat.org/fast/1348286,http://viaf.org/viaf/sourceID/LC%7Cn++95089387#skos:Concept
+http://id.loc.gov/authorities/names/n93023132,Abbottsburg,NCG00017,http://www.wikidata.org/entity/Q4664411,http://id.worldcat.org/fast/1264375,http://viaf.org/viaf/sourceID/LC%7Cn++93023132#skos:Concept
+http://id.loc.gov/authorities/names/n84055268,Boiling Springs Lake,NCG01606,http://www.wikidata.org/entity/Q2025941,http://id.worldcat.org/fast/1229239,http://viaf.org/viaf/sourceID/LC%7Cn++84055268#skos:Concept
+http://id.loc.gov/authorities/subjects/sh85091187,Neuse River,NCG10715,http://www.wikidata.org/entity/Q1606944,http://id.worldcat.org/fast/1348271|http://id.worldcat.org/fast/1241869,
+http://id.loc.gov/authorities/names/n81050014,Elizabeth City,NCG04830,,http://id.worldcat.org/fast/1213178|http://id.worldcat.org/fast/1348240,http://viaf.org/viaf/sourceID/LC%7Cn++81050014#skos:Concept
+http://id.loc.gov/authorities/names/n81084484,Pikeville,NCG11783,http://www.wikidata.org/entity/Q2024271,http://id.worldcat.org/fast/1214494,http://viaf.org/viaf/sourceID/LC%7Cn++81084484#skos:Concept
+http://id.loc.gov/authorities/names/n84136611,Severn,NCG13624,http://www.wikidata.org/entity/Q2030871,http://id.worldcat.org/fast/1229931,http://viaf.org/viaf/sourceID/LC%7Cn++84136611#skos:Concept
+http://id.loc.gov/authorities/names/n82079191,Seagrove,NCG13555,http://www.wikidata.org/entity/Q2022717,http://id.worldcat.org/fast/1220370,http://viaf.org/viaf/sourceID/LC%7Cn++82079191#skos:Concept
+http://id.loc.gov/authorities/names/n84136635,Maggie Valley,NCG09489,http://www.wikidata.org/entity/Q2045014,http://id.worldcat.org/fast/1229948,http://viaf.org/viaf/sourceID/LC%7Cn++84136635#skos:Concept
+http://id.loc.gov/authorities/names/n84055267,Bayboro,NCG00763,http://www.wikidata.org/entity/Q1861520,http://id.worldcat.org/fast/1228821,http://viaf.org/viaf/sourceID/LC%7Cn++84055267#skos:Concept
+http://id.loc.gov/authorities/names/n84055376,Bladenboro,NCG01468,http://www.wikidata.org/entity/Q2023011,http://id.worldcat.org/fast/1229616,http://viaf.org/viaf/sourceID/LC%7Cn++84055376#skos:Concept
+http://id.loc.gov/authorities/names/n83205202,Jonesville,NCG07991,http://www.wikidata.org/entity/Q2029248,http://id.worldcat.org/fast/1226245,http://viaf.org/viaf/sourceID/LC%7Cn++83205202#skos:Concept
+http://id.loc.gov/authorities/names/n92017461,Candler,NCG02494,http://www.wikidata.org/entity/Q5031974,http://id.worldcat.org/fast/1261125,http://viaf.org/viaf/sourceID/LC%7Cn++92017461#skos:Concept
+http://id.loc.gov/authorities/names/no2011124484,Castle Hayne,NCG02704,,http://id.worldcat.org/fast/1885532,http://viaf.org/viaf/sourceID/LC%7Cno2011124484#skos:Concept
+http://id.loc.gov/authorities/names/n88080671,Pantego,NCG11430,http://www.wikidata.org/entity/Q2030911,http://id.worldcat.org/fast/1248100,http://viaf.org/viaf/sourceID/LC%7Cn++88080671#skos:Concept
+http://id.loc.gov/authorities/names/no2013077274,Lake Lure,NCG08377,,http://id.worldcat.org/fast/1890831,http://viaf.org/viaf/sourceID/LC%7Cno2013077274#skos:Concept
+http://id.loc.gov/authorities/names/no2015075843,Elk Park,NCG04846,,,http://viaf.org/viaf/sourceID/LC%7Cno2015075843#skos:Concept
+http://id.loc.gov/authorities/names/n93002079,Horse Shoe,NCG07340,,http://id.worldcat.org/fast/1263881,http://viaf.org/viaf/sourceID/LC%7Cn++93002079#skos:Concept
+http://id.loc.gov/authorities/names/n83226493,Sanford,NCG13392,http://www.wikidata.org/entity/Q2022913,http://id.worldcat.org/fast/1226906,http://viaf.org/viaf/sourceID/LC%7Cn++83226493#skos:Concept
+http://id.loc.gov/authorities/names/no2015138164,Sturgills,NCG14746,,,http://viaf.org/viaf/sourceID/LC%7Cno2015138164#skos:Concept
+http://id.loc.gov/authorities/names/n82079192,Sampson County,NCG13321,http://www.wikidata.org/entity/Q507722,http://id.worldcat.org/fast/1220371,http://viaf.org/viaf/sourceID/LC%7Cn++82079192#skos:Concept
+http://id.loc.gov/authorities/names/n84136636,Wendell (win-DELL),NCG16060,http://www.wikidata.org/entity/Q2022451,http://id.worldcat.org/fast/1229949,http://viaf.org/viaf/sourceID/LC%7Cn++84136636#skos:Concept
+http://id.loc.gov/authorities/names/n80005810,Forsyth County,NCG05432,http://www.wikidata.org/entity/Q509926,http://id.worldcat.org/fast/1207435,http://viaf.org/viaf/sourceID/LC%7Cn++80005810#skos:Concept
+http://id.loc.gov/authorities/names/n80014301,Rural Hall,NCG13213,http://www.wikidata.org/entity/Q2026409,http://id.worldcat.org/fast/1207635,http://viaf.org/viaf/sourceID/LC%7Cn++80014301#skos:Concept
+http://id.loc.gov/authorities/names/n81089598,Alamance County,NCG00099,http://www.wikidata.org/entity/Q504397,http://id.worldcat.org/fast/1214645,http://viaf.org/viaf/sourceID/LC%7Cn++81089598#skos:Concept
+http://id.loc.gov/authorities/names/n84055399,Creedmoor,NCG03761,http://www.wikidata.org/entity/Q2025256,http://id.worldcat.org/fast/1229736,http://viaf.org/viaf/sourceID/LC%7Cn++84055399#skos:Concept
+http://id.loc.gov/authorities/names/n84055266,Aurora,NCG00421,http://www.wikidata.org/entity/Q2027984,http://id.worldcat.org/fast/1229238,http://viaf.org/viaf/sourceID/LC%7Cn++84055266#skos:Concept
+http://id.loc.gov/authorities/names/n81018357,Hamlet,NCG06511,http://www.wikidata.org/entity/Q1885566,http://id.worldcat.org/fast/1211831,http://viaf.org/viaf/sourceID/LC%7Cn++81018357#skos:Concept
+http://id.loc.gov/authorities/names/n82081599,Trent Woods,NCG15363,http://www.wikidata.org/entity/Q2022457,http://id.worldcat.org/fast/1220433,http://viaf.org/viaf/sourceID/LC%7Cn++82081599#skos:Concept
+http://id.loc.gov/authorities/names/n82045019,Weaverville,NCG16008,http://www.wikidata.org/entity/Q2043823,http://id.worldcat.org/fast/1219211,http://viaf.org/viaf/sourceID/LC%7Cn++82045019#skos:Concept
+http://id.loc.gov/authorities/names/no2018163458,Vaughan,NCG15698,,,http://viaf.org/viaf/sourceID/LC%7Cno2018163458#skos:Concept
+http://id.loc.gov/authorities/subjects/sh85019880,Cape Hatteras National Seashore,NCG02554,http://www.wikidata.org/entity/Q1034439,http://id.worldcat.org/fast/1243983,
+http://id.loc.gov/authorities/names/n82074520,Sylva,NCG14927,,http://id.worldcat.org/fast/1220138|http://id.worldcat.org/fast/1348285,http://viaf.org/viaf/sourceID/LC%7Cn++82074520#skos:Concept
+http://id.loc.gov/authorities/names/n84136633,Conetoe (cuh-NEAT-uh),NCG03420,http://www.wikidata.org/entity/Q2025123,http://id.worldcat.org/fast/1229946,http://viaf.org/viaf/sourceID/LC%7Cn++84136633#skos:Concept
+http://id.loc.gov/authorities/names/n79117989,Haywood County,NCG06782,http://www.wikidata.org/entity/Q502496,http://id.worldcat.org/fast/1206587,http://viaf.org/viaf/sourceID/LC%7Cn++79117989#skos:Concept
+http://id.loc.gov/authorities/names/n94034201,Aquadale,NCG00283,http://www.wikidata.org/entity/Q16083046,http://id.worldcat.org/fast/1268704,http://viaf.org/viaf/sourceID/LC%7Cn++94034201#skos:Concept
+http://id.loc.gov/authorities/names/n83052491,Faith,NCG05087,http://www.wikidata.org/entity/Q2022871,http://id.worldcat.org/fast/1224930,http://viaf.org/viaf/sourceID/LC%7Cn++83052491#skos:Concept
+http://id.loc.gov/authorities/names/n83226470,Smithfield,NCG14071,http://www.wikidata.org/entity/Q2024417,http://id.worldcat.org/fast/1226893,http://viaf.org/viaf/sourceID/LC%7Cn++83226470#skos:Concept
+http://id.loc.gov/authorities/names/n81018358,Ellerbe,NCG04881,http://www.wikidata.org/entity/Q1842501,http://id.worldcat.org/fast/1211832,http://viaf.org/viaf/sourceID/LC%7Cn++81018358#skos:Concept
+http://id.loc.gov/authorities/names/n83226494,Selma,NCG13588,http://www.wikidata.org/entity/Q2026441,http://id.worldcat.org/fast/1226907,http://viaf.org/viaf/sourceID/LC%7Cn++83226494#skos:Concept
+http://id.loc.gov/authorities/names/no2016015180,Outlaws Bridge,NCG11319,,,http://viaf.org/viaf/sourceID/LC%7Cno2016015180#skos:Concept
+http://id.loc.gov/authorities/names/n82077328,Mount Holly,NCG10451,http://www.wikidata.org/entity/Q2030238,http://id.worldcat.org/fast/1220281,http://viaf.org/viaf/sourceID/LC%7Cn++82077328#skos:Concept
+http://id.loc.gov/authorities/names/n84055265,Bath,NCG00720,,http://id.worldcat.org/fast/1229237,http://viaf.org/viaf/sourceID/LC%7Cn++84055265#skos:Concept
+http://id.loc.gov/authorities/names/n84055374,Bryson City,NCG01990,http://www.wikidata.org/entity/Q2028904,http://id.worldcat.org/fast/1229615,http://viaf.org/viaf/sourceID/LC%7Cn++84055374#skos:Concept
+http://id.loc.gov/authorities/names/n79043985,Southport,NCG14304,http://www.wikidata.org/entity/Q629993,http://id.worldcat.org/fast/1204992,http://viaf.org/viaf/sourceID/LC%7Cn++79043985#skos:Concept
+http://id.loc.gov/authorities/names/n2010001203,Seymour Johnson Air Force Base,NCG13629,http://www.wikidata.org/entity/Q1766303,http://id.worldcat.org/fast/1927912,http://viaf.org/viaf/sourceID/LC%7Cn+2010001203#skos:Concept
+http://id.loc.gov/authorities/names/n82076106,Monroe,NCG10275,http://www.wikidata.org/entity/Q1019160,http://id.worldcat.org/fast/1220225,http://viaf.org/viaf/sourceID/LC%7Cn++82076106#skos:Concept
+http://id.loc.gov/authorities/names/no92009780,Davidson College,NCG04021,,http://id.worldcat.org/fast/1261815,http://viaf.org/viaf/sourceID/LC%7Cno+92009780#skos:Concept
+http://id.loc.gov/authorities/names/n84136634,Oakboro,NCG11064,http://www.wikidata.org/entity/Q651762,http://id.worldcat.org/fast/1229947,http://viaf.org/viaf/sourceID/LC%7Cn++84136634#skos:Concept
+http://id.loc.gov/authorities/names/n2015042137,Trading Ford,NCG15330,,,http://viaf.org/viaf/sourceID/LC%7Cn+2015042137#skos:Concept
+http://id.loc.gov/authorities/names/n88119375,Portsmouth,NCG12141,http://www.wikidata.org/entity/Q7232418,http://id.worldcat.org/fast/1247892,http://viaf.org/viaf/sourceID/LC%7Cn++88119375#skos:Concept
+http://id.loc.gov/authorities/names/n88182631,Navassa,NCG10654,http://www.wikidata.org/entity/Q2022994,http://id.worldcat.org/fast/1253508,http://viaf.org/viaf/sourceID/LC%7Cn++88182631#skos:Concept
+http://id.loc.gov/authorities/names/no2014017656,Otway,NCG11315,,,http://viaf.org/viaf/sourceID/LC%7Cno2014017656#skos:Concept
+http://id.loc.gov/authorities/names/n82079170,Kings Mountain,NCG08239,http://www.wikidata.org/entity/Q1742139,http://id.worldcat.org/fast/1220354,http://viaf.org/viaf/sourceID/LC%7Cn++82079170#skos:Concept
+http://id.loc.gov/authorities/names/n81071576,Valdese,NCG15663,http://www.wikidata.org/entity/Q2022432,http://id.worldcat.org/fast/1213963,http://viaf.org/viaf/sourceID/LC%7Cn++81071576#skos:Concept
+http://id.loc.gov/authorities/names/n80141389,Louisburg,NCG09304,http://www.wikidata.org/entity/Q2026010,http://id.worldcat.org/fast/1210596,http://viaf.org/viaf/sourceID/LC%7Cn++80141389#skos:Concept
+http://id.loc.gov/authorities/names/n82079194,Roxboro,NCG13168,http://www.wikidata.org/entity/Q1890612,http://id.worldcat.org/fast/1220372,http://viaf.org/viaf/sourceID/LC%7Cn++82079194#skos:Concept
+http://id.loc.gov/authorities/names/n85217589,Rougemont,NCG13123,http://www.wikidata.org/entity/Q290521,http://id.worldcat.org/fast/1234345,http://viaf.org/viaf/sourceID/LC%7Cn++85217589#skos:Concept
+http://id.loc.gov/authorities/names/n83226495,Smithfield,NCG14071,http://www.wikidata.org/entity/Q165482,http://id.worldcat.org/fast/1226908,http://viaf.org/viaf/sourceID/LC%7Cn++83226495#skos:Concept
+http://id.loc.gov/authorities/names/n81054920,Trenton,NCG15364,http://www.wikidata.org/entity/Q1843651,http://id.worldcat.org/fast/1213375,http://viaf.org/viaf/sourceID/LC%7Cn++81054920#skos:Concept
+http://id.loc.gov/authorities/subjects/sh86000804,Cape Fear,NCG02548,,http://id.worldcat.org/fast/1333879|http://id.worldcat.org/fast/1348244,
+http://id.loc.gov/authorities/names/n82045017,Winterville,NCG16528,http://www.wikidata.org/entity/Q2025474,http://id.worldcat.org/fast/1219210,http://viaf.org/viaf/sourceID/LC%7Cn++82045017#skos:Concept
+http://id.loc.gov/authorities/names/n84055357,Autryville,NCG00430,http://www.wikidata.org/entity/Q2023330,http://id.worldcat.org/fast/1229330,http://viaf.org/viaf/sourceID/LC%7Cn++84055357#skos:Concept
+http://id.loc.gov/authorities/names/no2014091927,Sunbury,NCG14827,,,http://viaf.org/viaf/sourceID/LC%7Cno2014091927#skos:Concept
+http://id.loc.gov/authorities/names/n84136679,Faison,NCG05084,http://www.wikidata.org/entity/Q2023272,http://id.worldcat.org/fast/1229793,http://viaf.org/viaf/sourceID/LC%7Cn++84136679#skos:Concept
+http://id.loc.gov/authorities/names/n88155896,Wanchese,NCG15856,http://www.wikidata.org/entity/Q2025239,http://id.worldcat.org/fast/1253629,http://viaf.org/viaf/sourceID/LC%7Cn++88155896#skos:Concept
+http://id.loc.gov/authorities/names/n83226472,Zebulon,NCG16809,http://www.wikidata.org/entity/Q169536,http://id.worldcat.org/fast/1226894,http://viaf.org/viaf/sourceID/LC%7Cn++83226472#skos:Concept
+http://id.loc.gov/authorities/names/no2016026662,Wallburg,NCG15824,,,http://viaf.org/viaf/sourceID/LC%7Cno2016026662#skos:Concept
+http://id.loc.gov/authorities/names/n82098970,Scotland County,NCG13510,http://www.wikidata.org/entity/Q506690,http://id.worldcat.org/fast/1221070,http://viaf.org/viaf/sourceID/LC%7Cn++82098970#skos:Concept
+http://id.loc.gov/authorities/names/n79083561,Rocky Mount,NCG13021,http://www.wikidata.org/entity/Q1021026,http://id.worldcat.org/fast/1205885|http://id.worldcat.org/fast/1348280,http://viaf.org/viaf/sourceID/LC%7Cn++79083561#skos:Concept
+http://id.loc.gov/authorities/names/n81090053,China Grove,NCG03065,http://www.wikidata.org/entity/Q1987125,http://id.worldcat.org/fast/1214677,http://viaf.org/viaf/sourceID/LC%7Cn++81090053#skos:Concept
+http://id.loc.gov/authorities/names/n2008047819,Ossipee,NCG11297,,http://id.worldcat.org/fast/1876040,http://viaf.org/viaf/sourceID/LC%7Cn+2008047819#skos:Concept
+http://id.loc.gov/authorities/names/n81125501,East Spencer,NCG04712,http://www.wikidata.org/entity/Q2025086,http://id.worldcat.org/fast/1216211,http://viaf.org/viaf/sourceID/LC%7Cn++81125501#skos:Concept
+http://id.loc.gov/authorities/names/n85207902,Weddington,NCG16024,http://www.wikidata.org/entity/Q2025513,http://id.worldcat.org/fast/1233578,http://viaf.org/viaf/sourceID/LC%7Cn++85207902#skos:Concept
+http://id.loc.gov/authorities/names/n84055356,Aulander,NCG00416,http://www.wikidata.org/entity/Q2026524,http://id.worldcat.org/fast/1229425,http://viaf.org/viaf/sourceID/LC%7Cn++84055356#skos:Concept
+http://id.loc.gov/authorities/names/n92019535,Delway,NCG04158,http://www.wikidata.org/entity/Q1861510,http://id.worldcat.org/fast/1261159,http://viaf.org/viaf/sourceID/LC%7Cn++92019535#skos:Concept
+http://id.loc.gov/authorities/names/n96104748,McFarlan,NCG09824,http://www.wikidata.org/entity/Q2030925,http://id.worldcat.org/fast/1278370,http://viaf.org/viaf/sourceID/LC%7Cn++96104748#skos:Concept
+http://id.loc.gov/authorities/names/n84136632,Youngsville,NCG16798,http://www.wikidata.org/entity/Q2022552,http://id.worldcat.org/fast/1229945,http://viaf.org/viaf/sourceID/LC%7Cn++84136632#skos:Concept
+http://id.loc.gov/authorities/names/n81018359,Richmond County,NCG12765,http://www.wikidata.org/entity/Q507870,http://id.worldcat.org/fast/1211833,http://viaf.org/viaf/sourceID/LC%7Cn++81018359#skos:Concept
+http://id.loc.gov/authorities/names/n82079196,Robeson County (ROB-uh-son),NCG12914,http://www.wikidata.org/entity/Q507733,http://id.worldcat.org/fast/1220373,http://viaf.org/viaf/sourceID/LC%7Cn++82079196#skos:Concept
+http://id.loc.gov/authorities/names/n83226473,Benson,NCG01085,http://www.wikidata.org/entity/Q818186,http://id.worldcat.org/fast/1226895,http://viaf.org/viaf/sourceID/LC%7Cn++83226473#skos:Concept
+http://id.loc.gov/authorities/names/n82079198,Person County,NCG11679,http://www.wikidata.org/entity/Q508271,http://id.worldcat.org/fast/1220374,http://viaf.org/viaf/sourceID/LC%7Cn++82079198#skos:Concept
+http://id.loc.gov/authorities/names/n84055355,Angier,NCG00248,http://www.wikidata.org/entity/Q587097,http://id.worldcat.org/fast/1229329|http://id.worldcat.org/fast/1348218,http://viaf.org/viaf/sourceID/LC%7Cn++84055355#skos:Concept
+http://id.loc.gov/authorities/names/n82105569,Pender County,NCG11625,http://www.wikidata.org/entity/Q507826,http://id.worldcat.org/fast/1221288,http://viaf.org/viaf/sourceID/LC%7Cn++82105569#skos:Concept
+http://id.loc.gov/authorities/names/n78022637,Kill Devil Hills,NCG08202,http://www.wikidata.org/entity/Q2029051,http://id.worldcat.org/fast/1203395,http://viaf.org/viaf/sourceID/LC%7Cn++78022637#skos:Concept
+http://id.loc.gov/authorities/names/n87839925,Wade,NCG15759,http://www.wikidata.org/entity/Q2022642,http://id.worldcat.org/fast/1238847,http://viaf.org/viaf/sourceID/LC%7Cn++87839925#skos:Concept
+http://id.loc.gov/authorities/names/n84055379,Clyde,NCG03245,,http://id.worldcat.org/fast/1229574,http://viaf.org/viaf/sourceID/LC%7Cn++84055379#skos:Concept
+http://id.loc.gov/authorities/names/n89121523,Castalia,NCG02700,http://www.wikidata.org/entity/Q1926590,http://id.worldcat.org/fast/1257820,http://viaf.org/viaf/sourceID/LC%7Cn++89121523#skos:Concept
+http://id.loc.gov/authorities/names/no2017005682,Grissom,NCG06316,,,http://viaf.org/viaf/sourceID/LC%7Cno2017005682#skos:Concept
+http://id.loc.gov/authorities/names/n82074540,Andrews,NCG00238,http://www.wikidata.org/entity/Q2029028,http://id.worldcat.org/fast/1220146,http://viaf.org/viaf/sourceID/LC%7Cn++82074540#skos:Concept
+http://id.loc.gov/authorities/names/n94034205,New London,NCG10761,http://www.wikidata.org/entity/Q952976,http://id.worldcat.org/fast/1268705,http://viaf.org/viaf/sourceID/LC%7Cn++94034205#skos:Concept
+http://id.loc.gov/authorities/names/n82079199,Nags Head,NCG10601,http://www.wikidata.org/entity/Q2028067,http://id.worldcat.org/fast/1220375,http://viaf.org/viaf/sourceID/LC%7Cn++82079199#skos:Concept
+http://id.loc.gov/authorities/names/n84055354,Ansonville,NCG00261,http://www.wikidata.org/entity/Q596220,http://id.worldcat.org/fast/1229328,http://viaf.org/viaf/sourceID/LC%7Cn++84055354#skos:Concept
+http://id.loc.gov/authorities/names/n84055330,Mesic,NCG09979,http://www.wikidata.org/entity/Q2026464,http://id.worldcat.org/fast/1229186,http://viaf.org/viaf/sourceID/LC%7Cn++84055330#skos:Concept
+http://id.loc.gov/authorities/names/n81078271,Wake Forest,NCG15784,http://www.wikidata.org/entity/Q2022236,http://id.worldcat.org/fast/1348287|http://id.worldcat.org/fast/1214233,http://viaf.org/viaf/sourceID/LC%7Cn++81078271#skos:Concept
+http://id.loc.gov/authorities/names/n84055378,Colerain,NCG03339,http://www.wikidata.org/entity/Q920376,http://id.worldcat.org/fast/1229618,http://viaf.org/viaf/sourceID/LC%7Cn++84055378#skos:Concept
+http://id.loc.gov/authorities/names/n84136630,Yanceyville,NCG16731,http://www.wikidata.org/entity/Q2027141,http://id.worldcat.org/fast/1229944,http://viaf.org/viaf/sourceID/LC%7Cn++84136630#skos:Concept
+http://id.loc.gov/authorities/names/no2018133277,Spiveys Corner,NCG14362,,,http://viaf.org/viaf/sourceID/LC%7Cno2018133277#skos:Concept
+http://id.loc.gov/authorities/names/n84136678,Falkland,NCG05089,,http://id.worldcat.org/fast/1229792,http://viaf.org/viaf/sourceID/LC%7Cn++84136678#skos:Concept
+http://id.loc.gov/authorities/names/n93003561,Deep Gap,NCG04100,http://www.wikidata.org/entity/Q5250203,http://id.worldcat.org/fast/1263912,http://viaf.org/viaf/sourceID/LC%7Cn++93003561#skos:Concept
+http://id.loc.gov/authorities/names/n2006045116,Camp Davis,NCG02432,,http://id.worldcat.org/fast/1867109,http://viaf.org/viaf/sourceID/LC%7Cn+2006045116#skos:Concept
+http://id.loc.gov/authorities/names/n81130796,Ruth,NCG13229,http://www.wikidata.org/entity/Q2027632,http://id.worldcat.org/fast/1216440,http://viaf.org/viaf/sourceID/LC%7Cn++81130796#skos:Concept
+http://id.loc.gov/authorities/names/n82079174,Marion,NCG09595,,http://id.worldcat.org/fast/1220356,http://viaf.org/viaf/sourceID/LC%7Cn++82079174#skos:Concept
+http://id.loc.gov/authorities/names/no2015027419,Jackson Springs,NCG07748,,,http://viaf.org/viaf/sourceID/LC%7Cno2015027419#skos:Concept
