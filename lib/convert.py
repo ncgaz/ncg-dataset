@@ -163,7 +163,7 @@ if __name__ == '__main__':
 
     only_fields = args.fields
     if only_fields is not None:
-        only_fields = only_fields.split('|')
+        only_fields = only_fields.split(',')
 
     with open(args.dataset) as dataset_fd:
         output = convert(dataset_fd, source_dataset, only_fields,
