@@ -45,13 +45,13 @@ dataset.json: $(VERSION_DATASETS)
 	cp $(lastword $^) $@
 
 dataset.ttl: dataset.json
-	$(PY3) lib/convert.py -i jsonld -o turtle $< > $@
+	$(PY3) lib/convert.py -i jsonld -o turtle $< > $@ || rm $@
 
 dataset.csv: dataset.json
-	$(PY3) lib/convert.py -i jsonld -o csv $< > $@
+	$(PY3) lib/convert.py -i jsonld -o csv $< > $@ || rm $@
 
 types.ttl: dataset.ttl
-	arq --data=dataset.ttl --query=./queries/nctypes.sparql > $@
+	arq --data=dataset.ttl --query=./queries/nctypes.sparql > $@ || rm $@
 	rapper -q -i turtle -o turtle $@ > $@.tmp
 	rm $@ && mv $@.tmp $@
 
