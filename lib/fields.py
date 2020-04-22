@@ -63,6 +63,66 @@ class FeatureTypeField(Field):
         return 'nct:' + feature_type_string
 
 
+class WikidataField(Field):
+    name = 'wikidata_id'
+    csv_names = ['wikidata_id']
+
+    def to_csv(self):
+        return self.value and '|'.join(self.value)
+
+    @staticmethod
+    def process_csv_value(text, dataset):
+        if text is None:
+            return None
+
+        return text.split('|')
+
+
+class LOCField(Field):
+    name = 'loc_id'
+    csv_names = ['loc_id']
+
+    def to_csv(self):
+        return self.value and '|'.join(self.value)
+
+    @staticmethod
+    def process_csv_value(text, dataset):
+        if text is None:
+            return None
+
+        return text.split('|')
+
+
+class WorldcatField(Field):
+    name = 'worldcat_id'
+    csv_names = ['worldcat_id']
+
+    def to_csv(self):
+        return self.value and '|'.join(self.value)
+
+    @staticmethod
+    def process_csv_value(text, dataset):
+        if text is None:
+            return None
+
+        return text.split('|')
+
+
+class VIAFField(Field):
+    name = 'viaf_id'
+    csv_names = ['viaf_id']
+
+    def to_csv(self):
+        return self.value and '|'.join(self.value)
+
+    @staticmethod
+    def process_csv_value(text, dataset):
+        if text is None:
+            return None
+
+        return text.split('|')
+
+
 class CountyField(Field):
     name = 'county'
     csv_names = ['county', 'County']
@@ -114,6 +174,10 @@ class CountyField(Field):
 VALID_FIELDS = [
     IDField,
     LabelField,
+    WikidataField,
+    LOCField,
+    WorldcatField,
+    VIAFField,
     DescriptionField,
     FeatureTypeField,
     CountyField,

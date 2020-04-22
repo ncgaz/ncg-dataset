@@ -32,7 +32,27 @@ CONTEXT = {
     "feature_type": {
       "@type": "@id",
       "@id": "@type"
-    }
+    },
+
+    "wikidata_id": {
+        "@type": "@id",
+        "@id": "rdfs:seeAlso",
+    },
+
+    "viaf_id": {
+        "@type": "@id",
+        "@id": "rdfs:seeAlso",
+    },
+
+    "loc_id": {
+        "@type": "@id",
+        "@id": "rdfs:seeAlso",
+    },
+
+    "worldcat_id": {
+        "@type": "@id",
+        "@id": "rdfs:seeAlso",
+    },
   },
   "id": "ncgaz:dataset"
 }
@@ -124,7 +144,7 @@ class Dataset:
         writer.writerow(field_names)
         for record in records:
             row = [
-                Field(record[Field.name]).to_csv()
+                Field(record.get(Field.name, None)).to_csv()
                 for Field in VALID_FIELDS
             ]
             writer.writerow(row)
