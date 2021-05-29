@@ -1,0 +1,11 @@
+PREFIX ncp:   <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX nct:   <http://n2t.net/ark:/39333/ncg/type#>
+PREFIX f:     <java:org.ncgazetteer.>
+
+CONSTRUCT {
+  ?PLACE a ?TYPE .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  BIND (tarql:expandPrefixedName(CONCAT('nct:', f:camelcase(?feature_type))) AS ?TYPE)
+}

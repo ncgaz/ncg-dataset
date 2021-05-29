@@ -1,0 +1,12 @@
+PREFIX ncp:   <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+  ?PLACE
+  skos:label ?label ;
+  skos:note ?description ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+}

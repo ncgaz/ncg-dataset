@@ -1,0 +1,17 @@
+PREFIX ncgaz: <http://n2t.net/ark:/39333/ncg/>
+PREFIX ncp:   <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+  ?PLACE
+  skos:label ?label ;
+  skos:note ?description ;
+  .
+
+  ?DATASET rdfs:member ?PLACE .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName('ncgaz:dataset') AS ?DATASET)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+}

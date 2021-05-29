@@ -1,0 +1,16 @@
+PREFIX ncv:  <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+  ?PLACE
+  skos:label ?LABEL ;
+  ncv:county ?COUNTY ;
+  .
+}
+WHERE {
+  ?PLACE skos:label ?LABEL .
+  OPTIONAL {
+    ?PLACE ncv:countyName $COUNTY_NAME .
+    ?COUNTY skos:label $COUNTY_NAME .
+  }
+}

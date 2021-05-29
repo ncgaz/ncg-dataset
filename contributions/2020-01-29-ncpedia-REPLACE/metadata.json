@@ -1,0 +1,6 @@
+{
+  "description": "Second pass at scraping NCpedia HTML, fixing encoding errors",
+  "authors": [
+    "Patrick Golden"
+  ]
+}

@@ -1,0 +1,19 @@
+PREFIX apf:  <http://jena.apache.org/ARQ/property#>
+PREFIX ncp:  <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX ncv:  <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+  ?PLACE
+  skos:label ?LABEL ;
+  ncv:countyName ?COUNTY_NAME ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  BIND (IF(?id = 'NCG06244', 'Greene County (Tennessee)', ?label) AS ?LABEL)
+  OPTIONAL {
+    ?EACH_COUNTY apf:strSplit (?county '\\|')
+    BIND (CONCAT(?EACH_COUNTY, ' County') AS ?COUNTY_NAME)
+  }
+}

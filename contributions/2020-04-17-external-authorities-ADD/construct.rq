@@ -1,0 +1,31 @@
+PREFIX apf:  <http://jena.apache.org/ARQ/property#>
+PREFIX ncp:  <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+  ?PLACE
+  rdfs:seeAlso ?LOC_ID ;
+  rdfs:seeAlso ?VIAF_ID ;
+  rdfs:seeAlso ?WIKIDATA_ID ;
+  rdfs:seeAlso ?WORLDCAT_ID ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  OPTIONAL {
+    ?EACH_LOC_ID apf:strSplit (?loc_id '\\|')
+    BIND (URI(?EACH_LOC_ID) AS ?LOC_ID)
+  }
+  OPTIONAL {
+    ?EACH_VIAF_ID apf:strSplit (?viaf_id '\\|')
+    BIND (URI(?EACH_VIAF_ID) AS ?VIAF_ID)
+  }
+  OPTIONAL {
+    ?EACH_WIKIDATA_ID apf:strSplit (?wikidata_id '\\|')
+    BIND (URI(?EACH_WIKIDATA_ID) AS ?WIKIDATA_ID)
+  }
+  OPTIONAL {
+    ?EACH_WORLDCAT_ID apf:strSplit (?worldcat_id '\\|')
+    BIND (URI(?EACH_WORLDCAT_ID) AS ?WORLDCAT_ID)
+  }
+}
