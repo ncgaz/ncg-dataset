@@ -1,0 +1,25 @@
+plugins {
+    id 'application'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(12)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.jena:jena-core:4.0.0'
+    implementation 'org.apache.jena:jena-arq:4.0.0'
+    implementation 'org.slf4j:slf4j-simple:1.7.30'
+}
+
+application {
+    mainClass = 'org.ncgazetteer.CompileDataset'
+}
+
+tasks.run.workingDir = '../..'

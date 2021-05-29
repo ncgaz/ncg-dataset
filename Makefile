@@ -1,27 +1,28 @@
-VENV := ./venv
-VENV_BIN := $(VENV)/bin
-PY3 := $(VENV_BIN)/python3
+OS := $(shell uname -s)
 
-VERSIONS := $(shell jq -r '.[].filename' versions.json)
-VERSION_DIRS = $(addprefix diffs/,$(notdir $(VERSIONS)))
-VERSION_DEPS := $(addsuffix /Makefile,$(VERSION_DIRS))
-VERSION_DATASETS := $(addsuffix /normalized.json,$(VERSION_DIRS))
-VERSION_PATCHES := $(addsuffix /patch.jsonpatch,$(VERSION_DIRS))
+SPARQL_FUNC_LIB := lib/sparql-functions/build/libs/sparql-functions.jar
+
+TARQL_DL := https://github.com/tarql/tarql/releases/download
+TARQL_VERSION := 1.2
+TARQL_PATH := tarql-$(TARQL_VERSION)
+TARQL := tools/$(TARQL_PATH)/bin/tarql
+
+JENA_DL := https://downloads.apache.org/jena/binaries
+JENA_VERSION := 4.0.0
+JENA_PATH := apache-jena-$(JENA_VERSION)
+ARQ := tools/$(JENA_PATH)/bin/arq
+
+UPDATES := $(shell ls contributions | awk '{print "updates/" $$0 ".ttl"}')
 
 UPLOAD_WORKING_DIR := ncg
 
-UPLOAD_FILES = dataset.json \
-	       dataset.ttl \
+UPLOAD_FILES = dataset.ttl \
 	       dataset.csv \
 	       types.ttl \
 	       vocab.ttl
 
 .PHONY: all
-all: venv dataset.json dataset.ttl dataset.csv types.ttl $(VERSION_PATCHES)
-
-.PHONY: reconcile
-reconcile: dataset.csv
-	java -Xmx2g -jar reconcile-csv-0.1.2.jar $< label id
+all: dataset.ttl dataset.csv types.ttl
 
 .PHONY: upload
 upload:
@@ -31,34 +32,49 @@ upload:
 
 .PHONY: clean
 clean:
-	rm -rf diffs dataset.json dataset.ttl dataset.csv types.ttl $(UPLOAD_WORKING_DIR)
+	./lib/gradlew -q -p lib clean
+	rm -rf updates diffs dataset.ttl dataset.csv types.ttl \
+	$(UPLOAD_WORKING_DIR)
 
-.PHONY: test
-test:
-	$(PY3) lib/test.py
+.PHONY: superclean
+superclean: clean
+	rm -rf tools
 
-venv:
-	python3 -m venv venv
-	./venv/bin/pip install jsonpointer
+$(TARQL):
+	mkdir -p tools
+	curl -L $(TARQL_DL)/v$(TARQL_VERSION)/$(TARQL_PATH).tar.gz \
+	| tar xvf - -C tools
 
-dataset.json: $(VERSION_DATASETS)
-	cp $(lastword $^) $@
+$(ARQ):
+	mkdir -p tools
+	curl -L $(JENA_DL)/$(JENA_PATH).tar.gz \
+	| tar xvf - -C tools
 
-dataset.ttl: dataset.json
-	$(PY3) lib/convert.py -i jsonld -o turtle $< > $@ || rm $@
+$(SPARQL_FUNC_LIB):
+	./lib/gradlew -q -p lib :sparql-functions:build
 
-dataset.csv: dataset.json
-	$(PY3) lib/convert.py -i jsonld -o csv $< > $@ || rm $@
+updates/%.ttl: \
+contributions/%/construct.rq \
+contributions/%/data.csv \
+$(SPARQL_FUNC_LIB) \
+| $(TARQL) $(ARQ)
+	mkdir -p updates
+	JENA_HOME=tools/$(JENA_PATH) \
+	CLASSPATH_PREFIX=$(SPARQL_FUNC_LIB) \
+	./lib/construct-update.sh contributions/$* $(TARQL) $(ARQ) \
+	> $@
 
-types.ttl: dataset.ttl
-	arq --data=dataset.ttl --query=./queries/nctypes.sparql > $@ || rm $@
-	rapper -q -i turtle -o turtle $@ > $@.tmp
-	rm $@ && mv $@.tmp $@
+dataset.ttl: $(UPDATES)
+	./lib/gradlew -q -p lib \
+	:compile-dataset:run --args "updates diffs versions" \
+	> $@
 
-diffs/%/Makefile: versions/%
-	mkdir -p $(dir $@)
-	./generate_dependency.py $< > $@
+types.ttl: dataset.ttl queries/types.rq
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(ARQ) --data=$< --query=$(word 2,$^) --results=TTL \
+	> $@
 
-ifneq ($(MAKECMDGOALS),clean)
-include $(VERSION_DEPS)
-endif
+dataset.csv: dataset.ttl queries/csv.rq
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(ARQ) --data=$< --query=$(word 2,$^) --results=CSV \
+	> $@

@@ -1,0 +1,55 @@
+PREFIX ncgaz: <http://n2t.net/ark:/39333/ncg/>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ncv:   <http://n2t.net/ark:/39333/ncg/vocab#>
+
+SELECT
+(STRAFTER (STR(?place), "http://n2t.net/ark:/39333/ncg/place/")
+ as ?id)
+(?name
+ as ?label)
+(?note
+ as ?description)
+(CONCAT ("nct:", STRAFTER (STR(?type), "http://n2t.net/ark:/39333/ncg/type#"))
+ as ?feature_type)
+(GROUP_CONCAT (DISTINCT ?county_names;separator='|')
+ as ?county)
+(GROUP_CONCAT (DISTINCT ?loc_ids;separator='|')
+ as ?loc_id)
+(GROUP_CONCAT (DISTINCT ?viaf_ids;separator='|')
+ as ?viaf_id)
+(GROUP_CONCAT (DISTINCT ?wikidata_ids;separator='|')
+ as ?wikidata_id)
+(GROUP_CONCAT (DISTINCT ?worldcat_ids;separator='|')
+ as ?worldcat_id)
+
+WHERE {
+  ncgaz:dataset rdfs:member ?place .
+
+  ?place a ?type ;
+  skos:label ?name ;
+  skos:note ?note ;
+  .
+
+  OPTIONAL {
+    ?place (ncv:county/skos:label) ?county_names .
+  }
+  OPTIONAL {
+    ?place rdfs:seeAlso ?loc_ids .
+    FILTER (STRSTARTS (STR(?loc_ids), "http://id.loc.gov/"))
+  }
+  OPTIONAL {
+    ?place rdfs:seeAlso ?viaf_ids .
+    FILTER (STRSTARTS (STR(?viaf_ids), "http://viaf.org/"))
+  }
+  OPTIONAL {
+    ?place rdfs:seeAlso ?wikidata_ids .
+    FILTER (STRSTARTS (STR(?wikidata_ids), "http://www.wikidata.org/"))
+  }
+  OPTIONAL {
+    ?place rdfs:seeAlso ?worldcat_ids .
+    FILTER (STRSTARTS (STR(?worldcat_ids), "http://id.worldcat.org/"))
+  }
+}
+GROUP BY ?place ?name ?note ?type
+ORDER BY ?place
