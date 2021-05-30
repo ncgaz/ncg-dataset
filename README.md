@@ -1,63 +1,102 @@
 # North Carolina Gazetteer - Dataset
 
-This contains all the data files and scripts required to maintain the [North Carolina Gazetteer](https://ncgazetteer.org) dataset
+This contains all the data files and scripts required to maintain the
+[North Carolina Gazetteer](https://ncgazetteer.org) dataset.
 
-# Requirements
+## Requirements
 
-To run the various programs, you will need the following installed and available in your `$PATH`:
-
-  * Python3 (3.7+)
-
-  * jq
+To run the various programs, you will need the following installed and
+available in your `$PATH`:
 
   * GNU Make
+  
+  * Bash
 
-  * Redland RDF utils
+  * a Java Runtime Environment
 
-  * Apache Jena (`arq`)
+## Contents
 
-# Contents
+* `contributions/` - A directory containing a history of all additions
+  and changes to the dataset in CSV format
 
-* `versions/` - A directory containing a history of all the files and all the edits to the dataset
+* `lib/` - support files for maintaining the dataset
 
-* `versions.json` - A listing of all the versions in `versions/`, listed in order with some descriptive information
+* `Makefile` - The makefile that automates maintaining the
+  dataset. Running `make` on its own will generate the following:
 
-* `lib/` - Python files for maintaining the dataset
+  - `dataset.ttl`, `dataset.csv` - The latest version of the dataset
+    in Turtle and CSV formats
 
-  - `lib/convert.py` is a CLI program for converting the dataset between various data formats
+  - `updates/` - A directory containing all additions and changes to
+    the dataset in Turtle format
 
-  - `lib/diff.py` is a CLI program for generating differences between two versions of a dataset, represented by a JSON Patch patch between two canonical forms of a dataset.
+  - `versions/` - A directory containing, for each version, the full
+    Turtle dataset for that version
 
-* `Makefile` - The makefile that automates maintaining the dataset. Running `make` on its own will generate the following:
+  - `diffs/` - A directory containing, for each version, the changes
+    from (triples added to and removed from) the previous version
 
-  - `dataset.json`, `dataset.ttl`, `dataset.csv` - The latest version of the dataset in a variety of formats
+## Adding a new version
 
-  - `diffs/` - A folder containing, for each version, the canonicalized dataset for that version, and a JSON Patch patch representing the difference from the previous version
+New versions are generated from CSV files. To add a new version, do
+the following:
 
-The makefile also contains a couple other commands:
+1. Create a new directory under the `versions/` directory. The
+   directory should be named according to the following pattern:
 
-* `make upload` - Upload the latest dataset versions to <https://ncgazetteer.org>
+    `[date]-[tag]-[ADD | REPLACE]`
+    
+    `date` should be the date of the version in `YYYY-MM-DD` format.
+    
+    `tag` should be a short hyphenated description of the changes,
+    e.g. `city-founding-dates`.
+    
+    `ADD` means the changes only add new data. `REPLACE` means that
+    the changes should replace existing data. (More specifically:
+    `REPLACE` means that if a triple `[ s p o ]` is among the changes,
+    then any existing triples that share the same subject and
+    predicate will be removed before that triple is added.)
+    
+    For example, a set of changes added to the dataset on June 4, 2021
+    that add founding dates to cities in the gazetteer might be named
+    `2021-06-04-city-founding-dates-ADD`.
 
-* `make reconcile` - Set up an OpenRefine reconciliation server to reconcile against labels in the dataset, using OKFN's [reconcile-csv](https://github.com/okfn/reconcile-csv) program
+1. Put the CSV file under this new directory as `data.csv`, e.g.:
 
-* `make test` - Run the tests from `lib/test.py`
+    `contributions/2021-06-04-city-founding-dates-ADD/data.csv`
 
-# Adding a new version
+1. In the same directory as the `data.csv` file, create a
+   `metadata.json` file that describes the changes and who made them,
+   e.g.:
+   
+   ```json
+   {
+     "description": "Adds founding dates for 72 cities",
+     "authors": [
+       "Ryan Shaw"
+     ]
+   }
+   ```
 
-To add a new version, do the following:
+1. In the same directory as the `data.csv` and `metadata.json` files,
+   create a file named `construct.rq` with a SPARQL CONSTRUCT query
+   for creating RDF from the `data.csv` file. See
+   [`contributions/2020-01-22-ncpedia-ADD/construct.rq`](contributions/2020-01-22-ncpedia-ADD/construct.rq)
+   for a relatively simple example. Note that these queries are run
+   using [TARQL](https://tarql.github.io); see the TARQL documentation
+   for more details about how to write SPARQL queries that construct
+   RDF from CSV.
+   
+   In some cases it may not be possible to construct the RDF you want
+   with a single query. In that case, you can create additional
+   CONSTRUCT queries names `construct1.rq`, `construct2.rq`, etc. Each
+   subsequent query will be run on the results of the previous one.
 
-1. Copy the data file of the new version to the `versions/` directory. The format of the dataset will be guessed from the extension. Currently, only CSV and JSON files can represent new versions of the dataset.
+## Publishing to the web
 
-2. Add an entry to the end of `versions.json` with the following fields:
+`make upload` will upload the latest dataset versions to <https://ncgazetteer.org>.
 
-    - `filename` - The name of the file you added to `versions/`
+## TODO
 
-    - `date` - The ISO 8601 date associated with the new version
-
-    - `description` - A textual description of the changes contained in the new version
-
-    - `authors` - An array of strings representing the author(s) of the new version
-
-    - `sparse` (optional) - A boolean indicating whether this version contains *every* entry of the gazetteer, or only a subset. If sparse is **true**, only records contained in this version will be considered for generating diffs between versions. (If you do not mark a version as sparse, and it only contains a subset of entries, then the missing entries will be assumed to be deleted).
-
-    - `fields` (optional) - An array of fields that should be considered for diffing. Without this field, **all** fields will be included in the diff.
+* Allow contributions to be added directly in Turtle format without
+  the need for a `construct.rq` file.
