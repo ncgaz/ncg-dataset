@@ -11,6 +11,9 @@ DIR=$1
 TARQL_CMD=$2
 ARQ_CMD=$3
 
+# make sure results of globbing construct*.rq are in the expected order
+export LC_COLLATE=C
+
 QUERIES=("$DIR"/construct*.rq)
 N_QUERIES=${#QUERIES[@]}
 
