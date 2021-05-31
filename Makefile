@@ -23,13 +23,14 @@ METADATA := $(shell ls contributions | awk '{print "contributions/" $$0 "/metada
 
 UPLOAD_WORKING_DIR := ncg
 
-UPLOAD_FILES = dataset.ttl \
+UPLOAD_FILES = dataset.nt \
+	       dataset.ttl \
 	       dataset.csv \
 	       types.ttl \
 	       vocab.ttl
 
 .PHONY: all
-all: dataset.ttl dataset.csv types.ttl
+all: dataset.nt dataset.ttl dataset.csv types.ttl
 
 .PHONY: upload
 upload:
@@ -85,21 +86,22 @@ $(SPARQL_FUNC_LIB) \
 	./lib/construct-update.sh contributions/$* $(TARQL) $(ARQ) \
 	> $@
 
-dataset.ttl: $(UPDATES) check_metadata
+dataset.nt: $(UPDATES) check_metadata
 	./lib/gradlew -q -p lib \
 	:compile-dataset:run --args "updates diffs versions" \
+	| sort > $@
+
+dataset.ttl: dataset.nt
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(RIOT) --formatted=TTL $< \
 	> $@
 
-dataset.nt: dataset.ttl
-	JENA_HOME=tools/$(JENA_PATH) \
-	$(RIOT) --out=NT $< | sort > $@
-
-dataset.csv: dataset.ttl queries/csv.rq
+dataset.csv: dataset.nt queries/csv.rq
 	JENA_HOME=tools/$(JENA_PATH) \
 	$(ARQ) --data=$< --query=$(word 2,$^) --results=CSV \
 	> $@
 
-types.ttl: dataset.ttl queries/types.rq
+types.ttl: dataset.nt queries/types.rq
 	JENA_HOME=tools/$(JENA_PATH) \
 	$(ARQ) --data=$< --query=$(word 2,$^) --results=TTL \
 	> $@

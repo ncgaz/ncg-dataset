@@ -44,7 +44,7 @@ public class CompileDataset {
                 if (latestVersion == null) {
                     System.exit(1);
                 } else {
-                    RDFDataMgr.write(System.out, latestVersion, RDFFormat.TURTLE_PRETTY);
+                    RDFDataMgr.write(System.out, latestVersion, RDFFormat.NTRIPLES);
                     System.exit(0);
                 }
             } else {
