@@ -36,7 +36,7 @@ filter() {
 if [ "$N_QUERIES" -eq 1 ]; then
     run_tarql | filter
 else
-    run_tarql > "$DIR/data.ttl"
+    run_tarql | filter > "$DIR/data.ttl"
     COUNT=1
     for q in "${QUERIES[@]:1}"; do
         if [ "$((++COUNT))" -eq "$N_QUERIES" ]; then
