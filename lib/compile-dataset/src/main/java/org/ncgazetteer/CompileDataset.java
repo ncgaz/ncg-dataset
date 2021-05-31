@@ -28,6 +28,7 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFFormat;
+import org.apache.jena.update.UpdateAction;
 
 public class CompileDataset {
 
@@ -66,11 +67,11 @@ public class CompileDataset {
     private static DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
 
     private static enum Operation {
-        ADD, REPLACE
+        ADD, REPLACE, UPDATE
     }
 
     private static Pattern UPDATE_FILE_PATTERN = Pattern.compile(String.format(
-            "^(?<date>\\d{4}-\\d{2}-\\d{2})-(?<tag>[a-z-]+)-(?<op>%s)\\.ttl$",
+            "^(?<date>\\d{4}-\\d{2}-\\d{2})-(?<tag>[a-z-]+)-(?<op>%s)\\.(?<suffix>ttl|ru)$",
             Stream.of(Operation.values())
                     .map(String::valueOf)
                     .collect(Collectors.joining("|"))));
@@ -116,28 +117,44 @@ public class CompileDataset {
                 Date date = DATE_FORMAT.parse(m.group("date"));
                 String tag = m.group("tag");
                 Operation operation = Operation.valueOf(m.group("op"));
+                String suffix = m.group("suffix");
+
+                String expectedSuffix = operation == Operation.UPDATE ? "ru" : "ttl";
+                if (!suffix.equals(expectedSuffix)) {
+                    err("%s has the wrong suffix; it should be ."
+                            + expectedSuffix, updateFile);
+                    return null;
+                }
 
                 // copy previous version to current version
                 Model currentVersion = ModelFactory.createDefaultModel();
                 currentVersion.add(previousVersion);
 
-                Model update = RDFDataMgr.loadModel(updateFile.toString());
-                Model removed = null;
+                String updateFilename = updateFile.toString();
+                Model update = null;
+                Diff diff = null;
+                boolean ok = false;
 
                 try {
 
                     switch (operation) {
                         case ADD:
-                            // add will happen below
+                            update = RDFDataMgr.loadModel(updateFilename);
+                            currentVersion.add(update);
                             break;
 
                         case REPLACE:
-                            removed = removeReplacedStatements(
-                                    currentVersion, update, diffsDir, date, tag);
-                            if (removed == null) {
+                            update = RDFDataMgr.loadModel(updateFilename);
+                            ok = removeReplacedStatements(currentVersion, update);
+                            if (!ok) {
                                 err("Failed to remove statements replaced by %s", updateFile);
                                 return null;
                             }
+                            currentVersion.add(update);
+                            break;
+
+                        case UPDATE:
+                            UpdateAction.readExecute(updateFilename, currentVersion);
                             break;
 
                         default:
@@ -145,37 +162,18 @@ public class CompileDataset {
                             return null;
                     }
 
-                    boolean ok = false;
-
-                    currentVersion.add(update);
+                    diff = getDiff(previousVersion, currentVersion);
 
                     ok = write(currentVersion, versionsDir, "%s-%s.ttl", date, tag);
                     if (!ok) {
                         return null;
                     }
 
-                    // if we're adding statements, don't include
-                    // statements that were already in the dataset in
-                    // the diff. if we're removing statements, don't
-                    // include statements that are replaced in the
-                    // diff.
-                    List<Statement> redundant;
-                    if (removed == null) {
-                        redundant = update.intersection(previousVersion)
-                                .listStatements().toList();
-                    } else {
-                        redundant = update.intersection(removed)
-                                .listStatements().toList();
-
-                        removed.remove(redundant);
-                        ok = write(removed, diffsDir, "%s-%s/removed.ttl", date, tag);
-                        if (!ok) {
-                            return null;
-                        }
+                    ok = write(diff.removed, diffsDir, "%s-%s/removed.ttl", date, tag);
+                    if (!ok) {
+                        return null;
                     }
-
-                    update.remove(redundant);
-                    ok = write(update, diffsDir, "%s-%s/added.ttl", date, tag);
+                    ok = write(diff.added, diffsDir, "%s-%s/added.ttl", date, tag);
                     if (!ok) {
                         return null;
                     }
@@ -184,9 +182,11 @@ public class CompileDataset {
 
                 } finally {
                     previousVersion.close();
-                    update.close();
-                    if (removed != null) {
-                        removed.close();
+                    if (update != null) {
+                        update.close();
+                    }
+                    if (diff != null) {
+                        diff.close();
                     }
                 }
             } catch (ParseException e) {
@@ -199,16 +199,7 @@ public class CompileDataset {
         }
     }
 
-    private static Model removeReplacedStatements(
-            Model currentVersion,
-            Model update,
-            Path diffsDir,
-            Date date,
-            String tag
-    ) {
-        Model removed = ModelFactory.createDefaultModel();
-        removed.setNsPrefixes(update);
-
+    private static boolean removeReplacedStatements(Model currentVersion, Model update) {
         StmtIterator updateStmts = update.listStatements();
         while (updateStmts.hasNext()) {
             Statement updateStmt = updateStmts.next();
@@ -216,18 +207,43 @@ public class CompileDataset {
             Property p = updateStmt.getPredicate();
 
             if (s.isURIResource()) {
-                List<Statement> toRemove =
-                        currentVersion.listStatements(s, p, (RDFNode) null).toList();
-
-                currentVersion.remove(toRemove);
-                removed.add(toRemove);
+                currentVersion.remove(
+                        currentVersion.listStatements(s, p, (RDFNode) null).toList());
             } else {
-                err("Blank subject node found in update");
-                removed.close();
-                return null;
+                return err("Blank subject node found in update");
             }
         }
-        return removed;
+        return true;
+    }
+
+    private static class Diff {
+        final Model removed;
+        final Model added;
+
+        Diff(Model removed, Model added) {
+            this.removed = removed;
+            this.added = added;
+        }
+
+        void close() {
+            this.removed.close();
+            this.added.close();
+        }
+    }
+
+    private static Diff getDiff(Model previousVersion, Model currentVersion) {
+        List<Statement> remained = previousVersion.intersection(currentVersion)
+            .listStatements().toList();
+
+        Model removed = ModelFactory.createDefaultModel();
+        removed.add(previousVersion);
+        removed.remove(remained);
+
+        Model added = ModelFactory.createDefaultModel();
+        added.add(currentVersion);
+        added.remove(remained);
+
+        return new Diff(removed, added);
     }
 
     private static boolean write(Model m, Path dir, String rest, Date date, String tag) {

@@ -11,8 +11,15 @@ JENA_DL := https://downloads.apache.org/jena/binaries
 JENA_VERSION := 4.0.0
 JENA_PATH := apache-jena-$(JENA_VERSION)
 ARQ := tools/$(JENA_PATH)/bin/arq
+RIOT := tools/$(JENA_PATH)/bin/riot
 
-UPDATES := $(shell ls contributions | awk '{print "updates/" $$0 ".ttl"}')
+UPDATES := \
+	$(shell ls -d contributions/*-{ADD,REPLACE} \
+	| awk '{sub(/contributions/, "updates"); print $$0 ".ttl"}') \
+	$(shell ls -d contributions/*-UPDATE | \
+	awk '{sub(/contributions/, "updates"); print $$0 ".ru"}')
+
+METADATA := $(shell ls contributions | awk '{print "contributions/" $$0 "/metadata.json"}')
 
 UPLOAD_WORKING_DIR := ncg
 
@@ -33,12 +40,17 @@ upload:
 .PHONY: clean
 clean:
 	./lib/gradlew -q -p lib clean
-	rm -rf updates diffs dataset.ttl dataset.csv types.ttl \
+	rm -rf updates diffs dataset.* types.ttl \
 	$(UPLOAD_WORKING_DIR)
 
 .PHONY: superclean
 superclean: clean
 	rm -rf tools
+
+.PHONY: check_metadata
+check_metadata:
+	$(foreach m,$(METADATA),\
+	$(if $(shell test -f $(m) && echo -n ok),,$(error Missing $(m))))
 
 $(TARQL):
 	mkdir -p tools
@@ -53,6 +65,15 @@ $(ARQ):
 $(SPARQL_FUNC_LIB):
 	./lib/gradlew -q -p lib :sparql-functions:build
 
+# sparql updates
+updates/%.ru: contributions/%/update.ru
+	cp -f $< $@
+
+# ttl updates
+updates/%.ttl: contributions/%/data.ttl
+	cp -f $< $@
+
+# csv updates
 updates/%.ttl: \
 contributions/%/construct.rq \
 contributions/%/data.csv \
@@ -64,17 +85,21 @@ $(SPARQL_FUNC_LIB) \
 	./lib/construct-update.sh contributions/$* $(TARQL) $(ARQ) \
 	> $@
 
-dataset.ttl: $(UPDATES)
+dataset.ttl: $(UPDATES) check_metadata
 	./lib/gradlew -q -p lib \
 	:compile-dataset:run --args "updates diffs versions" \
+	> $@
+
+dataset.nt: dataset.ttl
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(RIOT) --out=NT $< | sort > $@
+
+dataset.csv: dataset.ttl queries/csv.rq
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(ARQ) --data=$< --query=$(word 2,$^) --results=CSV \
 	> $@
 
 types.ttl: dataset.ttl queries/types.rq
 	JENA_HOME=tools/$(JENA_PATH) \
 	$(ARQ) --data=$< --query=$(word 2,$^) --results=TTL \
-	> $@
-
-dataset.csv: dataset.ttl queries/csv.rq
-	JENA_HOME=tools/$(JENA_PATH) \
-	$(ARQ) --data=$< --query=$(word 2,$^) --results=CSV \
 	> $@
