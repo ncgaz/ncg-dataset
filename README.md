@@ -98,5 +98,11 @@ the following:
 
 ## TODO
 
-* Allow contributions to be added directly in Turtle format without
-  the need for a `construct.rq` file.
+* Allow contributions in the form of a `.ru` file, containing a SPARQL
+  UPDATE statement to be run on the previous version of the
+  dataset. This would not produce a `.ttl` file in `updates/` but
+  would still produce lists of added and removed triples in `diffs`.
+
+* Allow contributions in Turtle format to be added directly
+  (i.e. copied directly to `updates/` without the need for a
+  `construct.rq` file.
