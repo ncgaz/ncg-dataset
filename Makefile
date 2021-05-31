@@ -43,12 +43,12 @@ superclean: clean
 $(TARQL):
 	mkdir -p tools
 	curl -L $(TARQL_DL)/v$(TARQL_VERSION)/$(TARQL_PATH).tar.gz \
-	| tar xvf - -C tools
+	| tar zxvf - -C tools
 
 $(ARQ):
 	mkdir -p tools
 	curl -L $(JENA_DL)/$(JENA_PATH).tar.gz \
-	| tar xvf - -C tools
+	| tar zxvf - -C tools
 
 $(SPARQL_FUNC_LIB):
 	./lib/gradlew -q -p lib :sparql-functions:build
