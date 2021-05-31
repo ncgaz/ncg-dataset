@@ -16,7 +16,7 @@ RIOT := tools/$(JENA_PATH)/bin/riot
 UPDATES := \
 	$(shell ls -d contributions/*-{ADD,REPLACE} \
 	| awk '{sub(/contributions/, "updates"); print $$0 ".ttl"}') \
-	$(shell ls -d contributions/*-UPDATE | \
+	$(shell ls -d contributions/*-UPDATE 2> /dev/null | \
 	awk '{sub(/contributions/, "updates"); print $$0 ".ru"}')
 
 METADATA := $(shell ls contributions | awk '{print "contributions/" $$0 "/metadata.json"}')
