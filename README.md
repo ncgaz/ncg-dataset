@@ -12,7 +12,7 @@ available in your `$PATH`:
   
   * Bash
 
-  * a Java Runtime Environment
+  * a Java Runtime Environment (version 11 or higher)
 
 ## Contents
 
