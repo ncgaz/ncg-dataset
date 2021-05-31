@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -eo pipefail
 
 # Run a series of CONSTRUCT queries on CSV data.
 # The first query must be a TARQL query; subsequent queries are ordinary SPARQL queries.
