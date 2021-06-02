@@ -43,7 +43,7 @@ upload:
 .PHONY: clean
 clean:
 	./lib/gradlew -q -p lib clean
-	rm -rf updates diffs dataset.* types.ttl \
+	rm -rf updates diffs versions dataset.* types.ttl \
 	$(UPLOAD_WORKING_DIR)
 
 .PHONY: superclean
