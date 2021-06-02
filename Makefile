@@ -32,7 +32,7 @@ UPLOAD_FILES = dataset.nt \
 	       vocab.ttl
 
 .PHONY: all
-all: dataset.nt dataset.ttl dataset.csv dataset.json types.ttl
+all: dataset.nt dataset.ttl dataset.csv dataset.json types.ttl count
 
 .PHONY: upload
 upload:
@@ -54,6 +54,11 @@ superclean: clean
 check_metadata:
 	$(foreach m,$(METADATA),\
 	$(if $(shell test -f $(m) && echo -n ok),,$(error Missing $(m))))
+
+.PHONY: count
+count: dataset.nt queries/count.rq
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(ARQ) --data=$< --query=$(word 2,$^)
 
 $(TARQL):
 	mkdir -p tools
