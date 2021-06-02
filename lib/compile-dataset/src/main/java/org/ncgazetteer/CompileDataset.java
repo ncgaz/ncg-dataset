@@ -39,12 +39,7 @@ public class CompileDataset {
             Path diffsDir = Paths.get(args[1]);
             Path versionsDir = Paths.get(args[2]);
 
-            boolean ok = false;
-            ok = checkDir(updatesDir);
-            ok = checkDir(diffsDir);
-            ok = checkDir(versionsDir);
-
-            if (ok) {
+            if (checkDir(updatesDir)) {
                 Model latestVersion = processUpdates(updatesDir, diffsDir, versionsDir);
                 if (latestVersion == null) {
                     System.exit(1);
