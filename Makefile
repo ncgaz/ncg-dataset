@@ -1,3 +1,4 @@
+SHELL := /usr/bin/env bash
 OS := $(shell uname -s)
 
 SPARQL_FUNC_LIB := lib/sparql-functions/build/libs/sparql-functions.jar
