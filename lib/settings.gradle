@@ -1,3 +1,4 @@
 rootProject.name = 'ncg-dataset'
 include('sparql-functions')
 include('compile-dataset')
+include('frame-dataset')

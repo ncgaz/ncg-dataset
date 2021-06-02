@@ -26,11 +26,12 @@ UPLOAD_WORKING_DIR := ncg
 UPLOAD_FILES = dataset.nt \
 	       dataset.ttl \
 	       dataset.csv \
+	       dataset.json \
 	       types.ttl \
 	       vocab.ttl
 
 .PHONY: all
-all: dataset.nt dataset.ttl dataset.csv types.ttl
+all: dataset.nt dataset.ttl dataset.csv dataset.json types.ttl
 
 .PHONY: upload
 upload:
@@ -86,19 +87,24 @@ $(SPARQL_FUNC_LIB) \
 	./lib/construct-update.sh contributions/$* $(TARQL) $(ARQ) \
 	> $@
 
-dataset.nt: $(UPDATES) check_metadata
+dataset.ttl: $(UPDATES) | check_metadata
 	./lib/gradlew -q -p lib \
 	:compile-dataset:run --args "updates diffs versions" \
-	| sort > $@
-
-dataset.ttl: dataset.nt
-	JENA_HOME=tools/$(JENA_PATH) \
-	$(RIOT) --formatted=TTL $< \
 	> $@
+
+dataset.nt: dataset.ttl
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(RIOT) --output=NT $< \
+	| sort > $@
 
 dataset.csv: dataset.nt queries/csv.rq
 	JENA_HOME=tools/$(JENA_PATH) \
 	$(ARQ) --data=$< --query=$(word 2,$^) --results=CSV \
+	> $@
+
+dataset.json: dataset.nt frames/dataset.jsonld
+	./lib/gradlew -q -p lib \
+	:frame-dataset:run --args "$^" \
 	> $@
 
 types.ttl: dataset.nt queries/types.rq

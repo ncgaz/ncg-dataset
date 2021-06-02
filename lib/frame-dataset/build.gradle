@@ -1,0 +1,25 @@
+plugins {
+    id 'application'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'org.glassfish:jakarta.json:2.0.0'
+    implementation 'com.github.filip26:titanium-json-ld:fe98f3c'
+}
+
+application {
+    mainClass = 'org.ncgazetteer.FrameDataset'
+}
+
+tasks.run.workingDir = '../..'

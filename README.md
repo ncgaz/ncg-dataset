@@ -117,3 +117,7 @@ following:
 ## Publishing to the web
 
 `make upload` will upload the latest dataset versions to <https://ncgazetteer.org>.
+
+## TODO
+
+* Validate shapes after compiling the dataset

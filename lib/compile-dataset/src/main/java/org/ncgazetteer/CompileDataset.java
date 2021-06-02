@@ -39,21 +39,32 @@ public class CompileDataset {
             Path diffsDir = Paths.get(args[1]);
             Path versionsDir = Paths.get(args[2]);
 
-            if (Files.isDirectory(updatesDir)) {
+            boolean ok = false;
+            ok = checkDir(updatesDir);
+            ok = checkDir(diffsDir);
+            ok = checkDir(versionsDir);
+
+            if (ok) {
                 Model latestVersion = processUpdates(updatesDir, diffsDir, versionsDir);
                 if (latestVersion == null) {
                     System.exit(1);
                 } else {
-                    RDFDataMgr.write(System.out, latestVersion, RDFFormat.NTRIPLES);
+                    RDFDataMgr.write(System.out, latestVersion, RDFFormat.TURTLE_PRETTY);
                     System.exit(0);
                 }
-            } else {
-                err("%s is not a directory", updatesDir);
             }
         }
 
         usage();
         System.exit(1);
+    }
+
+    private static boolean checkDir(Path p) {
+        if (Files.isDirectory(p)) {
+            return true;
+        } else {
+            return err("%s is not a directory", p);
+        }
     }
 
     private static DirectoryStream.Filter<Path> UPDATE_FILE_FILTER =
