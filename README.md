@@ -18,25 +18,27 @@ available in your `$PATH`:
 
 ## Contents
 
-* `contributions/` - A directory containing a history of all additions
-  and changes to the dataset in CSV format
+* `contributions/` - A directory containing a history of all changes
+  to the dataset
 
 * `lib/` - support files for maintaining the dataset
 
 * `Makefile` - The makefile that automates maintaining the
   dataset. Running `make` on its own will generate the following:
 
-  - `dataset.nt`, `dataset.ttl`, `dataset.csv` - The latest version of
-    the dataset in N-Triples, Turtle and CSV formats
+  - `dataset.ttl`, `dataset.nt`, `dataset.csv`, `dataset.json` - The
+    latest version of the dataset in Turtle, N-Triples, CSV, and JSON
+    formats
 
-  - `updates/` - A directory containing all additions and changes to
-    the dataset in Turtle format
+  - `updates/` - A directory containing all changes to the dataset in
+    Turtle or SPARQL UPDATE format
 
-  - `versions/` - A directory containing, for each version, the full
-    Turtle dataset for that version
+  - `versions/` - A directory containing each version of the full
+    dataset in Turtle format
 
-  - `diffs/` - A directory containing, for each version, the changes
-    from (triples added to and removed from) the previous version
+  - `diffs/` - A directory containing, for each version of the
+    dataset, the changes from (triples added to and removed from) the
+    previous version
 
 
 ## Creating a new version of the dataset
@@ -60,8 +62,8 @@ following:
     `REPLACE` means that the changes should replace existing
     data. (More specifically: `REPLACE` means that if a triple `[ s p
     o ]` is among the changes, then any existing triples that share
-    the same subject and predicate will be removed before that triple
-    is added.)
+    the same subject `s` and predicate `p` will be removed before that
+    triple is added.)
     
     `UPDATE` means that the changes are the result of a [SPARQL
     UPDATE](https://www.w3.org/TR/sparql11-update/) operation, which could remove and add arbitrary
@@ -116,7 +118,8 @@ following:
 
 ## Publishing to the web
 
-`make upload` will upload the latest dataset versions to <https://ncgazetteer.org>.
+`make upload` will upload the latest dataset versions to
+<https://ncgazetteer.org>.
 
 ## TODO
 

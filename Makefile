@@ -24,8 +24,8 @@ METADATA := $(shell ls contributions | awk '{print "contributions/" $$0 "/metada
 
 UPLOAD_WORKING_DIR := ncg
 
-UPLOAD_FILES = dataset.nt \
-	       dataset.ttl \
+UPLOAD_FILES = dataset.ttl \
+	       dataset.nt \
 	       dataset.csv \
 	       dataset.json \
 	       types.ttl \
