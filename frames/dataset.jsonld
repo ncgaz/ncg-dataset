@@ -2,6 +2,7 @@
   "@context": {
     "@base": "http://n2t.net/ark:/39333/ncg/place/",
 
+    "geojson": "https://purl.org/geojson/vocab#",
     "nct": "http://n2t.net/ark:/39333/ncg/type#",
     "ncv": "http://n2t.net/ark:/39333/ncg/vocab#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -27,6 +28,10 @@
       "@container": "@set",
       "@id": "rdfs:seeAlso",
       "@type": "@id"
+    },
+    "geometry": {
+      "@id": "geojson:geometry",
+      "@type": "@json"
     }
   },
 

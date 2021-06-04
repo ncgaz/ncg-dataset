@@ -1,0 +1,23 @@
+PREFIX geojson: <https://purl.org/geojson/vocab#>
+PREFIX ncp:     <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX f:       <java:org.ncgazetteer.>
+
+CONSTRUCT {
+  ?PLACE
+  rdfs:seeAlso ?GEONAMES_ID ;
+  geojson:geometry ?GEOMETRY ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  BIND (URI(CONCAT('https://sws.geonames.org/', ?geonames_id_num, '/')) AS ?GEONAMES_ID)
+  # lng/lat are sometimes at top level, sometimes nested in 1st object of 'geonames' array
+  BIND (f:jsonPointer(?geonames_json, '/lng') AS ?_LNG)
+  BIND (IF(BOUND(?_LNG), ?_LNG, f:jsonPointer(?geonames_json, '/geonames/0/lng')) AS ?LNG)
+  BIND (f:jsonPointer(?geonames_json, '/lat') AS ?_LAT)
+  BIND (IF(BOUND(?_LAT), ?_LAT, f:jsonPointer(?geonames_json, '/geonames/0/lat')) AS ?LAT)
+  BIND (STRDT(CONCAT('{"type":"Point","coordinates":[', ?LNG, ',', ?LAT, ']}'), rdf:JSON)
+        AS ?GEOMETRY)
+}
