@@ -32,12 +32,12 @@ WHERE {
   ncgaz:dataset rdfs:member ?place .
 
   ?place a ?type ;
-  skos:label ?name ;
+  skos:prefLabel ?name ;
   skos:note ?note ;
   .
 
   OPTIONAL {
-    ?place (ncv:county/skos:label) ?county_names .
+    ?place (ncv:county/skos:prefLabel) ?county_names .
   }
   OPTIONAL {
     ?place rdfs:seeAlso ?geonames_ids .

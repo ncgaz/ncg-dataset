@@ -5,7 +5,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 CONSTRUCT {
   ?PLACE
-  skos:label ?LABEL ;
+  skos:prefLabel ?LABEL ;
   ncv:countyName ?COUNTY_NAME ;
   .
 }

@@ -3,14 +3,14 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 CONSTRUCT {
   ?PLACE
-  skos:label ?LABEL ;
+  skos:prefLabel ?LABEL ;
   ncv:county ?COUNTY ;
   .
 }
 WHERE {
-  ?PLACE skos:label ?LABEL .
+  ?PLACE skos:prefLabel ?LABEL .
   OPTIONAL {
     ?PLACE ncv:countyName $COUNTY_NAME .
-    ?COUNTY skos:label $COUNTY_NAME .
+    ?COUNTY skos:prefLabel $COUNTY_NAME .
   }
 }

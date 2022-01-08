@@ -17,7 +17,7 @@
     },
 
     "id": "@id",
-    "label": "skos:label",
+    "label": "skos:prefLabel",
     "description": "skos:note",
     "county": {
       "@container": "@set",
