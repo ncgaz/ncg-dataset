@@ -2,7 +2,8 @@
 set -eo pipefail
 
 # Run a series of CONSTRUCT queries on CSV data.
-# The first query must be a TARQL query; subsequent queries are ordinary SPARQL queries.
+# The first query must be a TARQL query; subsequent queries are ordinary
+# SPARQL queries.
 #
 # $1 directory containing CSV data and CONSTRUCT queries (at least one)
 # $2 TARQL command to run

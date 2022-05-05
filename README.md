@@ -10,7 +10,7 @@ To run the various programs, you will need the following installed and
 available in your `$PATH`:
 
   * GNU Make
-  
+
   * Bash
 
   * a Java Runtime Environment (version 11 or higher)
@@ -51,31 +51,31 @@ following:
    directory should be named according to the following pattern:
 
     `[date]-[tag]-[ADD | REPLACE | UPDATE]`
-    
+
     `date` should be the date of the version in `YYYY-MM-DD` format.
-    
+
     `tag` should be a short hyphenated description of the changes,
     e.g. `city-founding-dates`.
-    
-    `ADD` means the changes only add new data. 
-    
+
+    `ADD` means the changes only add new data.
+
     `REPLACE` means that the changes should replace existing
     data. (More specifically: `REPLACE` means that if a triple `[ s p
     o ]` is among the changes, then any existing triples that share
     the same subject `s` and predicate `p` will be removed before that
     triple is added.)
-    
+
     `UPDATE` means that the changes are the result of a [SPARQL
     UPDATE](https://www.w3.org/TR/sparql11-update/) operation, which could remove and add arbitrary
     triples.
-    
+
     For example, a set of changes added to the dataset on June 4, 2021
     that add founding dates to cities in the gazetteer might be named
     `2021-06-04-city-founding-dates-ADD`.
 
 1. In this new directory, create a `metadata.json` file that describes
    the changes and who made them, e.g.:
-   
+
    ```json
    {
      "description": "Adds founding dates for 72 cities",
@@ -87,13 +87,13 @@ following:
 
 1. If the new contribution is an `ADD` or `REPLACE`, the new data can
    be provided as a Turtle file or as a CSV file.
-   
+
     1. Put the Turtle or CSV file in the same directory as the
        `metadata.json` file. Name it `data.ttl` or `data.csv`. For
        example:
 
        `contributions/2021-06-04-city-founding-dates-ADD/data.csv`
-      
+
     1. *If* the data file is in CSV format, you must specify how to
        convert it to RDF. In the same directory as the `data.csv` and
        `metadata.json` files, create a file named `construct.rq` with a
@@ -102,7 +102,7 @@ following:
        for a relatively simple example. Note that these queries are run
        using [TARQL](https://tarql.github.io); see the TARQL documentation for more details
        about how to write SPARQL queries that construct RDF from CSV.
-   
+
        In some cases it may not be possible to construct the RDF you want
        with a single query. In that case, in addition to the initial TARQL
        query you can create additional (regular SPARQL) CONSTRUCT queries
