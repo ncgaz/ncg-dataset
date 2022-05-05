@@ -109,6 +109,12 @@ following:
        named `construct1.rq`, `construct2.rq`, etc. Each subsequent query
        will be run on the results of the previous one.
 
+    1. *If* the data file is in CSV format, there may be additional
+       CSV files as well. These should be placed in the same directory
+       as the `data.csv` file. Their names do not matter but they
+       should have the suffix `.csv`. Column names should be unique
+       across all the CSV files in a contribution.
+
 1. If the new contribution is an `UPDATE`, instead of a data file you
    should put a file named `update.ru` in the same directory as the
    `metadata.json` file. This file should contain a single SPARQL

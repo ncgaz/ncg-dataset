@@ -24,7 +24,7 @@ if [ "$N_QUERIES" -eq 0 ]; then
 fi
 
 run_tarql() {
-    $TARQL_CMD -e utf8 --dedup 100 "${QUERIES[0]}" "$DIR/data.csv"
+    $TARQL_CMD -e utf8 --dedup 1000 "${QUERIES[0]}" "$DIR"/*.csv
 }
 
 run_arq() {
