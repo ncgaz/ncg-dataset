@@ -1,0 +1,7 @@
+SELECT DISTINCT
+(STRAFTER(STR(?s), "http://n2t.net/ark:/39333/ncg/place/") AS ?id)
+WHERE {
+  ?s ?p ?o .
+  FILTER(REGEX(STR(?s), "^http://n2t.net/ark:/39333/ncg/place/"))
+}
+ORDER BY ?id

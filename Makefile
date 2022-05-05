@@ -60,6 +60,11 @@ count: dataset.nt queries/count.rq
 	JENA_HOME=tools/$(JENA_PATH) \
 	$(ARQ) --data=$< --query=$(word 2,$^)
 
+.PHONY: ids
+ids: dataset.nt queries/ids.rq
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(ARQ) --data=$< --query=$(word 2,$^)
+
 $(TARQL):
 	mkdir -p tools
 	curl -L $(TARQL_DL)/v$(TARQL_VERSION)/$(TARQL_PATH).tar.gz \
