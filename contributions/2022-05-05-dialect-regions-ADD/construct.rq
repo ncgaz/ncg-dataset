@@ -1,0 +1,55 @@
+PREFIX apf:     <http://jena.apache.org/ARQ/property#>
+PREFIX f:       <java:org.ncgazetteer.>
+PREFIX geojson: <https://purl.org/geojson/vocab#>
+PREFIX ncp:     <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX nct:     <http://n2t.net/ark:/39333/ncg/type#>
+PREFIX ncv:     <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX wd:      <http://www.wikidata.org/entity/>
+PREFIX wdt:     <http://www.wikidata.org/prop/direct/>
+
+CONSTRUCT {
+  ?PLACE
+  a nct:Region ;
+  geojson:geometry ?GEOMETRY ;
+  ncv:county ?COUNTY ;
+  rdfs:seeAlso ?REGION ;
+  skos:altLabel ?alt_label ;
+  skos:note ?note ;
+  skos:prefLabel ?pref_label ;
+  .
+
+  ?DIALECT
+  a wd:Q33384 ; # dialect
+  skos:prefLabel ?dialect_label ;
+  ncv:spokenBy ?SPEAKERS ;
+  ncv:spokenIn ?PLACE ;
+  ncv:exampleWords ?example_words ;
+  ncv:recording ?RECORDING ;
+  .
+
+  ?RECORDING
+  a wd:Q3302947 ; # audio recording
+  wdt:P8546 ?PLACE_RECORDED ; # recording location
+  .
+
+  ?DATASET
+  a rdf:Bag ;
+  rdfs:member ?PLACE ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName('ncgaz:dataset') AS ?DATASET)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?close_match)) AS ?REGION)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?spoken_in)) AS ?PLACE_SPOKEN)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?recorded_at)) AS ?PLACE_RECORDED)
+  BIND (tarql:expandPrefixedName(CONCAT('wd:', ?dialect_wikidata_id)) AS ?DIALECT)
+  BIND (tarql:expandPrefixedName(CONCAT('wd:', ?spoken_by)) AS ?SPEAKERS)
+  BIND (URI(?representative_recording) AS ?RECORDING)
+  BIND (STRDT(f:jsonPointer(?geometry, '/features/0/geometry'), rdf:JSON) AS ?GEOMETRY)
+  ?EACH_COUNTY_ID apf:strSplit (?county '\\|') .
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?EACH_COUNTY_ID)) AS ?COUNTY)
+}
