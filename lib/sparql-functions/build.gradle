@@ -13,9 +13,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.13.1'
-    implementation 'org.apache.jena:jena-arq:4.1.0'
-    implementation 'org.glassfish:jakarta.json:2.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'org.apache.jena:jena-arq:4.5.0'
+    implementation 'org.glassfish:jakarta.json:2.0.1'
 }
 
 configurations {
@@ -23,7 +23,7 @@ configurations {
 }
 
 dependencies {
-    runtimeJars 'org.glassfish:jakarta.json:2.0.0'
+    runtimeJars 'org.glassfish:jakarta.json:2.0.1'
 }
 
 jar {
