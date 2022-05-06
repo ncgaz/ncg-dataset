@@ -9,7 +9,6 @@ import org.apache.jena.sparql.expr.Expr;
 import org.apache.jena.sparql.function.FunctionEnv;
 import org.apache.jena.sparql.function.FunctionEnvBase;
 import org.apache.jena.sparql.util.ExprUtils;
-import org.apache.jena.vocabulary.RDF;
 import org.junit.Before;
 
 
@@ -48,6 +47,9 @@ public abstract class FunctionTest {
     }
 
     protected Node jsonNode(String s) {
-        return NodeFactory.createLiteral(s, RDF.dtRDFJSON);
+        // Older versions of Jena (such as that used by TARQL) do not include
+        // the rdf:json datatype, so we cannot use it.
+        // return NodeFactory.createLiteral(s, RDF.dtRDFJSON);
+        return NodeFactory.createLiteral(s);
     }
 }

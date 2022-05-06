@@ -6,7 +6,6 @@ import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.sparql.expr.ExprEvalException;
 import org.apache.jena.sparql.expr.NodeValue;
 import org.apache.jena.sparql.function.FunctionBase2;
-import org.apache.jena.vocabulary.RDF;
 import jakarta.json.Json;
 import jakarta.json.JsonException;
 import jakarta.json.JsonNumber;
@@ -41,16 +40,18 @@ public class jsonPointer extends FunctionBase2 {
                 case OBJECT:
                 case ARRAY:
                 case NULL:
-                    return NodeValue.makeNode(value.toString(), RDF.dtRDFJSON);
+                    // Older versions of Jena (such as that used by TARQL) do not include
+                    // the rdf:json datatype, so we cannot use it.
+                    // return NodeValue.makeNode(value.toString(), RDF.dtRDFJSON);
+                    return NodeValue.makeString(value.toString());
                 case TRUE:
                     return NodeValue.TRUE;
                 case FALSE:
                     return NodeValue.FALSE;
                 case NUMBER:
                     JsonNumber number = (JsonNumber) value;
-                    return NodeValue.makeNode(
-                       value.toString(),
-                       number.isIntegral() ? XSDDatatype.XSDinteger : XSDDatatype.XSDdouble);
+                    return NodeValue.makeNode(value.toString(),
+                            number.isIntegral() ? XSDDatatype.XSDinteger : XSDDatatype.XSDdouble);
                 case STRING:
                     JsonString string = (JsonString) value;
                     return NodeValue.makeString(string.getString());
@@ -59,9 +60,8 @@ public class jsonPointer extends FunctionBase2 {
                             Lib.className(this) + ": unknown JSON value type: " + value);
             }
         } catch (JsonException e) {
-            throw new ExprEvalException(
-                    Lib.className(this) + ": failed to apply '"
-                    + pointerString + "' to '" + jsonString + "'");
+            throw new ExprEvalException(Lib.className(this) + ": failed to apply '" + pointerString
+                    + "' to '" + jsonString + "'");
         }
     }
 
