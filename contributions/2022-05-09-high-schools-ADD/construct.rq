@@ -1,0 +1,47 @@
+PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+PREFIX geojson: <https://purl.org/geojson/vocab#>
+PREFIX ncgaz:   <http://n2t.net/ark:/39333/ncg/>
+PREFIX ncp:     <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX nct:     <http://n2t.net/ark:/39333/ncg/type#>
+PREFIX ncv:     <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX wd:      <http://www.wikidata.org/entity/>
+
+CONSTRUCT {
+  ?PLACE
+  a nct:School ;
+  foaf:isPrimaryTopicOf ?HOMEPAGE ;
+  geojson:geometry ?GEOMETRY ;
+  ncv:address ?address ;
+  ncv:city ?CITY ;
+  ncv:collegeBoardID ?college_board_number ;
+  ncv:county ?COUNTY ;
+  ncv:inception ?inception ;
+  ncv:ncesID ?federal_school_number ;
+  ncv:sbeRegion ?sbe_region ;
+  ncv:stateDistrictID ?district_number ;
+  ncv:stateSchoolID ?nc_school_number ;
+  rdfs:seeAlso ?WIKIDATA ;
+  skos:note ?description ;
+  skos:prefLabel ?name ;
+  .
+
+  ?DATASET
+  a rdf:Bag ;
+  rdfs:member ?PLACE ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName('ncgaz:dataset') AS ?DATASET)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?city_id)) AS ?CITY)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?county_id)) AS ?COUNTY)
+  BIND (tarql:expandPrefixedName(CONCAT('wd:', ?wikidata_id)) AS ?WIKIDATA)
+  BIND (URI(?url) AS ?HOMEPAGE)
+  BIND (STRDT(CONCAT('{"type":"Point","coordinates":[',
+                     ?longitude, ',', ?latitude, ']}'),
+              rdf:JSON)
+        AS ?GEOMETRY)
+}

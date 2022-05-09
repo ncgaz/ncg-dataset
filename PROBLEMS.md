@@ -22,6 +22,13 @@ as their ids appear multiple times in
 
 References should be turned into skos:altLabels.
 
+# missing towns/cities
+
+* Flat Rock, Henderson County
+* Franklin, Macon County
+* Mount Pleasant, Cabarrus County
+* Mt. Olive, Duplin County
+
 # multiple counties mentioned in description, but only one linked
 
 # former counties
