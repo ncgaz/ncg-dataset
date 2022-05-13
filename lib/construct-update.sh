@@ -34,8 +34,8 @@ run_arq() {
 
 # Filter TARQL-specific namespaces out of output
 filter() {
-    grep -E -v '@prefix f: +<java:org.ncgazetteer.> .' \
-        | grep -E -v '@prefix apf: +<http://jena.apache.org/ARQ/property#> .'
+    grep -E -v '@prefix f: +<java:org.ncgazetteer.> .' |
+        grep -E -v '@prefix apf: +<http://jena.apache.org/ARQ/property#> .'
 }
 
 if [ "$N_QUERIES" -eq 1 ]; then
