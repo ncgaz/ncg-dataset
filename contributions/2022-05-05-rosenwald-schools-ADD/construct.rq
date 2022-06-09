@@ -19,8 +19,8 @@ CONSTRUCT {
   ncv:location ?location ;
   ncv:rosenwaldType ?rosenwald_type ;
   ncv:township ?township ;
-  ncv:nchpo_id ?id_code ;
-  ncv:needs_review ?NEEDS_REVIEW ;
+  ncv:nchpoID ?id_code ;
+  ncv:needsReview ?NEEDS_REVIEW ;
   rdfs:seeAlso ?WIKIDATA ;
   rdfs:seeAlso ?FISK ;
   skos:note ?note ;
