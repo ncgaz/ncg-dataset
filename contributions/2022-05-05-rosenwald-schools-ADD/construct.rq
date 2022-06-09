@@ -22,12 +22,12 @@ CONSTRUCT {
   ncv:nchpoID ?id_code ;
   ncv:needsReview ?NEEDS_REVIEW ;
   rdfs:seeAlso ?WIKIDATA ;
-  rdfs:seeAlso ?FISK ;
   skos:note ?note ;
   skos:altLabel ?alt_name ;
   skos:prefLabel ?preflabel ;
   foaf:depiction ?NCHPO_PHOTO ;
   foaf:isPrimaryTopicOf ?NCHPO_PDF ;
+  foaf:isPrimaryTopicOf ?FISK ;
   .
 
   ?DATASET
