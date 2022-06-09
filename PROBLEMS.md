@@ -1,4 +1,13 @@
+# json-ld
+
+Should create a JSON Schema for documenting the structure.
+
 # authority mappings
+
+VIAF URLs actually point to the "concepts", they shoudl point to the
+"real world objects". In other words we should replace the weird URLs
+like <http://viaf.org/viaf/sourceID/LC%7Cn++93023132#skos:Concept>
+with normal ones like <http://viaf.org/viaf/140867911>.
 
 Need to double-check the authority mappings for the following places,
 as their ids appear multiple times in
@@ -28,6 +37,7 @@ References should be turned into skos:altLabels.
 * Franklin, Macon County
 * Mount Pleasant, Cabarrus County
 * Mt. Olive, Duplin County
+* Grabtown, Johnston County (Ava Gardner's birthplace)
 
 # multiple counties mentioned in description, but only one linked
 
