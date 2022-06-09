@@ -8,6 +8,7 @@
     "ncv": "http://n2t.net/ark:/39333/ncg/vocab#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
 
     "records": {
@@ -29,6 +30,7 @@
     "discogs_id": "ncv:discogsID",
     "historical_marker_id": "ncv:historicalMarkerID",
     "historical_marker_text": "ncv:historicalMarkerText",
+    "imdb_id": "ncv:imdbID",
     "inception": "ncv:inception",
     "location": "ncv:location",
     "nces_id": "ncv:ncesID",
@@ -68,6 +70,11 @@
     "death_place_of": {
       "@container": "@set",
       "@id": "ncv:deathPlaceOf",
+      "@type": "@id"
+    },
+    "filming_location_for": {
+      "@container": "@set",
+      "@id": "ncv:filmingLocationFor",
       "@type": "@id"
     },
     "related_historical_markers": {

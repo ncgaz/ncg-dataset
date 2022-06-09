@@ -1,0 +1,24 @@
+PREFIX ncp:    <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX ncv:    <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX wd:     <http://www.wikidata.org/entity/>
+
+CONSTRUCT {
+  ?PLACE
+  ncv:filmingLocationFor ?MOVIE ;
+  .
+
+  ?MOVIE
+  a schema:Movie ;
+  skos:prefLabel ?film_name ;
+  ncv:imdbID ?imdb_id ;
+  .
+}
+WHERE {
+  ?PLACE_ID apf:strSplit (?ncg_ID '\\|') .
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?PLACE_ID))
+        AS ?PLACE)
+  BIND (tarql:expandPrefixedName(CONCAT('wd:', ?wikidata_QID))
+        AS ?MOVIE)
+}
