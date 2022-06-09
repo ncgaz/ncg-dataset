@@ -26,6 +26,7 @@
     "address": "ncv:address",
     "budget_year": "ncv:budgetYear",
     "college_board_id": "ncv:collegeBoardID",
+    "discogs_id": "ncv:discogsID",
     "historical_marker_id": "ncv:historicalMarkerID",
     "historical_marker_text": "ncv:historicalMarkerText",
     "inception": "ncv:inception",
@@ -44,9 +45,9 @@
       "@type": "@id"
     },
 
-    "associated_with_people": {
+    "associated_with_agents": {
       "@container": "@set",
-      "@id": "ncv:associatedWithPerson",
+      "@id": "ncv:associatedWithAgent",
       "@type": "@id"
     },
     "birth_place_of": {
@@ -126,7 +127,7 @@
         "label": {}
       },
 
-      "associated_with_person": {
+      "associated_with_agents": {
         "@embed": "@always",
         "@omitDefault": true
       },

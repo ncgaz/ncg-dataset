@@ -10,7 +10,7 @@ CONSTRUCT {
   .
 
   ?PERSON
-  a wd:Q5 ; # human
+  a foaf:Agent ;
   skos:prefLabel ?name ;
   foaf:isPrimaryTopicOf ?ARCHIVE_URL ;
   foaf:isPrimaryTopicOf ?NCPEDIA_URL ;
@@ -30,7 +30,7 @@ CONSTRUCT {
   .
 
   ?RELATED_PLACE
-  ncv:associatedWithPerson ?PERSON ;
+  ncv:associatedWithAgent ?PERSON ;
   .
 }
 WHERE {
