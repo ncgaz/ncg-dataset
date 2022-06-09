@@ -1,0 +1,61 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ncp:  <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX ncv:  <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX wd:   <http://www.wikidata.org/entity/>
+
+CONSTRUCT {
+  ?MARKER
+  ncv:commemorates ?PERSON ;
+  .
+
+  ?PERSON
+  a wd:Q5 ; # human
+  skos:prefLabel ?name ;
+  foaf:isPrimaryTopicOf ?ARCHIVE_URL ;
+  foaf:isPrimaryTopicOf ?NCPEDIA_URL ;
+  foaf:isPrimaryTopicOf ?NCBIOGS_URL ;
+  .
+
+  ?BIRTHPLACE
+  ncv:birthPlaceOf ?PERSON ;
+  .
+
+  ?DEATHPLACE
+  ncv:deathPlaceOf ?PERSON ;
+  .
+
+  ?RESTINGPLACE
+  ncv:restingPlaceOf ?PERSON ;
+  .
+
+  ?RELATED_PLACE
+  ncv:associatedWithPerson ?PERSON ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('wd:', ?wikidata_id))
+        AS ?PERSON)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?marker_ncg_id))
+        AS ?MARKER)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?place_of_birth))
+        AS ?BIRTH_PLACE)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?place_of_death))
+        AS ?DEATH_PLACE)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?place_of_burial))
+        AS ?RESTING_PLACE)
+  BIND (URI(CONCAT('https://ncpedia.org/', ?ncpedia_id))
+        AS ?NCPEDIA_URL)
+  BIND (URI(CONCAT('https://ncpedia.org/', ?nc_biography))
+        AS ?NCBIOGS_URL)
+  OPTIONAL {
+    ?ARCHIVE_URL_STRING apf:strSplit (?archives_at '\\|') .
+    BIND (URI(?ARCHIVE_URL_STRING)
+          AS ?ARCHIVE_URL)
+  }
+  OPTIONAL {
+    ?RELATED_PLACE_ID apf:strSplit (?associated_location_id '\\|') .
+    BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?RELATED_PLACE_ID))
+          AS ?RELATED_PLACE)
+  }
+}
