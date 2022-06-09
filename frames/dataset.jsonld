@@ -2,6 +2,7 @@
   "@context": {
     "@base": "http://n2t.net/ark:/39333/ncg/place/",
 
+    "foaf": "http://xmlns.com/foaf/0.1/",
     "geojson": "https://purl.org/geojson/vocab#",
     "nct": "http://n2t.net/ark:/39333/ncg/type#",
     "ncv": "http://n2t.net/ark:/39333/ncg/vocab#",
@@ -11,24 +12,91 @@
 
     "records": {
       "@container": "@id",
-      "@context": { "feature_type": "@type" },
       "@id": "rdfs:member",
       "@type": "@id"
     },
 
     "id": "@id",
+    "type": "@type",
+
     "label": "skos:prefLabel",
+    "alternate_label": "skos:altLabel",
     "description": "skos:note",
-    "county": {
+
+    "address": "ncv:address",
+    "budget_year": "ncv:budgetYear",
+    "college_board_id": "ncv:collegeBoardID",
+    "historical_marker_id": "ncv:historicalMarkerID",
+    "historical_marker_text": "ncv:historicalMarkerText",
+    "inception": "ncv:inception",
+    "location": "ncv:location",
+    "nces_id": "ncv:ncesID",
+    "nchpo_id": "ncv:nchpoID",
+    "needs_review": "ncv:needsReview",
+    "rosenwald_type": "ncv:rosenwaldType",
+    "sbe_region": "ncv:sbeRegion",
+    "state_district_id": "ncv:stateDistrictID",
+    "state_school_id": "ncv:stateSchoolID",
+    "township": "ncv:township",
+
+    "city": {
+      "@id": "ncv:city",
+      "@type": "@id"
+    },
+
+    "associated_with_people": {
+      "@container": "@set",
+      "@id": "ncv:associatedWithPerson",
+      "@type": "@id"
+    },
+    "birth_place_of": {
+      "@container": "@set",
+      "@id": "ncv:birthPlaceOf",
+      "@type": "@id"
+    },
+    "counties": {
       "@container": "@set",
       "@id": "ncv:county",
       "@type": "@id"
     },
+    "commemorates": {
+      "@container": "@set",
+      "@id": "ncv:commemorates",
+      "@type": "@id"
+    },
+    "death_place_of": {
+      "@container": "@set",
+      "@id": "ncv:deathPlaceOf",
+      "@type": "@id"
+    },
+    "related_historical_markers": {
+      "@container": "@set",
+      "@id": "ncv:relatedHistoricalMarker",
+      "@type": "@id"
+    },
+    "resting_place_of": {
+      "@container": "@set",
+      "@id": "ncv:restingPlaceOf",
+      "@type": "@id"
+    },
+
+    "related_resources": {
+      "@container": "@set",
+      "@id": "foaf:isPrimaryTopicOf",
+      "@type": "@id"
+    },
+    "images": {
+      "@container": "@set",
+      "@id": "foaf:depiction",
+      "@type": "@id"
+    },
+
     "external_ids": {
       "@container": "@set",
       "@id": "rdfs:seeAlso",
       "@type": "@id"
     },
+
     "geometry": {
       "@id": "geojson:geometry",
       "@type": "@json"
@@ -39,11 +107,44 @@
   "records": [
     {
       "@embed": "@always",
-      "@id": {},
-      "county": {
+
+      "counties": {
         "@embed": "@always",
         "@explicit": true,
         "label": {}
+      },
+      "city": {
+        "@embed": "@always",
+        "@omitDefault": true,
+        "@explicit": true,
+        "label": {}
+      },
+      "related_historical_markers": {
+        "@embed": "@always",
+        "@omitDefault": true,
+        "@explicit": true,
+        "label": {}
+      },
+
+      "associated_with_person": {
+        "@embed": "@always",
+        "@omitDefault": true
+      },
+      "birth_place_of": {
+        "@embed": "@always",
+        "@omitDefault": true
+      },
+      "commemorates": {
+        "@embed": "@always",
+        "@omitDefault": true
+      },
+      "death_place_of": {
+        "@embed": "@always",
+        "@omitDefault": true
+      },
+      "resting_place_of": {
+        "@embed": "@always",
+        "@omitDefault": true
       }
     }
   ]
