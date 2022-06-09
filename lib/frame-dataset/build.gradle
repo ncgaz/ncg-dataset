@@ -15,7 +15,7 @@ repositories {
 
 dependencies {
     implementation 'org.glassfish:jakarta.json:2.0.0'
-    implementation 'com.github.filip26:titanium-json-ld:fe98f3c'
+    implementation 'com.apicatalog:titanium-json-ld:1.3.0'
 }
 
 application {
