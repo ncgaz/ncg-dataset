@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/lib/compile-dataset"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/lib/frame-dataset"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/lib/sparql-functions"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
