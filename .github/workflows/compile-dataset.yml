@@ -1,7 +1,7 @@
 name: compile dataset
 on: [push]
 jobs:
-  run-tests:
+  compile-dataset:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
