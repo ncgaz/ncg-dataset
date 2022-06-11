@@ -12,7 +12,7 @@ CONSTRUCT {
   ?MOVIE
   a schema:Movie ;
   skos:prefLabel ?film_name ;
-  ncv:imdbID ?imdb_id ;
+  ncv:imdbID ?IMDb_ID ;
   .
 }
 WHERE {
