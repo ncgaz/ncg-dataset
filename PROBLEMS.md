@@ -41,9 +41,6 @@ References should be turned into skos:altLabels.
 
 # multiple counties mentioned in description, but only one linked
 
-# former counties
-
-should be a separate type from current counties
 
 
 # wrongish locations

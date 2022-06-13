@@ -1,0 +1,9 @@
+PREFIX ncp: <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX nct: <http://n2t.net/ark:/39333/ncg/type#>
+
+CONSTRUCT {
+  ?PLACE a nct:FormerCounty .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+}
