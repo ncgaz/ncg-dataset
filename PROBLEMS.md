@@ -45,19 +45,6 @@ References should be turned into skos:altLabels.
 
 should be a separate type from current counties
 
-# non-continguous counties
-
-Thermal Belt (should just be Polk and Rutherford)
-ncp:NCG12046 , ncp:NCG13231
-
-Campania (needs Camden too)
-ncp:NCG11661 , ncp:NCG03898 , ncp:NCG11510 , ncp:NCG02401
-
-Belville (needs Camden too)
-ncp:NCG03898 , ncp:NCG11510 , ncp:NCG02401
-
-Coastal Plain
-ncp:NCG00891 , ncp:NCG01466 , ncp:NCG01952 , ncp:NCG02401 , ncp:NCG02643 , ncp:NCG03098 , ncp:NCG03386 , ncp:NCG03747 , ncp:NCG03877 , ncp:NCG03898 , ncp:NCG03991 , ncp:NCG04573 , ncp:NCG04760 , ncp:NCG05739 , ncp:NCG06243 , ncp:NCG06455 , ncp:NCG06616 , ncp:NCG06906 , ncp:NCG07164 , ncp:NCG07541 , ncp:NCG07949 , ncp:NCG07971 , ncp:NCG08656 , ncp:NCG09647 , ncp:NCG10643 , ncp:NCG10994 , ncp:NCG11233 , ncp:NCG11418 , ncp:NCG11510 , ncp:NCG11625 , ncp:NCG11661 , ncp:NCG11935 , ncp:NCG12914 , ncp:NCG13321 , ncp:NCG13510 , ncp:NCG15567 , ncp:NCG15917 , ncp:NCG15994 , ncp:NCG16461 , ncp:NCG01126 , ncp:NCG10740
 
 # wrongish locations
 

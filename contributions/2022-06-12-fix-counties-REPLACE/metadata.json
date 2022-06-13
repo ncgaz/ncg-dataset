@@ -1,0 +1,6 @@
+{
+  "description": "Fixes places with multiple non-contiguous counties (Thermal Belt, Campania, Belville, Coastal Plain), and for places with polygon boundaries, ensures that the related counties are all counties overlapped by the polygon.",
+  "authors": [
+    "Ryan Shaw"
+  ]
+}
