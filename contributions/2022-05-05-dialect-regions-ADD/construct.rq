@@ -1,6 +1,7 @@
 PREFIX apf:     <http://jena.apache.org/ARQ/property#>
 PREFIX f:       <java:org.ncgazetteer.>
 PREFIX geojson: <https://purl.org/geojson/vocab#>
+PREFIX ncgaz:   <http://n2t.net/ark:/39333/ncg/>
 PREFIX ncp:     <http://n2t.net/ark:/39333/ncg/place/>
 PREFIX nct:     <http://n2t.net/ark:/39333/ncg/type#>
 PREFIX ncv:     <http://n2t.net/ark:/39333/ncg/vocab#>
