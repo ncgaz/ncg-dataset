@@ -1,0 +1,686 @@
+@prefix nct:     <http://n2t.net/ark:/39333/ncg/type#> .
+@prefix ncv:     <http://n2t.net/ark:/39333/ncg/vocab#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl:  <http://www.w3.org/2008/05/skos-xl#> .
+
+ncv:plural rdfs:subPropertyOf skosxl:labelRelation .
+
+nct:Area
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "area"@en ;
+    ncv:plural [ skosxl:literalForm "areas"@en ]
+  ] .
+
+nct:Bald
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "bald"@en ;
+    ncv:plural [ skosxl:literalForm "balds"@en ]
+  ] .
+
+nct:Bay
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "bay"@en ;
+    ncv:plural [ skosxl:literalForm "bays"@en ]
+  ] .
+
+nct:Beach
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "beach"@en ;
+    ncv:plural [ skosxl:literalForm "beaches"@en ]
+  ] .
+
+nct:Bend
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "bend"@en ;
+    ncv:plural [ skosxl:literalForm "bends"@en ]
+  ] .
+
+nct:BodyOfWater
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "body of water"@en ;
+    ncv:plural [ skosxl:literalForm "bodies of water"@en ]
+  ] .
+
+nct:Branch
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "branch"@en ;
+    ncv:plural [ skosxl:literalForm "branches"@en ]
+  ] .
+
+nct:Brook
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "brook"@en ;
+    ncv:plural [ skosxl:literalForm "brooks"@en ]
+  ] .
+
+nct:BurialGround
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "burial ground"@en ;
+    ncv:plural [ skosxl:literalForm "burial grounds"@en ]
+  ] .
+
+nct:BusinessOrBusinessDistrict
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "business or business district"@en ;
+    ncv:plural [ skosxl:literalForm "businesses or business districts"@en ]
+  ] .
+
+nct:Campground
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "campground"@en ;
+    ncv:plural [ skosxl:literalForm "campgrounds"@en ]
+  ] .
+
+nct:Canal
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "canal"@en ;
+    ncv:plural [ skosxl:literalForm "canals"@en ]
+  ] .
+
+nct:Channel
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "channel"@en ;
+    ncv:plural [ skosxl:literalForm "channels"@en ]
+  ] .
+
+nct:City
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "city"@en ;
+    ncv:plural [ skosxl:literalForm "cities"@en ]
+  ] ;
+  skos:related nct:Community , nct:PopulatedPlace , nct:Town , nct:Village .
+
+nct:CoastGuardStation
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "Coast Guard station"@en ;
+    ncv:plural [ skosxl:literalForm "Coast Guard stations"@en ]
+  ] .
+
+nct:Community
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "community"@en ;
+    ncv:plural [ skosxl:literalForm "communities"@en ]
+  ] ;
+  skos:related nct:FormerCommunity .
+
+nct:County
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "county"@en ;
+    ncv:plural [ skosxl:literalForm "counties"@en ]
+  ] ;
+  skos:related nct:FormerCounty .
+
+nct:Cove
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "cove"@en ;
+    ncv:plural [ skosxl:literalForm "coves"@en ]
+  ] .
+
+nct:Creek
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "creek"@en ;
+    ncv:plural [ skosxl:literalForm "creeks"@en ]
+  ] .
+
+nct:Dam
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "dam"@en ;
+    ncv:plural [ skosxl:literalForm "dams"@en ]
+  ] .
+
+nct:Depression
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "depression"@en ;
+    ncv:plural [ skosxl:literalForm "depressions"@en ]
+  ] .
+
+nct:District
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "district"@en ;
+    ncv:plural [ skosxl:literalForm "districts"@en ]
+  ] .
+
+nct:Ditch
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "ditch"@en ;
+    ncv:plural [ skosxl:literalForm "ditches"@en ]
+  ] .
+
+nct:Elevation
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "elevation"@en ;
+    ncv:plural [ skosxl:literalForm "elevations"@en ]
+  ] .
+
+nct:Estate
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "estate"@en ;
+    ncv:plural [ skosxl:literalForm "estates"@en ]
+  ] .
+
+nct:Falls
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "waterfall"@en ;
+    ncv:plural [ skosxl:literalForm "waterfalls"@en ]
+  ] .
+
+nct:Forest
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "forest"@en ;
+    ncv:plural [ skosxl:literalForm "forests"@en ]
+  ] .
+
+nct:Fork
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "fork"@en ;
+    ncv:plural [ skosxl:literalForm "forks"@en ]
+  ] .
+
+nct:FormerCommunity
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "former community"@en ;
+    ncv:plural [ skosxl:literalForm "former communities"@en ]
+  ] .
+
+nct:FormerCounty
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "former county"@en ;
+    ncv:plural [ skosxl:literalForm "former counties"@en ]
+  ] .
+
+nct:FormerMine
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "former mine"@en ;
+    ncv:plural [ skosxl:literalForm "former mines"@en ]
+  ] ;
+  skos:related nct:Mine .
+
+nct:FreshwaterArea
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "freshwater area"@en ;
+    ncv:plural [ skosxl:literalForm "freshwater areas"@en ]
+  ] ;
+  skos:related nct:SeawaterArea .
+
+nct:Gap
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "gap"@en ;
+    ncv:plural [ skosxl:literalForm "gaps"@en ]
+  ] .
+
+nct:GeologicalFormation
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "geological formation"@en ;
+    ncv:plural [ skosxl:literalForm "geological formations"@en ]
+  ] .
+
+nct:Government
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "government"@en ;
+    ncv:plural [ skosxl:literalForm "governments"@en ]
+  ] .
+
+nct:Gully
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "gully"@en ;
+    ncv:plural [ skosxl:literalForm "gullies"@en ]
+  ] .
+
+nct:Gut
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "gut"@en ;
+    ncv:plural [ skosxl:literalForm "guts"@en ]
+  ] .
+
+nct:Hill
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "hill"@en ;
+    ncv:plural [ skosxl:literalForm "hills"@en ]
+  ] .
+
+nct:HistoricalSite
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "historical site"@en ;
+    ncv:plural [ skosxl:literalForm "historical sites"@en ]
+  ] .
+
+nct:Inlet
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "inlet"@en ;
+    ncv:plural [ skosxl:literalForm "inlets"@en ]
+  ] .
+
+nct:Island
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "island"@en ;
+    ncv:plural [ skosxl:literalForm "islands"@en ]
+  ] ;
+  skos:related nct:Islands .
+
+nct:Islands
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "group of islands"@en ;
+    ncv:plural [ skosxl:literalForm "groups of islands"@en ]
+  ] .
+
+nct:Knob
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "knob"@en ;
+    ncv:plural [ skosxl:literalForm "knobs"@en ]
+  ] .
+
+nct:Lake
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "lake"@en ;
+    ncv:plural [ skosxl:literalForm "lakes"@en ]
+  ] .
+
+nct:Marsh
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "marsh"@en ;
+    ncv:plural [ skosxl:literalForm "marshes"@en ]
+  ] .
+
+nct:MilitaryBase
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "military base"@en ;
+    ncv:plural [ skosxl:literalForm "military bases"@en ]
+  ] .
+
+nct:Mill
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "mill"@en ;
+    ncv:plural [ skosxl:literalForm "mills"@en ]
+  ] .
+
+nct:Millpond
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "millpond"@en ;
+    ncv:plural [ skosxl:literalForm "millponds"@en ]
+  ] .
+
+nct:Mine
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "mine"@en ;
+    ncv:plural [ skosxl:literalForm "mines"@en ]
+  ] .
+
+nct:Mountain
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "mountain"@en ;
+    ncv:plural [ skosxl:literalForm "mountains"@en ]
+  ] ;
+  skos:related nct:MountainFeature , nct:Mountains .
+
+nct:MountainFeature
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "mountain feature"@en ;
+    ncv:plural [ skosxl:literalForm "mountain features"@en ]
+  ] .
+
+nct:Mountains
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "mountain range"@en ;
+    ncv:plural [ skosxl:literalForm "mountain ranges"@en ]
+  ] .
+
+nct:NativeAmericanSettlement
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "Native American settlement"@en ;
+    ncv:plural [ skosxl:literalForm "Native American settlements"@en ]
+  ] .
+
+nct:Neck
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "neck"@en ;
+    ncv:plural [ skosxl:literalForm "necks"@en ]
+  ] .
+
+nct:Nickname
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "nickname"@en ;
+    ncv:plural [ skosxl:literalForm "nicknames"@en ]
+  ] .
+
+nct:Ocean
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "ocean"@en ;
+    ncv:plural [ skosxl:literalForm "oceans"@en ]
+  ] .
+
+nct:Parish
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "parish"@en ;
+    ncv:plural [ skosxl:literalForm "parishes"@en ]
+  ] .
+
+nct:Park
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "park"@en ;
+    ncv:plural [ skosxl:literalForm "parks"@en ]
+  ] .
+
+nct:Peninsula
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "peninsula"@en ;
+    ncv:plural [ skosxl:literalForm "peninsulas"@en ]
+  ] .
+
+nct:Plantation
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "plantation"@en ;
+    ncv:plural [ skosxl:literalForm "plantations"@en ]
+  ] .
+
+nct:Pocosin
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "pocosin"@en ;
+    ncv:plural [ skosxl:literalForm "pocosins"@en ]
+  ] .
+
+nct:Point
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "point"@en ;
+    ncv:plural [ skosxl:literalForm "points"@en ]
+  ] .
+
+nct:PointOfInterest
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "point of interest"@en ;
+    ncv:plural [ skosxl:literalForm "points of interest"@en ]
+  ] .
+
+nct:Pond
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "pond"@en ;
+    ncv:plural [ skosxl:literalForm "ponds"@en ]
+  ] .
+
+nct:PopulatedPlace
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "populated place"@en ;
+    ncv:plural [ skosxl:literalForm "populated places"@en ]
+  ] .
+
+nct:PostOffice
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "post office"@en ;
+    ncv:plural [ skosxl:literalForm "post offices"@en ]
+  ] .
+
+nct:Precinct
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "precinct"@en ;
+    ncv:plural [ skosxl:literalForm "precincts"@en ]
+  ] .
+
+nct:Prison
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "prison"@en ;
+    ncv:plural [ skosxl:literalForm "prisons"@en ]
+  ] .
+
+nct:Prong
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "prong"@en ;
+    ncv:plural [ skosxl:literalForm "prongs"@en ]
+  ] .
+
+nct:Proposal
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "proposed place"@en ;
+    ncv:plural [ skosxl:literalForm "proposed places"@en ]
+  ] .
+
+nct:Rapids
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "rapids"@en ;
+    ncv:plural [ skosxl:literalForm "rapids"@en ]
+  ] .
+
+nct:Reference
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "reference"@en ;
+    ncv:plural [ skosxl:literalForm "references"@en ]
+  ] .
+
+nct:Region
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "region"@en ;
+    ncv:plural [ skosxl:literalForm "regions"@en ]
+  ] .
+
+nct:Reserve
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "reserve"@en ;
+    ncv:plural [ skosxl:literalForm "reserves"@en ]
+  ] .
+
+nct:Ridge
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "ridge"@en ;
+    ncv:plural [ skosxl:literalForm "ridges"@en ]
+  ] .
+
+nct:River
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "river"@en ;
+    ncv:plural [ skosxl:literalForm "rivers"@en ]
+  ] .
+
+nct:Rock
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "rock"@en ;
+    ncv:plural [ skosxl:literalForm "rocks"@en ]
+  ] .
+
+nct:Run
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "run"@en ;
+    ncv:plural [ skosxl:literalForm "runs"@en ]
+  ] .
+
+nct:SandHill
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "sandhill"@en ;
+    ncv:plural [ skosxl:literalForm "sandhills"@en ]
+  ] .
+
+nct:SeawaterArea
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "seawater area"@en ;
+    ncv:plural [ skosxl:literalForm "seawater areas"@en ]
+  ] .
+
+nct:Shoal
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "shoal"@en ;
+    ncv:plural [ skosxl:literalForm "shoals"@en ]
+  ] .
+
+nct:Shore
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "shore"@en ;
+    ncv:plural [ skosxl:literalForm "shores"@en ]
+  ] .
+
+nct:Sound
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "sound"@en ;
+    ncv:plural [ skosxl:literalForm "sounds"@en ]
+  ] .
+
+nct:Spring
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "spring"@en ;
+    ncv:plural [ skosxl:literalForm "springs"@en ]
+  ] .
+
+nct:State
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "state"@en ;
+    ncv:plural [ skosxl:literalForm "states"@en ]
+  ] .
+
+nct:Stream
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "stream"@en ;
+    ncv:plural [ skosxl:literalForm "streams"@en ]
+  ] .
+
+nct:Swamp
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "swamp"@en ;
+    ncv:plural [ skosxl:literalForm "swamps"@en ]
+  ] .
+
+nct:Top
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "top"@en ;
+    ncv:plural [ skosxl:literalForm "tops"@en ]
+  ] .
+
+nct:Town
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "town"@en ;
+    ncv:plural [ skosxl:literalForm "towns"@en ]
+  ] .
+
+nct:Township
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "township"@en ;
+    ncv:plural [ skosxl:literalForm "townships"@en ]
+  ] .
+
+nct:Trail
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "trail"@en ;
+    ncv:plural [ skosxl:literalForm "trails"@en ]
+  ] .
+
+nct:Transportation
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "transportation-related place"@en ;
+    ncv:plural [ skosxl:literalForm "transportation-related places"@en ]
+  ] .
+
+nct:Unknown
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "place of unknown type"@en ;
+    ncv:plural [ skosxl:literalForm "places of unknown type"@en ]
+  ] .
+
+nct:Valley
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "valley"@en ;
+    ncv:plural [ skosxl:literalForm "valleys"@en ]
+  ] .
+
+nct:Village
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "village"@en ;
+    ncv:plural [ skosxl:literalForm "villages"@en ]
+  ] .
+
+nct:Waterway
+  a skos:Concept ;
+  skosxl:prefLabel [
+    skosxl:literalForm "waterway"@en ;
+    ncv:plural [ skosxl:literalForm "waterways"@en ]
+  ] .
