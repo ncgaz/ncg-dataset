@@ -41,7 +41,10 @@ References should be turned into skos:altLabels.
 
 # multiple counties mentioned in description, but only one linked
 
+# miscellany
 
+* link precincts to their present-day counties with ncv:succeededBy
+* link Archdale, Pamptecough, and Wickham precincts to Bath County
 
 # wrongish locations
 
