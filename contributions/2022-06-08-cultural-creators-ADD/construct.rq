@@ -1,3 +1,4 @@
+PREFIX apf:     <http://jena.apache.org/ARQ/property#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX ncp:  <http://n2t.net/ark:/39333/ncg/place/>
 PREFIX ncv:  <http://n2t.net/ark:/39333/ncg/vocab#>
