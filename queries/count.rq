@@ -1,13 +1,14 @@
-PREFIX ncgaz: <http://n2t.net/ark:/39333/ncg/>
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX nct:   <http://n2t.net/ark:/39333/ncg/type#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX ncgaz:   <http://n2t.net/ark:/39333/ncg/>
+PREFIX nct:     <http://n2t.net/ark:/39333/ncg/type#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?feature_type (COUNT(?feature_type) as ?count)
 WHERE
 {
   ncgaz:dataset rdfs:member ?place .
 
-  ?place a ?type .
+  ?place dcterms:type ?type .
 
   {} UNION { BIND("TOTAL" as ?total) }
   BIND (COALESCE(?total, ?type) as ?feature_type)

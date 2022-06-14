@@ -1,14 +1,24 @@
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX ncgaz: <http://n2t.net/ark:/39333/ncg/>
-PREFIX nct: <http://n2t.net/ark:/39333/ncg/type#>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX ncgaz:  <http://n2t.net/ark:/39333/ncg/>
+PREFIX nct:    <http://n2t.net/ark:/39333/ncg/type#>
+PREFIX ncv:    <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
 
 CONSTRUCT {
-    ncgaz:type a skos:ConceptScheme .
-    ?type a skos:Concept .
-    ?type skos:inScheme ncgaz:type .
+  ncgaz:type a skos:ConceptScheme .
+
+  ?s ?p ?o .
+
+  ncv:plural ?pp ?po .
+  ncv:singular ?sp ?so .
 }
 WHERE {
-  ?place a ?type .
-  FILTER (STRSTARTS (STR(?type), "http://n2t.net/ark:/39333/ncg/type#"))
+  ncgaz:type a skos:ConceptScheme .
+
+  ?s skos:inScheme ncgaz:type ; ?p ?o .
+
+  ncv:plural ?pp ?po .
+  ncv:singular ?sp ?so .
 }

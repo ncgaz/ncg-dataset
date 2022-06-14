@@ -1,0 +1,6 @@
+{
+  "description": "Change type predicate from rdf:type to dcterms:type, and use new (lowercase) concept URIs.",
+  "authors": [
+    "Ryan Shaw"
+  ]
+}
