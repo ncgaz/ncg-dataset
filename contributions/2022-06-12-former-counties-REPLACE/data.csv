@@ -1,10 +1,28 @@
-id,label
-NCG00107,Albemarle County
-NCG00721,Bath County
-NCG02264,Bute County
-NCG03137,Clarendon County
-NCG04320,Dobbs County
-NCG05876,Glasgow County
-NCG06244,Greene County (Tennessee)
-NCG15063,Tennessee County
-NCG15416,Tryon County
+id,label,type
+NCG00107,Albemarle County,FormerCounty
+NCG00301,Archdale County,FormerCounty
+NCG00721,Bath County,FormerCounty
+NCG00946,Bedford County,Proposal
+NCG01106,Berkeley County,FormerCounty
+NCG01479,Blakely County,Proposal
+NCG02264,Bute County,FormerCounty
+NCG03137,Clarendon County,FormerCounty
+NCG03358,Colleton County,FormerCounty
+NCG04320,Dobbs County,FormerCounty
+NCG04379,Donegal County,Proposal
+NCG05158,Fayette County,FormerCounty
+NCG05839,Gilliam County,Proposal
+NCG05876,Glasgow County,FormerCounty
+NCG06244,Greene County (Tennessee),FormerCounty
+NCG06741,Hawkins County,FormerCounty
+NCG07268,Hooper County,FormerCounty
+NCG08756,Lillington County,Proposal
+NCG10395,Moseley County,Proposal
+NCG12239,Prince George County,Proposal
+NCG12871,Roanoke County,Proposal
+NCG14809,Sullivan County,FormerCounty
+NCG15063,Tennessee County,FormerCounty
+NCG15416,Tryon County,FormerCounty
+NCG15851,Walton County,FormerCounty
+NCG15906,Warwick County,Proposal
+NCG16778,York County,Proposal
