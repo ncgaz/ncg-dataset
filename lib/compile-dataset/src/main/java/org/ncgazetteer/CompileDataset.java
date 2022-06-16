@@ -28,6 +28,7 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.riot.RDFFormat;
+import org.apache.jena.shared.PrefixMapping;
 import org.apache.jena.update.UpdateAction;
 
 public class CompileDataset {
@@ -81,6 +82,27 @@ public class CompileDataset {
             Stream.of(Operation.values())
                     .map(String::valueOf)
                     .collect(Collectors.joining("|"))));
+
+    private static PrefixMapping PREFIXES = PrefixMapping.Factory.create();
+    static {
+        // This is necessary because Jena doesn't maintain prefixes introduced by SPARQL UPDATEs.
+        PREFIXES.setNsPrefix("dcterms", "http://purl.org/dc/terms/");
+        PREFIXES.setNsPrefix("foaf", "http://xmlns.com/foaf/0.1/");
+        PREFIXES.setNsPrefix("geojson", "https://purl.org/geojson/vocab#");
+        PREFIXES.setNsPrefix("ncgaz", "http://n2t.net/ark:/39333/ncg/");
+        PREFIXES.setNsPrefix("ncp", "http://n2t.net/ark:/39333/ncg/place/");
+        PREFIXES.setNsPrefix("nct", "http://n2t.net/ark:/39333/ncg/type#");
+        PREFIXES.setNsPrefix("ncv", "http://n2t.net/ark:/39333/ncg/vocab#");
+        PREFIXES.setNsPrefix("owl", "http://www.w3.org/2002/07/owl#");
+        PREFIXES.setNsPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+        PREFIXES.setNsPrefix("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
+        PREFIXES.setNsPrefix("schema", "https://schema.org/");
+        PREFIXES.setNsPrefix("skos", "http://www.w3.org/2004/02/skos/core#");
+        PREFIXES.setNsPrefix("skosxl", "http://www.w3.org/2008/05/skos-xl#");
+        PREFIXES.setNsPrefix("wd", "http://www.wikidata.org/entity/");
+        PREFIXES.setNsPrefix("wdt", "http://www.wikidata.org/prop/direct/");
+        PREFIXES.setNsPrefix("xsd", "http://www.w3.org/2001/XMLSchema#");
+    }
 
     private static Model processUpdates(Path updatesDir, Path diffsDir, Path versionsDir) {
         try (DirectoryStream<Path> stream =
@@ -256,7 +278,7 @@ public class CompileDataset {
         if (m.isEmpty()) {
             return true;
         }
-
+        m.setNsPrefixes(PREFIXES);
         Path p = dir.resolve(String.format(rest, DATE_FORMAT.format(date), tag));
         Path d = p.getParent();
         try {
