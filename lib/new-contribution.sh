@@ -10,12 +10,12 @@ date=$(date "+%Y-%m-%d")
 
 read -r -p 'Tag (e.g. city founding dates): ' input
 lowercase_input="${input,,}"
-tag="${lowercase_input/ /-}"
+tag="${lowercase_input// /-}"
 
 read -r -p 'Operation (add, replace, update): ' op
-if [[ a = $op* ]]; then
+if [[ $op = a* ]]; then
     operation=ADD
-elif [[ r = $op* ]]; then
+elif [[ $op = r* ]]; then
     operation=REPLACE
 else
     operation=UPDATE
