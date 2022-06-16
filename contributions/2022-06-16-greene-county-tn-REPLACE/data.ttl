@@ -1,0 +1,10 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ncp:     <http://n2t.net/ark:/39333/ncg/place/> .
+@prefix nct:     <http://n2t.net/ark:/39333/ncg/type#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+ncp:NCG06244
+  dcterms:type nct:formerCounty , nct:borderingCounty ;
+  skos:prefLabel  "Greene County (Tennessee)" ;
+  skos:note "now in Tennessee, was created in 1783 and named in honor of Gen. Nathanael Greene (1742-86). Greeneville became the county seat. It was a part of the territory ceded by North Carolina in 1789 to the federal government. Borders Madison County to the NW." ;
+  .

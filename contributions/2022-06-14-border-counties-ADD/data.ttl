@@ -1,0 +1,290 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ncgaz:   <http://n2t.net/ark:/39333/ncg/> .
+@prefix ncp:     <http://n2t.net/ark:/39333/ncg/place/> .
+@prefix nct:     <http://n2t.net/ark:/39333/ncg/type#> .
+@prefix ncv:     <http://n2t.net/ark:/39333/ncg/vocab#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl:  <http://www.w3.org/2008/05/skos-xl#> .
+
+nct:borderingCounty
+  a skos:Concept ;
+  skos:inScheme ncgaz:type ;
+  skos:related nct:district , nct:neck ;
+  skosxl:prefLabel nct:borderingCounty_en_singular ;
+  skosxl:altLabel nct:borderingCounty_en_plural ;
+  .
+
+nct:borderingCounty_en_singular
+  a skosxl:Label ;
+  skos:inScheme ncgaz:type ;
+  skosxl:literalForm "bordering county"@en ;
+  ncv:plural nct:borderingCounty_en_plural ;
+  .
+
+nct:borderingCounty_en_plural
+  a skosxl:Label ;
+  skos:inScheme ncgaz:type ;
+  skosxl:literalForm "bordering counties"@en ;
+  .
+
+ncp:NCG19411
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Virginia Beach County (Virgina)" ;
+  skos:note "county in Virginia bordering Currituck County to the NE." ;
+  .
+
+ncp:NCG19412
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Chesapeake County (Virgina)" ;
+  skos:note "county in Virginia bordering Camden and Currituck Counties to the N." ;
+  .
+
+ncp:NCG19413
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Suffolk County (Virginia)" ;
+  skos:note "county in Virginia bordering Gates and Currituck Counties to the N." ;
+  .
+
+ncp:NCG19414
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Southhampton County (Virginia)" ;
+  skos:note "county in Virginia bordering Northampton and Hertford Counties to the N." ;
+  .
+
+ncp:NCG19415
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Greensville County (Virginia)" ;
+  skos:note "county in Virginia bordering Northampton County to the N." ;
+  .
+
+ncp:NCG19416
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Brunswick County (Virginia)" ;
+  skos:note "county in Virginia bordering Warren and Northampton Counties to the N." ;
+  .
+
+ncp:NCG19417
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Mecklenburg County (Virginia)" ;
+  skos:note "county in Virginia bordering Granville, Vance, and Warren Counties to the N." ;
+  .
+
+ncp:NCG19418
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Halifax County (Virginia)" ;
+  skos:note "county in Virginia bordering Caswell, Person, and Granville Counties to the N." ;
+  .
+
+ncp:NCG19419
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Pittsylvania County (Virginia)" ;
+  skos:note "county in Virginia bordering Rockingham and Caswell Counties to the N." ;
+  .
+
+ncp:NCG19420
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Danville County (Virginia)" ;
+  skos:note "county in Virginia bordering Caswell County to the N." ;
+  .
+
+ncp:NCG19421
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Henry County (Virginia)" ;
+  skos:note "county in Virginia bordering Stokes and Rockingham Counties to the N." ;
+  .
+
+ncp:NCG19422
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Patrick County (Virginia)" ;
+  skos:note "county in Virginia bordering Surry and Stokes Counties to the N." ;
+  .
+
+ncp:NCG19423
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Carroll County (Virginia)" ;
+  skos:note "county in Virginia bordering Surry County to the N." ;
+  .
+
+ncp:NCG19424
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Grayson County (Virginia)" ;
+  skos:note "county in Virginia bordering Ashe, Alleghany, and Surry Counties to the N." ;
+  .
+
+ncp:NCG19425
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Johnson County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Ashe, Watauga, and Avery Counties to the W." ;
+  .
+
+ncp:NCG19426
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Carter County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Avery County to the NW and Mitchell County to the NE." ;
+  .
+
+ncp:NCG19427
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Unicoi County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Mitchell and Yancey Counties to the NW and Madison County to the NE." ;
+  .
+
+ncp:NCG19428
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Cocke County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Madison County to the W and Haywood County to the NW." ;
+  .
+
+ncp:NCG19429
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Sevier County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Swain County to the N." ;
+  .
+
+ncp:NCG19430
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Blount County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Swain County to the NW." ;
+  .
+
+ncp:NCG19431
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Monroe County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Graham County to the W and Cherokee County to the NW." ;
+  .
+
+ncp:NCG19432
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Polk County (Tennessee)" ;
+  skos:note "county in Tennessee bordering Cherokee County to the W." ;
+  .
+
+ncp:NCG19433
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Fannin County (Georgia)" ;
+  skos:note "county in Georgia bordering Cherokee County to the SW." ;
+  .
+
+ncp:NCG19434
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Union County (Georgia)" ;
+  skos:note "county in Georgia bordering Cherokee and Clay Counties to the S." ;
+  .
+
+ncp:NCG19435
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Towns County (Georgia)" ;
+  skos:note "county in Georgia bordering Clay County to the S." ;
+  .
+
+ncp:NCG19436
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Rabun County (Georgia)" ;
+  skos:note "county in Georgia bordering Clay and Macon Counties to the SW." ;
+  .
+
+ncp:NCG19437
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Oconee County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Jackson and Transylvania Counties to the S." ;
+  .
+
+ncp:NCG19438
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Pickens County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Transylvania County to the S." ;
+  .
+
+ncp:NCG19439
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Greenville County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Transylvania, Henderson, and Polk Counties to the S." ;
+  .
+
+ncp:NCG19440
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Spartanburg County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Polk and Rutherford  Counties to the S." ;
+  .
+
+ncp:NCG19441
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Cherokee County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Rutherford and Cleveland Counties to the S." ;
+  .
+
+ncp:NCG19442
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "York County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Cleveland and Gaston Counties to the S and Mecklenburg County to the SW." ;
+  .
+
+ncp:NCG19443
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Lancaster County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Mecklenburg County to the S and Union County to the SW." ;
+  .
+
+ncp:NCG19444
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Chesterfield County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Union and Anson Counties to the S." ;
+  .
+
+ncp:NCG19445
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Marlboro County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Richmond and Scotland Counties to the S." ;
+  .
+
+ncp:NCG19446
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Dillon County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Robeson County to the SW." ;
+  .
+
+ncp:NCG19447
+  dcterms:type nct:borderingCounty ;
+  skos:prefLabel "Horry County (South Carolina)" ;
+  skos:note "county in South Carolina bordering Columbus and Brunswick Counties to the SW." ;
+  .
+
+ncgaz:dataset rdfs:member
+  ncp:NCG19411 ,
+  ncp:NCG19412 ,
+  ncp:NCG19413 ,
+  ncp:NCG19414 ,
+  ncp:NCG19415 ,
+  ncp:NCG19416 ,
+  ncp:NCG19417 ,
+  ncp:NCG19418 ,
+  ncp:NCG19419 ,
+  ncp:NCG19420 ,
+  ncp:NCG19421 ,
+  ncp:NCG19422 ,
+  ncp:NCG19423 ,
+  ncp:NCG19424 ,
+  ncp:NCG19425 ,
+  ncp:NCG19426 ,
+  ncp:NCG19427 ,
+  ncp:NCG19428 ,
+  ncp:NCG19429 ,
+  ncp:NCG19430 ,
+  ncp:NCG19431 ,
+  ncp:NCG19432 ,
+  ncp:NCG19433 ,
+  ncp:NCG19434 ,
+  ncp:NCG19435 ,
+  ncp:NCG19436 ,
+  ncp:NCG19437 ,
+  ncp:NCG19438 ,
+  ncp:NCG19439 ,
+  ncp:NCG19440 ,
+  ncp:NCG19441 ,
+  ncp:NCG19442 ,
+  ncp:NCG19443 ,
+  ncp:NCG19444 ,
+  ncp:NCG19445 ,
+  ncp:NCG19446 ,
+  ncp:NCG19447 .
