@@ -50,6 +50,10 @@ clean:
 superclean: clean
 	rm -rf tools
 
+.PHONY: new
+new:
+	./lib/new-contribution.sh
+
 .PHONY: check_metadata
 check_metadata:
 	$(foreach m,$(METADATA),\
