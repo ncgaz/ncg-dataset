@@ -56,6 +56,7 @@ WHERE {
     ncp:NCG06192
     ncp:NCG06320
     ncp:NCG06767
+    ncp:NCG06816
     ncp:NCG07334
     ncp:NCG07342
     ncp:NCG07352
@@ -95,11 +96,13 @@ WHERE {
     ncp:NCG13379
     ncp:NCG13388
     ncp:NCG14096
+    ncp:NCG14568
     ncp:NCG15029
     ncp:NCG15057
     ncp:NCG15139
     ncp:NCG15470
     ncp:NCG15629
+    ncp:NCG16175
     ncp:NCG16194
     ncp:NCG16221
     ncp:NCG16269
