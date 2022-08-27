@@ -1,0 +1,12 @@
+PREFIX apf: <http://jena.apache.org/ARQ/property#>
+PREFIX ncp: <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX ncv: <http://n2t.net/ark:/39333/ncg/vocab#>
+
+CONSTRUCT {
+  ?PLACE ncv:county ?COUNTY .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  ?COUNTY_ID apf:strSplit (?counties '\\|')
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?COUNTY_ID)) AS ?COUNTY)
+}
