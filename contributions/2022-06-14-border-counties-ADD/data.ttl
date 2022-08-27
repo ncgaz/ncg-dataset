@@ -30,13 +30,13 @@ nct:borderingCounty_en_plural
 
 ncp:NCG19411
   dcterms:type nct:borderingCounty ;
-  skos:prefLabel "Virginia Beach County (Virgina)" ;
+  skos:prefLabel "Virginia Beach County (Virginia)" ;
   skos:note "county in Virginia bordering Currituck County to the NE." ;
   .
 
 ncp:NCG19412
   dcterms:type nct:borderingCounty ;
-  skos:prefLabel "Chesapeake County (Virgina)" ;
+  skos:prefLabel "Chesapeake County (Virginia)" ;
   skos:note "county in Virginia bordering Camden and Currituck Counties to the N." ;
   .
 
@@ -48,7 +48,7 @@ ncp:NCG19413
 
 ncp:NCG19414
   dcterms:type nct:borderingCounty ;
-  skos:prefLabel "Southhampton County (Virginia)" ;
+  skos:prefLabel "Southampton County (Virginia)" ;
   skos:note "county in Virginia bordering Northampton and Hertford Counties to the N." ;
   .
 
