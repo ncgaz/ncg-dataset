@@ -33,8 +33,9 @@ if [ $operation = UPDATE ]; then
     touch "${dir}/update.ru"
 else
     read -r -p 'Data format (csv, ttl): ' f
-    if [[ c = $f* ]]; then
+    if [[ $f = c* ]]; then
         format=csv
+        touch "${dir}/construct.rq"
     else
         format=ttl
     fi
