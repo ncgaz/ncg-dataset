@@ -42,4 +42,8 @@ else
     touch "${dir}/data.${format}"
 fi
 
-tree "$dir"
+if [ "$(builtin type -P tree)" ]; then
+    tree "$dir"
+elif [ "$(builtin type -P exa)" ]; then
+    exa --tree "$dir"
+fi
