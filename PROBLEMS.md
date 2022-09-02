@@ -37,10 +37,6 @@ as their ids appear multiple times in
 * NCG03792
 * NCG01290
 
-# references
-
-References should be turned into skos:altLabels.
-
 # missing towns/cities
 
 * Flat Rock, Henderson County
