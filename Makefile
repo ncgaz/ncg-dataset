@@ -9,7 +9,7 @@ TARQL_PATH := tarql-$(TARQL_VERSION)
 TARQL := tools/$(TARQL_PATH)/bin/tarql
 
 JENA_DL := https://downloads.apache.org/jena/binaries
-JENA_VERSION := 4.6.0
+JENA_VERSION := 4.6.1
 JENA_PATH := apache-jena-$(JENA_VERSION)
 ARQ := tools/$(JENA_PATH)/bin/arq
 RIOT := tools/$(JENA_PATH)/bin/riot
