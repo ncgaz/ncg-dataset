@@ -19,6 +19,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
@@ -78,7 +79,7 @@ public class CompileDataset {
     }
 
     private static Pattern UPDATE_FILE_PATTERN = Pattern.compile(String.format(
-            "^(?<date>\\d{4}-\\d{2}-\\d{2})-(?<tag>[a-z-]+)-(?<op>%s)\\.(?<suffix>ttl|ru)$",
+            "^(?<date>\\d{4}-\\d{2}-\\d{2})(?:-\\d)?-(?<tag>[a-z-]+)-(?<op>%s)\\.(?<suffix>ttl|ru)$",
             Stream.of(Operation.values())
                     .map(String::valueOf)
                     .collect(Collectors.joining("|"))));

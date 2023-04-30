@@ -7,6 +7,15 @@ read -r -p 'Your name: ' author
 read -r -p 'Description of contribution: ' description
 
 date=$(date "+%Y-%m-%d")
+samedate=$(find contributions -type d -name "$date*" | wc -l)
+if ((samedate > 0)); then
+    if ((samedate == 1)); then
+        old=$(find contributions -type d -name "$date*")
+        new="contributions/$date-1-$(echo "$old" | cut -c 26-)"
+        mv "$old" "$new"
+    fi
+    date="$date-$((samedate + 1))"
+fi
 
 read -r -p 'Tag (e.g. city founding dates): ' input
 lowercase_input="${input,,}"
