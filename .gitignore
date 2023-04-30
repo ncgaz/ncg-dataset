@@ -12,5 +12,6 @@ diffs/
 lib/.gradle/
 tools/
 types.ttl
+vocab.ttl
 updates/
 versions/

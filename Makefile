@@ -32,7 +32,7 @@ UPLOAD_FILES = dataset.ttl \
 	       vocab.ttl
 
 .PHONY: all
-all: dataset.nt dataset.ttl dataset.csv dataset.json types.ttl count
+all: dataset.nt dataset.ttl dataset.csv dataset.json types.ttl vocab.ttl count
 
 .PHONY: upload
 upload:
@@ -123,6 +123,11 @@ dataset.json: dataset.nt frames/dataset.jsonld
 	> $@
 
 types.ttl: dataset.nt queries/types.rq
+	JENA_HOME=tools/$(JENA_PATH) \
+	$(ARQ) --data=$< --query=$(word 2,$^) --results=TTL \
+	> $@
+
+vocab.ttl: dataset.nt queries/vocab.rq
 	JENA_HOME=tools/$(JENA_PATH) \
 	$(ARQ) --data=$< --query=$(word 2,$^) --results=TTL \
 	> $@

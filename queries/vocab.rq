@@ -1,0 +1,10 @@
+PREFIX ncv:    <http://n2t.net/ark:/39333/ncg/vocab#>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skosxl: <http://www.w3.org/2008/05/skos-xl#>
+
+CONSTRUCT { ?s ?p ?o }
+WHERE {
+  ?s ?p ?o .
+  FILTER(REGEX(STR(?s), "^http://n2t.net/ark:/39333/ncg/vocab#"))
+}
