@@ -7,12 +7,57 @@ DELETE {
 }
 WHERE {
   VALUES ?place {
+    ncp:NCG00007
     ncp:NCG00050
+    ncp:NCG00074
+    ncp:NCG00086
+    ncp:NCG00087
+    ncp:NCG00100
+    ncp:NCG00116
+    ncp:NCG00126
+    ncp:NCG00130
+    ncp:NCG00133
+    ncp:NCG00142
+    ncp:NCG00158
+    ncp:NCG00160
+    ncp:NCG00170
+    ncp:NCG00189
+    ncp:NCG00211
+    ncp:NCG00220
+    ncp:NCG00221
+    ncp:NCG00235
+    ncp:NCG00264
     ncp:NCG00269
+    ncp:NCG00284
     ncp:NCG00287
+    ncp:NCG00289
+    ncp:NCG00335
+    ncp:NCG00339
+    ncp:NCG00365
+    ncp:NCG00374
+    ncp:NCG00378
+    ncp:NCG00392
+    ncp:NCG00395
+    ncp:NCG00396
+    ncp:NCG00397
+    ncp:NCG00398
+    ncp:NCG00417
+    ncp:NCG00428
+    ncp:NCG00434
+    ncp:NCG00443
+    ncp:NCG00464
+    ncp:NCG00509
     ncp:NCG00519
     ncp:NCG00551
     ncp:NCG00556
+    ncp:NCG00588
+    ncp:NCG00627
+    ncp:NCG00632
+    ncp:NCG00637
+    ncp:NCG00640
+    ncp:NCG00641
+    ncp:NCG00649
+    ncp:NCG00669
     ncp:NCG00739
     ncp:NCG00773
     ncp:NCG00850
