@@ -1,15 +1,14 @@
 # Problems
 
+## washington county
+
+sort out this mess caused by mis-scraped duplicate names
+
 ## merge places
 
 the two Big Pocosins seem to actually be the same place
 
 sort out whether there are 1 or 2 Cedar Island Points
-
-## offensive labels
-
-create ncv:offensiveLabel, make it a subproperty of skos:hiddenLabel,
-and use it for offensive placenames.
 
 ## fix labels
 
@@ -20,8 +19,6 @@ ncp:NCG05045 remove alt label "Rutherfords Mill"
 ncp:NCG09279 change pref label from "Lookout Bight" to "Barden Inlet"
 
 ## references
-
-these got fucked up because of the mis-scraped duplicate names
 
 add skos:related links based on "See also" and "which see" refs in place notes
 
@@ -35,10 +32,6 @@ add skos:related between Grants Creek and Frohock Mill
 
 fix the entry for NC which should not be a reference:
 <https://www.ncpedia.org/gazetteer/northcarolina>
-
-## craven county and washington county
-
-sort out this mess caused by mis-scraped duplicate names
 
 ## split up / regarrange labels
 
