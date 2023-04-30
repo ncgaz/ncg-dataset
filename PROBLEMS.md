@@ -1,9 +1,5 @@
 # Problems
 
-## washington county
-
-sort out this mess caused by mis-scraped duplicate names
-
 ## merge places
 
 the two Big Pocosins seem to actually be the same place
