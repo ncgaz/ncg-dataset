@@ -1,0 +1,91 @@
+@prefix ncs:     <http://n2t.net/ark:/39333/ncg/statement/> .
+@prefix ncp:     <http://n2t.net/ark:/39333/ncg/place/> .
+@prefix ncv:     <http://n2t.net/ark:/39333/ncg/vocab#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+ncv:offensiveLabel rdfs:subPropertyOf skos:hiddenLabel .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG10834
+  skos:prefLabel "Salem Creek" ;
+  ncv:offensiveLabel "Niggerhead Creek" ;
+  skos:note "rises in E Union County and flows NW into Richardson Creek. In 2003 state legislature directed county to rename creek to Salem Creek."
+  .
+
+ncp:NCG20726
+  skos:note "community in E Union County between Richardson Creek and Salem Creek."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG09012
+  skos:prefLabel "Little Clay Knob" ;
+  ncv:offensiveLabel "Little Nigger Head" ;
+  skos:note "peak in N Clay County between Tusquitee Gap and Tuni Creek. In 2003 state legislature directed county to rename peak to Little Clay Knob."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG02833
+  ncv:offensiveLabel "Niggerskull Creek" ;
+  skos:note "rises in central Jackson County and flows SW into Tuckasegee River. Name changed in 2006 by U.S. Board on Geographic Names."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG02834
+  ncv:offensiveLabel "Niggerskull Mountain" , "Nigger-skull Mountain" ;
+  skos:note "in central Jackson County between Cedar Valley Creek and Gladie Creek. Alt. 3,500. Name changed in 2006 by U.S. Board on Geographic Names."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG10833
+  skos:prefLabel "Cedar Valley Spring" ;
+  ncv:offensiveLabel "Nigger Spring" ;
+  skos:note "S Haywood County, a spring on the head of Little East Fork Pigeon River. In 2003 state legislature directed county to rename spring to Cedar Valley Spring."
+  .
+
+ncp:NCG05356
+  skos:note "S Haywood County between Cedar Valley Spring and Dina Branch."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG10454
+  ncv:offensiveLabel "Nigger Mountain" ;
+  skos:note "SE of and named for town of Jefferson in central Ashe County. State park of 474 acres is maintained there for sightseeing and picnicking; created 1956. Original name, given because of the black appearance of the weathered granite of which much of the mountain is composed, appears in local recods as early as 1810. Name changed at the creation of the park. A cave near the top is said to have been used by slaves fleeing to Ohio before the Civil War. Alt. 4,683."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG10829
+  skos:prefLabel "Currituck Bay" ;
+  ncv:offensiveLabel "Nigger Bay" ;
+  skos:note "between Swan Island and Currituck Banks in NE Currituck County. In 2003 state legislature directed county to rename bay to Currituck Bay."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG10830
+  skos:prefLabel "Clay Knob" ;
+  ncv:offensiveLabel "Nigger Head" ;
+  skos:note "mountain on the Clay-Macon county line. Alt. approx. 4,900. In 2003 state legislature directed counties to rename mountain to Clay Knob."
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG10684
+  skos:prefLabel "Revels Prong" ;
+  skos:altLabel "Negro Prong"
+  .
+
+# ------------------------------------------------------------------------------
+
+ncp:NCG10536
+  skos:prefLabel "Simone Mountain" ;
+  skos:altLabel "Mulatto Mountain"
+  .
