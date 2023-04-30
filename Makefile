@@ -52,7 +52,7 @@ superclean: clean
 
 .PHONY: new
 new:
-	./lib/new-contribution.sh
+	@./lib/new-contribution.sh
 
 .PHONY: check_metadata
 check_metadata:

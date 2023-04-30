@@ -3,10 +3,13 @@ set -eo pipefail
 
 # Create a new, empty contribution directory.
 
-read -r -p 'Your name: ' author
-read -r -p 'Description of contribution: ' description
+read -r -e -p 'Your name: ' author
+read -r -e -p 'Description of contribution: ' description
 
-date=$(date "+%Y-%m-%d")
+today=$(date "+%Y-%m-%d")
+
+read -r -e -p 'Date of contribution: ' -i "$today" date
+
 samedate=$(find contributions -type d -name "$date*" | wc -l)
 if ((samedate > 0)); then
     if ((samedate == 1)); then
@@ -17,11 +20,11 @@ if ((samedate > 0)); then
     date="$date-$((samedate + 1))"
 fi
 
-read -r -p 'Tag (e.g. city founding dates): ' input
+read -r -e -p 'Tag (e.g. city founding dates): ' input
 lowercase_input="${input,,}"
 tag="${lowercase_input// /-}"
 
-read -r -p 'Operation (add, replace, update): ' op
+read -r -e -p 'Operation (add, replace, update): ' op
 if [[ $op = a* ]]; then
     operation=ADD
 elif [[ $op = r* ]]; then
@@ -41,7 +44,7 @@ jq -n \
 if [ $operation = UPDATE ]; then
     touch "${dir}/update.ru"
 else
-    read -r -p 'Data format (csv, ttl): ' f
+    read -r -e -p 'Data format (csv, ttl): ' f
     if [[ $f = c* ]]; then
         format=csv
         touch "${dir}/construct.rq"
