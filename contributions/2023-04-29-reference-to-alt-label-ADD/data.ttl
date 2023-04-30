@@ -1,0 +1,1078 @@
+@prefix ncp:  <http://n2t.net/ark:/39333/ncg/place/> .
+@prefix ncv:  <http://n2t.net/ark:/39333/ncg/vocab#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ncp:NCG14971 skos:altLabel "Tantroft Branch" .
+ncp:NCG14970 ncv:remove true .
+
+ncp:NCG16756 skos:altLabel "Ta-loh-na" .
+ncp:NCG16756 skos:altLabel "Taloh-na" .
+ncp:NCG14933 ncv:remove true .
+
+ncp:NCG09367 skos:altLabel "Saura Town" .
+ncp:NCG15643 skos:altLabel "Saura Town" .
+ncp:NCG13450 ncv:remove true .
+
+ncp:NCG06476 skos:altLabel "Dukie Hall's Crossing" .
+ncp:NCG06476 skos:altLabel "Dukie Halls Crossing" .
+ncp:NCG04540 ncv:remove true .
+
+ncp:NCG12796 skos:altLabel "Marshall Tavern" .
+ncp:NCG09634 ncv:remove true .
+
+ncp:NCG03097 skos:altLabel "Mount Gallant" .
+ncp:NCG20378 ncv:remove true .
+
+ncp:NCG03857 skos:altLabel "Cucklers Creek" .
+ncp:NCG03856 ncv:remove true .
+
+ncp:NCG11000 skos:altLabel "Northeast Branch [New River]" .
+ncp:NCG11000 skos:altLabel "Northeast Branch of New River" .
+ncp:NCG10997 ncv:remove true .
+
+ncp:NCG10431 skos:altLabel "Black Mountain" .
+ncp:NCG19920 ncv:remove true .
+
+ncp:NCG08704 skos:altLabel "Turner's Crossroads" .
+ncp:NCG08704 skos:altLabel "Turner's Cross Roads" .
+ncp:NCG15511 ncv:remove true .
+
+ncp:NCG12671 skos:altLabel "Razo Creek" .
+ncp:NCG12534 ncv:remove true .
+
+ncp:NCG14735 skos:altLabel "Stumpy Inlet" .
+ncp:NCG14739 ncv:remove true .
+
+ncp:NCG03355 skos:altLabel "Big Colington Island" .
+ncp:NCG01206 ncv:remove true .
+
+ncp:NCG03240 skos:altLabel "Harlowe Canal" .
+ncp:NCG06601 ncv:remove true .
+
+ncp:NCG22738 skos:altLabel "Smith's Creek" .
+ncp:NCG22738 skos:altLabel "Smiths Creek" .
+ncp:NCG14066 ncv:remove true .
+
+ncp:NCG12122 skos:altLabel "Pocosin Point" .
+ncp:NCG12000 ncv:remove true .
+
+ncp:NCG10500 skos:altLabel "Over Hills" .
+ncp:NCG11324 ncv:remove true .
+
+ncp:NCG00275 skos:altLabel "Allegheny Mountains" .
+ncp:NCG00150 ncv:remove true .
+
+ncp:NCG15986 skos:altLabel "Wisaoky" .
+ncp:NCG15986 skos:altLabel "Wisacky" .
+ncp:NCG16535 ncv:remove true .
+
+ncp:NCG11768 skos:altLabel "Nee-oh-la" .
+ncp:NCG16099 skos:altLabel "Nee-oh-la" .
+ncp:NCG16099 skos:altLabel "Neeoh-la" .
+ncp:NCG10677 ncv:remove true .
+
+ncp:NCG03135 skos:altLabel "Setzers Depot" .
+ncp:NCG03135 skos:altLabel "Setzer's Depot" .
+ncp:NCG13609 ncv:remove true .
+
+ncp:NCG02329 skos:altLabel "North Cackalacky" .
+ncp:NCG10904 ncv:remove true .
+
+ncp:NCG01562 skos:altLabel "Gibson Millpond" .
+ncp:NCG01562 skos:altLabel "Gibsons Millpond" .
+ncp:NCG05810 ncv:remove true .
+
+ncp:NCG10999 skos:altLabel "Northeast River" .
+ncp:NCG10999 skos:altLabel "North East River" .
+ncp:NCG11004 ncv:remove true .
+
+ncp:NCG03299 skos:altLabel "Coohooca" .
+ncp:NCG03299 skos:altLabel "Cohoogue" .
+ncp:NCG03467 ncv:remove true .
+
+ncp:NCG16051 skos:altLabel "Amos Mill Pond" .
+ncp:NCG16051 skos:altLabel "Amos Millpond" .
+ncp:NCG00220 ncv:remove true .
+
+ncp:NCG07779 skos:altLabel "Iredell House" .
+ncp:NCG07644 ncv:remove true .
+
+ncp:NCG15594 skos:altLabel "Askew" .
+ncp:NCG00383 ncv:remove true .
+
+ncp:NCG08178 skos:altLabel "Cathey's Creek" .
+ncp:NCG08178 skos:altLabel "James Cathey's Creek" .
+ncp:NCG02764 ncv:remove true .
+
+ncp:NCG14034 skos:altLabel "Cathey's Creek" .
+ncp:NCG14034 skos:altLabel "James Cathey's Creek" .
+ncp:NCG02764 ncv:remove true .
+
+ncp:NCG22409 skos:altLabel "Mount Night" .
+ncp:NCG22409 skos:altLabel "Mt. Night" .
+ncp:NCG10464 ncv:remove true .
+
+ncp:NCG03895 skos:altLabel "Crawford" .
+ncp:NCG03966 skos:altLabel "Crawford" .
+ncp:NCG03750 ncv:remove true .
+
+ncp:NCG15748 skos:altLabel "Scott Reservoir" .
+ncp:NCG13521 ncv:remove true .
+
+ncp:NCG05733 skos:altLabel "Camps Store" .
+ncp:NCG05733 skos:altLabel "Camp's Store" .
+ncp:NCG02481 ncv:remove true .
+
+ncp:NCG05969 skos:altLabel "Roundabout, The" .
+ncp:NCG13150 ncv:remove true .
+
+ncp:NCG01936 skos:altLabel "Browns Siding" .
+ncp:NCG01936 skos:altLabel "Brown's Siding" .
+ncp:NCG01936 ncv:remove true .
+
+ncp:NCG04760 skos:altLabel "Cokey Township" .
+ncp:NCG03305 ncv:remove true .
+
+ncp:NCG01953 skos:altLabel "Hiltons River" .
+ncp:NCG01953 skos:altLabel "Hilton's River" .
+ncp:NCG07079 ncv:remove true .
+
+ncp:NCG10525 skos:altLabel "Mudlick" .
+ncp:NCG10534 ncv:remove true .
+
+ncp:NCG04701 skos:altLabel "Nelson Creek" .
+ncp:NCG16123 skos:altLabel "Nelson Creek" .
+ncp:NCG10697 ncv:remove true .
+
+ncp:NCG05393 skos:altLabel "McDonald's Mill" .
+ncp:NCG09812 ncv:remove true .
+
+ncp:NCG02834 skos:altLabel "Niggerskull Mountain" .
+ncp:NCG02834 skos:altLabel "Nigger-skull Mountain" .
+ncp:NCG10836 ncv:remove true .
+
+ncp:NCG03906 skos:altLabel "Curtis's Mills" .
+ncp:NCG03909 ncv:remove true .
+
+ncp:NCG13085 skos:altLabel "Rocquis Creek" .
+ncp:NCG13085 skos:altLabel "Rakwis Creek" .
+ncp:NCG13085 skos:altLabel "Rocquist Creek" .
+ncp:NCG13085 skos:altLabel "Roquewhist Creek" .
+ncp:NCG13044 ncv:remove true .
+
+ncp:NCG00177 skos:altLabel "Lane River" .
+ncp:NCG08455 ncv:remove true .
+
+ncp:NCG15212 skos:altLabel "Hilliards Mill" .
+ncp:NCG15212 skos:altLabel "Hilliard's Mill" .
+ncp:NCG07060 ncv:remove true .
+
+ncp:NCG03790 skos:altLabel "Narrows, The" .
+ncp:NCG10641 ncv:remove true .
+
+ncp:NCG09725 skos:altLabel "Smith's Point" .
+ncp:NCG09725 skos:altLabel "Smiths Point" .
+ncp:NCG14068 ncv:remove true .
+
+ncp:NCG01337 skos:altLabel "Allen Branch" .
+ncp:NCG19463 ncv:remove true .
+
+ncp:NCG08174 skos:altLabel "Kerners Crossroads" .
+ncp:NCG08174 skos:altLabel "Kerner's Crossroads" .
+ncp:NCG08172 ncv:remove true .
+
+ncp:NCG01846 skos:altLabel "Kincaids Mill Creek" .
+ncp:NCG01846 skos:altLabel "Kincaid's Mill Creek" .
+ncp:NCG08223 ncv:remove true .
+
+ncp:NCG08406 skos:altLabel "Flemington" .
+ncp:NCG05334 ncv:remove true .
+
+ncp:NCG02539 skos:altLabel "Forks of Pigeon" .
+ncp:NCG05422 ncv:remove true .
+
+ncp:NCG06997 skos:altLabel "Great Falls, The" .
+ncp:NCG06181 ncv:remove true .
+
+ncp:NCG13171 skos:altLabel "Granburys Crossroads" .
+ncp:NCG13171 skos:altLabel "Granberrys Cross Roads" .
+ncp:NCG06056 ncv:remove true .
+
+ncp:NCG04867 skos:altLabel "Elkinsville" .
+ncp:NCG04863 ncv:remove true .
+
+ncp:NCG05755 skos:altLabel "Colonial Assembly" .
+ncp:NCG03380 ncv:remove true .
+
+ncp:NCG08403 skos:altLabel "Toxaway" .
+ncp:NCG13117 skos:altLabel "Toxaway" .
+ncp:NCG15319 ncv:remove true .
+
+ncp:NCG10500 skos:altLabel "Ottaray" .
+ncp:NCG11308 ncv:remove true .
+
+ncp:NCG02614 skos:altLabel "Carlton" .
+ncp:NCG20237 ncv:remove true .
+
+ncp:NCG08360 skos:altLabel "Roanoke Rapids Dam" .
+ncp:NCG12876 ncv:remove true .
+
+ncp:NCG12002 skos:altLabel "Pogey Mountain" .
+ncp:NCG12003 ncv:remove true .
+
+ncp:NCG14299 skos:altLabel "Vineland" .
+ncp:NCG16292 skos:altLabel "Vineland" .
+ncp:NCG15728 ncv:remove true .
+
+ncp:NCG14381 skos:altLabel "Eagle Branch" .
+ncp:NCG04613 ncv:remove true .
+
+ncp:NCG16706 skos:altLabel "Wise Forks" .
+ncp:NCG16538 ncv:remove true .
+
+ncp:NCG15226 skos:altLabel "Elkland" .
+ncp:NCG04864 ncv:remove true .
+
+ncp:NCG12341 skos:altLabel "Cherokee Indian Reservation" .
+ncp:NCG02961 ncv:remove true .
+
+ncp:NCG14614 skos:altLabel "Markee's Creek" .
+ncp:NCG09600 ncv:remove true .
+
+ncp:NCG15501 skos:altLabel "Bay Creek, The" .
+ncp:NCG00757 ncv:remove true .
+
+ncp:NCG04379 skos:altLabel "St. Colomb Parish" .
+ncp:NCG14440 ncv:remove true .
+
+ncp:NCG01612 skos:altLabel "Bolling Creek" .
+ncp:NCG01618 ncv:remove true .
+
+ncp:NCG05232 skos:altLabel "Potts Creek" .
+ncp:NCG13571 skos:altLabel "Potts Creek" .
+ncp:NCG12185 ncv:remove true .
+
+ncp:NCG11503 skos:altLabel "Merrymount" .
+ncp:NCG11503 skos:altLabel "Merry Mount" .
+ncp:NCG09977 ncv:remove true .
+
+ncp:NCG03548 skos:altLabel "Endesokes" .
+ncp:NCG03548 skos:altLabel "Endesoakes" .
+ncp:NCG04934 ncv:remove true .
+
+ncp:NCG23007 skos:altLabel "Sloan" .
+ncp:NCG14032 ncv:remove true .
+
+ncp:NCG04647 skos:altLabel "Right Fork Belews Creek" .
+ncp:NCG12802 ncv:remove true .
+
+ncp:NCG08012 skos:altLabel "Joy Fork" .
+ncp:NCG08012 skos:altLabel "Joys Fork" .
+ncp:NCG08011 ncv:remove true .
+
+ncp:NCG02803 skos:altLabel "Everetts Mill" .
+ncp:NCG02803 skos:altLabel "Everett's Mill" .
+ncp:NCG05034 ncv:remove true .
+
+ncp:NCG11421 skos:altLabel "Sound, The" .
+ncp:NCG14195 ncv:remove true .
+
+ncp:NCG05566 skos:altLabel "Nahunta" .
+ncp:NCG15288 skos:altLabel "Tarhunta" .
+ncp:NCG15288 skos:altLabel "Taughoutnith" .
+ncp:NCG15288 skos:altLabel "Nahunta" .
+ncp:NCG15288 skos:altLabel "Narhantes" .
+ncp:NCG10606 ncv:remove true .
+
+ncp:NCG11662 skos:altLabel "Paquinouc" .
+ncp:NCG11662 skos:altLabel "Paquinous" .
+ncp:NCG11662 skos:altLabel "Pequaimings River" .
+ncp:NCG11453 ncv:remove true .
+
+ncp:NCG09843 skos:altLabel "McGinnis Mountain" .
+ncp:NCG09833 ncv:remove true .
+
+ncp:NCG08166 skos:altLabel "Kindrickers Mounts" .
+ncp:NCG08225 ncv:remove true .
+
+ncp:NCG12345 skos:altLabel "Quonutka Creek" .
+ncp:NCG12345 skos:altLabel "Quountka Creek" .
+ncp:NCG12380 ncv:remove true .
+
+ncp:NCG10975 skos:altLabel "West Prong Roaring River" .
+ncp:NCG16130 ncv:remove true .
+
+ncp:NCG05587 skos:altLabel "Trent" .
+ncp:NCG09972 skos:altLabel "Trent" .
+ncp:NCG15364 skos:altLabel "Trent" .
+ncp:NCG15358 ncv:remove true .
+
+ncp:NCG00630 skos:altLabel "Barber Junction" .
+ncp:NCG00630 skos:altLabel "Barber's Junction" .
+ncp:NCG00632 ncv:remove true .
+
+ncp:NCG12302 skos:altLabel "Machapunga" .
+ncp:NCG12302 skos:altLabel "Machapungo" .
+ncp:NCG09462 ncv:remove true .
+
+ncp:NCG09354 skos:altLabel "Low Falls" .
+ncp:NCG09337 ncv:remove true .
+
+ncp:NCG04612 skos:altLabel "Eagle Mills" .
+ncp:NCG20684 ncv:remove true .
+
+ncp:NCG03201 skos:altLabel "Cleaveland County" .
+ncp:NCG03188 ncv:remove true .
+
+ncp:NCG10405 skos:altLabel "Cone Memorial Park" .
+ncp:NCG03415 ncv:remove true .
+
+ncp:NCG02948 skos:altLabel "Cheeohwa" .
+ncp:NCG02944 ncv:remove true .
+
+ncp:NCG04890 skos:altLabel "Mount Pleasant" .
+ncp:NCG10468 ncv:remove true .
+
+ncp:NCG10725 skos:altLabel "New Biggin Creek" .
+ncp:NCG10725 skos:altLabel "New Beggin Creek" .
+ncp:NCG10732 ncv:remove true .
+
+ncp:NCG07538 skos:altLabel "Hico River" .
+ncp:NCG06982 ncv:remove true .
+
+ncp:NCG20822 skos:altLabel "Fonta Flora" .
+ncp:NCG05374 ncv:remove true .
+
+ncp:NCG15226 skos:altLabel "Elks Crossroads" .
+ncp:NCG15226 skos:altLabel "Elk Crossroads" .
+ncp:NCG04866 ncv:remove true .
+
+ncp:NCG15748 skos:altLabel "Wilkesboro Reservoir" .
+ncp:NCG16382 ncv:remove true .
+
+ncp:NCG06887 skos:altLabel "Harrold Mountain" .
+ncp:NCG06662 ncv:remove true .
+
+ncp:NCG06295 skos:altLabel "Blounts Ford" .
+ncp:NCG06295 skos:altLabel "Blount's Ford" .
+ncp:NCG01531 ncv:remove true .
+
+ncp:NCG04298 skos:altLabel "Washington, District of" .
+ncp:NCG15925 ncv:remove true .
+
+ncp:NCG06167 skos:altLabel "Alligator Dismal Swamp" .
+ncp:NCG00174 ncv:remove true .
+
+ncp:NCG12329 skos:altLabel "Box, P[ort]" .
+ncp:NCG01708 ncv:remove true .
+
+ncp:NCG03738 skos:altLabel "Town Creek" .
+ncp:NCG15303 ncv:remove true .
+
+ncp:NCG00740 skos:altLabel "Batts Grave" .
+ncp:NCG00740 skos:altLabel "Bats Grave" .
+ncp:NCG00740 ncv:remove true .
+
+ncp:NCG09472 skos:altLabel "Notts Island" .
+ncp:NCG09472 skos:altLabel "Mackys Island" .
+ncp:NCG11028 ncv:remove true .
+
+ncp:NCG21044 skos:altLabel "Wise's Crossroads" .
+ncp:NCG21044 skos:altLabel "Wyse's Crossroads" .
+ncp:NCG16706 skos:altLabel "Wise's Crossroads" .
+ncp:NCG16706 skos:altLabel "Wyse's Crossroads" .
+ncp:NCG16540 ncv:remove true .
+
+ncp:NCG10559 skos:altLabel "Mumford" .
+ncp:NCG10557 ncv:remove true .
+
+ncp:NCG04175 skos:altLabel "Finchs Crossroads" .
+ncp:NCG04175 skos:altLabel "Finch's Crossroads" .
+ncp:NCG05212 ncv:remove true .
+
+ncp:NCG13196 skos:altLabel "Bald Mountain" .
+ncp:NCG19555 ncv:remove true .
+
+ncp:NCG07538 skos:altLabel "Hicootomony River" .
+ncp:NCG06983 ncv:remove true .
+
+ncp:NCG15698 skos:altLabel "Browns Turnout" .
+ncp:NCG15698 skos:altLabel "Brown's Turnout" .
+ncp:NCG01940 ncv:remove true .
+
+ncp:NCG09889 skos:altLabel "Medlock Mountain" .
+ncp:NCG09923 ncv:remove true .
+
+ncp:NCG04903 skos:altLabel "Toisnot" .
+ncp:NCG15235 skos:altLabel "Toisnot" .
+ncp:NCG15235 skos:altLabel "Tosneot" .
+ncp:NCG15234 ncv:remove true .
+
+ncp:NCG00546 skos:altLabel "Great Iron Mountain" .
+ncp:NCG06199 skos:altLabel "Great Iron Mountain" .
+ncp:NCG06185 ncv:remove true .
+
+# cannot determine the Troublesome Creek to which this
+# Big Tomahawk Creek reference is referring
+ncp:NCG19894 ncv:remove true .
+
+ncp:NCG12466 skos:altLabel "Rex" .
+ncp:NCG12684 ncv:remove true .
+
+ncp:NCG11317 skos:altLabel "Sea Banks" .
+ncp:NCG13631 skos:altLabel "Sea Banks" .
+ncp:NCG13545 ncv:remove true .
+
+ncp:NCG00082 skos:altLabel "Ahostsky" .
+ncp:NCG00082 skos:altLabel "Ahostskey" .
+ncp:NCG00082 skos:altLabel "Ahotskey" .
+ncp:NCG00087 ncv:remove true .
+
+ncp:NCG03904 skos:altLabel "Wright Memorial Bridge" .
+ncp:NCG16685 ncv:remove true .
+
+ncp:NCG12336 skos:altLabel "McDowell House" .
+ncp:NCG09817 ncv:remove true .
+
+ncp:NCG03429 skos:altLabel "Carolina Island" .
+ncp:NCG03429 skos:altLabel "Caroline Island" .
+ncp:NCG02593 ncv:remove true .
+
+ncp:NCG22173 skos:altLabel "Oakes Ridge" .
+ncp:NCG22173 skos:altLabel "Oakes Knob" .
+ncp:NCG11066 ncv:remove true .
+
+ncp:NCG07731 skos:altLabel "Wind Mill Creek" .
+ncp:NCG16490 ncv:remove true .
+
+ncp:NCG15661 skos:altLabel "Valda" .
+ncp:NCG15662 ncv:remove true .
+
+ncp:NCG01990 skos:altLabel "Charleston" .
+ncp:NCG15980 skos:altLabel "Charleston" .
+ncp:NCG15980 skos:altLabel "Charlestown" .
+ncp:NCG20310 ncv:remove true .
+
+ncp:NCG05055 skos:altLabel "Factory Branch" .
+ncp:NCG05056 ncv:remove true .
+
+ncp:NCG16515 skos:altLabel "Evan's Store Crossroads" .
+ncp:NCG16515 skos:altLabel "Evans Store Crossroads" .
+ncp:NCG05019 ncv:remove true .
+
+ncp:NCG07544 skos:altLabel "St. George's Parish" .
+ncp:NCG14444 ncv:remove true .
+
+ncp:NCG08178 skos:altLabel "James Cathey's Creek" .
+ncp:NCG14034 skos:altLabel "James Cathey's Creek" .
+ncp:NCG07776 ncv:remove true .
+
+ncp:NCG03419 skos:altLabel "Coneghta" .
+ncp:NCG03418 ncv:remove true .
+
+ncp:NCG06268 skos:altLabel "Martinsborough" .
+ncp:NCG06268 skos:altLabel "Martins-borough" .
+ncp:NCG09660 ncv:remove true .
+
+ncp:NCG00295 skos:altLabel "Dobag" .
+ncp:NCG00295 skos:altLabel "Doe Bag" .
+ncp:NCG04347 skos:altLabel "Dobag Creek" .
+ncp:NCG04316 ncv:remove true .
+
+ncp:NCG09758 skos:altLabel "Youngs Cross Roads" .
+ncp:NCG09758 skos:altLabel "Young's Cross Roads" .
+ncp:NCG16793 ncv:remove true .
+
+ncp:NCG04639 skos:altLabel "Reed Misenheimers Township" .
+ncp:NCG04639 skos:altLabel "Earnhardt's Township" .
+ncp:NCG12611 ncv:remove true .
+
+ncp:NCG00790 skos:altLabel "Bar Banks" .
+ncp:NCG00790 skos:altLabel "Bare Banks" .
+ncp:NCG00790 skos:altLabel "Barr Banks" .
+ncp:NCG00673 ncv:remove true .
+ncp:NCG00637 ncv:remove true .
+
+ncp:NCG20473 skos:altLabel "Crane Creek" .
+ncp:NCG20473 skos:altLabel "Crane's Creek" .
+ncp:NCG03739 ncv:remove true .
+
+ncp:NCG16723 skos:altLabel "Alarka Creek" .
+ncp:NCG00102 ncv:remove true .
+
+ncp:NCG04712 skos:altLabel "Spring Hill Plantation" .
+ncp:NCG14394 ncv:remove true .
+
+ncp:NCG01673 skos:altLabel "Parkersborough" .
+ncp:NCG11476 ncv:remove true .
+
+ncp:NCG05755 skos:altLabel "Assembly" .
+ncp:NCG00390 ncv:remove true .
+
+ncp:NCG15235 skos:altLabel "Tosneoc" .
+ncp:NCG15292 ncv:remove true .
+
+ncp:NCG06335 skos:altLabel "Whitaker" .
+ncp:NCG16190 ncv:remove true .
+
+ncp:NCG07188 skos:altLabel "Collins Crossroads" .
+ncp:NCG07188 skos:altLabel "Hollemans Crossroads" .
+ncp:NCG03368 ncv:remove true .
+
+ncp:NCG14981 skos:altLabel "Owen Jones Tar Landing" .
+ncp:NCG14981 skos:altLabel "Owen Jones's Tar Landing" .
+ncp:NCG11332 ncv:remove true .
+
+ncp:NCG10985 skos:altLabel "Second Creek" .
+ncp:NCG14274 skos:altLabel "Second Creek" .
+ncp:NCG19514 skos:altLabel "Second Creek" .
+ncp:NCG13566 ncv:remove true .
+
+ncp:NCG05458 skos:altLabel "Warrington" .
+ncp:NCG15896 ncv:remove true .
+
+ncp:NCG04266 skos:altLabel "Indian Creek" .
+ncp:NCG23103 skos:altLabel "Indian Creek" .
+ncp:NCG07582 ncv:remove true .
+
+ncp:NCG10607 skos:altLabel "No Honey Swamp" .
+ncp:NCG10861 ncv:remove true .
+
+ncp:NCG14467 skos:altLabel "South West Parish" .
+ncp:NCG14159 skos:altLabel "South West Parish" .
+ncp:NCG14288 ncv:remove true .
+
+ncp:NCG12302 skos:altLabel "Matchipungo" .
+ncp:NCG09699 ncv:remove true .
+
+ncp:NCG13397 skos:altLabel "Lake Santeetlah" .
+ncp:NCG08392 ncv:remove true .
+
+ncp:NCG14893 skos:altLabel "Wharf, The" .
+ncp:NCG16172 ncv:remove true .
+
+ncp:NCG01545 skos:altLabel "Sa-koh-na-gas" .
+ncp:NCG01545 skos:altLabel "Sa-kohna-gas" .
+ncp:NCG13246 ncv:remove true .
+
+ncp:NCG15500 skos:altLabel "Bay, The" .
+ncp:NCG00762 ncv:remove true .
+
+ncp:NCG15753 skos:altLabel "Wach" .
+ncp:NCG22726 skos:altLabel "Wach" .
+ncp:NCG15752 ncv:remove true .
+
+ncp:NCG15972 skos:altLabel "Watson" .
+ncp:NCG15966 ncv:remove true .
+
+ncp:NCG19775 skos:altLabel "Beck Springs" .
+ncp:NCG00939 ncv:remove true .
+
+ncp:NCG01532 skos:altLabel "Clarks Store" .
+ncp:NCG01532 skos:altLabel "Clark's Store" .
+ncp:NCG03155 ncv:remove true .
+
+ncp:NCG04693 skos:altLabel "Alligator River Bridge" .
+ncp:NCG22762 skos:altLabel "Alligator River Bridge" .
+ncp:NCG00178 ncv:remove true .
+
+ncp:NCG16718 skos:altLabel "Reatkin River" .
+ncp:NCG16718 skos:altLabel "Yatkin River" .
+ncp:NCG12543 ncv:remove true .
+
+ncp:NCG03461 skos:altLabel "David Daniel Pond" .
+ncp:NCG03461 skos:altLabel "David Daniel's Pond" .
+ncp:NCG03461 skos:altLabel "Cobb's Mill Pond" .
+ncp:NCG04016 ncv:remove true .
+
+ncp:NCG05014 skos:altLabel "Sauls Crossroads" .
+ncp:NCG05014 skos:altLabel "Saul's Cross Roads" .
+ncp:NCG13441 ncv:remove true .
+
+ncp:NCG05755 skos:altLabel "Legislature" .
+ncp:NCG08639 ncv:remove true .
+
+ncp:NCG01659 skos:altLabel "Daniel Boone's Cave" .
+ncp:NCG03972 ncv:remove true .
+
+ncp:NCG16512 skos:altLabel "Ames Turnout" .
+ncp:NCG16512 skos:altLabel "Ames" .
+ncp:NCG00210 ncv:remove true .
+
+ncp:NCG01523 skos:altLabel "Great Swamp" .
+ncp:NCG14536 skos:altLabel "Great Swamp" .
+ncp:NCG06202 ncv:remove true .
+
+ncp:NCG15971 skos:altLabel "Johnson Pond" .
+ncp:NCG15971 skos:altLabel "Johnsons Pond" .
+ncp:NCG07936 ncv:remove true .
+
+ncp:NCG04693 skos:altLabel "Lindsay C. Warren Bridge" .
+ncp:NCG22762 skos:altLabel "Lindsay C. Warren Bridge" .
+ncp:NCG08783 ncv:remove true .
+
+ncp:NCG11386 skos:altLabel "Holiday Lake" .
+ncp:NCG07175 ncv:remove true .
+
+ncp:NCG14813 skos:altLabel "Somey Creek" .
+ncp:NCG14182 ncv:remove true .
+
+ncp:NCG10476 skos:altLabel "Little Bald Mountain" .
+ncp:NCG08834 ncv:remove true .
+
+ncp:NCG00445 skos:altLabel "Duckenfield Estate" .
+ncp:NCG04513 ncv:remove true .
+
+ncp:NCG06515 skos:altLabel "Starkey's Hammock" .
+ncp:NCG14535 ncv:remove true .
+
+ncp:NCG21407 skos:altLabel "Hanted Pond, The" .
+ncp:NCG06560 ncv:remove true .
+
+ncp:NCG16422 skos:altLabel "Lick, The" .
+ncp:NCG08728 ncv:remove true .
+
+ncp:NCG21319 skos:altLabel "Potecasi Bridge" .
+ncp:NCG21319 skos:altLabel "Potecase Bridge" .
+ncp:NCG12173 ncv:remove true .
+
+ncp:NCG15212 skos:altLabel "Taylors Mill" .
+ncp:NCG15212 skos:altLabel "Taylor's Mill" .
+ncp:NCG15025 ncv:remove true .
+
+ncp:NCG05015 skos:altLabel "Hewins Creek" .
+ncp:NCG05015 skos:altLabel "Hewings Creek" .
+ncp:NCG05015 skos:altLabel "Hughens Creek" .
+ncp:NCG06913 ncv:remove true .
+
+ncp:NCG10056 skos:altLabel "Dora" .
+ncp:NCG12575 skos:altLabel "Dora" .
+ncp:NCG20634 ncv:remove true .
+
+ncp:NCG10886 skos:altLabel "Sprawls Old Field" .
+ncp:NCG10886 skos:altLabel "Sprouls Old Field" .
+ncp:NCG14378 ncv:remove true .
+
+ncp:NCG08386 skos:altLabel "Lake Scuppernong" .
+ncp:NCG08394 ncv:remove true .
+
+ncp:NCG08604 skos:altLabel "Leaper's Creek" .
+ncp:NCG08604 skos:altLabel "Leapers Creek" .
+ncp:NCG08570 ncv:remove true .
+
+ncp:NCG06465 skos:altLabel "Great Swamp Branch" .
+ncp:NCG06203 ncv:remove true .
+
+ncp:NCG15230 skos:altLabel "Estatoe River" .
+ncp:NCG04997 ncv:remove true .
+
+ncp:NCG07149 skos:altLabel "Will Quarter Creek" .
+ncp:NCG07149 skos:altLabel "Wills Quarter Creek" .
+ncp:NCG16401 ncv:remove true .
+
+ncp:NCG14813 skos:altLabel "Sommey Creek" .
+ncp:NCG14183 ncv:remove true .
+
+ncp:NCG15753 skos:altLabel "Wack" .
+ncp:NCG22726 skos:altLabel "Wack" .
+ncp:NCG15754 ncv:remove true .
+
+ncp:NCG22852 skos:altLabel "Spanking Back Creek" .
+ncp:NCG14322 ncv:remove true .
+
+ncp:NCG01854 skos:altLabel "Brickle's Ferry" .
+ncp:NCG01801 ncv:remove true .
+
+ncp:NCG14178 skos:altLabel "Pick's Sliding" .
+ncp:NCG14178 skos:altLabel "Pick's Siding" .
+ncp:NCG11743 ncv:remove true .
+
+ncp:NCG06921 skos:altLabel "Turkey Cock Mountain" .
+ncp:NCG15471 ncv:remove true .
+
+ncp:NCG19916 skos:altLabel "Browning Peak" .
+ncp:NCG01927 ncv:remove true .
+
+ncp:NCG03355 skos:altLabel "Little Colington Island" .
+ncp:NCG03355 skos:altLabel "Collintons Island." .
+ncp:NCG08891 ncv:remove true .
+
+ncp:NCG03313 skos:altLabel "Da-tsu-la-gun-yi" .
+ncp:NCG03313 skos:altLabel "Da-tsula-gun-yi" .
+ncp:NCG03937 ncv:remove true .
+
+ncp:NCG13171 skos:altLabel "Brittons Crossroads" .
+ncp:NCG13171 skos:altLabel "Brittons Store" .
+ncp:NCG01858 ncv:remove true .
+
+ncp:NCG15975 skos:altLabel "Faggarts Township" .
+ncp:NCG05060 ncv:remove true .
+
+ncp:NCG06691 skos:altLabel "Hachers Run" .
+ncp:NCG06691 skos:altLabel "Hatches Run" .
+ncp:NCG06418 ncv:remove true .
+
+ncp:NCG12602 skos:altLabel "Umstead Bridge" .
+ncp:NCG16034 skos:altLabel "Umstead Bridge" .
+ncp:NCG15579 ncv:remove true .
+
+ncp:NCG21966 skos:altLabel "South Fork Yadkin River" .
+ncp:NCG21966 skos:altLabel "South Fork [Yadkin River]" .
+ncp:NCG21966 skos:altLabel "South Fork of the Yadkin River" .
+ncp:NCG14294 skos:altLabel "South Fork Yadkin River" .
+ncp:NCG14235 ncv:remove true .
+
+ncp:NCG22604 skos:altLabel "Robey's Camp Ground" .
+ncp:NCG12917 ncv:remove true .
+
+ncp:NCG03610 skos:altLabel "Norfolk, County of" .
+ncp:NCG10883 ncv:remove true .
+
+ncp:NCG08013 skos:altLabel "Kilmer Memorial Forest" .
+ncp:NCG08214 ncv:remove true .
+
+ncp:NCG03460 skos:altLabel "Great Coteckney Creek" .
+ncp:NCG03460 skos:altLabel "Great Cotecktney Creek" .
+ncp:NCG06172 ncv:remove true .
+
+ncp:NCG15253 skos:altLabel "Tomcreek" .
+ncp:NCG15259 ncv:remove true .
+
+ncp:NCG07456 skos:altLabel "Day's Gap" .
+ncp:NCG04056 ncv:remove true .
+
+ncp:NCG03115 skos:altLabel "Whites Island" .
+ncp:NCG03115 skos:altLabel "White Island" .
+ncp:NCG16282 ncv:remove true .
+
+ncp:NCG02693 skos:altLabel "Kesiah River" .
+ncp:NCG08182 ncv:remove true .
+
+ncp:NCG16048 skos:altLabel "Weldon's Orchard" .
+ncp:NCG16048 skos:altLabel "Weldon's Place" .
+ncp:NCG16048 skos:altLabel "Weldans" .
+ncp:NCG16050 ncv:remove true .
+
+ncp:NCG09456 skos:altLabel "Frohock Mill" .
+ncp:NCG05595 ncv:remove true .
+
+ncp:NCG15331 skos:altLabel "Great Trading Path" .
+ncp:NCG06205 ncv:remove true .
+
+ncp:NCG14813 skos:altLabel "Summy Creek" .
+ncp:NCG14820 ncv:remove true .
+
+ncp:NCG09381 skos:altLabel "Loy's Store" .
+ncp:NCG09381 skos:altLabel "Loy's Shop" .
+ncp:NCG09382 ncv:remove true .
+
+ncp:NCG05763 skos:altLabel "Center of North Carolina" .
+ncp:NCG02845 ncv:remove true .
+
+ncp:NCG09287 skos:altLabel "Lousin Swamp" .
+ncp:NCG09287 skos:altLabel "Luzern Swamp" .
+ncp:NCG09308 ncv:remove true .
+
+ncp:NCG05568 skos:altLabel "Tah-kee-os-tee" .
+ncp:NCG05568 skos:altLabel "Tah-keeos-tee" .
+ncp:NCG14946 ncv:remove true .
+
+ncp:NCG06199 skos:altLabel "Smoky Mountains" .
+ncp:NCG14097 ncv:remove true .
+
+ncp:NCG01597 skos:altLabel "Goodson's Store" .
+ncp:NCG01597 skos:altLabel "Goodsons Store" .
+ncp:NCG05985 ncv:remove true .
+
+ncp:NCG10607 skos:altLabel "Norhanty Swamp" .
+ncp:NCG10884 ncv:remove true .
+
+ncp:NCG07785 skos:altLabel "James-Town" .
+ncp:NCG07785 skos:altLabel "James Town" .
+ncp:NCG07781 ncv:remove true .
+
+ncp:NCG06723 skos:altLabel "Trollinger's Crossing" .
+ncp:NCG06723 skos:altLabel "Trollinger's Ford" .
+ncp:NCG15385 ncv:remove true .
+
+ncp:NCG03610 skos:altLabel "Lower Norfolk County" .
+ncp:NCG09364 ncv:remove true .
+
+# There is no entry for Barden Inlet, but it seems to be connected to
+# Lookout Bight somehow.
+ncp:NCG09279 skos:altLabel "Drain, The" .
+ncp:NCG09279 skos:altLabel "Barden Inlet" .
+ncp:NCG04447 ncv:remove true .
+
+ncp:NCG15331 skos:altLabel "Indian Trading Path" .
+ncp:NCG07600 ncv:remove true .
+
+ncp:NCG06827 skos:altLabel "Heilig's Mill" .
+ncp:NCG06828 ncv:remove true .
+
+ncp:NCG10263 skos:altLabel "Mont Beau" .
+ncp:NCG04700 skos:altLabel "East Mont Beau" .
+ncp:NCG10281 ncv:remove true .
+
+ncp:NCG14058 skos:altLabel "Landgrave Smith's Island" .
+ncp:NCG14058 skos:altLabel "Landgrave Thomas Smith's Island" .
+ncp:NCG08448 ncv:remove true .
+
+ncp:NCG16408 skos:altLabel "Umstead State Park" .
+ncp:NCG15580 ncv:remove true .
+
+ncp:NCG11756 skos:altLabel "Triad" .
+ncp:NCG15367 ncv:remove true .
+
+ncp:NCG09287 skos:altLabel "Louson Swamp" .
+ncp:NCG09309 ncv:remove true .
+
+ncp:NCG02240 skos:altLabel "Burnt Hill" .
+ncp:NCG02224 ncv:remove true .
+
+ncp:NCG08804 skos:altLabel "Gorge, The" .
+ncp:NCG06011 ncv:remove true .
+
+ncp:NCG16777 skos:altLabel "York Institute" .
+ncp:NCG16780 ncv:remove true .
+
+ncp:NCG20156 skos:altLabel "Cape, The" .
+ncp:NCG02563 ncv:remove true .
+
+ncp:NCG12466 skos:altLabel "Priscilla" .
+ncp:NCG12246 ncv:remove true .
+
+ncp:NCG06295 skos:altLabel "Peters Ferry" .
+ncp:NCG06295 skos:altLabel "Peter's Ferry" .
+ncp:NCG11695 ncv:remove true .
+
+ncp:NCG01059 skos:altLabel "Hillsborough Lake" .
+ncp:NCG01059 skos:altLabel "Hillsboro Lake" .
+ncp:NCG07072 ncv:remove true .
+
+ncp:NCG01846 skos:altLabel "Whites Mill Creek" .
+ncp:NCG01846 skos:altLabel "White's Mill Creek" .
+ncp:NCG16284 ncv:remove true .
+
+ncp:NCG11996 skos:altLabel "Pocket, The" .
+ncp:NCG11997 ncv:remove true .
+
+ncp:NCG01234 skos:altLabel "Governors Creek" .
+ncp:NCG20488 skos:altLabel "Governors Creek" .
+ncp:NCG06030 ncv:remove true .
+
+ncp:NCG07070 skos:altLabel "Acconeechy" .
+ncp:NCG07070 skos:altLabel "Occaneechi" .
+ncp:NCG07070 skos:altLabel "Hillsboro" .
+ncp:NCG00039 ncv:remove true .
+
+ncp:NCG04753 skos:altLabel "Queen Anne's Town" .
+ncp:NCG04753 skos:altLabel "Town on Queen Anne's Creek" .
+ncp:NCG12353 ncv:remove true .
+
+ncp:NCG16501 skos:altLabel "Grays Landing" .
+ncp:NCG16501 skos:altLabel "Gray's Landing" .
+ncp:NCG06156 ncv:remove true .
+
+ncp:NCG06396 skos:altLabel "Gant Inlet" .
+ncp:NCG06396 skos:altLabel "Gun Inlet" .
+ncp:NCG05685 ncv:remove true .
+
+ncp:NCG03790 skos:altLabel "Occam" .
+ncp:NCG11092 ncv:remove true .
+
+ncp:NCG12466 skos:altLabel "Smyre Mills" .
+ncp:NCG14099 ncv:remove true .
+
+ncp:NCG15392 skos:altLabel "Iron Works" .
+ncp:NCG07658 ncv:remove true .
+
+ncp:NCG20558 skos:altLabel "Great Creek" .
+ncp:NCG14054 skos:altLabel "Great Creek" .
+ncp:NCG06175 ncv:remove true .
+
+ncp:NCG16718 skos:altLabel "Atkin River" .
+ncp:NCG00397 ncv:remove true .
+
+ncp:NCG12896 skos:altLabel "Cheoah Valley" .
+ncp:NCG12896 skos:altLabel "Robinsville" .
+ncp:NCG02954 ncv:remove true .
+
+ncp:NCG06638 skos:altLabel "Harrisburg" .
+ncp:NCG06653 ncv:remove true .
+
+ncp:NCG00598 skos:altLabel "Horse Ridge" .
+ncp:NCG07338 ncv:remove true .
+
+ncp:NCG03304 skos:altLabel "Tiancoco Creek" .
+ncp:NCG03304 skos:altLabel "Tincoco Creek" .
+ncp:NCG03304 skos:altLabel "Tinoco Creek" .
+ncp:NCG15206 ncv:remove true .
+
+ncp:NCG11622 skos:altLabel "Western Branch of Queen Anne's Creek" .
+ncp:NCG16141 ncv:remove true .
+
+ncp:NCG04753 skos:altLabel "Matecomack" .
+ncp:NCG09698 skos:altLabel "Matecomack" .
+ncp:NCG12352 skos:altLabel "Matecomack" .
+ncp:NCG09700 ncv:remove true .
+
+ncp:NCG04693 skos:altLabel "Warren Bridge" .
+ncp:NCG22762 skos:altLabel "Warren Bridge" .
+ncp:NCG15884 ncv:remove true .
+
+ncp:NCG10607 skos:altLabel "Narhantes" .
+ncp:NCG10636 ncv:remove true .
+
+ncp:NCG14435 skos:altLabel "South Shore Parish" .
+ncp:NCG14467 skos:altLabel "South Shore Parish" .
+ncp:NCG14276 ncv:remove true .
+
+ncp:NCG14034 skos:altLabel "South Fork [James Cathey's Mill Creek]" .
+ncp:NCG14239 ncv:remove true .
+
+ncp:NCG00357 skos:altLabel "Ashe's Mill Creek" .
+ncp:NCG00357 skos:altLabel "Ashes Mill" .
+ncp:NCG00357 skos:altLabel "Ashe's Mill" .
+ncp:NCG00357 skos:altLabel "Rutherfords Mill" .
+ncp:NCG00360 ncv:remove true .
+
+ncp:NCG04830 skos:altLabel "Elizabethtown" .
+ncp:NCG04830 skos:altLabel "Elizabeth-town" .
+ncp:NCG20695 ncv:remove true .
+
+ncp:NCG03949 skos:altLabel "Boyles' Store" .
+ncp:NCG01718 ncv:remove true .
+
+ncp:NCG10607 skos:altLabel "Norrihunta Swamp" .
+ncp:NCG10887 ncv:remove true .
+
+ncp:NCG02088 skos:altLabel "Pritchard Tavern" .
+ncp:NCG12248 ncv:remove true .
+
+ncp:NCG09716 skos:altLabel "Fullwood" .
+ncp:NCG09716 skos:altLabel "Fullwood's Store" .
+ncp:NCG05630 ncv:remove true .
+
+ncp:NCG13456 skos:altLabel "Pipkins Crossroads" .
+ncp:NCG13456 skos:altLabel "Pipkin's Crossroads" .
+ncp:NCG11924 ncv:remove true .
+
+ncp:NCG12593 skos:altLabel "Reddick Branch" .
+ncp:NCG12587 ncv:remove true .
+
+ncp:NCG16479 skos:altLabel "Chesnut Ridge" .
+ncp:NCG16479 skos:altLabel "Wilson's Store" .
+ncp:NCG02992 ncv:remove true .
+
+ncp:NCG03440 skos:altLabel "Happy Home" .
+ncp:NCG13230 skos:altLabel "Happy Home" .
+ncp:NCG06566 ncv:remove true .
+
+ncp:NCG00263 skos:altLabel "Bolick Branch" .
+ncp:NCG01611 ncv:remove true .
+
+ncp:NCG02548 skos:altLabel "Trafalgar, Cabo de" .
+ncp:NCG15332 ncv:remove true .
+
+ncp:NCG02948 skos:altLabel "Tsiyahi" .
+ncp:NCG15420 ncv:remove true .
+
+ncp:NCG03978 skos:altLabel "Donnelys Creek" .
+ncp:NCG04380 ncv:remove true .
+
+ncp:NCG04276 skos:altLabel "Cowee Tunnel" .
+ncp:NCG03659 ncv:remove true .
+
+ncp:NCG12602 skos:altLabel "William B. Umstead Bridge" .
+ncp:NCG16034 skos:altLabel "William B. Umstead Bridge" .
+ncp:NCG16407 ncv:remove true .
+
+ncp:NCG08257 skos:altLabel "Kenton Fork" .
+ncp:NCG08168 ncv:remove true .
+
+ncp:NCG15226 skos:altLabel "Elk X Roads" .
+ncp:NCG04859 ncv:remove true .
+
+ncp:NCG14178 skos:altLabel "Picks" .
+ncp:NCG14178 skos:altLabel "Pick's" .
+ncp:NCG14178 skos:altLabel "Pick's Siding" .
+ncp:NCG11749 ncv:remove true .
+
+ncp:NCG05007 skos:altLabel "Money" .
+ncp:NCG10266 ncv:remove true .
+
+ncp:NCG02549 skos:altLabel "Jordan River" .
+ncp:NCG07999 ncv:remove true .
+
+ncp:NCG00790 skos:altLabel "Bar Banks" .
+ncp:NCG00626 ncv:remove true .
+
+ncp:NCG06699 skos:altLabel "Hatorask" .
+ncp:NCG06699 skos:altLabel "Hattorask" .
+ncp:NCG06692 ncv:remove true .
+
+ncp:NCG10050 skos:altLabel "Nutbush Township" .
+ncp:NCG11039 ncv:remove true .
+
+ncp:NCG10500 skos:altLabel "Otaré" .
+ncp:NCG11303 ncv:remove true .
+
+ncp:NCG07688 skos:altLabel "Hatton Island" .
+ncp:NCG06706 ncv:remove true .
+
+ncp:NCG06268 skos:altLabel "Greenesville" .
+ncp:NCG06268 skos:altLabel "Greensville" .
+ncp:NCG06247 ncv:remove true .
+
+ncp:NCG13544 skos:altLabel "Cool Spring Precinct" .
+ncp:NCG03483 ncv:remove true .
+
+ncp:NCG04881 skos:altLabel "Fair Grounds, The" .
+ncp:NCG05066 ncv:remove true .
+
+# This reference is made obsolete by autocompletion
+ncp:NCG00111 ncv:remove true .
+
+# There is no entry for Barden Inlet, but it seems to be connected to
+# Lookout Bight somehow.
+ncp:NCG09279 skos:altLabel "Lookout Bight Channel" .
+ncp:NCG09280 ncv:remove true .
+
+ncp:NCG03539 skos:altLabel "Orapeake Creek" .
+ncp:NCG03539 skos:altLabel "Orapeak Creek" .
+ncp:NCG11253 ncv:remove true .
+
+ncp:NCG06745 skos:altLabel "Wards Creek" .
+ncp:NCG06745 skos:altLabel "Ward's Creek" .
+ncp:NCG15868 ncv:remove true .
+
+ncp:NCG09125 skos:altLabel "Person Ordinary" .
+ncp:NCG09125 skos:altLabel "Person's Ordinary" .
+ncp:NCG11680 ncv:remove true .
+
+ncp:NCG05160 skos:altLabel "Lower Campbellton" .
+ncp:NCG09350 ncv:remove true .
+
+ncp:NCG22290 skos:altLabel "Mount Ararat" .
+ncp:NCG22290 skos:altLabel "Mt. Ararat" .
+ncp:NCG10425 ncv:remove true .
+
+ncp:NCG14396 skos:altLabel "Old Stanhope" .
+ncp:NCG11184 ncv:remove true .
+
+ncp:NCG19514 skos:altLabel "South Fork [Second Creek]" .
+ncp:NCG14241 ncv:remove true .
+
+ncp:NCG10456 skos:altLabel "Jump Off, The" .
+ncp:NCG08044 ncv:remove true .
+
+ncp:NCG19937 skos:altLabel "Blewing Creek" .
+ncp:NCG01507 ncv:remove true .
+
+ncp:NCG07632 skos:altLabel "Inland Waterway" .
+ncp:NCG07624 ncv:remove true .
+
+ncp:NCG16146 skos:altLabel "Toms Creek" .
+ncp:NCG16146 skos:altLabel "Tom's Creek" .
+ncp:NCG15265 ncv:remove true .
