@@ -1,0 +1,31 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geojson: <https://purl.org/geojson/vocab#>
+PREFIX ncgaz: <http://n2t.net/ark:/39333/ncg/>
+PREFIX ncp:   <http://n2t.net/ark:/39333/ncg/place/>
+PREFIX nct:   <http://n2t.net/ark:/39333/ncg/type#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+  ?PLACE
+  skos:prefLabel ?label ;
+  skos:note ?description ;
+  dcterms:type ?TYPE ;
+  rdfs:seeAlso ?GEONAMES_ID ;
+  geojson:geometry ?GEOMETRY ;
+  .
+
+  ?DATASET
+  a rdf:Bag ;
+  rdfs:member ?PLACE ;
+  .
+}
+WHERE {
+  BIND (tarql:expandPrefixedName('ncgaz:dataset') AS ?DATASET)
+  BIND (tarql:expandPrefixedName(CONCAT('ncp:', ?id)) AS ?PLACE)
+  BIND (tarql:expandPrefixedName(CONCAT('nct:', ?type)) AS ?TYPE)
+  BIND (URI(CONCAT('https://sws.geonames.org/', ?geonameid, '/')) AS ?GEONAMES_ID)
+  BIND (STRDT(CONCAT('{"type":"Point","coordinates":[', ?longitude, ',', ?latitude, ']}'), rdf:JSON)
+        AS ?GEOMETRY)
+}
