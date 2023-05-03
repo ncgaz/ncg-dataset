@@ -13,6 +13,7 @@ WHERE {
     ncp:NCG00086
     ncp:NCG00087
     ncp:NCG00100
+    ncp:NCG00107
     ncp:NCG00116
     ncp:NCG00126
     ncp:NCG00130
@@ -26,11 +27,13 @@ WHERE {
     ncp:NCG00220
     ncp:NCG00221
     ncp:NCG00235
+    ncp:NCG00260
     ncp:NCG00264
     ncp:NCG00269
     ncp:NCG00284
     ncp:NCG00287
     ncp:NCG00289
+    ncp:NCG00302
     ncp:NCG00335
     ncp:NCG00339
     ncp:NCG00365
@@ -58,6 +61,7 @@ WHERE {
     ncp:NCG00641
     ncp:NCG00649
     ncp:NCG00669
+    ncp:NCG00721
     ncp:NCG00739
     ncp:NCG00773
     ncp:NCG00850
@@ -81,12 +85,15 @@ WHERE {
     ncp:NCG02813
     ncp:NCG02861
     ncp:NCG02867
+    ncp:NCG02894
     ncp:NCG02955
     ncp:NCG02968
     ncp:NCG02984
     ncp:NCG03026
+    ncp:NCG03137
     ncp:NCG03178
     ncp:NCG03275
+    ncp:NCG03358
     ncp:NCG03460
     ncp:NCG03485
     ncp:NCG03643
@@ -100,6 +107,7 @@ WHERE {
     ncp:NCG06145
     ncp:NCG06192
     ncp:NCG06320
+    ncp:NCG06741
     ncp:NCG06767
     ncp:NCG06816
     ncp:NCG07334
@@ -122,6 +130,7 @@ WHERE {
     ncp:NCG09630
     ncp:NCG10106
     ncp:NCG10275
+    ncp:NCG10502
     ncp:NCG10745
     ncp:NCG10796
     ncp:NCG10805
@@ -131,6 +140,7 @@ WHERE {
     ncp:NCG11692
     ncp:NCG11839
     ncp:NCG11879
+    ncp:NCG12431
     ncp:NCG12572
     ncp:NCG12843
     ncp:NCG12849
@@ -144,6 +154,7 @@ WHERE {
     ncp:NCG14568
     ncp:NCG15029
     ncp:NCG15057
+    ncp:NCG15060
     ncp:NCG15139
     ncp:NCG15470
     ncp:NCG15629
