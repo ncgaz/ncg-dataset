@@ -14,6 +14,8 @@ ncp:NCG05045 remove alt label "Rutherfords Mill"
 
 ncp:NCG09279 change pref label from "Lookout Bight" to "Barden Inlet"
 
+be consistent about naming of counties now in Tennessee
+
 ## references
 
 add skos:related links based on "See also" and "which see" refs in place notes
