@@ -1,0 +1,4 @@
+{
+  "description": "Deletes geometries and geonames links from mislocated places.",
+  "authors": "Ryan Shaw"
+}
