@@ -3,6 +3,7 @@
 This contains all the data files and scripts required to maintain the
 [North Carolina Gazetteer](https://ncgazetteer.org) dataset.
 
+[![dataset compilation status](https://github.com/ncgaz/ncg-dataset/actions/workflows/compile-dataset.yml/badge.svg)](https://github.com/ncgaz/ncg-dataset/actions/workflows/compile-dataset.yml)
 
 ## Requirements
 
